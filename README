@@ -2,4 +2,23 @@ This is documentation explain the functionality of plugins and the packages whic
 
 
 
+#//--------------------------------------------------------------------
+# PLUGINS Dependencies
+#//--------------------------------------------------------------------
+
+1. Buffer Reminder remake
+plugin\bufReminderRemake.vim
+
+2. Extentions handler
+plugin\fwk_ext_handler.vim
+plugin\fwk_library.vim
+
+3. Notes
+plugin\fwk_notes.vim
+plugin\fwk_library.vim
+syntax\notes.vim
+
+
+
+
 

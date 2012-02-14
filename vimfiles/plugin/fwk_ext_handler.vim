@@ -27,10 +27,10 @@ function! ExecuteSelfFileMainLinux(special_opt, ...)
     let full_cmd_os  = ''
     let COMMAND  = ''
     let BAT_CMD      = ''
-    let full_cmd_os  = '!%COMMAND% %ARG1% & %BAT_CMD% ' "bg in unix os
+    let full_cmd_os  = '!%COMMAND% %ARG1% %BAT_CMD%' "bg in unix os
 
-    let const_wait_for_end = 'start cmd /c '
-    let const_not_wait_end = 'start cmd /c start '
+    let const_wait_for_end = ''
+    let const_not_wait_end = ''
 
     let l:file_name = ''
     let l:file_ext = ''
@@ -63,69 +63,32 @@ function! ExecuteSelfFileMainLinux(special_opt, ...)
 
     endif
 
-    if FWK_System_IsWin32Platform()
 
         let l:file_name = FWK_System_AddSlash(l:file_name) "add double slashes
 
-        let l:file_dir  .= '\'
-        let l:file_dir  = FWK_System_AddSlash(l:file_dir) "add double slashes
+        let l:file_dir  .= g:cr_slash
 
-        if     l:file_ext == 'tscn'
-            let COMMAND     = const_wait_for_end . 'tcmd.py'
-
-        elseif     l:file_ext == 'ml' || l:file_ext == 'mli'
-            let COMMAND = const_wait_for_end . 'ocaml < '
-
-        elseif     l:file_ext == 'scm'
+        if     l:file_ext == 'scm'
             if a:special_opt == 'no_special'
-                let COMMAND = const_wait_for_end . 'biglooc.bat '
-                let l:file_name = expand("%:t:r") "run test need without file_extention
+                let COMMAND = const_wait_for_end . 'bigloo -i '
+                "let l:file_name = expand("%:t:r") "run test need without file_extention
             else
                 let COMMAND = const_wait_for_end . 'bigloo -i  '
             endif
-
+        elseif     l:file_ext == 'ml' || l:file_ext == 'mli'
+            let COMMAND = const_wait_for_end . 'ocaml < '
 
         elseif     l:file_ext == 'js'
             let COMMAND = const_wait_for_end . 'jsc  '
-
         elseif     l:file_ext == 'ml_gtk'
             let COMMAND     = const_wait_for_end . 'lablgtk2.bat'
-
-        elseif l:file_ext == 'test' || l:file_ext == 'valid'
-            cd c:\Program\ Files\Luxoft\tfc\ Suite\
-            let COMMAND     = const_wait_for_end . 'tfc_traceClientConsumer.exe -fs -ctestscenarios.cfg'
-            let l:file_name = expand("%:t:r") "run test need without file_extention
-
-        elseif l:file_ext == 'bat'
-            "let l:file_name = expand("%:t") "run bat file without path(from curr dir)
-            "let l:file_name = expand("%:p") "run bat file without path(from curr dir)
-            "let COMMAND = const_wait_for_end
-            let COMMAND = const_wait_for_end
-
         elseif l:file_ext == 'py'
             let COMMAND = const_wait_for_end
-
-        elseif l:file_ext == 'jpg'
-            let BAT_CMD = 'exit' "exit from COMMAND after execution
-
-        elseif l:file_ext == 'tex'
-            if a:special_opt == 'no_special'
-                let COMMAND     = const_wait_for_end . 'latex'
-            else
-                let COMMAND     = 'start ' . 'yap'
-                let BAT_CMD = 'skip'
-                let l:file_name = l:file_name_no_ext
-            endif
-
-            :lcd %:p:h
-            "let COMMAND     = const_wait_for_end . 'pdflatex.bat'
-            "let l:file_name = l:file_name_no_ext
-            let BAT_CMD = 'exit' "exit from COMMAND after execution
 
         endif
 
         "for all others keys default values .....
-        if COMMAND == 'skip'
+        if COMMAND == ''
             let COMMAND = ''
 
         elseif COMMAND == ''
@@ -133,15 +96,14 @@ function! ExecuteSelfFileMainLinux(special_opt, ...)
 
         endif
 
-        if BAT_CMD == 'skip'
+        if BAT_CMD == ''
             let BAT_CMD = ''
 
         elseif BAT_CMD == ''
-            let BAT_CMD = 'pause' "make pause after execution of cmd
+            let BAT_CMD = '' "make pause after execution of cmd
 
         endif
 
-    endif
 
     if l:file_name != ''
         let full_cmd_os = substitute(full_cmd_os, '%COMMAND%', COMMAND,'')
