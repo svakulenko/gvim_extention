@@ -6,10 +6,11 @@ endif
 
 "Global variables
 
+if     has('win32') | let g:fwk_gl_iswin32 = 1 | else | let g:fwk_gl_iswin32 = 0 | endif
 if !exists('g:cr_slash') && !exists('g:relative_path') "set global cross platform slash and path of vim
-if     has('win32')                  | let g:cr_slash = '\' | let g:relative_path = $HOME        | let g:fwk_gl_iswin32 = 1
-elseif has('unix') || has('macunix') | let g:cr_slash = '/' | let g:relative_path = $HOME        | let g:fwk_gl_iswin32 = 0
-else                                 | let g:cr_slash = '/' | let g:relative_path = $VIM         | let g:fwk_gl_iswin32 = 0 |endif | endif
+if     has('win32')                  | let g:cr_slash = '\' | let g:relative_path = $HOME        | 
+elseif has('unix') || has('macunix') | let g:cr_slash = '/' | let g:relative_path = $HOME        |
+else                                 | let g:cr_slash = '/' | let g:relative_path = $VIM         | endif | endif
 
 if !exists('g:fwk_templates_directory')
     let g:fwk_templates_directory = g:relative_path . g:cr_slash . 'templates'
