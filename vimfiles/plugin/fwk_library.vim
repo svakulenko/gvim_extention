@@ -29,24 +29,25 @@ endif
 " FUNCTIONS 
 "----------------------------------- 
  
-"""""""""""""""""""""""""""""""""""""""""""""""""""""" 
-"SEARCH REGISTER LIKE REGEX PATTERN 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+"--------------------------------------------------------------------
+"Description: search register like vim-search-regex pattern
+"--------------------------------------------------------------------
 function! SearchRegisterLikePattern() 
     let l:searchVariable = @* 
     exe "/" . "\\\<" . l:searchVariable . "\\\>/\b" 
     "exe "normal b" 
 endfunction 
+"--------------------------------------------------------------------
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""" 
-"FILE EXPLORER tree wrapper, by <A-f> OPEN/CLOSE NERD_tree 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""" 
-"//--------------------------------------------------------------------------------- 
+
+
+"--------------------------------------------------------------------
+"Description: File explorer tree wrapper, by <a-f> open/close nerd_tree 
+"--------------------------------------------------------------------
 if !exists('g:FileExplorerWrapperVariable') 
     let g:FileExplorerWrapperVariable = 0 
 endif 
 
-"//--------------------------------------------------------------------------------- 
 function! OpenCloseFileExporerFunction(variable) 
 
     exe "lcd %:p:h" 
@@ -73,7 +74,7 @@ function! OpenCloseFileExporerFunction(variable)
     endif 
 
 endfunction 
-"//--------------------------------------------------------------------------------- 
+"--------------------------------------------------------------------
 
 "//--------------------------------------------------------------------------------- 
 """""""""""""""""""' 
@@ -788,7 +789,7 @@ function FWK_get_defined_patterns(pattern)
         endif
 
     elseif ( a:pattern == "comment_sexy" ) 
-        let l:sexyComment = "//--------------------------------------------------------------------" 
+        let l:sexyComment = "--------------------------------------------------------------------" 
         call append(line('.'), l:sexyComment )
         execute ":" . (line(".") + 1)
         exe "normal " . "\\cc"
@@ -1375,7 +1376,7 @@ endfunc
 
 "//--------------------------------------------------------------------
 "Description: function to enable syntax for file
-"'i' or 'a'
+"Parameters: syn_types ( 'i'| 'a') 
 "//--------------------------------------------------------------------
 func FWK_EnableSyntax(syn_types)
     for i in a:syn_types
@@ -1385,4 +1386,36 @@ func FWK_EnableSyntax(syn_types)
      exe 'runtime! syntax/' . i
     endfor
 endfunc
+
+
+
+
+"--------------------------------------------------------------------
+"Description: save curr path (where we are)
+"--------------------------------------------------------------------
+let g:fwk_current_path_global = ''
+
+
+func FWK_save_curr_path()
+    let g:fwk_current_path_global = getcwd()
+endfunc
+
+"--------------------------------------------------------------------
+"Description: restore saved 'g:fwk_current_path_global' path
+"--------------------------------------------------------------------
+func FWK_restore_curr_path()
+    if g:fwk_current_path_global != ''
+        exe 'cd ' . g:fwk_current_path_global
+    endif
+endfunc
+
+"--------------------------------------------------------------------
+"Description: change path to current dir
+"--------------------------------------------------------------------
+func FWK_change_curr_path()
+    exe 'cd %:p:h'
+endfunc
+
+
+
 
