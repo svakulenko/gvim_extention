@@ -1,21 +1,8 @@
 " Vim syntax file
-" Language:	Scheme (R5RS + some R6RS extras)
-" Last Change:	2009 Nov 27
-" Maintainer:	Sergey Khorev <sergey.khorev@gmail.com>
-" Original author:	Dirk van Deun <dirk@igwe.vub.ac.be>
+" Language:	  Hop
+" Maintainer: Sergiy Vakulenko
+" Original author(original Scheme highlight):	Dirk van Deun <dirk@igwe.vub.ac.be>
 
-" This script incorrectly recognizes some junk input as numerals:
-" parsing the complete system of Scheme numerals using the pattern
-" language is practically impossible: I did a lax approximation.
- 
-" MzScheme extensions can be activated with setting is_mzscheme variable
-
-" Suggestions and bug reports are solicited by the author.
-
-" Initializing:
-
-" For version 5.x: Clear all syntax items
-" For version 6.x: Quit when a syntax file was already loaded
 if version < 600
   syntax clear
   au BufNewFile,BufRead * source $VIMRUNTIME/syntax/scheme.vim
@@ -23,6 +10,7 @@ elseif exists("b:current_syntax")
   finish
 endif
 
+if filereadable($VIMRUNTIME . '/syntax/scheme.vim')
 source $VIMRUNTIME/syntax/scheme.vim
 
 "added ; hop
@@ -46,3 +34,6 @@ if version >= 508 || !exists("did_scheme_syntax_inits")
 endif
 
 let b:current_syntax = "hop"
+else
+    echo 'hop.vim: for use this plugin, you must install vim package with scheme.vim syntax file'
+endif
