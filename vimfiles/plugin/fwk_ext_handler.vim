@@ -31,9 +31,10 @@ function! ExecuteSelfFileMain(special_opt, ...)
     let l:file_name        = ''
     let l:file_ext         = ''
 
-    let full_cmd_os  = '!%COMMAND% %ARG1% & %BAT_CMD% ' "bg in unix os
+    let full_cmd_os  = '!%COMMAND% %ARG1% %BAT_CMD% ' "bg in unix os
 
     if     has('win32')
+        let full_cmd_os  = '!%COMMAND% %ARG1% & %BAT_CMD% ' "win32
         let const_wait_for_end = 'start cmd /c '
         let const_not_wait_end = 'start cmd /c start '
     endif 
@@ -91,6 +92,7 @@ function! ExecuteSelfFileMain(special_opt, ...)
             else
                 let COMMAND = const_wait_for_end . 'bigloo -i  '
             endif
+
 
 
         elseif     l:file_ext == 'js'
@@ -161,6 +163,16 @@ function! ExecuteSelfFileMain(special_opt, ...)
             else
                 let COMMAND = const_wait_for_end . 'bigloo -i  '
             endif
+
+
+        elseif     l:file_ext == 'hop'
+            if a:special_opt == 'no_special'
+                let COMMAND = const_wait_for_end . 'hop -v  '
+                "let l:file_name = expand("%:t:r") "run test need without file_extention
+            else
+                let COMMAND = const_wait_for_end . 'hop -v '
+            endif
+
 
         elseif     l:file_ext == 'ml' || l:file_ext == 'mli'
             let COMMAND = const_wait_for_end . 'ocaml < '
