@@ -1120,7 +1120,8 @@ endfunction
 
 function FWK_copyTemplate(loadTemplateFileName, saveFileName, dict_Patterns)  
 
-        let l:mList = FWK_System_readFile(a:loadTemplateFileName)
+        let l:template_dir = g:fwk_templates_directory . g:cr_slash 
+        let l:mList = FWK_System_readFile(l:template_dir . a:loadTemplateFileName)
 
         if l:mList != []
             call FWK_System_modify_list(l:mList, a:dict_Patterns)
