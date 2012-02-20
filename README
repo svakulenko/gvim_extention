@@ -14,9 +14,22 @@ plugin\fwk_ext_handler.vim
 plugin\fwk_library.vim
 
 3. Notes
+vimfiles\plugin\fwk_library.vim
+vimfiles\plugin\fwk_notes.vim
+vimfiles\plugin\fwk_tab_aranger.vim
+vimfiles\syntax\notes.vim
+vimfiles\templates\template_notes_common.notes
+vimfiles\templates\template_notes_daily.notes
+
 plugin\fwk_notes.vim
 plugin\fwk_library.vim
 syntax\notes.vim
+
+
+4. Hop syntax highlight
+vimfiles\syntax\hop.vim
+vimfiles\plugin\hop.vim
+
 
 
 
