@@ -1,0 +1,7 @@
+#RUN FILE
+
+#set make directory
+FWK_APP_MAKE=
+
+#set run binnary
+FWK_APP_RUN=

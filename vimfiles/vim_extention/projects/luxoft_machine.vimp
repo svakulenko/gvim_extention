@@ -1,0 +1,2224 @@
+tfcSuite=D:\workspace\visual_studio\tfc_traceClientConsumer\tfc_traceClientConsumer\src CD=D:\workspace\visual_studio\tfc_traceClientConsumer\tfc_traceClientConsumer\src filter="*.cs" {
+ Program.cs
+ ScenariosCollector.cs
+ dbg.cs
+ mainController.cs
+ telnetlib_wrapper.cs
+ traceClientConsumer.cs
+ types_t.cs
+ xlsCreator.cs
+ old=old {
+ }
+}
+Eclipse_notify_system=D:\workspace\Eclipse\notify_system CD=. filter="*.java" {
+ notifier=notifier {
+  bin=bin {
+   package_main=package_main {
+   }
+  }
+  src=src {
+   package_main=package_main {
+    GuiWindowsTable.java
+    Main.java
+    NDaemon.java
+    Notifier_t.java
+    NotifyPersinstancy.java
+    NotifyerTrayIcon.java
+    TcpServer.java
+    tcpServerAdapter.java
+    ThreadAlarm.java
+   }
+  }
+ }
+ notifyer_client=notifyer_client {
+  bin=bin {
+   package_tcp_client=package_tcp_client {
+   }
+  }
+  src=src {
+   package_tcp_client=package_tcp_client {
+    NotifyClient.java
+   }
+  }
+ }
+}
+ipWebApp=D:\workspace\IPViewWeb\IPViewWebApps\IPViewD\IPViewD CD=D:\workspace\IPViewWeb\IPViewWebApps\IPViewD\IPViewD filter="*.cs" {
+ Program.cs
+ csensorConcentrator.cs
+ Properties=Properties {
+  AssemblyInfo.cs
+  Settings.Designer.cs
+ }
+ bin=bin {
+  Debug=Debug {
+  }
+ }
+ csensors=csensors {
+  csensorDNS.cs
+  csensorDiskSpace.cs
+  csensorFTP.cs
+  csensorFileExist.cs
+  csensorHTTP.cs
+  csensorMSSQL.cs
+  csensorMYSQL.cs
+  csensorMain.cs
+  csensorNSLookUp.cs
+  csensorOracle.cs
+  csensorPOP3.cs
+  csensorPing.cs
+  csensorPort.cs
+  csensorSMTP.cs
+ }
+ lib=lib {
+ }
+ obj=obj {
+  Debug=Debug {
+   TempPE=TempPE {
+   }
+  }
+ }
+ workers=workers {
+  debugClass.cs
+  workersDataTypes.cs
+  workersMSSQL.cs
+  workersMailSender.cs
+  workersTcpCommandSender.cs
+  workersTcpServerHandler.cs
+ }
+}
+lightSpark=D:\workspace\sources\lightspark-0.4.2.3 CD=. {
+ CMakeLists.txt
+ COPYING
+ COPYING.LESSER
+ ChangeLog
+ Doxyfile
+ README
+ README.tests
+ TODO
+ abc.cpp
+ abc_codesynt.cpp
+ abc_interpreter.cpp
+ abc_opcodes.cpp
+ actions.cpp
+ asobjects.cpp
+ compat.cpp
+ decoder.cpp
+ fastpaths_32.asm
+ fastpaths_64.asm
+ flashdisplay.cpp
+ flashevents.cpp
+ flashexternal.cpp
+ flashgeom.cpp
+ flashmedia.cpp
+ flashnet.cpp
+ flashsystem.cpp
+ flashtext.cpp
+ flashutils.cpp
+ flashxml.cpp
+ flv.cpp
+ frame.cpp
+ geometry.cpp
+ graphics.cpp
+ input.cpp
+ lightspark.expmap
+ lightspark.frag
+ lightspark.vert
+ logger.cpp
+ main.cpp
+ netutils.cpp
+ sound.cpp
+ streams.cpp
+ swf.cpp
+ swftypes.cpp
+ tags.cpp
+ tags_stub.cpp
+ textfile.cpp
+ thread_pool.cpp
+ threading.cpp
+ tightspark.cpp
+ timer.cpp
+ vm.cpp
+ abc.h
+ actions.h
+ asobjects.h
+ class.h
+ compat.h
+ decoder.h
+ exceptions.h
+ fastpaths.h
+ flashdisplay.h
+ flashevents.h
+ flashexternal.h
+ flashgeom.h
+ flashmedia.h
+ flashnet.h
+ flashsystem.h
+ flashtext.h
+ flashutils.h
+ flashxml.h
+ flv.h
+ frame.h
+ geometry.h
+ graphics.h
+ input.h
+ logger.h
+ netutils.h
+ packed_begin.h
+ packed_end.h
+ sound.h
+ streams.h
+ swf.h
+ swftypes.h
+ tags.h
+ textfile.h
+ thread_pool.h
+ threading.h
+ timer.h
+ vm.h
+ conf=conf {
+  CMakeASM-NASMCompiler.cmake
+  CMakeASM-NASMInformation.cmake
+  CMakeDetermineASM-NASMCompiler.cmake
+  CMakeTestASM-NASMCompiler.cmake
+  FindLLVM.cmake
+ }
+ docs=docs {
+  man=man {
+   lightspark.1
+  }
+ }
+ media=media {
+  lightspark-ico.svg
+  lightspark-logo.svg
+ }
+ plugin-dir=plugin-dir {
+  CMakeLists.txt
+  np_entry.cpp
+  npn_gate.cpp
+  npp_gate.cpp
+  plugin.cpp
+  plugin.h
+  include=include {
+   npplat.h
+   npupp.h
+   nsINPRuntimePlugin.h
+   nsplugin.h
+   pluginbase.h
+  }
+ }
+ scripts=scripts {
+  urldecode.sh
+  youtube-args-dumper.sh
+ }
+ tests=tests {
+  error.mxml
+  isTypelateOnClass.mxml
+  template.mxml
+ }
+}
+DJANGO=D:\workspace\django CD=. filter="*.py *.html *.txt" {
+ django_bookmarks=django_bookmarks {
+  __init__.py
+  manage.py
+  settings.py
+  urls.py
+  pwd.txt
+  bookmarks=bookmarks {
+   __init__.py
+   models.py
+   tests.py
+   views.py
+  }
+  site_media=site_media {
+   style.css
+  }
+  templates=templates {
+   base.html
+   main_page.html
+   user_page.html
+   registration=registration {
+    login.html
+   }
+  }
+ }
+ old=old {
+  django_bookmarks=django_bookmarks {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   passwd.txt
+   bookmarks=bookmarks {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+   }
+   templates=templates {
+    bookmarks=bookmarks {
+     main_page.html
+     user_page.html
+    }
+    registration=registration {
+     login.html
+    }
+   }
+  }
+ }
+ very_old_projects=very_old_projects {
+  django_bookmarks=django_bookmarks {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   bookmarks=bookmarks {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+    templates=templates {
+     bookmarks=bookmarks {
+      main_page.html
+      user_page.html
+     }
+     registration=registration {
+      login.html
+     }
+    }
+   }
+  }
+  iFriends=iFriends {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+  }
+  mysite=mysite {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    urls.py
+    views.py
+   }
+  }
+  mysite.tutorial1=mysite.tutorial1 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+   }
+  }
+  mysite.tutorial2=mysite.tutorial2 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    views.py
+   }
+  }
+  mysite.tutorial3=mysite.tutorial3 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    urls.py
+    views.py
+   }
+  }
+  templates=templates {
+   admin=admin {
+    base_site.html
+   }
+   polls=polls {
+    detail.html
+    index.html
+    poll_detail.html
+    poll_list.html
+    results.html
+    del=del {
+    }
+   }
+  }
+ }
+ django_bookmarks.bak=django_bookmarks.bak {
+  __init__.py
+  manage.py
+  settings.py
+  urls.py
+  pwd.txt
+  bookmarks=bookmarks {
+   __init__.py
+   models.py
+   tests.py
+   views.py
+  }
+  templates=templates {
+   main_page.html
+   user_page.html
+   registration=registration {
+    login.html
+   }
+  }
+ }
+}
+QT_PRJ_GLANASS=D:\workspace\qt\RND\Glanass CD=. filter="*.ui *.cpp *.hpp *.txt *.c *.h *.pro *.vrun" {
+ log.txt
+ AddressBook=AddressBook {
+  AddressBook.cpp
+  Contact.cpp
+  GuiAddContact.cpp
+  GuiAddressBook.cpp
+  GuiContact.cpp
+  GuiContactsList.cpp
+  GuiEditContact.cpp
+  GuiLineEdit.cpp
+  GuiLogList.cpp
+  GuiLogRecord.cpp
+  GuiLogView.cpp
+  GuiPhone.cpp
+  LogBook.cpp
+  LogRecord.cpp
+  PhoneConnection.cpp
+  ScrollerButton.cpp
+  XmlHandler.cpp
+  AddressBook.h
+  Contact.h
+  GuiAddContact.h
+  GuiAddressBook.h
+  GuiContact.h
+  GuiContactsList.h
+  GuiEditContact.h
+  GuiLineEdit.h
+  GuiLogList.h
+  GuiLogRecord.h
+  GuiLogView.h
+  GuiPhone.h
+  LogBook.h
+  LogRecord.h
+  PhoneConnection.h
+  ScrollerButton.h
+  XmlHandler.h
+ }
+ AppConfiger=AppConfiger {
+  CxAppConfiger.cpp
+  CxAppConfiger.h
+ }
+ AppStore=AppStore {
+  AppStoreItem.cpp
+  AppStoreListView.cpp
+  AppStoreModel.cpp
+  AppStoreItem.h
+  AppStoreListView.h
+  AppStoreModel.h
+ }
+ AudioController=AudioController {
+  CxAudioController.cpp
+  CxAudioController.h
+ }
+ Common=Common {
+  CustomNetworkAccessManager.cpp
+  CustomNetworkAccessManager.h
+ }
+ DataConnection=DataConnection {
+  CxDataConnection.cpp
+  CxDataConnection.h
+ }
+ DataProvider=DataProvider {
+  CxDataCore.cpp
+  CxDataCore.h
+  DataTypes.h
+ }
+ Debug=Debug {
+  CxDebugBase.cpp
+  CxDebugProcessor.cpp
+  CxLocalDbg.cpp
+  ScopeDeclaration.cpp
+  CxDebugBase.h
+  CxDebugProcessor.h
+  CxLocalDbg.h
+  DebugConfig.h
+  DebugMacros.h
+  ScopeDeclaration.h
+ }
+ DebugConnection=DebugConnection {
+  CxDebugServer.cpp
+  CxDebugServer.hpp
+ }
+ GuiHelper=GuiHelper {
+  CxGuiHelper.cpp
+  CxItemTagParcer.cpp
+  CxGuiHelper.h
+  CxItemTagParcer.h
+ }
+ GuiItems=GuiItems {
+  CxGuiBrowser.cpp
+  CxGuiElement.cpp
+  CxGuiMainScene.cpp
+  CxGuiMainView.cpp
+  CxGuiMainViewPort.cpp
+  CxGuiModalViewPort.cpp
+  CxGuiViewPort.cpp
+  CxGui_Blinker.cpp
+  CxGui_ClickableLabel.cpp
+  CxGui_ComboBox.cpp
+  CxGui_EditBox.cpp
+  CxGui_GifPlayer.cpp
+  CxGui_Indicator.cpp
+  CxGui_InfoLine.cpp
+  CxGui_Initiator.cpp
+  CxGui_InteractiveLine.cpp
+  CxGui_Label.cpp
+  CxGui_ListView.cpp
+  CxGui_Segment.cpp
+  CxGui_Weather.cpp
+  CxGuiWebBrowser.hpp
+  CxGuiElement.h
+  CxGuiMainScene.h
+  CxGuiMainView.h
+  CxGuiMainViewPort.h
+  CxGuiModalViewPort.h
+  CxGuiViewPort.h
+  CxGuiWebBrowser.h
+  CxGui_Blinker.h
+  CxGui_ClickableLabel.h
+  CxGui_ComboBox.h
+  CxGui_EditBox.h
+  CxGui_GifPlayer.h
+  CxGui_Indicator.h
+  CxGui_InfoLine.h
+  CxGui_Initiator.h
+  CxGui_InteractiveLine.h
+  CxGui_Label.h
+  CxGui_ListView.h
+  CxGui_Segment.h
+  CxGui_Weather.h
+ }
+ KeyBoard=KeyBoard {
+  QKeyPushButton.cpp
+  VKeyBoardIface.cpp
+  inputWidget.cpp
+  textEditFocused.cpp
+  widgetKeyBoard.cpp
+  QKeyPushButton.h
+  VKeyBoardIface.h
+  inputWidget.h
+  keyboard_dbg_output.h
+  textEditFocused.h
+  widgetKeyBoard.h
+ }
+ Localizator=Localizator {
+  CxProjectLocalizator.cpp
+  CxProjectLocalizator.h
+ }
+ ProjectController=ProjectController {
+  CxProjectController.cpp
+  CxProjectController.h
+ }
+ ProjectPersistency=ProjectPersistency {
+  CxProjectPersistency.cpp
+  CxProjectPersistency.h
+ }
+ Sdb_GrphicInterface=Sdb_GrphicInterface {
+  Sdb_GrphicInterface.cpp
+  Sdb_GrphicInterface.pro
+  config.vrun
+  build_win32=build_win32 {
+   moc=moc {
+    moc_AppStoreListView.cpp
+    moc_AppStoreModel.cpp
+    moc_CommandEMailGUI.cpp
+    moc_CustomNetworkAccessManager.cpp
+    moc_CxAudioController.cpp
+    moc_CxDataConnection.cpp
+    moc_CxDebugServer.cpp
+    moc_CxGuiElement.cpp
+    moc_CxGuiMainScene.cpp
+    moc_CxGuiMainViewPort.cpp
+    moc_CxGuiModalViewPort.cpp
+    moc_CxGuiViewPort.cpp
+    moc_CxGuiWebBrowser.cpp
+    moc_CxGui_ClickableLabel.cpp
+    moc_CxGui_ComboBox.cpp
+    moc_CxGui_EditBox.cpp
+    moc_CxGui_GifPlayer.cpp
+    moc_CxGui_Indicator.cpp
+    moc_CxGui_Initiator.cpp
+    moc_CxGui_ListView.cpp
+    moc_CxGui_Weather.cpp
+    moc_CxProjectController.cpp
+    moc_CxProjectLocalizator.cpp
+    moc_CxProjectPersistency.cpp
+    moc_CxScnViewAppStore.cpp
+    moc_CxScnViewCombi.cpp
+    moc_CxScnViewCommonSettings.cpp
+    moc_CxScnViewConnectivity.cpp
+    moc_CxScnViewCrash.cpp
+    moc_CxScnViewDownloadableApp.cpp
+    moc_CxScnViewEmPhone.cpp
+    moc_CxScnViewEmailClient.cpp
+    moc_CxScnViewInfotainment.cpp
+    moc_CxScnViewInternet.cpp
+    moc_CxScnViewNavi.cpp
+    moc_CxScnViewPhone.cpp
+    moc_CxScnViewPlayer.cpp
+    moc_CxScnViewSettings.cpp
+    moc_CxScnViewSocialNetwork.cpp
+    moc_CxScnViewVehicleSettings.cpp
+    moc_CxScnViewVideo.cpp
+    moc_CxShowController.cpp
+    moc_CxVSDClient.cpp
+    moc_CxViewEmPhoneDataExchange.cpp
+    moc_EmlCfg.cpp
+    moc_EmlControlWidget.cpp
+    moc_EmlMsg.cpp
+    moc_EmlNewMsg.cpp
+    moc_GuiAddContact.cpp
+    moc_GuiAddressBook.cpp
+    moc_GuiContact.cpp
+    moc_GuiEditContact.cpp
+    moc_GuiLogRecord.cpp
+    moc_GuiLogView.cpp
+    moc_GuiPhone.cpp
+    moc_MediaServerButton.cpp
+    moc_PhoneConnection.cpp
+    moc_PlayListFilterSortProxyModel.cpp
+    moc_PlayListGui.cpp
+    moc_PlayListModel.cpp
+    moc_PlayerProgressBar.cpp
+    moc_ProcessorEMailGUI.cpp
+    moc_QKeyPushButton.cpp
+    moc_ScrollerButton.cpp
+    moc_StringListModel.cpp
+    moc_VideoFullScreenControlWidget.cpp
+    moc_inputWidget.cpp
+    moc_widgetKeyBoard.cpp
+   }
+   obj=obj {
+   }
+  }
+  debug=debug {
+   qrc_sdbGUI.cpp
+  }
+  release=release {
+  }
+  resources=resources {
+   email=email {
+   }
+   phone=phone {
+   }
+   tools=tools {
+   }
+   weather=weather {
+   }
+   z2=z2 {
+   }
+   zzz=zzz {
+   }
+  }
+  z=z {
+  }
+ }
+ ShowController=ShowController {
+  CxShowController.cpp
+  CxShowController.h
+ }
+ VSD=VSD {
+  CxVSDClient.cpp
+  CxVSDClient.h
+ }
+ ViewAppStore=ViewAppStore {
+  CxScnViewAppStore.cpp
+  CxScnViewAppStore.h
+ }
+ ViewCombi=ViewCombi {
+  cxviewcombi.ui
+  CxScnViewCombi.cpp
+  CxScnViewCombi.h
+ }
+ ViewConnectivity=ViewConnectivity {
+  CxScnViewConnectivity.cpp
+  CxScnViewConnectivity.h
+ }
+ ViewCrash=ViewCrash {
+  CxScnViewCrash.cpp
+  CxScnViewCrash.h
+ }
+ ViewEmPhone=ViewEmPhone {
+  CxScnViewEmPhone.cpp
+  CxScnViewEmPhoneDataExchange.cpp
+  CxScnViewEmPhone.h
+  CxViewEmPhoneDataExchange.h
+ }
+ ViewEmailClient=ViewEmailClient {
+  CommonGui.cpp
+  CxScnViewEmailClient.cpp
+  EmlControlWidget.cpp
+  EmlMsg.cpp
+  EmlNewMsg.cpp
+  EmlTTS.cpp
+  GuiLineEditE.cpp
+  GuiTextEdit.cpp
+  StringListModel.cpp
+  CommonGui.h
+  CxScnViewEmailClient.h
+  EmlControlWidget.h
+  EmlMsg.h
+  EmlNewMsg.h
+  EmlTTS.h
+  GuiLineEditE.h
+  GuiTextEdit.h
+  StringListModel.h
+  tmsgheadere.h
+  CommandProcessor=CommandProcessor {
+   CommandEmailGUI.cpp
+   ProcessorEmailGUI.cpp
+   CommandEmailGUI.h
+   ProcessorEmailGUI.h
+  }
+  Common=Common {
+   EmailTypes.hpp
+   EmlConf.h
+  }
+ }
+ ViewInfotainment=ViewInfotainment {
+  CxScnViewInfotainment.cpp
+  CxScnViewInfotainment.h
+ }
+ ViewInternet=ViewInternet {
+  CxScnViewInternet.cpp
+  CxScnViewInternet.h
+ }
+ ViewManager=ViewManager {
+  CxViewManager.cpp
+  CxViewManager.h
+ }
+ ViewNavi=ViewNavi {
+  CxScnViewNavi.cpp
+  CxScnViewNavi.h
+ }
+ ViewPhone=ViewPhone {
+  CxScnViewPhone.cpp
+  CxScnViewPhone.h
+ }
+ ViewPlayer=ViewPlayer {
+  CxScnViewPlayer.cpp
+  MediaServerButton.cpp
+  PlayListFilterSortProxyModel.cpp
+  PlayListGui.cpp
+  PlayListItem.cpp
+  PlayListModel.cpp
+  PlayerProgressBar.cpp
+  CxScnViewPlayer.h
+  MediaServerButton.h
+  PlayListFilterSortProxyModel.h
+  PlayListGui.h
+  PlayListItem.h
+  PlayListModel.h
+  PlayerProgressBar.h
+ }
+ ViewSettings=ViewSettings {
+  CxScnViewSettings.cpp
+  CxScnViewSettings.h
+  ViewCommonSettings=ViewCommonSettings {
+   CxScnViewCommonSettings.cpp
+   CxScnViewCommonSettings.h
+  }
+  ViewDownloadableApp=ViewDownloadableApp {
+   CxScnViewDownloadableApp.cpp
+   CxScnViewDownloadableApp.h
+  }
+  ViewEMailSettings=ViewEMailSettings {
+   EmlCfg.cpp
+   EmlCfg.h
+  }
+ }
+ ViewSocialNetwork=ViewSocialNetwork {
+  CxScnViewSocialNetwork.cpp
+  CxScnViewSocialNetwork.h
+ }
+ ViewVehicleSettings=ViewVehicleSettings {
+  CxScnViewVehicleSettings.cpp
+  CxScnViewVehicleSettings.h
+ }
+ ViewVideo=ViewVideo {
+  CxScnViewVideo.cpp
+  VideoFullScreenControlWidget.cpp
+  CxScnViewVideo.h
+  VideoFullScreenControlWidget.h
+ }
+ nvwa=nvwa {
+  bool_array.cpp
+  debug_new.cpp
+  mem_pool_base.cpp
+  static_mem_pool.cpp
+  bool_array.h
+  class_level_lock.h
+  cont_ptr_utils.h
+  debug_new.h
+  fast_mutex.h
+  fixed_mem_pool.h
+  mem_pool_base.h
+  object_level_lock.h
+  pctimer.h
+  set_assign.h
+  static_assert.h
+  static_mem_pool.h
+  doc=doc {
+   html=html {
+   }
+  }
+ }
+}
+qt_tests=D:\workspace\qt\RND\test CD=. filter="*.cpp *.h *.pro *.vrun" {
+ config.vrun
+ 01_HW=01_HW {
+  01_HW.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 02_using_layouts=02_using_layouts {
+  01_HW.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 03_parallax_scroll=03_parallax_scroll {
+ }
+ 04_fsm=04_fsm {
+  04_fsm.pro
+  debug=debug {
+   moc_carreWidget.cpp
+  }
+  release=release {
+  }
+  src=src {
+   VECMainViewFSM.cpp
+   main.cpp
+   VECMainViewFSM.h
+   carreWidget.h
+  }
+ }
+ 05_fsm_example=05_fsm_example {
+  05_fsm_example.pro
+  debug=debug {
+   moc_lightWidget.cpp
+  }
+  release=release {
+  }
+  src=src {
+   TrafficLight.cpp
+   TrafficLightWidget.cpp
+   main.cpp
+   TrafficLight.h
+   TrafficLightWidget.h
+   lightWidget.h
+  }
+ }
+ 08_vk_my=08_vk_my {
+  08_vk_my.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   ECVVirtualKeyboard.cpp
+   main.cpp
+   ECVVirtualKeyboard.h
+  }
+ }
+ 09_adress_book=09_adress_book {
+  09_adress_book.pro
+  config.vrun
+  debug=debug {
+   moc_addressbook.cpp
+  }
+  release=release {
+  }
+  src=src {
+   addressbook.cpp
+   main.cpp
+   addressbook.h
+   tutorials-addressbook-part2_files=tutorials-addressbook-part2_files {
+   }
+  }
+ }
+ 10=10 {
+  10.pro
+  debug=debug {
+   moc_widgetSub.cpp
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+   widgetSub.h
+  }
+ }
+ 11_traslate_hw=11_traslate_hw {
+  src=src {
+   main.cpp
+  }
+ }
+ 12=12 {
+  12.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 13_translate=13_translate {
+  13_translate.pro
+  debug=debug {
+   moc_dynamictranslatorwidget.cpp
+   moc_translatorproxymodel.cpp
+   moc_widget.cpp
+   qrc_flags.cpp
+   z=z {
+   }
+  }
+  release=release {
+  }
+  src=src {
+   dynamictranslatorwidget.cpp
+   main.cpp
+   translatorproxymodel.cpp
+   widget.cpp
+   dynamictranslatorwidget.h
+   translatorproxymodel.h
+   widget.h
+   dynamic-translation.pro
+  }
+ }
+ 14_tr_my=14_tr_my {
+  14_tr_my.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 15_focus_order=15_focus_order {
+  config.vrun
+
+  15_focus_order.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+}
+Ocaml=d:\workspace\ocaml CD=. filter="*.ml *.mli *.ml_gtk *.mll *.mly *.bat *.txt " {
+ Apress_Practical_OCaml=Apress_Practical_OCaml {
+  test.ml
+  binary_files_work.ml
+  calc.ml
+  calc_only_lex.ml
+  Classes.ml
+  Classes2_tutorial.ml
+  Currying.ml
+  DataBase.ml
+  DataBase2.ml
+  Exceptions.ml
+  Files_IO_Channels.ml
+  Hashtables.ml
+  Labels.ml
+  List.ml
+  Map.ml
+  Pattern_Matching.ml
+  Queue.ml
+  Records_And_Types.ml
+  ReferenceBindings.ml
+  Set.ml
+  Stack.ml
+  array.ml
+  compare.ml
+  convert_funcs.ml
+  enum.ml
+  experement.ml
+  first_module.ml
+  first_module_check.ml
+  first_uri.ml
+  first_uri_check.ml
+  first_uri_check_compile.ml
+  Function_4_Recurcive.ml
+  functional_vs_imperative.ml
+  Functions.ml
+  Functions_2.ml
+  Functions_3.ml
+  Functions_signatures.ml
+  functors.ml
+  functors_complete_example.ml
+  functors_curring.ml
+  gui.ml
+  hello_world.ml
+  lexer.ml
+  module.ml
+  module_who_use.ml
+  parser.ml
+  printf_type_def.ml
+  scanf.ml
+  signature.ml
+  sockets.ml
+  string.ml
+  test.ml
+  tree.ml
+  tuple.ml
+  tutorial0.ml
+  types.ml
+  wc.ml
+  convert_funcs.mli
+  first_uri.mli
+  module.mli
+  module_bak.mli
+  parser.mli
+  some.mli
+  Regex.ml_gtk
+  Threads.ml_gtk
+  ThreadsPop3.ml_gtk
+  match_with_vs_if.ml_gtk
+  calc_only_lex.mll
+  lexer.mll
+  wc.mll
+  parser.mly
+  file_name.txt
+  lexer_first_how_to_compl.txt
+  module_how_to_compile.txt
+  webcrawler=webcrawler {
+   crawler.mli
+   crawler.ml_gtk
+  }
+  Spam_filter=Spam_filter {
+   command_line.ml
+   spam.mli
+   spam.mll
+  }
+  config_parser=config_parser {
+   config_lexer.ml
+   config_parser.ml
+   config_parser.mli
+   config_lexer.mll
+   pycfg.mll
+   config_parser.mly
+   pars.mly
+   pycfg.mly
+   comple.bat
+   pycfg.bat
+   config.txt
+   build=build {
+    pycfg_lexer.ml
+    pycfg_parser.ml
+    pycfg_parser.mli
+   }
+  }
+  ocamlyacc_tutorial=ocamlyacc_tutorial {
+   01_rpcalc=01_rpcalc {
+    main.ml
+    rpcalc.mll
+    rpcalc.mly
+    compile.bat
+    rpcalc_build=rpcalc_build {
+     rpcalc_lexer.ml
+     rpcalc_parser.ml
+     rpcalc_parser.mli
+    }
+   }
+   02_calc=02_calc {
+    main.ml
+    calc.mll
+    calc.mly
+    compile.bat
+    calc_build=calc_build {
+     calc_lexer.ml
+     calc_parser.ml
+     calc_parser.mli
+    }
+    itcalc_build=itcalc_build {
+    }
+   }
+   03_itcalc=03_itcalc {
+    main.ml
+    itcalc.mll
+    itcalc.mly
+    compile.bat
+    itcalc_build=itcalc_build {
+     itcalc_lexer.ml
+     itcalc_parser.ml
+     itcalc_parser.mli
+    }
+   }
+   04_mfcalc=04_mfcalc {
+    main.ml
+    mfcalc.mll
+    mfcalc.mly
+    compile.bat
+    output.txt
+    mfcalc_build=mfcalc_build {
+     mfcalc_lexer.ml
+     mfcalc_parser.ml
+     mfcalc_parser.mli
+    }
+   }
+  }
+  syslogComplx=syslogComplx {
+   mll_types.ml
+   syslogComplx.mll
+   syslogComplx.mly
+   compile.bat
+   execution_output.txt
+   mll.txt
+  }
+  syslog_parser=syslog_parser {
+   syslog.mll
+   syslog.mly
+   compile.bat
+   syslog_build=syslog_build {
+    syslog_lexer.ml
+    syslog_parser.ml
+    syslog_parser.mli
+   }
+  }
+ }
+ build=build {
+ }
+ func_impl=func_impl {
+  euclid.ml
+  fact.ml
+  fib.ml
+  func_impl.ml
+  infix_op.ml
+  list_size.ml
+  match.ml
+  multitab.ml
+  power.ml
+  test.ml
+ }
+ hello_world=hello_world {
+  my_code.ml
+  run.bat
+ }
+ itcalc_build=itcalc_build {
+ }
+ lablgtk2=lablgtk2 {
+  lablgtk_examples-2.14.0-win32=lablgtk_examples-2.14.0-win32 {
+   about.ml
+   accel_tree.ml
+   action.ml
+   assistant.ml
+   assistant_tutorial.ml
+   buttons.ml
+   calc.ml
+   calendar.ml
+   cgets.ml
+   clist.ml
+   combo.ml
+   combobox.ml
+   counter.ml
+   cputs.ml
+   csview.ml
+   custom_list_generic.ml
+   custom_tree.ml
+   custom_tree_generic.ml
+   dcalendar.ml
+   drawing.ml
+   druid.ml
+   editor.ml
+   editor2.ml
+   entry.ml
+   entrycompletion.ml
+   eventbox.ml
+   events.ml
+   events2.ml
+   expander.ml
+   fifteen.ml
+   filechooser.ml
+   fixed_editor.ml
+   fixpoint.ml
+   gioredirect.ml
+   giotest.ml
+   hello.ml
+   iconview.ml
+   image.ml
+   kaimono.ml
+   label.ml
+   link_button.ml
+   lissajous.ml
+   nihongo.ml
+   notebook.ml
+   pixview.ml
+   pousse.ml
+   progressbar.ml
+   radiobuttons.ml
+   rpn.ml
+   scrolledwin.ml
+   signal_override.ml
+   slide_show.ml
+   socket.ml
+   spell.ml
+   spin.ml
+   testdnd.ml
+   testgtk.ml
+   timer.ml
+   toolbar.ml
+   tooltip.ml
+   tree.ml
+   tree_model.ml
+   tree_store.ml
+   tron.ml
+   hello.ml_gtk
+   testgtk.ml_gtk
+   canvas=canvas {
+    canvas-arrowhead.ml
+    canvas-curve.ml
+    canvas-features.ml
+    canvas-fifteen.ml
+    canvas-primitives.ml
+    canvas-richtext.ml
+   }
+   glade=glade {
+    glade_demo.ml
+    gladecalc.ml
+    project1.ml
+    project2.ml
+   }
+   rsvg=rsvg {
+    test_rsvg.ml
+   }
+   text=text {
+    test_text.ml
+    text-demo.ml
+    unicode_table.ml
+    unicode_viewer.ml
+   }
+  }
+  my_code=my_code {
+   file.ml_gtk
+   tcmd_tray.ml_gtk
+   testgtk.ml_gtk
+  }
+ }
+ mfcalc_build=mfcalc_build {
+ }
+ rpcalc_build=rpcalc_build {
+ }
+}
+Ocaml_LablGTK2_LIBS="C:\Program Files\Objective Caml\lib\lablgtk2" CD=. filter="*.mli *.ml"{
+ gAction.mli
+ gAssistant.mli
+ gBin.mli
+ gBroken.mli
+ gButton.mli
+ gContainer.mli
+ gData.mli
+ gDraw.mli
+ gEdit.mli
+ gFile.mli
+ gList.mli
+ gMain.mli
+ gMenu.mli
+ gMisc.mli
+ gObj.mli
+ gPack.mli
+ gRange.mli
+ gText.mli
+ gToolbox.mli
+ gTree.mli
+ gUtil.mli
+ gWindow.mli
+ gdk.mli
+ gdkPixbuf.mli
+ glade.mli
+ glib.mli
+ gnoCanvas.mli
+ gobject.mli
+ gpointer.mli
+ gtkSignal.mli
+ gtkThread.mli
+ rsvg.mli
+ build.ml
+ gAction.ml
+ gAssistant.ml
+ gBin.ml
+ gBroken.ml
+ gButton.ml
+ gContainer.ml
+ gData.ml
+ gDraw.ml
+ gEdit.ml
+ gFile.ml
+ gList.ml
+ gMain.ml
+ gMenu.ml
+ gMisc.ml
+ gObj.ml
+ gPack.ml
+ gPango.ml
+ gRange.ml
+ gText.ml
+ gUtil.ml
+ gWindow.ml
+ gaux.ml
+ gdk.ml
+ gdkEnums.ml
+ gdkEvent.ml
+ gdkKeysyms.ml
+ gdkPixbuf.ml
+ glade.ml
+ glib.ml
+ gnoCanvas.ml
+ gnomeCanvas.ml
+ gobject.ml
+ gpointer.ml
+ gtk.ml
+ gtkActionProps.ml
+ gtkAssistant.ml
+ gtkAssistantProps.ml
+ gtkBase.ml
+ gtkBaseProps.ml
+ gtkBin.ml
+ gtkBinProps.ml
+ gtkBrokenProps.ml
+ gtkBroken.ml
+ gtkButton.ml
+ gtkButtonProps.ml
+ gtkData.ml
+ gtkEdit.ml
+ gtkEditProps.ml
+ gtkEnums.ml
+ gtkFile.ml
+ gtkFileProps.ml
+ gtkInit.ml
+ gtkList.ml
+ gtkListProps.ml
+ gtkMain.ml
+ gtkMenu.ml
+ gtkMenuProps.ml
+ gtkMisc.ml
+ gtkMiscProps.ml
+ gtkObject.ml
+ gtkPack.ml
+ gtkPackProps.ml
+ gtkRange.ml
+ gtkRangeProps.ml
+ gtkSignal.ml
+ gtkStock.ml
+ gtkText.ml
+ gtkTextProps.ml
+ gtkThInit.ml
+ gtkThread.ml
+ gtkTree.ml
+ gtkTreeProps.ml
+ gtkWindow.ml
+ gToolbox.ml
+ gTree.ml
+ ogtkActionProps.ml
+ ogtkAssistantProps.ml
+ ogtkBaseProps.ml
+ ogtkBinProps.ml
+ ogtkBrokenProps.ml
+ ogtkButtonProps.ml
+ ogtkEditProps.ml
+ ogtkFileProps.ml
+ ogtkListProps.ml
+ ogtkMenuProps.ml
+ ogtkMiscProps.ml
+ ogtkPackProps.ml
+ ogtkRangeProps.ml
+ ogtkTextProps.ml
+ ogtkTreeProps.ml
+ pango.ml
+ pangoEnums.ml
+ rsvg.ml
+}
+dbus_cpp_bindings=D:\share_knowledge\dbus_files\c++_binding\mainline\examples CD=. {
+ Makefile.am
+ echo=echo {
+  Makefile.am
+  README
+  echo-client.cpp
+  echo-introspect.xml
+  echo-server.cpp
+  echo-client.h
+  echo-server.h
+ }
+ ecore=ecore {
+  Makefile.am
+  dbus_ecore.cpp
+  dbus_ecore.h
+ }
+ glib=glib {
+  Makefile.am
+  dbus-browser.cpp
+  dbus-browser.h
+ }
+ hal=hal {
+  Makefile.am
+  hal-listen.cpp
+  hal-listen.h
+ }
+ properties=properties {
+  Makefile.am
+  propsgs-client.cpp
+  propsgs-introspect.xml
+  propsgs-server.cpp
+  propsgs-client.h
+  propsgs-server.h
+ }
+}
+dbus_client=S:\workspace\CPP\dbus_client CD=. filter="*.*" {
+ dbus_client.cpp
+  compile.bat
+}
+svcIpcExamplesWin32=D:\P4\SARAS\Framework\Development\svcipc\trunk\src\ServiceIpcLibrary\examples CD=. filter="*.cpp *.h" {
+ JsonMediaPlayer=JsonMediaPlayer {
+  JsonMediaPlayer.cpp
+  MediaRequest.cpp
+  MediaRequestHandler.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+ SvcIpcClient=SvcIpcClient {
+  SvcIpcClient.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+ SvcIpcServer=SvcIpcServer {
+  SvcIpcServer.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+}
+saras_simple_gl_application=D:\workspace\saras_simple_gl_application CD=. {
+ CGraphicsManager.cpp
+ CGraphicsManager.hpp
+ app
+ compile.bat
+ main.cpp
+}
+Eclipse_MyProj=D:\workspace\eclipse_myProjects CD=. filter="*.java" {
+ metaClassTest=metaClassTest {
+  bin=bin {
+   com=com {
+    metaclass=metaclass {
+     example=example {
+     }
+    }
+   }
+  }
+  src=src {
+   com=com {
+    metaclass=metaclass {
+     example=example {
+      MetaClassExample.java
+      TestClass.java
+      TestClass2.java
+      TestClass3InheritTestClass.java
+     }
+    }
+   }
+  }
+ }
+ notifier=notifier {
+  bin=bin {
+   package_main=package_main {
+   }
+  }
+  src=src {
+   package_main=package_main {
+    Main.java
+    NDaemon.java
+    Notifier_t.java
+    NotifyPersinstancy.java
+    NotifyerTrayIcon.java
+    TcpServer.java
+    ThreadAlarm.java
+   }
+  }
+ }
+ notifyer_client=notifyer_client {
+  bin=bin {
+   package_tcp_client=package_tcp_client {
+   }
+  }
+  src=src {
+   package_tcp_client=package_tcp_client {
+    NotifyClient.java
+   }
+  }
+ }
+}
+my_osgi=D:\workspace\eclipse_osgi\my_osgi CD=. filter="*.java" {
+ Bundles_Repo=Bundles_Repo {
+  Bundles=Bundles {
+   Bundle1=Bundle1 {
+   }
+  }
+  IBundles=IBundles {
+   Bundle1=Bundle1 {
+   }
+  }
+ }
+ del=del {
+  ManifestTest=ManifestTest {
+   bin=bin {
+    com=com {
+     example=example {
+      manif=manif {
+       test=test {
+       }
+      }
+     }
+    }
+   }
+   export_jar=export_jar {
+   }
+   src=src {
+    com=com {
+     example=example {
+      manif=manif {
+       test=test {
+        Main.java
+        ManifSecondClass.java
+       }
+      }
+     }
+    }
+   }
+  }
+  TestInterface=TestInterface {
+   bin=bin {
+    test=test {
+     interf=interf {
+      checkout=checkout {
+      }
+     }
+    }
+   }
+   src=src {
+    test=test {
+     interf=interf {
+      checkout=checkout {
+       ImplemClass.java
+       InterfClass.java
+       THirdClass.java
+       TestMain.java
+      }
+     }
+    }
+   }
+  }
+  TestReferencesPointers=TestReferencesPointers {
+   bin=bin {
+    test=test {
+     example=example {
+      ref=ref {
+      }
+     }
+    }
+   }
+   src=src {
+    test=test {
+     example=example {
+      ref=ref {
+       Class1.java
+       Main.java
+      }
+     }
+    }
+   }
+  }
+  osgi_client=osgi_client {
+   bin=bin {
+    emulation=emulation {
+     osgi=osgi {
+      framework=framework {
+       bundle1=bundle1 {
+       }
+      }
+      runner=runner {
+      }
+     }
+    }
+   }
+   src=src {
+    emulation=emulation {
+     osgi=osgi {
+      runner=runner {
+       OsgiClient1.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_bundle1=osgi_bundle1 {
+  bin=bin {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       interf=interf {
+       }
+      }
+     }
+    }
+   }
+  }
+  interface=interface {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       interf=interf {
+        IBundle1.java
+       }
+      }
+     }
+    }
+   }
+  }
+  manifest=manifest {
+  }
+  src=src {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       Activator.java
+       Bundle1.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_client2=osgi_client2 {
+  bin=bin {
+   osgi=osgi {
+    test=test {
+     pack=pack {
+      example=example {
+      }
+     }
+    }
+   }
+  }
+  src=src {
+   osgi=osgi {
+    test=test {
+     pack=pack {
+      example=example {
+       OsgiClient2.java
+       mainClass.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_ipc=osgi_ipc {
+  bin=bin {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      ipc=ipc {
+      }
+     }
+    }
+   }
+  }
+  src=src {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      ipc=ipc {
+       BundleActivator.java
+       BundleListener.java
+       BundleNotifier.java
+       DBG.java
+       Types.java
+       osgiCoeurThread.java
+      }
+     }
+    }
+   }
+  }
+ }
+}
+MPI=D:\workspace\mpi CD=. filter="*.c *.h" {
+ tp2=tp2 {
+  archive=archive {
+   mandelbrot=mandelbrot {
+    mandel.c
+    rasterfile.h
+   }
+   mandelbrot_paralel=mandelbrot_paralel {
+    mandel.c
+    mpi_test.c
+    rasterfile.h
+   }
+  }
+  hoa_solution=hoa_solution {
+   tp3.c
+  }
+ }
+ tutorial=tutorial {
+  01_simple=01_simple {
+   main.c
+  }
+  02_blocking_messages=02_blocking_messages {
+   main.c
+  }
+ }
+}
+car_prj=D:\workspace\eclipse_emf\carprojet_webformer CD=. filter="*" {
+ build.properties
+ plugin.properties
+ plugin.xml
+ META-INF=META-INF {
+  MANIFEST.MF
+ }
+ generator=generator {
+  website=website {
+   SimpleToHTML.java
+  }
+ }
+ modeles=modeles {
+  MainClassWebFormer.xmi
+  webformer.ecore
+  webformer.ecorediag
+  webFormer.genmodel
+ }
+ src=src {
+  generator=generator {
+   website=website {
+    C_handler_action.java
+    C_handler_validator.java
+    C_page_jsp.java
+    C_page_jsp_Index.java
+    C_property.java
+    C_struts_config_xml.java
+    C_web_xml.java
+    Custom_exemple_template_struts_config_xml.java
+    Custom_template_exemple_page_jsp.java
+    Template_classpath.java
+    Template_meta_inf_Manifest_mf.java
+    Template_project.java
+    Template_settings_jsdtscope.java
+    Template_settings_org_eclipse_jdt_core_prefs.java
+    Template_settings_org_eclipse_wst_common_component.java
+    Template_settings_org_eclipse_wst_common_project_facet_core_xml.java
+    Template_settings_org_eclipse_wst_jsdt_ui_superType_container.java
+    Template_settings_org_eclipse_wst_jsdt_ui_superType_name.java
+   }
+  }
+  manual=manual {
+   FileGenerator.java
+   FileMgr.java
+   Generator.java
+   Main.java
+   MyUtils.java
+   WebFormerCtrl.java
+   enumValues.java
+  }
+  webformer=webformer {
+   AServlet.java
+   AValidation.java
+   HtmlTWLabel.java
+   Label.java
+   MainClassWebFormer.java
+   PageController.java
+   PageView.java
+   WebformerFactory.java
+   WebformerPackage.java
+   actionHandler.java
+   eEncoding_t.java
+   eHtmlWLabel_t.java
+   eHtml_Tag_t.java
+   eInputField_t.java
+   htmlT.java
+   inputfield.java
+   inputForm.java
+   link.java
+   metaElement.java
+   pageElement.java
+   impl=impl {
+    AServletImpl.java
+    AValidationImpl.java
+    HtmlTWLabelImpl.java
+    LabelImpl.java
+    MainClassWebFormerImpl.java
+    PageControllerImpl.java
+    PageViewImpl.java
+    WebformerFactoryImpl.java
+    WebformerPackageImpl.java
+    actionHandlerImpl.java
+    htmlTImpl.java
+    inputfieldImpl.java
+    inputFormImpl.java
+    linkImpl.java
+    metaElementImpl.java
+    pageElementImpl.java
+   }
+   util=util {
+    WebformerAdapterFactory.java
+    WebformerSwitch.java
+   }
+  }
+ }
+ templates=templates {
+  custom=custom {
+   C_handler_action.txtjet
+   C_handler_validator.txtjet
+   C_page_jsp.txtjet
+   C_page_jsp_Index.txtjet
+   C_property.txtjet
+   C_struts_config_xml.txtjet
+   C_web_xml.txtjet
+   i_jsp_header.txt
+  }
+  exemples=exemples {
+   exemple.txt
+   template_example_struts_config_xml.txtjet
+   template_exemple_page_jsp.txtjet
+  }
+  generique=generique {
+   template_classpath.txtjet
+   template_meta_inf_Manifest_mf.txtjet
+   template_project.txtjet
+   template_settings_jsdtscope.txtjet
+   template_settings_org_eclipse_jdt_core_prefs.txtjet
+   template_settings_org_eclipse_wst_common_component.txtjet
+   template_settings_org_eclipse_wst_common_project_facet_core_xml.txtjet
+   template_settings_org_eclipse_wst_jsdt_ui_superType_container.txtjet
+   template_settings_org_eclipse_wst_jsdt_ui_superType_name.txtjet
+  }
+ }
+}
+tutStruts=D:\workspace\eclipse_struts\TutorialStruts CD=. filter="*" {
+ WebContent=WebContent {
+  META-INF=META-INF {
+   MANIFEST.MF
+  }
+  WEB-INF=WEB-INF {
+   struts-config.xml
+   web.xml
+   lib=lib {
+    Nouveau document texte.txt
+    antlr-2.7.2.jar
+    bsf-2.3.0.jar
+    commons-beanutils-1.8.0.jar
+    commons-chain-1.2.jar
+    commons-collections-3.2.1-javadoc.jar
+    commons-collections-3.2.1-sources.jar
+    commons-collections-3.2.1.jar
+    commons-collections-testframework-3.2.1.jar
+    commons-digester-1.8.jar
+    commons-fileupload-1.1.1.jar
+    commons-io-1.1.jar
+    commons-logging-1.0.4.jar
+    commons-validator-1.3.1.jar
+    jstl-1.0.2.jar
+    mysql-connector-java-5.1.14-bin.jar
+    oro-2.0.8.jar
+    standard-1.0.6.jar
+    struts-core-1.3.10.jar
+    struts-el-1.3.10.jar
+    struts-extras-1.3.10.jar
+    struts-faces-1.3.10.jar
+    struts-mailreader-dao-1.3.10.jar
+    struts-scripting-1.3.10.jar
+    struts-taglib-1.3.10.jar
+    struts-tiles-1.3.10.jar
+   }
+  }
+  pages=pages {
+   contactCreation.jsp
+   error.jsp
+   main.jsp
+   success.jsp
+   etape1=etape1 {
+    main.jsp
+   }
+  }
+ }
+ build=build {
+  classes=classes {
+   Resources.properties
+   Resources_fr.properties
+   Resources_fr_FR.properties
+   org=org {
+    lip6=lip6 {
+     struts=struts {
+      actionForm=actionForm {
+       AddContactValidationForm.class
+      }
+      domain=domain {
+       Contact.class
+       DAOContact.class
+       DTOListContact.class
+      }
+      servletAction=servletAction {
+       AddContactAction.class
+      }
+     }
+    }
+   }
+  }
+ }
+ eclipse_tep2=eclipse_tep2 {
+  example_gen_without_modification_of_attributes=example_gen_without_modification_of_attributes {
+   src=src {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.java
+      Et.java
+      Example.java
+      Formule.java
+      FormuleImpl.java
+      Non.java
+      OpBin.java
+      Ou.java
+      Question1.java
+      Var.java
+      Visiteur.java
+      VisiteurTS.java
+     }
+    }
+   }
+  }
+  tep_example_gen=tep_example_gen {
+   bin=bin {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.class
+      Et.class
+      Exemple.class
+      Formule.class
+      Non.class
+      OpBin.class
+      Ou.class
+      Question1.class
+      Var.class
+      Visiteur.class
+      executor.class
+      willBeVisited.class
+     }
+    }
+   }
+   src=src {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.java
+      Et.java
+      Example.java
+      Formule.java
+      Non.java
+      OpBin.java
+      Ou.java
+      Question1.java
+      Var.java
+      Visiteur.java
+      executor.java
+      willBeVisited.java
+     }
+    }
+   }
+  }
+  test=test {
+   bin=bin {
+    Test.class
+   }
+   src=src {
+    Test.java
+   }
+  }
+ }
+ src=src {
+  Resources.properties
+  Resources_fr.properties
+  Resources_fr_FR.properties
+  org=org {
+   lip6=lip6 {
+    struts=struts {
+     actionForm=actionForm {
+      AddContactValidationForm.java
+     }
+     domain=domain {
+      Contact.java
+      DAOContact.java
+      DTOListContact.java
+     }
+     servletAction=servletAction {
+      AddContactAction.java
+     }
+    }
+   }
+  }
+ }
+}
+mdoc_prj=D:\workspace\eclipse_mdoc_ee2\tp2_hibernete CD=. filter="*.jsp *.java *.xml" {
+ WebContent=WebContent {
+  accueil.jsp
+  addContact.jsp
+  loginError.jsp
+  loginSuccess.jsp
+  removeContact.jsp
+  searchContact.jsp
+  showAllContacts.jsp
+  updateContact.jsp
+  META-INF=META-INF {
+  }
+  WEB-INF=WEB-INF {
+   web.xml
+   lib=lib {
+   }
+  }
+  commonPages=commonPages {
+   checkInput.jsp
+   dbdataOutput.jsp
+   errorLine.jsp
+   header.jsp
+  }
+  entreprise_pages=entreprise_pages {
+  }
+ }
+ build=build {
+  classes=classes {
+   hibernate.cfg.xml
+   dbHandlers=dbHandlers {
+   }
+   mycommonFonctional=mycommonFonctional {
+   }
+   mydomain=mydomain {
+    address.hbm.xml
+    contact.hbm.xml
+    contactgroup.hbm.xml
+    phonenumber.hbm.xml
+   }
+   servlet=servlet {
+   }
+  }
+ }
+ src=src {
+  hibernate.cfg.xml
+  dbHandlers=dbHandlers {
+   DAOContact.java
+   dbController.java
+  }
+  mycommonFonctional=mycommonFonctional {
+   Types.java
+   errorMessGenerator.java
+   serverUtils.java
+  }
+  mydomain=mydomain {
+   Address.java
+   Contact.java
+   ContactGroup.java
+   Entreprise.java
+   PhoneNumber.java
+   address.hbm.xml
+   contact.hbm.xml
+   contactgroup.hbm.xml
+   phonenumber.hbm.xml
+  }
+  servlet=servlet {
+   Login.java
+   SContactAddContact.java
+   SContactClearTable.java
+   SContactRemoveContact.java
+   SContactSearchContact.java
+   SContactShowAll.java
+  }
+ }
+}
+FSAFE=D:\workspace\F-Safe CD=. filter="*" {
+ Makefile
+ README
+ fsafe
+ fsafe.ml
+ fswin.exe
+ handler.ml
+ interpret.ml
+ lexer.mll
+ main.ml
+ misc.ml
+ parser.mly
+ termination.ml
+ typechecker.ml
+ _buildWin32=_buildWin32 {
+  _digests
+  _log
+  fsafe.cmi
+  fsafe.cmo
+  fsafe.cmx
+  fsafe.ml
+  fsafe.ml.depends
+  handler.cmi
+  handler.cmo
+  handler.cmx
+  handler.ml
+  handler.ml.depends
+  interpret.cmi
+  interpret.cmo
+  interpret.cmx
+  interpret.ml
+  interpret.ml.depends
+  lexer.cmi
+  lexer.cmo
+  lexer.cmx
+  lexer.ml
+  lexer.ml.depends
+  lexer.mll
+  main.cmi
+  main.cmo
+  main.cmx
+  main.ml
+  main.ml.depends
+  main.native
+  misc.cmi
+  misc.cmo
+  misc.cmx
+  misc.ml
+  misc.ml.depends
+  ocamlc.where
+  parser.cmi
+  parser.cmx
+  parser.ml
+  parser.ml.depends
+  parser.mli
+  parser.mli.depends
+  parser.mly
+  termination.cmi
+  termination.cmo
+  termination.cmx
+  termination.ml
+  termination.ml.depends
+  typechecker.cmi
+  typechecker.cmo
+  typechecker.cmx
+  typechecker.ml
+  typechecker.ml.depends
+  fsafe.obj
+  handler.obj
+  interpret.obj
+  lexer.obj
+  main.obj
+  misc.obj
+  parser.obj
+  termination.obj
+  typechecker.obj
+ }
+ lib=lib {
+ }
+ test=test {
+  typetest.sh
+  good=good {
+   generate.sh
+   test_type_decl.fsf
+   typetest01.fsf
+   typetest02.fsf
+   typetest03.fsf
+   typetest04.fsf
+   typetest05.fsf
+   typetest06.fsf
+   typetest07.fsf
+   typetest08.fsf
+   typetest09.fsf
+   typetest10.fsf
+   typetest11.fsf
+   typetest12.fsf
+   typetest13.fsf
+   typetest14.fsf
+   typetest15.fsf
+   typetest16.fsf
+  }
+ }
+}
+Hop=/workspace/hop_examples CD=. filter="*" {
+ 1.hop
+ 2.hop
+ 2_on_server.hop
+ 3.hop
+ 4.hop
+ 5.hop
+ 6.hop
+ hello.png
+ tuto1=tuto1 {
+  tuto_01.hop
+  tuto_02.hop
+  tuto_03.hop
+  tuto_04.hop
+  with_hop_example.hop
+ }
+ tuto2_ajax=tuto2_ajax {
+  tuto_02.hop
+ }
+}

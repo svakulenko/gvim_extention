@@ -8,5 +8,7 @@ push.bat
 startScenario
 unpack_win32.bat
 vim73/
-vim_extention/
-
+create_binaries.bat
+vimfiles/vim_extention/tempdir/
+vimfiles/vim_extention/logs/
+vimfiles/vim_extention/logs/

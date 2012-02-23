@@ -1,0 +1,5 @@
+if filereadable($VIMRUNTIME . '/syntax/scheme.vim')
+    Decho("hello")
+    source $VIMRUNTIME/syntax/scheme.vim
+    exe 'source ' . g:PLFM_VIM_HOME_PATH . "/syntax/" . 'RainbowParenthsis.vim'
+endif

@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+'A	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'A :GetSuperMarkT a<CR>$/;"	m
+'B	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'B :GetSuperMarkT b<CR>$/;"	m
+'C	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'C :GetSuperMarkT c<CR>$/;"	m
+'D	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'D :GetSuperMarkT d<CR>$/;"	m
+'E	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'E :GetSuperMarkT e<CR>$/;"	m
+'F	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'F :GetSuperMarkT f<CR>$/;"	m
+'G	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'G :GetSuperMarkT g<CR>$/;"	m
+'H	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'H :GetSuperMarkT h<CR>$/;"	m
+'N	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'N :GetSuperMarkT n<CR>$/;"	m
+'Q	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'Q :GetSuperMarkT q<CR>$/;"	m
+'R	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'R :GetSuperMarkT r<CR>$/;"	m
+'S	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'S :GetSuperMarkT s<CR>$/;"	m
+'T	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'T :GetSuperMarkT t<CR>$/;"	m
+'V	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'V :GetSuperMarkT v<CR>$/;"	m
+'W	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'W :GetSuperMarkT w<CR>$/;"	m
+'X	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'X :GetSuperMarkT x<CR>$/;"	m
+'Y	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'Y :GetSuperMarkT y<CR>$/;"	m
+'Z	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'Z :GetSuperMarkT z<CR>$/;"	m
+'a	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'a :GetSuperMarkB a<CR>$/;"	m
+'b	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'b :GetSuperMarkB b<CR>$/;"	m
+'c	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'c :GetSuperMarkB c<CR>$/;"	m
+'d	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'd :GetSuperMarkB d<CR>$/;"	m
+'e	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'e :GetSuperMarkB e<CR>$/;"	m
+'f	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'f :GetSuperMarkB f<CR>$/;"	m
+'g	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'g :GetSuperMarkB g<CR>$/;"	m
+'h	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'h :GetSuperMarkB h<CR>$/;"	m
+'n	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'n :GetSuperMarkB n<CR>$/;"	m
+'q	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'q :GetSuperMarkB q<CR>$/;"	m
+'r	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'r :GetSuperMarkB r<CR>$/;"	m
+'s	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 's :GetSuperMarkB s<CR>$/;"	m
+'t	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 't :GetSuperMarkB t<CR>$/;"	m
+'v	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'v :GetSuperMarkB v<CR>$/;"	m
+'w	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'w :GetSuperMarkB w<CR>$/;"	m
+'x	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'x :GetSuperMarkB x<CR>$/;"	m
+'y	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'y :GetSuperMarkB y<CR>$/;"	m
+'z	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map 'z :GetSuperMarkB z<CR>$/;"	m
+<A-d>	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\registers.vim	/^imap <A-d> <Esc>o<Esc>"rp==f"a$/;"	m
+<A-d>	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\registers.vim	/^map <A-d> o<Esc>"rp==f"a$/;"	m
+<C-F2>	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map <C-F2> :match Search \/\/<CR>$/;"	m
+<F2>	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map <F2> :call CallFindPattern()<CR>$/;"	m
+CallFindPattern	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^func CallFindPattern()$/;"	f
+FWK_Language_French_Mode	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\french_language_addon.vim	/^func FWK_Language_French_Mode()$/;"	f
+FWK_genTagsByPath	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_genTagsByPath(...)$/;"	f
+FWK_genTagsMap	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_genTagsMap(map_keys, ...)$/;"	f
+FWK_setTags	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_setTags(...)$/;"	f
+PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
+PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
+PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
+PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
+PLFM_HOSTNAME	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_HOSTNAME = hostname()    "hostname to differ work machines (home\/work)$/;"	v
+PLFM_SL	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_SL=g:cr_slash                    "slash specific for platform$/;"	v
+PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIMCFG               = PLFM_EXTDIR . PLFM_SL . 'vimrc_config'$/;"	v
+PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIMCFG = "" "mains configuration files for this distro$/;"	v
+PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = "" "mains configuration files for this distro$/;"	v
+PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = PLFM_EXTDIR        . PLFM_SL . 'vimrc_config'$/;"	v
+PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_LOGS             = PLFM_EXTDIR . PLFM_SL . 'logs'$/;"	v
+PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
+PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
+PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = PLFM_EXTDIR        . PLFM_SL . 'logs'$/;"	v
+PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
+PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
+PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
+PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES_GEN        = $VIM . PLFM_SL . 'Notes'$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = PLFM_VIM_HOME_PATH . PLFM_SL . 'Notes'$/;"	v
+PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_PROJECTS         = PLFM_EXTDIR . PLFM_SL . 'projects'$/;"	v
+PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
+PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
+PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = PLFM_EXTDIR        . PLFM_SL . 'projects'$/;"	v
+PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR . PLFM_SL . 'tempdir'$/;"	v
+PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
+PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
+PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR        . PLFM_SL . 'tempdir'$/;"	v
+PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPLATES        = g:cfg_path  . PLFM_SL . 'templates'$/;"	v
+PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
+PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
+PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = PLFM_EXTDIR        . PLFM_SL . 'templates'$/;"	v
+PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_VIMFILES         = g:cfg_path $/;"	v
+PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
+PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
+PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = PLFM_VIM_HOME_PATH . PLFM_SL . 'vimfiles' $/;"	v
+PopUp.Copy_Paste.&Copy	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu PopUp.Copy_Paste.&Copy        <C-Y>$/;"	m
+PopUp.Copy_Paste.&Copy	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.&Copy        "+y$/;"	m
+PopUp.Copy_Paste.&Delete	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.&Delete      x$/;"	m
+PopUp.Copy_Paste.&Paste	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu PopUp.Copy_Paste.&Paste       <C-R>+$/;"	m
+PopUp.Copy_Paste.&Paste	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^nnoremenu PopUp.Copy_Paste.&Paste       "+gP$/;"	m
+PopUp.Copy_Paste.Cu&t	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.Cu&t     "+x$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu <script> <silent> PopUp.Copy_Paste.Select\\ &All   <C-U>call <SID>SelectAll()<CR>$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu PopUp.Copy_Paste.Select\\ &Sentence    <C-C>vas$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu PopUp.Copy_Paste.Select\\ Pa&ragraph   <C-C>vap$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^inoremenu <script> <silent> PopUp.Copy_Paste.Select\\ &All   <C-O>:call <SID>SelectAll()<CR>$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^inoremenu PopUp.Copy_Paste.Select\\ &Sentence    <C-O>vas$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^inoremenu PopUp.Copy_Paste.Select\\ Pa&ragraph   <C-O>vap$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^nnoremenu PopUp.Copy_Paste.Select\\ &Sentence    vas$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^nnoremenu PopUp.Copy_Paste.Select\\ Pa&ragraph   vap$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^noremenu  <script> <silent> PopUp.Copy_Paste.Select\\ &All   :<C-U>call <SID>SelectAll()<CR>$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^onoremenu PopUp.Copy_Paste.Select\\ &Sentence    as$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^onoremenu PopUp.Copy_Paste.Select\\ Pa&ragraph   ap$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.Select\\ &Sentence    <C-C>vas$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.Select\\ Blockwise    <C-V>$/;"	m
+PopUp.Copy_Paste.Select\	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.Select\\ Pa&ragraph   <C-C>vap$/;"	m
+SelectAll	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^func! <SID>SelectAll()$/;"	f
+SetRigsterCopyPaste	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\registers.vim	/^func SetRigsterCopyPaste(alpha)$/;"	f
+\m	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^map \\m :popup! PopUp<CR>$/;"	m
+\s'	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\s' :1,$s\/^\/"\/$/;"	m
+\s2	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\s2 :call TwoMatchColor("","") <Left><Left><Left><Left><Left><Left>$/;"	m
+\sb	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sb :Bufdo %s\/\/\/g \\| update<C-Left><C-Left><Left><Left><Left><Left>$/;"	m
+\sc	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^cmap \\sc :s:\\s\\{1,\\}$::g$/;"	m
+\sc	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map  \\sc :%s:\\s\\{1,\\}$::g$/;"	m
+\se	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^cmap \\se :s\/^[\\ \\t]*\\n\/\/g$/;"	m
+\se	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map  \\se :%s\/^[\\ \\t]*\\n\/\/g$/;"	m
+\se	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\se :.,$s\/^[\\ \\t]*\\n\/\/g$/;"	m
+\sg	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sg :%s\/\\<\\>\/\/g<Left><Left><Left><Left><Left>$/;"	m
+\sg	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^vmap \\sg :s\/\\<\\>\/\/g<Left><Left><Left><Left><Left>$/;"	m
+\si	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\si :%s\/^I\/ \/g<Left><Left><Left><Left><Left>$/;"	m
+\sm	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sm :%s\/\\r\/\/g<Left><Left><Left><Left><Left>$/;"	m
+\sp	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sp :%s\/\/\/g<Left><Left><Left>$/;"	m
+\sp	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^vmap \\sp :s\/\/\/g<Left><Left><Left>$/;"	m
+\sr	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sr 0:s:\\\\:\\\/:g<CR>$/;"	m
+g:FWK_Language_French_Mode_Variable	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\french_language_addon.vim	/^let g:FWK_Language_French_Mode_Variable = 0$/;"	v
+ma	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map ma :SetSuperMark a<CR>$/;"	m
+mb	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mb :SetSuperMark b<CR>$/;"	m
+mc	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mc :SetSuperMark c<CR>$/;"	m
+md	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map md :SetSuperMark d<CR>$/;"	m
+me	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map me :SetSuperMark e<CR>$/;"	m
+mf	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mf :SetSuperMark f<CR>$/;"	m
+mg	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mg :SetSuperMark g<CR>$/;"	m
+mh	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mh :SetSuperMark h<CR>$/;"	m
+mn	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mn :SetSuperMark n<CR>$/;"	m
+mq	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mq :SetSuperMark q<CR>$/;"	m
+mr	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mr :SetSuperMark r<CR>$/;"	m
+ms	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map ms :SetSuperMark s<CR>$/;"	m
+mt	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mt :SetSuperMark t<CR>$/;"	m
+mv	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mv :SetSuperMark v<CR>$/;"	m
+mw	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mw :SetSuperMark w<CR>$/;"	m
+mx	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mx :SetSuperMark x<CR>$/;"	m
+my	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map my :SetSuperMark y<CR>$/;"	m
+mz	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\marks.vim	/^map mz :SetSuperMark z<CR>$/;"	m

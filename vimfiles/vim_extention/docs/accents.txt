@@ -1,0 +1,5 @@
+alt-a - á
+alt-h - è
+alt-i - é
+alt-g - ç
+alt-y - ù
