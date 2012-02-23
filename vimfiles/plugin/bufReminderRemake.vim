@@ -325,8 +325,8 @@ func! BufReminderRMX_LoadPersistency() "function to save buffers persistency inf
             "Decho('here#2')
 
             let regex_persistency   = 'buff_info:\([a-zA-Z0-9: \\_\/\.\-\+]\+\)\s\([a-z_]\+\)\s\(\d\+\)\s\(\d\+\)\s\(\d\+\)'
-            "let regex_tab_id_values = 'tab_id:\(\d\+\)\(\sLast\stab\/win\/lines(\(\d\+\),\(\d\+\),(\d\+\),\(\d\+\))\)\?'
-            let regex_tab_id_values = 'tab_id:\(\d\+\)\(\sLast\stab\/win\/lines\)(\(\(\d\+\),\(\d\+\),\(\d\+\),\(\d\+\)\))'
+            "let regex_tab_id_values ='tab_id:\(\d\+\)\(\sLast\stab\/win\/lines(\(\d\+\),\(\d\+\),(\d\+\),\(\d\+\))\)\?'
+            let regex_tab_id_values = 'tab_id:\(\d\+\)\(\(\sLast\stab\/win\/lines\)(\(\(\d\+\),\(\d\+\),\(\d\+\),\(\d\+\)\))\)\?'
                                                  "\1"     "\2"(all elem in brack)  "\3"     "\4"     "\5"
             let tab_id = 0
             let buf_info_list = []
@@ -338,10 +338,10 @@ func! BufReminderRMX_LoadPersistency() "function to save buffers persistency inf
 
                     "this case if we want to reload view ( tab, win positions ) 
                     if match( line, 'Last\stab' ) != -1 && g:BuffReminderRMX_OpenFirstTabByDefault == 0
-                        let g:buf_default_view_pos[0] = substitute(line,regex_tab_id_values ,'\4', '' ) "last tab
-                        let g:buf_default_view_pos[1] = substitute(line,regex_tab_id_values ,'\5', '' ) "last win
-                        let g:buf_default_view_pos[2] = substitute(line,regex_tab_id_values ,'\6', '' ) "last win lines (main window height)
-                        let g:buf_default_view_pos[3] = substitute(line,regex_tab_id_values ,'\7', '' ) "last win lines (main window width)
+                        let g:buf_default_view_pos[0] = substitute(line,regex_tab_id_values ,'\5', '' ) "last tab
+                        let g:buf_default_view_pos[1] = substitute(line,regex_tab_id_values ,'\6', '' ) "last win
+                        let g:buf_default_view_pos[2] = substitute(line,regex_tab_id_values ,'\7', '' ) "last win lines (main window height)
+                        let g:buf_default_view_pos[3] = substitute(line,regex_tab_id_values ,'\8', '' ) "last win lines (main window width)
                     endif
 
                 elseif match(line, 'buff_info:') != -1

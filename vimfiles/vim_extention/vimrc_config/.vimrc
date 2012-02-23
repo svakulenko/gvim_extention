@@ -118,6 +118,12 @@ if &diff "only in diff mode
     map <space> :vertical resize<CR>
     "echo winwidth(0)
 
+    "make full screen for diff
+    if has("gui_running")
+        set lines=200           " lines numbers in window
+        set columns=800         " columns numbers in window
+    endif
+
 else
 "MOVE BETWEEN Functions, useful?
    "map <C-UP> ?\w\+\s*(<CR>:nohlsearch<CR>
