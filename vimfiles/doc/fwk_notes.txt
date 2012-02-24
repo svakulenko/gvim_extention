@@ -1,101 +1,131 @@
-*acp.txt*       Automatically opens popup menu for completions.
+*fwk_notes.txt*   Manage your notes, track your tasks.
+                Copyright (c) 2010-2012 Sergey Vakulenko
 
-        Copyright (c) 2010-2012 Sergey Vakulenko
+                                                                     *fwk_notes*
 
-AutoComplPop                                                       *fwk_notes*
-
-INTRODUCTION                    |introduction|
-INSTALLATION                    |installation|
-USAGE                           |usage|
+INTRODUCTION                    |fwk_notes_introduction|
+INSTALLATION                    |fwk_notes_installation|
+USAGE                           |fwk_notes_usage|
+HOTKEYS                         |fwk_notes_hotkeys|
+GLOBAL VARIABLES                |fwk_notes_variables|
+CHANGES                         |fwk_notes_changes|
 
 
 ==============================================================================
-INTRODUCTION                                                    *introduction*
+INTRODUCTION                                            *fwk_notes_introduction*
 This plugin was created to manages your task/notes by days/weeks/years.
+Also, you can add your custom notes, of two types : static and dynamic.
+Static notes will be created once, and then your map will only open this file.
+Dynamic notes will be creates every new day. This is useful if you need make 
+some notes for each day and distinct them by each day.
+(For exemple, i used them like that to collect vocabulaire of new words for
+ each day).
 
 
 ==============================================================================
-INSTALLATION                                                    *installation*
+INSTALLATION                                            *fwk_notes_installation*
+Just drop files to your vimfiles(win32) or .vim (linux/ubuntu), or your custom
+path.
 
-Put all files into your runtime directory. If you have the zip file, extract
-it to your runtime directory.
+==============================================================================
+USAGE                                                          *fwk_notes_usage*
 
-You should place the files as follows:
->
-        <your runtime directory>/plugin/acp.vim
-        <your runtime directory>/doc/acp.txt
-        ...
-<
-If you are disgusted to make your runtime directory confused with a lot of
-plugins, put each of the plugins into a directory individually and just add
-the directory path to 'runtimepath'. It's easy to uninstall plugins.
+Beside main fonctionnality (task tracking), you can create your custom notes.
+Custom notes can be of two types : static and dynamic.
+Static notes will be created once, and then your map will only open this file.
+Dynamic notes will be creates every new day. This is useful if you need make 
+some notes for each day and distinct them by each day.  (For exemple, i used
+them like that to collect vocabulaire of new words for each day).
 
-Then update your help tags files to enable help for this plugin. See
-|add-local-help| for details.
+video tutorial/demonstration
+http://www.youtube.com/watch?v=sX93En-eQ6Y
 
-Requirements: ~
+==============================================================================
+HOTKEYS                                                      *fwk_notes_hotkeys*
 
-- L9 library (vimscript #3252)
+Maps local to *.notes extention ~
+--------------------------------------------------------------------
+Navigation ~
+\cd          open daily tasks
+ctrl-Up      move to next task 
+ctrl-Down    move to previous task 
+
+Tasks management ~
+alt-d        create task ( 1), 2), 3), ... )
+alt-a        create subtask ( a), b), c), ...)
+alt-space    create sub_sub_task ( -), -), -), ...)
+
+
+Status management ~
+\cd          change status to |Done|. In this status, date and time will be added
+             automaticly.
+\cp          change status to |Skip|.
+\ci          change status to |Important|.
+\c1          change status to |Group1|.
+\c2          change status to |Group2|.
+
+You can also apply all this commands in visual mode, by selecting the group of
+tasks.
+
+
+
+
+if you want to track some of your personal information 
+(dictinnary per day, ...), you can create you proper maps:
+
+Dynamic notes, generate file each new day ~
+                                                                  *fwk_dynamic*
+--------------------------------------------------------------------
+map \nv :|FwkNoteDynamic| Dictionnary<CR>
+map \nx :|FwkNoteDynamic| SpecialNotes<CR>
+map \nx :|FwkNoteDynamic| <SomeName><CR>
+....
+
+
+                                                                  *fwk_static*
+Static notes, generate only one file and then reuse it: ~
+--------------------------------------------------------------------
+map \nv :|FwkNoteStatic| Dictionnary<CR>
+map \nx :|FwkNoteStatic| SpecialNotes<CR>
+map \nx :|FwkNoteStatic| <SomeName><CR>
+....
+
+
 
 
 ==============================================================================
-USAGE                                                              *acp-usage*
-
-Once this plugin is installed, auto-popup is enabled at startup by default.
-
-Which completion method is used depends on the text before the cursor. The
-default behavior is as follows:
-
-        kind      filetype    text before the cursor ~
-        Keyword   *           two keyword characters
-        Filename  *           a filename character + a path separator 
-                              + 0 or more filename character
-        Omni      ruby        ".", "::" or non-word character + ":"
-                              (|+ruby| required.)
-        Omni      python      "." (|+python| required.)
-        Omni      xml         "<", "</" or ("<" + non-">" characters + " ")
-        Omni      html/xhtml  "<", "</" or ("<" + non-">" characters + " ")
-        Omni      css         (":", ";", "{", "^", "@", or "!")
-                              + 0 or 1 space
-
-Also, you can make user-defined completion and snipMate's trigger completion
-(|acp-snipMate|) auto-popup if the options are set.
-
-These behavior are customizable.
-
-                                                                *acp-snipMate*
-snipMate's Trigger Completion ~
-
-snipMate's trigger completion enables you to complete a snippet trigger
-provided by snipMate plugin
-(http://www.vim.org/scripts/script.php?script_id=2540) and expand it.
+GLOBAL VARIABLES                                           *fwk_notes_variables*
 
 
-To enable auto-popup for this completion, add following function to
-plugin/snipMate.vim:
->
-  fun! GetSnipsInCurrentScope()
-    let snips = {}
-    for scope in [bufnr('%')] + split(&ft, '\.') + ['_']
-      call extend(snips, get(s:snippets, scope, {}), 'keep')
-      call extend(snips, get(s:multi_snips, scope, {}), 'keep')
-    endfor
-    return snips
-  endf
-<
-And set |g:acp_behaviorSnipmateLength| option to 1.
+Global variables ~
 
-There is the restriction on this auto-popup, that the word before cursor must
-consist only of uppercase characters.
+|g:fwk_notes_notes_directory|     Set path to notes directory. If not 
+                                defined, will be used $VIM/notes (win32) or 
+                                $VIM/notes (linux).
 
-                                                               *acp-perl-omni*
-Perl Omni-Completion ~
+|g:fwk_notes_disable|             1 if you want to disable plugin. By default
+                                plugin is on.
 
-AutoComplPop supports perl-completion.vim
-(http://www.vim.org/scripts/script.php?script_id=2852).
+|g:fwk_notes_open_node_mode|      Strategy to open notes. Possible values is
+                                0 or 1 or 2.
+        strategies: ~
+        0 - window mode (will be opened in same window only if only 1 window
+        in tab. Otherwise open happens in split mode). This is default mode.
+        1 - tab mode (will be opened in new tab).
+        2 - split mode, will be opened in same tab, but in new window.
+                                                     
 
-To enable auto-popup for this completion, set |g:acp_behaviorPerlOmniLength|
-option to 0 or more.
+==============================================================================
+CHANGES                                                      *fwk_notes_changes*
+
+0.5    - added documentation
+       - fix bug with wrong indentation from words of form [a-z]\+)
+
+
+
+
+
+Autor: Vakulenko Sergiy
 
 
 ==============================================================================

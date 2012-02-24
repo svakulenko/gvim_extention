@@ -56,7 +56,7 @@ set t_vb=                       " disable bells
 set nobackup                    " nobackup, disab;e swp files ?
 set showcmd                     " Show (partial) command in status line.
 set showmatch                   " Show matching brackets ({[ ]}).
-set ignorecase                  " Do case insensitive matching
+"set ignorecase                 " Do case insensitive matching
 set smartcase                   " when small - ignore case, when with upper alp - search by case
 set incsearch                   " Incremental search
 set autowrite                   " Automatically save before commands like :next and :make

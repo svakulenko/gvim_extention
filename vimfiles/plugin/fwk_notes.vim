@@ -1,66 +1,6 @@
-
 "Name: fwk Notes 
 "Version: 0.5
 "Autor: Vakulenko Sergiy
-"Description: this is Notes Agenda. With this script, you can control your activity workflow (write, read your notes, change their state).
-
-
-
-"-------------------------------------------
-"Variables Description:
-"-------------------------------------------
-
-"-------------------------------------------
-"Variable: g:fwk_notes_notes_directory  (string)
-"-------------------------------------------
-"Description: Set path to notes directory. by default its will be in USERPROFILE/HOME or VIM paths + 'notes' (this is depend of your os system type
-
-"-------------------------------------------
-"Variable: g:fwk_notes_disable  (0|1)
-"-------------------------------------------
-"Description: 1 if you want to disable plugin. By default plugin is on
-
-"-------------------------------------------
-"Variable: g:fwk_notes_open_node_mode  (0|1|2)
-"-------------------------------------------
-"Description: strategy to open notes.
-"--------------------------------------------------------------------
-"Parameters:
-"0 - window mode (will be opened in same window only if only 1 window in tab.
-"otherwise open happens in split mode). This is default mode.
-"1 - tab mode (will be opened in new tab).
-"2 - split mode, will be opened in same tab, but in new window.
-
-
-"--------------------------------------------------------------------
-"Maps (only work in files with *.notes extention):
-"\cd open daily tasks
-"ctrl-Up - move to next task 
-"ctrl-Down - move to previous task 
-"
-
-"Also, if you want to track some of your information (dictinnary per day, ...), you can you proper maps:
-
-"if you want that fwk_notes plugin generate file each new day
-"map \nv :FwkNoteDynamic Dictionnary<CR>
-"map \nx :FwkNoteDynamic SpecialNotes<CR>
-"....
-
-"or if you want open only one/same file by map:
-"map \nv :FwkNoteStatic Dictionnary<CR>
-"map \nx :FwkNoteStatic SpecialNotes<CR>
-"....
-
-"Control keys:
-"alt-d      - create task ( 1), 2), 3), ... )
-"alt-a      - create subtask ( a), b), c), ...)
-"alt-space  - create sub_sub_task ( -), -), -), ...)
-
-
-"All notes are collect in 'fwk_notes_notes_directory' . Its mean that its
-"simple to do search, to find your particular notes with grep.
-
-"--------------------------------------------------------------------
 
 
 
@@ -255,7 +195,7 @@ func FWK_Note_create(type, mode)
 
         "modification des patterns
         if a:type     == 'Daily'
-            let l:mDictPatterns['type'] = 'Objectfs du jour'
+            let l:mDictPatterns['type'] = 'Tasks'
             call FWK_copyTemplate('template_notes_daily.notes', l:fileToOpen, l:mDictPatterns )
         else 
             let l:mDictPatterns['type'] = a:type
