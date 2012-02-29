@@ -244,6 +244,10 @@ if has("autocmd")
 
     autocmd FileType        vrun  call FWK_runScriptParse() "parse vrun file for make/build/log variables
 
+
+    "add maps of fwk_notes for conf(txt) extention
+    autocmd FileType        conf call s:FWK_Note_NotesMaps() "set maps for notes
+
     autocmd FileType        scheme,hop  exe 'source ' . g:cfg_path . '/syntax/RainbowParenthsis.vim'
 
     "enable suplementary syntax for files
@@ -348,12 +352,12 @@ let g:proj_window_width=34
 """""""""""""""""""""""
 "BUFFER REMINDER Local"
 """""""""""""""""""""""
-let g:BuffReminder_enablePlugin             = 1
-let g:BuffReminder_skip_NoNameBuffer        = 1
+"let g:BuffReminder_enablePlugin             = 1
+"let g:BuffReminder_skip_NoNameBuffer        = 1
+"let g:BufReminderRMX_ignoreFilesList        = []
 let g:BuffReminder_persistency_file         = g:PLFM_VIM_TEMPDIR . g:cr_slash . 'bufReminder_persistency.cfg'
-let g:BufReminderRMX_ignoreFilesList        = []
-let g:BuffReminderRMX_ProjectFiles          = ['C:\programs\gvim\vim_extention\projects\luxoft_machine.vimp'
-                                            \, 'C:\programs\gvim\vim_extention\projects\home_machine.vimp']
+let g:BuffReminderRMX_ProjectFiles          = ['C:\programs\gvim\vimfiles\vim_extention\projects\luxoft_machine.vimp'
+                                            \, 'C:\programs\gvim\vimfiles\vim_extention\projects\home_machine.vimp']
 let g:BuffReminderRMX_OpenFirstTabByDefault = 0
 let g:BuffReminderRMX_Disable_Hidden        = 1
 
@@ -558,20 +562,12 @@ imap `4 <esc>:close<cr>
 ""tabedit
 
 "--------------------------------------------------------------------
-"fwk library settings
-"--------------------------------------------------------------------
-let g:fwk_templates_directory   = g:PLFM_VIM_VIMFILES . g:cr_slash .  'templates'
-
-
-"--------------------------------------------------------------------
 "fwk notes plugin
 "--------------------------------------------------------------------
-let g:fwk_notes_notes_directory = g:PLFM_VIM_NOTES . g:cr_slash
-
-
+let g:fwk_notes_notes_directory = g:PLFM_VIM_NOTES
 
 "Daily; this main note type; Anyway, its belong to dynamic notes 
-map \nd :FwkNoteDaily<CR>
+"map \nd :FwkNoteDaily<CR>
 
 "dynamic notes, they changes everyday
 map \nv :FwkNoteDynamic Dictionnary<CR>
@@ -590,6 +586,7 @@ map \no :FwkNoteStatic Copernic<CR>
 map \np :FwkNoteStatic requis_pour_stl<CR>
 map \ns :FwkNoteStatic 4x4_carre_Site<CR>
 map \nb :FwkNoteStatic Buts<CR>
+
 
 "--------------------------------------------------------------------
 
@@ -1050,11 +1047,12 @@ com! -nargs=+ -complete=command Bufdo call FWK_BufDo_Log(<q-args>)
 "set env var, depricated in this piece of code
 "let $PYTHONPATH='D:\workspace\django\create_web_app_with_py\mysite'
 
-"test python initialization
-python import sys,os
-python sys.path.append('D:/workspace/django')
-python os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
-
+"test python initialization for django
+if has("python")
+    python import sys,os
+    python sys.path.append('D:/workspace/django')
+    python os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+endif
 "python sys.path.append('D:/workspace/django/create_web_app_with_py/mysite')
 
 "ADDED by Me
@@ -1079,6 +1077,7 @@ function FWK_SetDjangoVariable()
     exe "py set_main_django_variables('" . prj_path . "', '" . django_mod_var . "')"
 endfunc
 
+if has("python")
 python << EOF
 def set_main_django_variables(full_path, django_set_module_str):
     import sys,os
@@ -1100,7 +1099,7 @@ def set_main_django_variables(full_path, django_set_module_str):
         os.environ['DJANGO_SETTINGS_MODULE'] = django_set_module_str 
 EOF
 "//--------------------------------------------------------------------
-
+endif
 
     "omap <silent> iw <Plug>CamelCaseMotion_iw
     "xmap <silent> iw <Plug>CamelCaseMotion_iw

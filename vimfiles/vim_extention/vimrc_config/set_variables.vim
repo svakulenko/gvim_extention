@@ -10,7 +10,7 @@ language C              " lang to show, default english
 set fileformat=unix     " default coding for current file
 set fileformats=unix    " default coding for files (possible)
 
-winpos 0 0              " window position
+"winpos 0 0              " window position
 
 "if has("gui_running") && has('win32')
     "set lines=200           " lines numbers in window

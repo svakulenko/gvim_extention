@@ -1,26 +1,44 @@
+"Name: fwk Notes 
+"Version: 0.5
+"Autor: Vakulenko Sergiy
+"Description: plugin to work with tabs (open, close).
 
 
-"//---------------------------------------------------------------------------------
-"func! s:TabAranger_MoveTabToEnd()
-    ""let l:newTabPositionBefore = tabpagenr()
-    ":tabl
-    ""exe "tabmove 999"
-
-    ""while i <= tabpagenr('$')
-        ""if index(tabpagebuflist(i), bnum) != -1
-        ""let tabnum = i
-        ""break
-
-        """added for NoName buffer
-        ""elseif bufname(bnum) == "" && a:fileName == ""
-        ""let tabnum = i
-        ""break
-
-        ""endif
-        ""let i += 1
-    ""endwhile
-"endfunc
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
+"fwk main control functions
+"---------------------------------------------------------------------------------
+func FWK_CloseBufferSafe(buffer_Number, ... )
+    let shouldWeCloseBuffer = 0
+    let l:numb_of_buffer_copies_opened = 0
+    for i in range(tabpagenr('$'))
+        "let l:tablistVar =  []
+        "call extend(l:tablistVar, tabpagebuflist(i + 1))
+        for j in tabpagebuflist(i+1)
+            if j == a:buffer_Number
+                let l:numb_of_buffer_copies_opened += 1
+                if l:numb_of_buffer_copies_opened == 2
+                    let shouldWeCloseBuffer = 1 "not close tab, but only buffer
+                    break
+                endif
+            endif
+        endfor
+    endfor
+    if shouldWeCloseBuffer
+        exe 'close'
+    elseif a:0 == 0
+        exe 'bw'
+    else "if more then one argument argument"
+        exe 'bw!'
+    endif
+    "JUST UNCOMMENT AND IT WILL BE WORK
+    "close tab if on tab page only one empty buffer
+    "let current_tab_id = tabpagenr()
+    "let wins_count = tabpagewinnr(current_tab_id, '$')
+    "let current_buf_name = bufname("%")
+    "if current_buf_name == '' && wins_count == 1 
+        "exe 'close'
+    "endif
+endfunc
 
 
 func FWK_openWindow( file_path )
@@ -34,28 +52,30 @@ func FWK_openWindow( file_path )
         exe 'split ' . a:file_path
     endif
 endfunc
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 "OPEN FILE IN TAB, if TAB exist, go to this TAB
 "thanks to MRU plugin function! s:MRU_Window_Edit_File(win_opt)
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 "
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 "function! s:TabAranger_FindPosition_Of_Tab(bufferName)
 
 
 "endfunction
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 function OpenTabSilentFunctionByType(fileName,int_mode)
     if     a:int_mode == 0
         call s:OpenTabSilentFunction(a:fileName, 'split_only_if_two')  "OpenWindowSilent
     elseif a:int_mode == 1
         call s:OpenTabSilentFunction(a:fileName, 'tab')                "OpenTabsSilent
-    else
+    elseif a:int_mode == 2
         call s:OpenTabSilentFunction(a:fileName, 'split_h')            "SplitTabsSilent
+    else
+        exe ':e ' . a:fileName
     endif 
 
 endfunc
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 function! s:OpenTabSilentFunction(fileName, mode)
 
     "call Decho("filename is = " . a:fileName) 
@@ -107,9 +127,9 @@ function! s:OpenTabSilentFunction(fileName, mode)
     endif
 
 endfunction
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 "tag emulation function
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 function! s:GfEmulatorForTabs()
     exe "lcd %:p:h"
     let l:localBufferNumber = bufnr("%")
@@ -130,16 +150,7 @@ function! s:GfEmulatorForTabs()
 
 endfunc
 
-func! IsNoNameBuffer(buff_number)
-    let name = bufname(a:buff_number)
-    if name == '' && getbufvar(buff_number, "&buftype") == ''
-        return 1 "this is no name buffer
-    endif
-
-    return 0
-endfunc
-
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 func! IsNoNameBuffer(buff_number)
     let name = bufname(a:buff_number)
     if name == '' && getbufvar(a:buff_number, "&buftype") == ''
@@ -149,7 +160,7 @@ func! IsNoNameBuffer(buff_number)
     return 0
 endfunc
 
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 function! GuiTabLabel()
     let label = ''
     let bufnrlist = tabpagebuflist(v:lnum)
@@ -189,9 +200,9 @@ function! GuiTabLabel()
 
 endfunction
 
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 " set up tab tooltips with every buffer name
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 function! GuiTabToolTip()
     let tip = ''
     let bufnrlist = tabpagebuflist(v:lnum)
@@ -225,20 +236,10 @@ function! GuiTabToolTip()
 
     return tip
 endfunction
-"//---------------------------------------------------------------------------------
-
-
-"autocmd BufAdd * nested call s:TabAranger_MoveTabToEnd()  
-
-
-"//---------------------------------------------------------------------------------
-command! -n=? -complete=dir GFforTabs :call s:GfEmulatorForTabs()
-"//---------------------------------------------------------------------------------
-""FUNCTION Alias OpenTabsSilent file
+"---------------------------------------------------------------------------------
+command! -n=? -complete=dir GFforTabs           :call s:GfEmulatorForTabs()
 command! -n=? -complete=file OpenTabsSilent     :call s:OpenTabSilentFunction('<args>', 'tab')
 command! -n=? -complete=file SplitTabsSilent    :call s:OpenTabSilentFunction('<args>', 'split_h')
 command! -n=? -complete=file OpenWindowSilent   :call s:OpenTabSilentFunction('<args>', 'split_only_if_two')
-"command! -n=? -complete=file OpenWindowSilent   :call FWK_openWindow('<args>')
-"command! -n=? -complete=file OpenBufferSilent :call s:OpenTabSilentFunction('<args>', 'edit')
-"//---------------------------------------------------------------------------------
+"---------------------------------------------------------------------------------
 

@@ -12,9 +12,6 @@ if     has('win32')                  | let g:cr_slash = '\' | let g:relative_pat
 elseif has('unix') || has('macunix') | let g:cr_slash = '/' | let g:relative_path = $HOME        |
 else                                 | let g:cr_slash = '/' | let g:relative_path = $VIM         | endif | endif
 
-if !exists('g:fwk_templates_directory')
-    let g:fwk_templates_directory = g:relative_path . g:cr_slash . 'templates'
-endif
 
 
 
@@ -480,50 +477,6 @@ command! -n=1 ScrollRotateFunction :call s:ScrollRotateFunction('<args>')
 "FWK FRAMEWORK
 "//---------------------------------------------------------------------------------
 
-"//---------------------------------------------------------------------------------
-"FWK MAIN CONTROL FUNCTIONS
-"//---------------------------------------------------------------------------------
-func FWK_CloseBufferSafe(buffer_Number, ... )
-
-    let shouldWeCloseBuffer = 0
-    let l:numb_of_buffer_copies_opened = 0
-    for i in range(tabpagenr('$'))
-
-        "let l:tablistVar =  []
-        "call extend(l:tablistVar, tabpagebuflist(i + 1))
-
-        for j in tabpagebuflist(i+1)
-            if j == a:buffer_Number
-                let l:numb_of_buffer_copies_opened += 1
-                if l:numb_of_buffer_copies_opened == 2
-                    let shouldWeCloseBuffer = 1 "not close tab, but only buffer
-                    break
-                endif
-            endif
-        endfor
-
-    endfor
-
-    if shouldWeCloseBuffer
-        exe 'close'
-    elseif a:0 == 0
-        exe 'bw'
-    else "if more then one argument argument"
-        exe 'bw!'
-    endif
-
-    "JUST UNCOMMENT AND IT WILL BE WORK
-    "close tab if on tab page only one empty buffer
-    "let current_tab_id = tabpagenr()
-    "let wins_count = tabpagewinnr(current_tab_id, '$')
-    "let current_buf_name = bufname("%")
-
-    "if current_buf_name == '' && wins_count == 1 
-        "exe 'close'
-    "endif
-
-
-endfunc
 
 let g:FWK_file_ext_dictionary =
     \{
@@ -1068,72 +1021,6 @@ func FWK_fontZoomInOut(number)
 endfunc
 
 
-function FWK_System_readFile(file_to_open)
-    if filereadable(a:file_to_open) == 1      
-        return readfile( a:file_to_open)  
-    else 
-        echo "FWK_System_readFile: can't read file " . a:file_to_open . ", because it isn't exist" 
-    endif 
-endfunction
-
-function FWK_System_writeFile(list_to_save, file_to_save)
-
-        if filereadable(a:file_to_save) == 1 
-            let l:answer = input(" file " . a:file_to_save . " is exist" . "replace?(y/n):") 
-            if l:answer == 'y' && l:answer == 'Y' 
-                return 1 
-            endif 
-        endif 
-
-        call writefile(a:list_to_save, a:file_to_save) 
-
-endfunction
-
-" modify list with dictionary patterns. Remember, list will iterate only once
-" (for time economy), that why it is very important sets all patterns in fil order
-function FWK_System_modify_list(list_to_modify, dict_with_patterns)
-
-    let l:list_fresh = a:list_to_modify
-    "Decho('FWK_System_modify_list')
-    if a:dict_with_patterns != {}
-
-        let l:iter = 0
-        let l:iterMax = len(a:list_to_modify)
-
-        while l:iter < l:iterMax
-            "Decho('FWK_System_modify_list 2')
-
-            for pattern_key in keys(a:dict_with_patterns)
-                if l:list_fresh[l:iter]  =~ pattern_key
-                    "Decho('FWK_System_modify_list 4')
-                    let a:list_to_modify[l:iter] = a:list_to_modify[l:iter] . ' ' . a:dict_with_patterns[pattern_key]
-                endif
-            endfor
-
-        let l:iter +=1
-        endwhile
-
-    endif
-
-endfunction
-
-
-function FWK_copyTemplate(loadTemplateFileName, saveFileName, dict_Patterns)  
-
-        let l:template_dir = g:fwk_templates_directory . g:cr_slash 
-        let l:mList = FWK_System_readFile(l:template_dir . a:loadTemplateFileName)
-
-        if l:mList != []
-            call FWK_System_modify_list(l:mList, a:dict_Patterns)
-            call FWK_System_writeFile(l:mList, a:saveFileName)
-        else
-            return 1
-        endif
-
-    return 0
-
-endfunction  
-
 
 
 
@@ -1259,13 +1146,6 @@ function FWK_Error(message)
     return 1
 endfunc
 
-func FWK_Note_Mark_moveCursOneLine( pos_direct )
-
-       let curpos = getpos(".")
-       let curpos[1] += a:pos_direct
-       call setpos(".", curpos)
-
-endfunc
 
 "//--------------------------------------------------------------------
 "Description: use cursor movement.

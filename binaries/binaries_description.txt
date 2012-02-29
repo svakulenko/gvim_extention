@@ -1,0 +1,18 @@
+#Packages and dependencies
+#--------------------------------------------------------------------
+
+#Plugin for take the notes
+package=fwk_notes
+doc\fwk_notes.txt
+plugin\fwk_notes.vim
+plugin\fwk_tab_aranger.vim
+plugin\fwk_library_io_templates.vim
+syntax\notes.vim
+templates\template_notes_common.notes
+templates\template_notes_daily.notes
+
+#highlight for hop syntax
+package=hop
+syntax\hop.vim
+plugin\hop.vim
+

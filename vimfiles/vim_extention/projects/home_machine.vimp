@@ -2231,6 +2231,9 @@ Scheme_WebDiffuse=D:\workspace\scheme CD=. filter="*" {
   test2.scm
  }
  tests=tests {
+  convert_funcs.scm
+  define_macro.scm
+  test3.scm
   redifinition.scm
   2cours.scm
   call_cc.scm
@@ -2249,16 +2252,13 @@ Scheme_WebDiffuse=D:\workspace\scheme CD=. filter="*" {
   predicats.scm
   recursive.scm
   strings.scm
-  test.exe
   testc.scm
   tests.scm
-  testc.o
  }
  tests_js=tests_js {
   test.js
  }
 }
-
 Hop=/workspace/hop_examples CD=. filter="*" {
  1.hop
  2.hop
@@ -2279,4 +2279,76 @@ Hop=/workspace/hop_examples CD=. filter="*" {
   tuto_02.hop
  }
 }
-
+FSAFE4=D:\workspace\fsafe4 CD=. filter="*.ml *.mll *.mly" {
+ config.ml
+ debug.ml
+ fsafe.ml
+ handler.ml
+ interpret.ml
+ main.ml
+ misc.ml
+ termination.ml
+ typechecker.ml
+ well_formed_type.ml
+ lexer.mll
+ parser.mly
+ _build=_build {
+  fsafe.ml
+  handler.ml
+  interpret.ml
+  lexer.ml
+  main.ml
+  lexer.mll
+  parser.mly
+ }
+ test=test {
+  bad=bad {
+  }
+  good=good {
+  }
+ }
+}
+python_ptest=D:\workspace\eclipse_cpp2\ptest CD=. filter="*.py" {
+ src=src {
+ }
+ stl_ue_test=stl_ue_test {
+  __init__.py
+  01=01 {
+   ext_tester.py
+   test_bin_dec.py
+   ue_test.py
+   ue_test_unitTest.py
+   specs=specs {
+   }
+  }
+  STL_APR_SVakulenko_test=STL_APR_SVakulenko_test {
+   ext_tester.py
+   ue_test.py
+   specs=specs {
+   }
+  }
+ }
+ test=test {
+  MysqlTest.py
+  __init__.py
+  amazon_abdr.py
+  amazon_simpledb_test.py
+  bad_code.py
+  classes.py
+  excelw.py
+  func_test.py
+  functionnelle.py
+  getTotalTime.py
+  ifelseOperations.py
+  input_test.py
+  multiply_matrix.py
+  pabdr.py
+  pabdr2.py
+  pabdrN.py
+  pplut.py
+  sendmail.py
+  ssh_kill_process_remote.py
+  test.py
+  typage.py
+ }
+}

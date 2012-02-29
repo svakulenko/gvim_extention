@@ -442,7 +442,6 @@ EscapeDirForRegex	C:\programs\gvim\vimfiles\plugin\DirDiff.vim	/^function! <SID>
 ExecWinCmdNoEa	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^function! s:ExecWinCmdNoEa(winCmd)$/;"	f
 ExecuteSelfFile	C:\programs\gvim\vimfiles\plugin\fwk_ext_handler.vim	/^function ExecuteSelfFile(...)$/;"	f
 ExecuteSelfFileMain	C:\programs\gvim\vimfiles\plugin\fwk_ext_handler.vim	/^function! ExecuteSelfFileMain(special_opt, ...) $/;"	f
-ExecuteSelfFileMainLinux	C:\programs\gvim\vimfiles\plugin\fwk_ext_handler.vim	/^function! ExecuteSelfFileMainLinux(special_opt, ...) $/;"	f
 ExecuteSelfFileSpecial	C:\programs\gvim\vimfiles\plugin\fwk_ext_handler.vim	/^function ExecuteSelfFileSpecial(...)$/;"	f
 Executor	C:\programs\gvim\vimfiles\autoload\l9\async.py	/^class Executor:$/;"	c	inherits:
 ExtendTagItemToPopupItem	C:\programs\gvim\vimfiles\autoload\omni\cpp\complete.vim	/^function! s:ExtendTagItemToPopupItem(tagItem, szTypeName)$/;"	f
@@ -454,7 +453,7 @@ ExtractTypeInfoFromDecl	C:\programs\gvim\vimfiles\autoload\omni\cpp\items.vim	/^
 FWK_Book_Mode	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_Book_Mode(mode)$/;"	f
 FWK_Buf_Substitute	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_Buf_Substitute(pat)$/;"	f
 FWK_CSpace	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_CSpace(numb)$/;"	f
-FWK_CloseBufferSafe	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_CloseBufferSafe(buffer_Number, ... )$/;"	f
+FWK_CloseBufferSafe	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^func FWK_CloseBufferSafe(buffer_Number, ... )$/;"	f
 FWK_EnableSyntax	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_EnableSyntax(syn_types)$/;"	f
 FWK_Error	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_Error(message)$/;"	f
 FWK_ExampleRegExPlusIncrement	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_ExampleRegExPlusIncrement()$/;"	f
@@ -474,13 +473,12 @@ FWK_Note_Mark_Regex_new_part	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^fu
 FWK_Note_Mark_Regex_w_new	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Mark_Regex_w_new(pattern)$/;"	f
 FWK_Note_Mark_Regex_w_new_recours_search	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Mark_Regex_w_new_recours_search(pat, direction)$/;"	f
 FWK_Note_Mark_getNumbLine	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Mark_getNumbLine ( symbol, pattern )$/;"	f
-FWK_Note_Mark_moveCursOneLine	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_Note_Mark_moveCursOneLine( pos_direct )$/;"	f
+FWK_Note_Mark_moveCursOneLine	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Mark_moveCursOneLine( pos_direct )$/;"	f
 FWK_Note_MoveToTags	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_MoveToTags(direction)$/;"	f
 FWK_Note_Navigation	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Navigation(action_type)$/;"	f
 FWK_Note_Navigation_convert_numb_to_twobyte	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Navigation_convert_numb_to_twobyte(variable)$/;"	f
 FWK_Note_Navigation_search_in_month	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, action_type)$/;"	f
 FWK_Note_NotesMaps	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_NotesMaps()$/;"	f
-FWK_Note_NotesMapsGlobal	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_NotesMapsGlobal()$/;"	f
 FWK_Note_Notifyer_Wrapper	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_Notifyer_Wrapper(message, time)$/;"	f
 FWK_Note_SetFeminine	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_SetFeminine()$/;"	f
 FWK_Note_addWildcardBeforeText	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_addWildcardBeforeText(strToPut)$/;"	f
@@ -489,6 +487,7 @@ FWK_Note_create_dynamic	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FW
 FWK_Note_create_special	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_create_special(type)$/;"	f
 FWK_Note_create_static	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_create_static(type)$/;"	f
 FWK_Note_setColorMark	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^func FWK_Note_setColorMark(mark_type)$/;"	f
+FWK_Perforce_command	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^func FWK_Perforce_command(cmd)$/;"	f
 FWK_Project_Addon_refresh_path	C:\programs\gvim\vimfiles\plugin\fwk_project_addon.vim	/^function FWK_Project_Addon_refresh_path()$/;"	f
 FWK_SwitchFromHeaderToCpp	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_SwitchFromHeaderToCpp(mode)$/;"	f
 FWK_System_AddSlash	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_System_AddSlash(variable)$/;"	f
@@ -497,11 +496,12 @@ FWK_System_Dot_MayComplete	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^fu
 FWK_System_FilTemplate	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_System_FilTemplate(template, mark_name, mark_value)$/;"	f
 FWK_System_Fuf_browse	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_System_Fuf_browse(path_to_open)$/;"	f
 FWK_System_IsWin32Platform	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_System_IsWin32Platform()$/;"	f
-FWK_System_modify_list	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_System_modify_list(list_to_modify, dict_with_patterns)$/;"	f
-FWK_System_readFile	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_System_readFile(file_to_open)$/;"	f
-FWK_System_writeFile	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_System_writeFile(list_to_save, file_to_save)$/;"	f
+FWK_System_modify_list	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^function FWK_System_modify_list(list_to_modify, dict_with_patterns)$/;"	f
+FWK_System_readFile	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^function FWK_System_readFile(file_to_open)$/;"	f
+FWK_System_writeFile	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^function FWK_System_writeFile(list_to_save, file_to_save)$/;"	f
 FWK__open_log_file	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK__open_log_file()$/;"	f
-FWK_copyTemplate	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_copyTemplate(loadTemplateFileName, saveFileName, dict_Patterns)  $/;"	f
+FWK_change_curr_path	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_change_curr_path()$/;"	f
+FWK_copyTemplate	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^function FWK_copyTemplate(loadTemplateFileName, saveFileName, dict_Patterns)  $/;"	f
 FWK_fontZoomInOut	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_fontZoomInOut(number)$/;"	f
 FWK_genTagsByPath	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_genTagsByPath(...)$/;"	f
 FWK_genTagsMap	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_genTagsMap(map_keys, ...)$/;"	f
@@ -515,8 +515,10 @@ FWK_open_tag_in_split	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^functio
 FWK_openlink_log_openErrorfile	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_openlink_log_openErrorfile()$/;"	f
 FWK_pasteDoubleQuote	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_pasteDoubleQuote(t_symbol_open, t_symbol_close)$/;"	f
 FWK_pasteDoubleQuote_init_map	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_pasteDoubleQuote_init_map(t_symbol_open, t_symbol_close)$/;"	f
+FWK_restore_curr_path	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_restore_curr_path()$/;"	f
 FWK_runCmd	C:\programs\gvim\vimfiles\plugin\fwk_experemental.vim	/^func FWK_runCmd(path_to_file)$/;"	f
 FWK_runScriptParse	C:\programs\gvim\vimfiles\plugin\fwk_buildrun.vim	/^function FWK_runScriptParse()$/;"	f
+FWK_save_curr_path	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_save_curr_path()$/;"	f
 FWK_setCurrPos	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func FWK_setCurrPos(fwk_pos)$/;"	f
 FWK_setTags	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_setTags(...)$/;"	f
 FWK_show_patterns_in_file	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^function FWK_show_patterns_in_file(filter_type, path_to_log)$/;"	f
@@ -543,11 +545,12 @@ FormatScreen	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func! FormatScre
 FormatStringWithCloser	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func! FormatStringWithCloser(pattern) $/;"	f
 FoundClassDeclaration	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^function! s:FoundClassDeclaration(type)$/;"	f
 FoundClassLocally	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^fu! s:FoundClassLocally(type)$/;"	f
+FwkNoteDaily	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^command! -n=0 FwkNoteDaily   :call FWK_Note_create_dynamic('Daily')$/;"	c
 FwkNoteDynamic	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^command! -n=1 FwkNoteDynamic :call FWK_Note_create_dynamic('<args>')$/;"	c
 FwkNoteStatic	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^command! -n=1 FwkNoteStatic  :call FWK_Note_create_static('<args>')$/;"	c
 Fwk_bookmarks_marks_loadMark	C:\programs\gvim\vimfiles\plugin\fwk_marks.vim	/^function s:Fwk_bookmarks_marks_loadMark(mark, mode)$/;"	f
 Fwk_bookmarks_marks_saveMark	C:\programs\gvim\vimfiles\plugin\fwk_marks.vim	/^function s:Fwk_bookmarks_marks_saveMark(mark)$/;"	f
-GFforTabs	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^command! -n=? -complete=dir GFforTabs :call s:GfEmulatorForTabs()$/;"	c
+GFforTabs	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^command! -n=? -complete=dir GFforTabs           :call s:GfEmulatorForTabs()$/;"	c
 GUDebugEcho	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^command! -complete=file -nargs=* GUDebugEcho :echo <q-args>$/;"	c
 GenerateEntry	C:\programs\gvim\vimfiles\plugin\project.vim	/^    function! s:GenerateEntry(recursive, line, name, absolute_dir, dir, c_d, filter_directive, filter, foldlev, sort)$/;"	f
 GenerateImports	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^function! s:GenerateImports()$/;"	f
@@ -734,13 +737,16 @@ MRU_File	C:\programs\gvim\vimfiles\plugin\mru.vim	/^        let MRU_File = $HOME
 MRU_File	C:\programs\gvim\vimfiles\plugin\mru.vim	/^        let MRU_File = $VIM . '\/_vim_mru_files'$/;"	v
 MRU_Include_Files	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Include_Files = ''$/;"	v
 MRU_LoadList	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_LoadList()$/;"	f
-MRU_Max_Entries	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Max_Entries = 10$/;"	v
+MRU_Max_Entries	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Max_Entries = 100$/;"	v
+MRU_Max_Menu_Entries	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Max_Menu_Entries = 10$/;"	v
+MRU_Max_Submenu_Entries	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Max_Submenu_Entries = 10$/;"	v
 MRU_Open_Window	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Open_Window(...)$/;"	f
 MRU_Refresh_Menu	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Refresh_Menu()$/;"	f
 MRU_SaveList	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_SaveList()$/;"	f
+MRU_Select_File_Cmd	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Select_File_Cmd(opt) range$/;"	f
 MRU_Use_Current_Window	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Use_Current_Window = 0$/;"	v
 MRU_Warn_Msg	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Warn_Msg(msg)$/;"	f
-MRU_Window_Edit_File	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Window_Edit_File(win_opt)$/;"	f
+MRU_Window_Edit_File	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_Window_Edit_File(fname, multi, edit_type, open_type)$/;"	f
 MRU_Window_Height	C:\programs\gvim\vimfiles\plugin\mru.vim	/^    let MRU_Window_Height = 8$/;"	v
 MRU_add_files_to_menu	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_add_files_to_menu(prefix, file_list)$/;"	f
 MRU_escape_filename	C:\programs\gvim\vimfiles\plugin\mru.vim	/^function! s:MRU_escape_filename(fname)$/;"	f
@@ -758,6 +764,7 @@ MkVimball	C:\programs\gvim\vimfiles\plugin\vimballPlugin.vim	/^com! -ra   -compl
 Modifiers	C:\programs\gvim\vimfiles\autoload\java_parser.vim	/^fu! s:Modifiers(pos, flags, annotations)$/;"	f
 MoveDown	C:\programs\gvim\vimfiles\plugin\project.vim	/^    function! s:MoveDown()$/;"	f
 MoveUp	C:\programs\gvim\vimfiles\plugin\project.vim	/^    function! s:MoveUp()$/;"	f
+Mru	C:\programs\gvim\vimfiles\plugin\mru.vim	/^command! -nargs=? -complete=customlist,s:MRU_Complete Mru$/;"	c
 Multipart	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function s:Multipart()$/;"	f
 MyBalloonExpr	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^function! MyBalloonExpr()$/;"	f
 NERDComment	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function! NERDComment(isVisual, type) range$/;"	f
@@ -782,46 +789,30 @@ OpenCurFile	C:\programs\gvim\vimfiles\autoload\lookupfile.vim	/^function! s:Open
 OpenEntry	C:\programs\gvim\vimfiles\plugin\project.vim	/^    function! s:OpenEntry(line, precmd, editcmd, dir)$/;"	f
 OpenEntry2	C:\programs\gvim\vimfiles\plugin\project.vim	/^    function! s:OpenEntry2(line, infoline, fname, editcmd)$/;"	f
 OpenTabSilentFunction	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^function! s:OpenTabSilentFunction(fileName, mode)$/;"	f
+OpenTabSilentFunctionByType	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^function OpenTabSilentFunctionByType(fileName,int_mode)$/;"	f
 OpenTabsSilent	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^command! -n=? -complete=file OpenTabsSilent     :call s:OpenTabSilentFunction('<args>', 'tab')$/;"	c
 OpenWindowSilent	C:\programs\gvim\vimfiles\plugin\fwk_tab_aranger.vim	/^command! -n=? -complete=file OpenWindowSilent   :call s:OpenTabSilentFunction('<args>', 'split_only_if_two')$/;"	c
 PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
 PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
-PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
-PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
 PLFM_HOSTNAME	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_HOSTNAME = hostname()    "hostname to differ work machines (home\/work)$/;"	v
 PLFM_SL	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_SL=g:cr_slash                    "slash specific for platform$/;"	v
 PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIMCFG               = PLFM_EXTDIR . PLFM_SL . 'vimrc_config'$/;"	v
 PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIMCFG = "" "mains configuration files for this distro$/;"	v
-PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = "" "mains configuration files for this distro$/;"	v
-PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = PLFM_EXTDIR        . PLFM_SL . 'vimrc_config'$/;"	v
 PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_LOGS             = PLFM_EXTDIR . PLFM_SL . 'logs'$/;"	v
 PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
-PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
-PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = PLFM_EXTDIR        . PLFM_SL . 'logs'$/;"	v
 PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
 PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
-PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
-PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES_GEN        = $HOME . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES_GEN        = $VIM . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
-PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
-PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = PLFM_VIM_HOME_PATH . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_PROJECTS         = PLFM_EXTDIR . PLFM_SL . 'projects'$/;"	v
 PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
-PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
-PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = PLFM_EXTDIR        . PLFM_SL . 'projects'$/;"	v
 PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR . PLFM_SL . 'tempdir'$/;"	v
 PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
-PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
-PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR        . PLFM_SL . 'tempdir'$/;"	v
 PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPLATES        = g:cfg_path  . PLFM_SL . 'templates'$/;"	v
 PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
-PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
-PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = PLFM_EXTDIR        . PLFM_SL . 'templates'$/;"	v
 PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_VIMFILES         = g:cfg_path $/;"	v
 PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
-PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
-PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = PLFM_VIM_HOME_PATH . PLFM_SL . 'vimfiles' $/;"	v
 ParseExpr	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^fu! s:ParseExpr(expr)$/;"	f
 ParseOnlyFile	C:\programs\gvim\vimfiles\plugin\DirDiff.vim	/^function! <SID>ParseOnlyFile(line)$/;"	f
 ParseOnlySrc	C:\programs\gvim\vimfiles\plugin\DirDiff.vim	/^function! <SID>ParseOnlySrc(line)$/;"	f
@@ -930,6 +921,8 @@ RemoveBlockComments	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^fu! s:
 RemoveCComments	C:\programs\gvim\vimfiles\autoload\omni\cpp\utils.vim	/^function! s:RemoveCComments(szLine)$/;"	f
 RemoveDelimiters	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function s:RemoveDelimiters(left, right, line)$/;"	f
 RemoveSnippet	C:\programs\gvim\vimfiles\autoload\snipMate.vim	/^fun s:RemoveSnippet()$/;"	f
+Rename	C:\programs\gvim\vimfiles\plugin\Rename.vim	/^command! -nargs=* -complete=file -bang Rename call Rename(<q-args>, '<bang>')$/;"	c
+Rename	C:\programs\gvim\vimfiles\plugin\Rename.vim	/^function! Rename(name, bang)$/;"	f
 ReplaceDelims	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function s:ReplaceDelims(toReplace1, toReplace2, replacor1, replacor2, str)$/;"	f
 ReplaceLeftMostDelim	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function s:ReplaceLeftMostDelim(toReplace, replacor, str)$/;"	f
 ReplaceRightMostDelim	C:\programs\gvim\vimfiles\plugin\NERD_commenter.vim	/^function s:ReplaceRightMostDelim(toReplace, replacor, str)$/;"	f
@@ -1206,6 +1199,13 @@ WordCopyPasteFunction	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^func! W
 Worker	C:\programs\gvim\vimfiles\autoload\l9\async.py	/^class Worker(threading.Thread):$/;"	c	inherits:threading.Thread
 WrapTag	C:\programs\gvim\vimfiles\ftplugin\xml.vim	/^function s:WrapTag(text)$/;"	f
 \m	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^map \\m :popup! PopUp<CR>$/;"	m
+\nd	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^map \\nd :FwkNoteDaily<CR>$/;"	m
+\pa	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pa :call FWK_Perforce_command('add')<CR>$/;"	m
+\pd	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pd :call FWK_Perforce_command('diff')<CR>$/;"	m
+\pe	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pe :call FWK_Perforce_command('edit')<CR>$/;"	m
+\pl	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pl :call FWK_Perforce_command('lock')<CR>$/;"	m
+\pr	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pr :call FWK_Perforce_command('revert')<CR>$/;"	m
+\pu	C:\programs\gvim\vimfiles\plugin\fwk_perforce.vim	/^map \\pu :call FWK_Perforce_command('unlock')<CR>$/;"	m
 \s'	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\s' :1,$s\/^\/"\/$/;"	m
 \s2	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\s2 :call TwoMatchColor("","") <Left><Left><Left><Left><Left><Left>$/;"	m
 \sb	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\maps_regex.vim	/^map \\sb :Bufdo %s\/\/\/g \\| update<C-Left><C-Left><Left><Left><Left><Left>$/;"	m
@@ -1268,6 +1268,7 @@ b:c_minlines	C:\programs\gvim\vimfiles\syntax\c.vim	/^  let b:c_minlines = c_min
 b:context_type	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^let b:context_type = s:CONTEXT_OTHER$/;"	v
 b:current_syntax	C:\programs\gvim\vimfiles\syntax\c.vim	/^let b:current_syntax = "c"$/;"	v
 b:current_syntax	C:\programs\gvim\vimfiles\syntax\django.vim	/^let b:current_syntax = "django"$/;"	v
+b:current_syntax	C:\programs\gvim\vimfiles\syntax\hop.vim	/^    let b:current_syntax = "hop"$/;"	v
 b:current_syntax	C:\programs\gvim\vimfiles\syntax\html.vim	/^let b:current_syntax = "html"$/;"	v
 b:current_syntax	C:\programs\gvim\vimfiles\syntax\python.vim	/^let b:current_syntax = "python"$/;"	v
 b:did_ftplugin	C:\programs\gvim\vimfiles\ftplugin\conf.vim	/^let b:did_ftplugin = 1$/;"	v
@@ -1509,7 +1510,6 @@ g:FWK_File_prevCD	C:\programs\gvim\vimfiles\plugin\fwk_experemental.vim	/^let g:
 g:FWK_Grep_exclude_dir	C:\programs\gvim\vimfiles\plugin\grep.vim	/^    let g:FWK_Grep_exclude_dir        = ''$/;"	v
 g:FWK_Grep_exclude_files	C:\programs\gvim\vimfiles\plugin\grep.vim	/^    let g:FWK_Grep_exclude_files        = ''$/;"	v
 g:FWK_Language_French_Mode_Variable	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\french_language_addon.vim	/^let g:FWK_Language_French_Mode_Variable = 0$/;"	v
-g:FWK_Note_Calendrier_Dict	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^let g:FWK_Note_Calendrier_Dict =$/;"	v
 g:FWK_Note_Mark_Regex_Increment_SymbolDict	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^let g:FWK_Note_Mark_Regex_Increment_SymbolDict =$/;"	v
 g:FWK_ScriptVarList	C:\programs\gvim\vimfiles\plugin\fwk_buildrun.vim	/^let g:FWK_ScriptVarList = [$/;"	v
 g:FWK_file_ext_dictionary	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^let g:FWK_file_ext_dictionary =$/;"	v
@@ -1524,7 +1524,6 @@ g:SuperTabMappingForward	C:\programs\gvim\vimfiles\plugin\supertab.vim	/^    let
 g:SuperTabMappingTabLiteral	C:\programs\gvim\vimfiles\plugin\supertab.vim	/^    let g:SuperTabMappingTabLiteral = '<c-tab>'$/;"	v
 g:SuperTabMidWordCompletion	C:\programs\gvim\vimfiles\plugin\supertab.vim	/^    let g:SuperTabMidWordCompletion = 1$/;"	v
 g:SuperTabRetainCompletionDuration	C:\programs\gvim\vimfiles\plugin\supertab.vim	/^    let g:SuperTabRetainCompletionDuration = 'insert'$/;"	v
-g:buf_default_view_pos	C:\programs\gvim\vimfiles\plugin\bufReminderRemake.vim	/^let g:buf_default_view_pos = [1,1,0]$/;"	v
 g:buf_info_lst	C:\programs\gvim\vimfiles\plugin\bufReminderRemake.vim	/^let g:buf_info_lst = []$/;"	v
 g:colors_name	C:\programs\gvim\vimfiles\colors\desert.vim	/^let g:colors_name="desert" $/;"	v
 g:colors_name	C:\programs\gvim\vimfiles\colors\kaltex.vim	/^let g:colors_name = "kaltex"$/;"	v
@@ -1536,9 +1535,13 @@ g:dechovarname	C:\programs\gvim\vimfiles\plugin\Decho.vim	/^ let g:dechovarname 
 g:did_ft	C:\programs\gvim\vimfiles\plugin\snipMate.vim	/^let g:did_ft = {}$/;"	v
 g:fwk_bookmarks_enable	C:\programs\gvim\vimfiles\plugin\fwk_marks.vim	/^let g:fwk_bookmarks_enable = 01 " Version $/;"	v
 g:fwk_bookmarks_marks_dictionary	C:\programs\gvim\vimfiles\plugin\fwk_marks.vim	/^let g:fwk_bookmarks_marks_dictionary = $/;"	v
-g:fwk_notes_notes_directory	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^    let g:fwk_notes_notes_directory = g:relative_path . g:cr_slash . 'notes'$/;"	v
+g:fwk_current_path_global	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^let g:fwk_current_path_global = ''$/;"	v
+g:fwk_notes_dict_month	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^let g:fwk_notes_dict_month =$/;"	v
+g:fwk_notes_dict_month_day	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^let g:fwk_notes_dict_month_day =$/;"	v
+g:fwk_notes_notes_directory	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^    let g:fwk_notes_notes_directory = s:relative_path . '\/' . 'notes' $/;"	v
+g:fwk_notes_open_node_mode	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^    let g:fwk_notes_open_node_mode = 0 "window mode$/;"	v
 g:fwk_project_addon	C:\programs\gvim\vimfiles\plugin\fwk_project_addon.vim	/^let g:fwk_project_addon = 01 " Version $/;"	v
-g:fwk_templates_directory	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^    let g:fwk_templates_directory = g:relative_path . g:cr_slash . 'templates'$/;"	v
+g:fwk_templates_directory	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^    let g:fwk_templates_directory = s:relative_path . '\/' . 'templates'$/;"	v
 g:loaded_Align	C:\programs\gvim\vimfiles\autoload\Align.vim	/^let g:loaded_Align = "v35"$/;"	v
 g:loaded_AlignMaps	C:\programs\gvim\vimfiles\autoload\AlignMaps.vim	/^let g:loaded_AlignMaps= "v41"$/;"	v
 g:loaded_AlignMapsPlugin	C:\programs\gvim\vimfiles\plugin\AlignMapsPlugin.vim	/^let g:loaded_AlignMapsPlugin = "v41"$/;"	v
@@ -1574,6 +1577,7 @@ g:lookupfile#lastStatsMsg	C:\programs\gvim\vimfiles\autoload\lookupfile.vim	/^le
 g:lookupfile#recentFiles	C:\programs\gvim\vimfiles\autoload\lookupfile.vim	/^let g:lookupfile#recentFiles = []$/;"	v
 g:makeArgumentList	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^let g:makeArgumentList = 'exec genutils#MakeArgumentList()'$/;"	v
 g:makeArgumentString	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^let g:makeArgumentString = 'exec genutils#MakeArgumentString()'$/;"	v
+g:mru_last_winid	C:\programs\gvim\vimfiles\plugin\mru.vim	/^let g:mru_last_winid = 0$/;"	v
 g:netrw_cygwin	C:\programs\gvim\vimfiles\autoload\vimball.vim	/^    let g:netrw_cygwin= 0$/;"	v
 g:netrw_cygwin	C:\programs\gvim\vimfiles\autoload\vimball.vim	/^    let g:netrw_cygwin= 1$/;"	v
 g:netrw_cygwin	C:\programs\gvim\vimfiles\autoload\vimball.vim	/^   let g:netrw_cygwin= 0$/;"	v
@@ -1593,6 +1597,7 @@ g:onOffTrigger	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^    let g:onOf
 g:proj_running	C:\programs\gvim\vimfiles\plugin\project.vim	/^        let g:proj_running = bufnr(bufname.'\\>')$/;"	v
 g:proj_window_number	C:\programs\gvim\vimfiles\plugin\project.vim	/^  let g:proj_window_number=0$/;"	v
 g:regex_pattern_error_hbbl	C:\programs\gvim\vimfiles\plugin\fwk_library.vim	/^    let g:regex_pattern_error_hbbl = "error:\\\\|warning:\\\\|undefined\\ reference\\\\|(Permission\\ denied)"$/;"	v
+g:rename_cd_path_state	C:\programs\gvim\vimfiles\plugin\Rename.vim	/^let g:rename_cd_path_state = ''$/;"	v
 g:scmDiffRev	C:\programs\gvim\vimfiles\plugin\scmdiff.vim	/^let g:scmDiffRev = ''$/;"	v
 g:vimball_path_escape	C:\programs\gvim\vimfiles\autoload\vimball.vim	/^  let g:vimball_path_escape= ' ;#%'$/;"	v
 genutils#AddNotifyWindowClose	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^function! genutils#AddNotifyWindowClose(windowTitle, functionName)$/;"	f
@@ -2297,6 +2302,7 @@ s:bMayComplete	C:\programs\gvim\vimfiles\autoload\omni\cpp\complete.vim	/^let s:
 s:behavsCurrent	C:\programs\gvim\vimfiles\autoload\acp.vim	/^let s:behavsCurrent = []$/;"	v
 s:bufNrFuf	C:\programs\gvim\vimfiles\autoload\fuf.vim	/^let s:bufNrFuf = -1$/;"	v
 s:bufTimes	C:\programs\gvim\vimfiles\autoload\fuf\buffer.vim	/^let s:bufTimes = {}$/;"	v
+s:buf_default_view_pos	C:\programs\gvim\vimfiles\plugin\bufReminderRemake.vim	/^let s:buf_default_view_pos =$/;"	v
 s:cache	C:\programs\gvim\vimfiles\autoload\javacomplete.vim	/^let s:cache = {}	" FQN -> member list, e.g. {'java.lang.StringBuffer': classinfo, 'java.util': packageinfo, '\/dir\/TopLevelClass.java': compilationUnit}$/;"	v
 s:cpo_save	C:\programs\gvim\vimfiles\ftplugin\conf.vim	/^let s:cpo_save = &cpo$/;"	v
 s:cpo_save	C:\programs\gvim\vimfiles\plugin\grep.vim	/^let s:cpo_save = &cpo$/;"	v
@@ -2376,6 +2382,8 @@ s:reCppOperatorOrPunctuator	C:\programs\gvim\vimfiles\autoload\omni\cpp\tokenize
 s:reIncludeFilePart	C:\programs\gvim\vimfiles\autoload\omni\cpp\includes.vim	/^let s:reIncludeFilePart = '\\(<\\|"\\)\\(\\f\\|\\s\\)\\+\\(>\\|"\\)'$/;"	v
 s:rePreprocIncludeFile	C:\programs\gvim\vimfiles\autoload\omni\cpp\includes.vim	/^let s:rePreprocIncludeFile = s:rePreprocIncludePart . s:reIncludeFilePart$/;"	v
 s:rePreprocIncludePart	C:\programs\gvim\vimfiles\autoload\omni\cpp\includes.vim	/^let s:rePreprocIncludePart = '\\C#\\s*include\\s*'$/;"	v
+s:relative_path	C:\programs\gvim\vimfiles\plugin\fwk_library_io_templates.vim	/^let s:relative_path = $HOME . '\/' . '.vim'$/;"	v
+s:relative_path	C:\programs\gvim\vimfiles\plugin\fwk_notes.vim	/^let s:relative_path = $HOME$/;"	v
 s:save_cpo	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	C:\programs\gvim\vimfiles\autoload\lookupfile.vim	/^let s:save_cpo = &cpo$/;"	v
 s:selection	C:\programs\gvim\vimfiles\autoload\genutils.vim	/^let s:selection = -1$/;"	v

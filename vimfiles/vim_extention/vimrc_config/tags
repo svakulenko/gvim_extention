@@ -51,42 +51,25 @@ FWK_genTagsMap	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.v
 FWK_setTags	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\ctagslogic.vim	/^func FWK_setTags(...)$/;"	f
 PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
 PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
-PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = "" "main extention dir$/;"	v
-PLFM_EXTDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_EXTDIR               = PLFM_VIM_HOME_PATH . PLFM_SL . 'vim_extention'$/;"	v
 PLFM_HOSTNAME	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_HOSTNAME = hostname()    "hostname to differ work machines (home\/work)$/;"	v
 PLFM_SL	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_SL=g:cr_slash                    "slash specific for platform$/;"	v
 PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIMCFG               = PLFM_EXTDIR . PLFM_SL . 'vimrc_config'$/;"	v
 PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIMCFG = "" "mains configuration files for this distro$/;"	v
-PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = "" "mains configuration files for this distro$/;"	v
-PLFM_VIMCFG	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIMCFG               = PLFM_EXTDIR        . PLFM_SL . 'vimrc_config'$/;"	v
 PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_LOGS             = PLFM_EXTDIR . PLFM_SL . 'logs'$/;"	v
 PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
-PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = "" "logging information$/;"	v
-PLFM_VIM_LOGS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_LOGS             = PLFM_EXTDIR        . PLFM_SL . 'logs'$/;"	v
 PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
 PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
-PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = "" "dynamic notes path$/;"	v
-PLFM_VIM_NOTES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES            = PLFM_VIM_NOTES_GEN . PLFM_SL . 'dynamic'$/;"	v
+PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES_GEN        = $HOME . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_NOTES_GEN        = $VIM . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
-PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = "" "all notes path$/;"	v
-PLFM_VIM_NOTES_GEN	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_NOTES_GEN        = PLFM_VIM_HOME_PATH . PLFM_SL . 'Notes'$/;"	v
 PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_PROJECTS         = PLFM_EXTDIR . PLFM_SL . 'projects'$/;"	v
 PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
-PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = "" "standart vim projects dir$/;"	v
-PLFM_VIM_PROJECTS	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_PROJECTS         = PLFM_EXTDIR        . PLFM_SL . 'projects'$/;"	v
 PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR . PLFM_SL . 'tempdir'$/;"	v
 PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
-PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = "" "temp files storage$/;"	v
-PLFM_VIM_TEMPDIR	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPDIR          = PLFM_EXTDIR        . PLFM_SL . 'tempdir'$/;"	v
 PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_TEMPLATES        = g:cfg_path  . PLFM_SL . 'templates'$/;"	v
 PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
-PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = "" "templates path$/;"	v
-PLFM_VIM_TEMPLATES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_TEMPLATES        = PLFM_EXTDIR        . PLFM_SL . 'templates'$/;"	v
 PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^    let PLFM_VIM_VIMFILES         = g:cfg_path $/;"	v
 PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_extended_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
-PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = "" "standart vim plugins dir$/;"	v
-PLFM_VIM_VIMFILES	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\fwk_variables.vim	/^let PLFM_VIM_VIMFILES         = PLFM_VIM_HOME_PATH . PLFM_SL . 'vimfiles' $/;"	v
 PopUp.Copy_Paste.&Copy	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^cnoremenu PopUp.Copy_Paste.&Copy        <C-Y>$/;"	m
 PopUp.Copy_Paste.&Copy	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.&Copy        "+y$/;"	m
 PopUp.Copy_Paste.&Delete	C:\programs\gvim\vimfiles\vim_extention\vimrc_config\popup_menus.vim	/^vnoremenu PopUp.Copy_Paste.&Delete      x$/;"	m

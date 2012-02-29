@@ -1,15 +1,16 @@
-"Name: fwk Notes 
+"Name: fwk Notes; notes agenda
 "Version: 0.5
 "Autor: Vakulenko Sergiy
-
-
 
 if exists('g:fwk_notes_disable') || v:version < 701 
   finish 
 endif 
 
+let s:relative_path = $HOME
+if  has('win32') | let s:relative_path = $VIM | endif
+
 if !exists('g:fwk_notes_notes_directory')
-    let g:fwk_notes_notes_directory = g:relative_path . g:cr_slash . 'notes'
+    let g:fwk_notes_notes_directory = s:relative_path . '/' . 'notes' 
 endif
 
 if !exists('g:fwk_notes_open_node_mode')
@@ -18,57 +19,67 @@ endif
 
 
 "MAPS
-func FWK_Note_NotesMaps()
+"--------------------------------------------------------------------
 
-  "SPECIAL Maps for .notes extention"
-  nnoremap <buffer> <silent> \cd :call FWK_Note_setColorMark('Done')<CR>
-  vmap <buffer> <silent> \cd :call FWK_Note_setColorMark('Done')<CR>
+"Default map for Daily notes
+map \nd :FwkNoteDaily<CR>
 
-  nnoremap <buffer> <silent> \cp :call FWK_Note_setColorMark('Skip')<CR>
-  vmap <buffer> <silent> \cp :call FWK_Note_setColorMark('Skip')<CR>
+func s:FWK_Note_NotesMaps()
+    "SPECIAL Maps for .notes extention"
+    nnoremap <buffer> <silent> \cd             :call FWK_Note_setColorMark('Done')<CR>
+    vmap     <buffer> <silent> \cd             :call FWK_Note_setColorMark('Done')<CR>
 
-  nnoremap <buffer> <silent> \ci :call FWK_Note_setColorMark('Important')<CR>
-  vmap <buffer> <silent> \ci :call FWK_Note_setColorMark('Important')<CR>
+    nnoremap <buffer> <silent> \cp             :call FWK_Note_setColorMark('Skip')<CR>
+    vmap     <buffer> <silent> \cp             :call FWK_Note_setColorMark('Skip')<CR>
 
-  nnoremap <buffer> <silent> \c1 :call FWK_Note_setColorMark('Group1')<CR>
-  vmap <buffer> <silent> \c1 :call FWK_Note_setColorMark('Group1')<CR>
+    nnoremap <buffer> <silent> \ci             :call FWK_Note_setColorMark('Important')<CR>
+    vmap     <buffer> <silent> \ci             :call FWK_Note_setColorMark('Important')<CR>
 
-  nnoremap <buffer> <silent> \c2 :call FWK_Note_setColorMark('Group2')<CR>
-  vmap <buffer> <silent> \c2 :call FWK_Note_setColorMark('Group2')<CR>
+    nnoremap <buffer> <silent> \c1             :call FWK_Note_setColorMark('Group1')<CR>
+    vmap     <buffer> <silent> \c1             :call FWK_Note_setColorMark('Group1')<CR>
 
-  "not work it now
-  nnoremap <buffer> <silent> \ce :call FWK_Note_setColorMark('Event')<CR>
-  vmap <buffer> <silent> \ce :call FWK_Note_setColorMark('Event')<CR>
+    nnoremap <buffer> <silent> \c2             :call FWK_Note_setColorMark('Group2')<CR>
+    vmap     <buffer> <silent> \c2             :call FWK_Note_setColorMark('Group2')<CR>
+
+    "not work it now
+    nnoremap <buffer> <silent> \ce             :call FWK_Note_setColorMark('Event')<CR>
+    vmap     <buffer> <silent> \ce             :call FWK_Note_setColorMark('Event')<CR>
 
 
 
-  nnoremap <buffer> <silent> <A-d> :call FWK_Note_Mark_Regex_w_new('\d')<CR>
-  imap     <buffer> <silent> <A-d> <Esc>:call FWK_Note_Mark_Regex_w_new('\d')<CR>
+    "new task    (numbers)
+    nnoremap <buffer> <silent> <A-d>           :call FWK_Note_Mark_Regex_w_new('\d')<CR>
+    imap     <buffer> <silent> <A-d>      <Esc>:call FWK_Note_Mark_Regex_w_new('\d')<CR>
 
-  nnoremap <buffer> <silent> <A-a> :call FWK_Note_Mark_Regex_w_new('\a')<CR>
-  imap     <buffer> <silent> <A-a> <Esc>:call FWK_Note_Mark_Regex_w_new('\a')<CR>
+    "new subtask (alphabet)
+    nnoremap <buffer> <silent> <A-a>           :call FWK_Note_Mark_Regex_w_new('\a')<CR>
+    imap     <buffer> <silent> <A-a>      <Esc>:call FWK_Note_Mark_Regex_w_new('\a')<CR>
 
-  map      <buffer> <silent> <A-t> :call FWK_Note_Mark_Regex_comment_new()<CR>A
-  imap     <buffer> <silent> <A-t> <Esc>:call FWK_Note_Mark_Regex_comment_new()<CR>A
+    "new subsubtask: -) 
+    map      <buffer> <silent> <A-Space>       :call FWK_Note_Mark_Regex_Char('-')<CR>
+    imap     <buffer> <silent> <A-Space>  <Esc>:call FWK_Note_Mark_Regex_Char('-')<CR>
 
-  map      <buffer> <silent> <A-Space> :call FWK_Note_Mark_Regex_Char('-')<CR>
-  imap     <buffer> <silent> <A-Space> <Esc>:call FWK_Note_Mark_Regex_Char('-')<CR>
+    "select the lines, and then add bulet symbol to each of line
+    vmap     <buffer> <silent> <A-r>           :call FWK_Note_addWildcardBeforeText(' • ')<CR>
 
-  vmap     <buffer> <silent> <A-r>      :call FWK_Note_addWildcardBeforeText(' • ')<CR>
+    "map      <buffer> <silent> <A-t> :call s:FWK_Note_Mark_Regex_comment_new()<CR>A
+    "imap     <buffer> <silent> <A-t> <Esc>:call s:FWK_Note_Mark_Regex_comment_new()<CR>A
 
-  if &ft == 'notes'
-      map      <buffer> <silent> <C-UP>   :call FWK_Note_Navigation(1)<CR>
-      map      <buffer> <silent> <C-DOWN> :call FWK_Note_Navigation(-1)<CR>
 
-      map      <buffer> <silent> <A-UP>   :call FWK_Note_MoveToTags(1) <CR>
-      map      <buffer> <silent> <A-DOWN> :call FWK_Note_MoveToTags(-1)<CR>
+    "block maps if you will do autocmd BufRead,BufNewFile *.<someType>	notes maps
+    if &ft == 'notes'
 
-      map      <buffer> <silent> \f :call FWK_Note_SetFeminine()<CR>
-  endif
+        map      <buffer> <silent> <C-UP>      :call FWK_Note_Navigation(1)<CR>
+        map      <buffer> <silent> <C-DOWN>    :call FWK_Note_Navigation(-1)<CR>
+
+        map      <buffer> <silent> <A-UP>      :call FWK_Note_MoveToTags(1) <CR>
+        map      <buffer> <silent> <A-DOWN>    :call FWK_Note_MoveToTags(-1)<CR>
+    endif
+
 endfunc
 
 
-let g:FWK_Note_Mark_Regex_Increment_SymbolDict =
+let s:FWK_Note_Mark_Regex_Increment_SymbolDict =
             \{
             \ 'a':'b'
             \,'b':'c'
@@ -98,7 +109,7 @@ let g:FWK_Note_Mark_Regex_Increment_SymbolDict =
             \,'z':'a'
             \}
 
-let g:FWK_Note_Calendrier_Dict =
+let s:fwk_notes_dict_month =
             \{
             \  1:'Jan'
             \, 2:'Feb'
@@ -112,6 +123,17 @@ let g:FWK_Note_Calendrier_Dict =
             \,10:'Oct'
             \,11:'Nov'
             \,12:'Dec'
+            \}
+
+let s:fwk_notes_dict_month_day =
+            \{
+            \  1:'Mon'
+            \, 2:'Tue'
+            \, 3:'Wed'
+            \, 4:'Thu'
+            \, 5:'Fri'
+            \, 6:'Sat'
+            \, 7:'Sun'
             \}
 
 
@@ -128,54 +150,54 @@ func FWK_Note_addWildcardBeforeText(strToPut)
         exe 's/\(\s*\)\?\(\w*\)/\1' . a:strToPut .  '\2/'
     endif
 endfunc
-func FWK_Note_LoadNotes(...)
+func s:FWK_Note_LoadNotes(...)
 
     for s in a:000 "massive of var args
-        if     s == 'change_static'  | call FWK_Note_create_static(s)
-        elseif s == 'change_dynamic' | call FWK_Note_create_dynamic(s)
-        elseif s == 'change_special' | call FWK_Note_create_special(s)
+        if     s == 'change_static'  | call s:FWK_Note_create_static(s)
+        elseif s == 'change_dynamic' | call s:FWK_Note_create_dynamic(s)
+        elseif s == 'change_special' | call s:FWK_Note_create_special(s)
         endif
     endfor
 
 endfunc
 
 "//--------------------------------------------------------------------
-func FWK_Note_create_static(type)
-    return FWK_Note_create(a:type, 'static')
+func s:FWK_Note_create_static(type)
+    return s:FWK_Note_create(a:type, 'static')
 endfunc
 "//--------------------------------------------------------------------
-func FWK_Note_create_dynamic(type)
-    return FWK_Note_create(a:type, 'dynamic')
+func s:FWK_Note_create_dynamic(type)
+    return s:FWK_Note_create(a:type, 'dynamic')
 endfunc
 "//--------------------------------------------------------------------
-func FWK_Note_create_special(type)
-    return FWK_Note_create(a:type, 'special')
+func s:FWK_Note_create_special(type)
+    return s:FWK_Note_create(a:type, 'special')
 endfunc
 "//--------------------------------------------------------------------
 
-func FWK_Note_create(type, mode)
+func s:FWK_Note_create(type, mode)
 
     let l:fileToOpen = ''
     let l:notes_path = g:fwk_notes_notes_directory
     "let g:fwk_template_path = PLFM_VIM_HOME_PATH . '/vim_extention/templates/'
 
-    let l:anne_dir = l:notes_path . strftime("%Y")
+    let l:anne_dir = l:notes_path . '/' . strftime("%Y")
     if !isdirectory(l:anne_dir)
         call  mkdir(l:anne_dir, "p")
     endif
 
-    let l:mois_dir = l:notes_path . strftime("%Y") . g:cr_slash . strftime("%m_%b")
+    let l:mois_dir = l:notes_path . '/' . strftime("%Y") . '/' . strftime("%m_") . s:fwk_notes_dict_month[eval(strftime("%m"))]
     if !isdirectory(l:mois_dir)
         call  mkdir(l:mois_dir, "p")
     endif
 
-    let l:timeString = strftime("%d.%b.%Y")
+    let l:timeString = strftime("%d.") . s:fwk_notes_dict_month[eval(strftime("%m"))] . strftime(".%Y")
 
     if     (a:mode == 'static')
         let l:fileToOpen = l:notes_path . a:type . '.notes'
 
     elseif (a:mode == 'dynamic')
-        let l:fileToOpen = l:mois_dir . g:cr_slash . l:timeString . "_" . a:type . ".notes"
+        let l:fileToOpen = l:mois_dir . '/' . l:timeString . "_" . a:type . ".notes"
 
     elseif (a:mode == 'special')
         echo 'what you want to do ? ...'
@@ -205,14 +227,14 @@ func FWK_Note_create(type, mode)
 
     endif
 
-        call OpenTabSilentFunctionByType(l:fileToOpen, g:fwk_notes_open_node_mode)
+    call OpenTabSilentFunctionByType(l:fileToOpen, g:fwk_notes_open_node_mode)
 
-        "des commands qui peuvent s'executer apres
-        if a:type == 'Daily'
-            call search('To\ Do')
-        else
-            exe ':5'
-        endif
+    "des commands qui peuvent s'executer apres
+    if a:type == 'Daily'
+        call search('To\ Do')
+    else
+        exe ':5'
+    endif
 
 endfunc
 
@@ -273,7 +295,7 @@ func FWK_Note_setColorMark(mark_type)
          let mes   = substitute(getline("."), '.*\d)','','')
          "Decho('let ltime#else=' . "'" . ltime . "'")
          "Decho('let mes#else  =' . "'" . mes   . "'")
-         call FWK_Note_Notifyer_Wrapper(mes, ltime)
+         call s:FWK_Note_Notifyer_Wrapper(mes, ltime)
 
          let lsign .= FWK_CSpace(4) . ltime
 
@@ -289,7 +311,7 @@ func FWK_Note_setColorMark(mark_type)
          "let mes   = substitute(getline("."), '.*\d)','','')
          ""Decho('let ltime#else=' . "'" . ltime . "'")
          ""Decho('let mes#else  =' . "'" . mes   . "'")
-         "call FWK_Note_Notifyer_Wrapper(mes, ltime)
+         "call s:FWK_Note_Notifyer_Wrapper(mes, ltime)
 
          let lsign .= FWK_CSpace(4) . ltime
 
@@ -337,7 +359,7 @@ endfunc
 
 
 
-func FWK_Note_Mark_getNumbLine ( symbol, pattern )
+func s:FWK_Note_Mark_getNumbLine ( symbol, pattern )
 
     let l:numb = 0
     let l:isDigit = 1
@@ -358,7 +380,7 @@ func FWK_Note_Mark_getNumbLine ( symbol, pattern )
 
     else
             let l:numb = substitute(a:symbol,'[\ ]','','g')
-        let l:numb = g:FWK_Note_Mark_Regex_Increment_SymbolDict[l:numb]
+        let l:numb = s:FWK_Note_Mark_Regex_Increment_SymbolDict[l:numb]
 
     endif
 
@@ -371,7 +393,7 @@ func FWK_Note_Mark_getNumbLine ( symbol, pattern )
     endif
 
     "Decho('l:numb=' . l:numb)
-    let str_to_append = FWK_Forme_String_With_Spaces(l:numb, a:pattern)
+    let str_to_append = s:FWK_Forme_String_With_Spaces(l:numb, a:pattern)
     "Decho('str_to_append=' . str_to_append )
     return str_to_append
 endfunc
@@ -390,41 +412,29 @@ endfunc
 
 "aller à haut/bas tag 
 func FWK_Note_MoveToTags(direction)
-
-    let pat = '-#.*-#'
-    if a:direction == 1
-        call search(pat,'b')
-
-    elseif a:direction == -1
-        call search(pat)
-
-    else
-        echo 'wrong function value'
-        return
-
-    endif
-
-    "exe ':' . ( line(".") + 1)
-
+    let pat = '^#---------------------------------\s'
+    if a:direction == 1      | call search(pat,'b')
+    elseif a:direction == -1 | call search(pat)
+    else                     | echo 'wrong function value' | return | endif
 endfunc
+
 "function de Vocabulaire  pour mettre (f) dans la phrase
-func FWK_Note_SetFeminine()
-
-    if match(getline("."),'[-—]')
-        call search('[-—]')
-        exe 'normal ' . 'hi (f)'
-        exe 'normal ' . '0'
-    endif
-
-endfunc
+"DEPRICATED
+"func s:FWK_Note_SetFeminine()
+    "if match(getline("."),'[-—]')
+        "call search('[-—]')
+        "exe 'normal ' . 'hi (f)'
+        "exe 'normal ' . '0'
+    "endif
+"endfunc
 
 " créer/continuer l'arbre alpha) ou digital) 
 "
 func FWK_Note_Mark_Regex_Char(symbol)
     let currLine                = line(".")
-    let line_to_put = FWK_Forme_String_With_Spaces( a:symbol, a:symbol )
+    let line_to_put = s:FWK_Forme_String_With_Spaces( a:symbol, a:symbol )
     call append(currLine, line_to_put)
-    call FWK_Note_Mark_moveCursOneLine(1)
+    call s:FWK_Note_Mark_moveCursOneLine(1)
     startinsert!
 
 
@@ -474,25 +484,25 @@ func FWK_Note_Mark_Regex_w_new(pattern)
         let line_to_put = ''
         
         if canWe_Break_Alpha_Chain "can we break chain of alpha's ?
-            let line_to_put = FWK_Note_Mark_getNumbLine( '', a:pattern )
+            let line_to_put = s:FWK_Note_Mark_getNumbLine( '', a:pattern )
 
         elseif last_symbol != ''
-            let line_to_put = FWK_Note_Mark_getNumbLine ( last_symbol, a:pattern )
+            let line_to_put = s:FWK_Note_Mark_getNumbLine ( last_symbol, a:pattern )
 
         else
-            let line_to_put = FWK_Note_Mark_getNumbLine( '', a:pattern )
+            let line_to_put = s:FWK_Note_Mark_getNumbLine( '', a:pattern )
 
         endif
 
         "Decho('line_to_put=' . line_to_put)
         call append(currLine, line_to_put)
-        call FWK_Note_Mark_moveCursOneLine(1)
+        call s:FWK_Note_Mark_moveCursOneLine(1)
 
     startinsert!
 
 endfunc
 
-func FWK_Forme_String_With_Spaces(symbol, pattern)
+func s:FWK_Forme_String_With_Spaces(symbol, pattern)
         "Decho('a:symbol=' . a:symbol)
         let l:tab = '    '
         let first_symbol = l:tab . l:tab . l:tab . l:tab . l:tab . l:tab . l:tab . l:tab
@@ -507,25 +517,25 @@ func FWK_Forme_String_With_Spaces(symbol, pattern)
         let first_symbol .= ') '
 
         else
-            "Decho( 'FWK_Forme_String_With_Spaces: pattern wrong, exit')
+            "Decho( 's:FWK_Forme_String_With_Spaces: pattern wrong, exit')
             return
         endif
         return first_symbol
 
 endfunc
 
-func FWK_Note_Mark_Regex_comment_new()
+func s:FWK_Note_Mark_Regex_comment_new()
        exe "normal 0"
        exe "normal " . "i#----------# \<Space>"
 endfunc
 
-func FWK_Note_Mark_Regex_new_part()
+func s:FWK_Note_Mark_Regex_new_part()
     startinsert! "start insert mode, like A
        exe "normal \<Enter>-"
 endfunc
 
 
-func FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, action_type)
+func s:FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, action_type)
     let max_day = 31
     let min_day = 1
     let local_day = a:cur_local_day
@@ -534,7 +544,7 @@ func FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, acti
         "Decho('path_bgn = ' . a:path_bgn)
         while local_day >= min_day && local_day <= max_day
 
-            let local_day = FWK_Note_Navigation_convert_numb_to_twobyte(local_day)
+            let local_day = s:FWK_Note_Navigation_convert_numb_to_twobyte(local_day)
 
             let new_note_file = a:path_bgn  . local_day . a:path_end
             "Decho('local day=' . local_day)
@@ -554,7 +564,7 @@ func FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, acti
 endfunc
 
 
-func FWK_Note_Navigation_convert_numb_to_twobyte(variable)
+func s:FWK_Note_Navigation_convert_numb_to_twobyte(variable)
 
     if len(string(a:variable)) == 1
         return  '0' . string(a:variable)
@@ -586,18 +596,18 @@ func FWK_Note_Navigation(action_type)
 
         while 1
 
-            let path_coller_bgn = path_bgn . local_year . g:cr_slash . local_month . '_' . g:FWK_Note_Calendrier_Dict[eval(local_month)] . g:cr_slash
-            let reste_string    = '.' . g:FWK_Note_Calendrier_Dict[eval(local_month)] . '.' . local_year . '_' . notes_type . '.notes'
+            let path_coller_bgn = path_bgn . local_year . '/' . local_month . '_' . s:fwk_notes_dict_month[eval(local_month)] . '/'
+            let reste_string    = '.' . s:fwk_notes_dict_month[eval(local_month)] . '.' . local_year . '_' . notes_type . '.notes'
 
 
-                let file_to_open    = FWK_Note_Navigation_search_in_month(path_coller_bgn , (local_day+a:action_type), reste_string, a:action_type)
+                let file_to_open    = s:FWK_Note_Navigation_search_in_month(path_coller_bgn , (local_day+a:action_type), reste_string, a:action_type)
 
             if file_to_open == ''
 
                 let answer = ''
                 let answer_echo = 
                             \'No files found in notes type ' . notes_type .
-                            \', in month '                   . g:FWK_Note_Calendrier_Dict[eval(local_month)] . 
+                            \', in month '                   . s:fwk_notes_dict_month[eval(local_month)] . 
                             \', in year '                    . local_year
 
                 if  (local_month + a:action_type) > max_month 
@@ -622,7 +632,7 @@ func FWK_Note_Navigation(action_type)
                 if  answer == 'y' || answer == 'Y' 
                     let local_month += a:action_type
 
-                    let local_month = FWK_Note_Navigation_convert_numb_to_twobyte(local_month)
+                    let local_month = s:FWK_Note_Navigation_convert_numb_to_twobyte(local_month)
 
                     if a:action_type == 1
                         let local_day = 0
@@ -651,9 +661,9 @@ func FWK_Note_Navigation(action_type)
 
 endfunc
             
-
-func FWK_Note_Notifyer_Wrapper(message, time)
-    "call FWK_Note_Notifyer_Wrapper("hello From Vim", '22.02.2011.33:33')
+"this is fonction for event notifier. Not works now.
+func s:FWK_Note_Notifyer_Wrapper(message, time)
+    "call s:FWK_Note_Notifyer_Wrapper("hello From Vim", '22.02.2011.33:33')
     "echo 'time_to_propose"' . time_to_propose .'"'
     "if time_to_propose != ""
         let ex_str ='nc.bat' . ' "-m' . a:message . '" -d' . a:time 
@@ -666,18 +676,29 @@ func FWK_Note_Notifyer_Wrapper(message, time)
 
 endfunc
 
-"map \nh :call FWK_Note_LoadNotes
+func s:FWK_Note_Mark_moveCursOneLine( pos_direct )
+       let curpos = getpos(".")
+       let curpos[1] += a:pos_direct
+       call setpos(".", curpos)
+endfunc
+
+
+"map \nh :call s:FWK_Note_LoadNotes
             "\(
             "\  'change_static', 'CommonTasks'
             "\, 'change_dynamic', 'Daily', 'Vocabulaire'
             "\)<CR>
 
 
-command! -n=1 FwkNoteStatic  :call FWK_Note_create_static('<args>')
-command! -n=1 FwkNoteDynamic :call FWK_Note_create_dynamic('<args>')
-command! -n=0 FwkNoteDaily   :call FWK_Note_create_dynamic('Daily')
+command! -n=1 FwkNoteStatic  :call s:FWK_Note_create_static('<args>')
+command! -n=1 FwkNoteDynamic :call s:FWK_Note_create_dynamic('<args>')
+command! -n=0 FwkNoteDaily   :call s:FWK_Note_create_dynamic('Daily')
 
 
 "INIT GLOBAL
 autocmd BufRead,BufNewFile *.notes		set filetype=notes
-autocmd FileType        notes,conf call FWK_Note_NotesMaps() "set maps for notes
+autocmd FileType        notes call s:FWK_Note_NotesMaps() "set maps for notes
+
+
+
+

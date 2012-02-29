@@ -9,7 +9,11 @@
 "- load from file regex pattern was updated by '+' and '-' symbols
 "- added restore view of main window (help lines)
 "
-"0.8 add save vim instance width
+"0.8 - add save vim instance width
+"    - add winx winy position of windows
+"      Attention! vim (win32) on getwinposx|y return always -1 :( . Gvim and
+"      vi works fine.
+   
 
 "I recommend use vim tab concept with this plugin.
 "I tested more then 3 month this plugin before submit it. It's works perfectly. For you i hope too.
@@ -129,7 +133,18 @@ endif
 
 
 let g:buf_info_lst = []
-let g:buf_default_view_pos = [1,1,0,0]
+
+let s:buf_default_view_pos =
+            \{
+            \ 'tabid'     :1
+            \,'win'       :1  
+            \,'win_h'     :0
+            \,'win_w'     :0
+            \,'win_pos_x' :9999
+            \,'win_pos_y' :9999
+            \}
+
+
 
 
 "//- FUNCTIONS DECLARATION -------------------------------------------------------------------
@@ -197,7 +212,7 @@ func! BufReminderRMX_GetActualfBuffInfo()
 endfunc
 
 func! BufReminderRMX_getTab0_CurrentTabPos()
-    let currTabPos = '0' . ' Last tab/win/lines(' . tabpagenr() . ',' .  winnr() . ',' . &lines . ',' . &columns .')'
+    let currTabPos = '0' . ' (' . tabpagenr() . ',' .  winnr() . ',' . &lines . ',' . &columns . ',' . getwinposx() . ',' . getwinposy() .')'
     return currTabPos
 endfunc
 
@@ -325,9 +340,7 @@ func! BufReminderRMX_LoadPersistency() "function to save buffers persistency inf
             "Decho('here#2')
 
             let regex_persistency   = 'buff_info:\([a-zA-Z0-9: \\_\/\.\-\+]\+\)\s\([a-z_]\+\)\s\(\d\+\)\s\(\d\+\)\s\(\d\+\)'
-            "let regex_tab_id_values ='tab_id:\(\d\+\)\(\sLast\stab\/win\/lines(\(\d\+\),\(\d\+\),(\d\+\),\(\d\+\))\)\?'
-            let regex_tab_id_values = 'tab_id:\(\d\+\)\(\(\sLast\stab\/win\/lines\)(\(\(\d\+\),\(\d\+\),\(\d\+\),\(\d\+\)\))\)\?'
-                                                 "\1"     "\2"(all elem in brack)  "\3"     "\4"     "\5"
+            let regex_tab_id_values = 'tab_id:\(\d\+\)\(\s(\(\d\+\),\(\d\+\),\(\d\+\),\(\d\+\),\([-]\?\d\+\),\([-]\?\d\+\))\)\?'
             let tab_id = 0
             let buf_info_list = []
             let tab_wins_info = ''
@@ -337,12 +350,15 @@ func! BufReminderRMX_LoadPersistency() "function to save buffers persistency inf
                     let tab_id  = substitute(line,regex_tab_id_values,'\1','')      "tab id
 
                     "this case if we want to reload view ( tab, win positions ) 
-                    if match( line, 'Last\stab' ) != -1 && g:BuffReminderRMX_OpenFirstTabByDefault == 0
-                        let g:buf_default_view_pos[0] = substitute(line,regex_tab_id_values ,'\5', '' ) "last tab
-                        let g:buf_default_view_pos[1] = substitute(line,regex_tab_id_values ,'\6', '' ) "last win
-                        let g:buf_default_view_pos[2] = substitute(line,regex_tab_id_values ,'\7', '' ) "last win lines (main window height)
-                        let g:buf_default_view_pos[3] = substitute(line,regex_tab_id_values ,'\8', '' ) "last win lines (main window width)
+                    if match( line, 'tab_id:\d\+\s(.*)' ) != -1 && g:BuffReminderRMX_OpenFirstTabByDefault == 0
+                        let s:buf_default_view_pos['tabid'] = substitute(line,regex_tab_id_values ,'\3', '' ) "last tab
+                        let s:buf_default_view_pos['win'] = substitute(line,regex_tab_id_values ,'\4', '' ) "last win
+                        let s:buf_default_view_pos['win_h'] = substitute(line,regex_tab_id_values ,'\5', '' ) "last win lines (main window height)
+                        let s:buf_default_view_pos['win_w'] = substitute(line,regex_tab_id_values ,'\6', '' ) "last win lines (main window width)
+                        let s:buf_default_view_pos['win_pos_x'] = substitute(line,regex_tab_id_values ,'\7', '' ) "winposx
+                        let s:buf_default_view_pos['win_pos_y'] = substitute(line,regex_tab_id_values ,'\8', '' ) "winposy
                     endif
+
 
                 elseif match(line, 'buff_info:') != -1
                     let buff_info = {}
@@ -424,21 +440,32 @@ func BufReminderRMX_OpenBuffer(fName, mode, win_id)
 endfunc
 
 fun! BufReminderRMX_reloadView()
+
     "restore last tab view
-    exe 'tabnext ' . g:buf_default_view_pos[0] 
+    exe 'tabnext ' . s:buf_default_view_pos['tabid'] 
 
     "restore last wnd view
-    exe g:buf_default_view_pos[1] . 'wincmd w'
+    exe s:buf_default_view_pos['win'] . 'wincmd w'
 
-    "restore weight of prev. vim instance; skip if this values is empty
-    if g:buf_default_view_pos[2] != 0
-        let &lines=g:buf_default_view_pos[2]
+    "Decho("s:buf_default_view_pos[4]=" . s:buf_default_view_pos[4])
+    "Decho("s:buf_default_view_pos[5]=" . s:buf_default_view_pos[5])
+
+    "restore height of prev. vim instance; skip if this values is empty
+    if s:buf_default_view_pos['win_h'] != 0
+        let &lines=s:buf_default_view_pos['win_h']
     endif
 
     "restore weight of prev. vim instance
-    if g:buf_default_view_pos[3] != 0
-        let &columns=g:buf_default_view_pos[3]
+    if s:buf_default_view_pos['win_w'] != 0
+        let &columns=s:buf_default_view_pos['win_w']
     endif
+
+    "win pos x y;
+    "Attention!: vim on getwinposx|y return always -1 :( .
+    if s:buf_default_view_pos['win_pos_x'] != 9999 && s:buf_default_view_pos['win_pos_y'] != 9999 
+        exe 'winpos ' . s:buf_default_view_pos['win_pos_x'] . ' ' . s:buf_default_view_pos['win_pos_y']
+    endif
+
 
 endfunc
 
