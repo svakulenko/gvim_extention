@@ -26,24 +26,24 @@ map \nd :FwkNoteDaily<CR>
 
 func s:FWK_Note_NotesMaps()
     "SPECIAL Maps for .notes extention"
-    nnoremap <buffer> <silent> \cd             :call FWK_Note_setColorMark('Done')<CR>
-    vmap     <buffer> <silent> \cd             :call FWK_Note_setColorMark('Done')<CR>
+    nnoremap <buffer> <silent> \cd             :FwkNoteSetColorMark Done<CR>
+    vmap     <buffer> <silent> \cd             :FwkNoteSetColorMark Done<CR>
 
-    nnoremap <buffer> <silent> \cp             :call FWK_Note_setColorMark('Skip')<CR>
-    vmap     <buffer> <silent> \cp             :call FWK_Note_setColorMark('Skip')<CR>
+    nnoremap <buffer> <silent> \cp             :FwkNoteSetColorMark Skip<CR>
+    vmap     <buffer> <silent> \cp             :FwkNoteSetColorMark Skip<CR>
 
-    nnoremap <buffer> <silent> \ci             :call FWK_Note_setColorMark('Important')<CR>
-    vmap     <buffer> <silent> \ci             :call FWK_Note_setColorMark('Important')<CR>
+    nnoremap <buffer> <silent> \ci             :FwkNoteSetColorMark Important<CR>
+    vmap     <buffer> <silent> \ci             :FwkNoteSetColorMark Important<CR>
 
-    nnoremap <buffer> <silent> \c1             :call FWK_Note_setColorMark('Group1')<CR>
-    vmap     <buffer> <silent> \c1             :call FWK_Note_setColorMark('Group1')<CR>
+    nnoremap <buffer> <silent> \c1             :FwkNoteSetColorMark Group1<CR>
+    vmap     <buffer> <silent> \c1             :FwkNoteSetColorMark Group1<CR>
 
-    nnoremap <buffer> <silent> \c2             :call FWK_Note_setColorMark('Group2')<CR>
-    vmap     <buffer> <silent> \c2             :call FWK_Note_setColorMark('Group2')<CR>
+    nnoremap <buffer> <silent> \c2             :FwkNoteSetColorMark Group2<CR>
+    vmap     <buffer> <silent> \c2             :FwkNoteSetColorMark Group2<CR>
 
     "not work it now
-    nnoremap <buffer> <silent> \ce             :call FWK_Note_setColorMark('Event')<CR>
-    vmap     <buffer> <silent> \ce             :call FWK_Note_setColorMark('Event')<CR>
+    nnoremap <buffer> <silent> \ce             :FwkNoteSetColorMark Event<CR>
+    vmap     <buffer> <silent> \ce             :FwkNoteSetColorMark Event<CR>
 
 
 
@@ -69,8 +69,8 @@ func s:FWK_Note_NotesMaps()
     "block maps if you will do autocmd BufRead,BufNewFile *.<someType>	notes maps
     if &ft == 'notes'
 
-        map      <buffer> <silent> <C-UP>      :call FWK_Note_Navigation(1)<CR>
-        map      <buffer> <silent> <C-DOWN>    :call FWK_Note_Navigation(-1)<CR>
+        map      <buffer> <silent> <C-UP>      :call FWK_Note_Day_Navigation(1)<CR>
+        map      <buffer> <silent> <C-DOWN>    :call FWK_Note_Day_Navigation(-1)<CR>
 
         map      <buffer> <silent> <A-UP>      :call FWK_Note_MoveToTags(1) <CR>
         map      <buffer> <silent> <A-DOWN>    :call FWK_Note_MoveToTags(-1)<CR>
@@ -535,7 +535,7 @@ func s:FWK_Note_Mark_Regex_new_part()
 endfunc
 
 
-func s:FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, action_type)
+func s:FWK_Note_Day_Navigation_search_in_month(path_bgn, cur_local_day, path_end, action_type)
     let max_day = 31
     let min_day = 1
     let local_day = a:cur_local_day
@@ -544,7 +544,7 @@ func s:FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, ac
         "Decho('path_bgn = ' . a:path_bgn)
         while local_day >= min_day && local_day <= max_day
 
-            let local_day = s:FWK_Note_Navigation_convert_numb_to_twobyte(local_day)
+            let local_day = s:FWK_Note_Day_Navigation_convert_numb_to_twobyte(local_day)
 
             let new_note_file = a:path_bgn  . local_day . a:path_end
             "Decho('local day=' . local_day)
@@ -563,8 +563,16 @@ func s:FWK_Note_Navigation_search_in_month(path_bgn, cur_local_day, path_end, ac
     return ''
 endfunc
 
+func FWK_Note_Navigation(type, direct)
+    if a:type == 'notes'
+        call FWK_Note_Notes_Navigation(a:direct)
+    elseif a:type == 'day'
+        call FWK_Note_Day_Navigation(a:direct)
+    endif
 
-func s:FWK_Note_Navigation_convert_numb_to_twobyte(variable)
+endfunc
+
+func s:FWK_Note_Day_Navigation_convert_numb_to_twobyte(variable)
 
     if len(string(a:variable)) == 1
         return  '0' . string(a:variable)
@@ -573,7 +581,7 @@ func s:FWK_Note_Navigation_convert_numb_to_twobyte(variable)
     endif
 
 endfunc
-func FWK_Note_Navigation(action_type)
+func FWK_Note_Day_Navigation(action_type)
 
     let notes_path_pat           = '\(.*\)\(\d\{4\}\)\(\\\)\(\d\{2\}\)\(_\w\+\)'
     let notes_file_name_pat      = '\(\d\+\)\(\.\)\(\u\l\+\)\(\.\)\(\d\{4\}\)\(_\)\(\w*\)\(\.\)\(\l\+\)'
@@ -600,7 +608,7 @@ func FWK_Note_Navigation(action_type)
             let reste_string    = '.' . s:fwk_notes_dict_month[eval(local_month)] . '.' . local_year . '_' . notes_type . '.notes'
 
 
-                let file_to_open    = s:FWK_Note_Navigation_search_in_month(path_coller_bgn , (local_day+a:action_type), reste_string, a:action_type)
+                let file_to_open    = s:FWK_Note_Day_Navigation_search_in_month(path_coller_bgn , (local_day+a:action_type), reste_string, a:action_type)
 
             if file_to_open == ''
 
@@ -632,7 +640,7 @@ func FWK_Note_Navigation(action_type)
                 if  answer == 'y' || answer == 'Y' 
                     let local_month += a:action_type
 
-                    let local_month = s:FWK_Note_Navigation_convert_numb_to_twobyte(local_month)
+                    let local_month = s:FWK_Note_Day_Navigation_convert_numb_to_twobyte(local_month)
 
                     if a:action_type == 1
                         let local_day = 0
@@ -654,7 +662,7 @@ func FWK_Note_Navigation(action_type)
 
 
     else
-        echo 'FWK_Note_Navigation: wrong function arguments, skipped'
+        echo 'FWK_Note_Day_Navigation: wrong function arguments, skipped'
     endif
 
 
@@ -690,9 +698,12 @@ endfunc
             "\)<CR>
 
 
-command! -n=1 FwkNoteStatic  :call s:FWK_Note_create_static('<args>')
-command! -n=1 FwkNoteDynamic :call s:FWK_Note_create_dynamic('<args>')
-command! -n=0 FwkNoteDaily   :call s:FWK_Note_create_dynamic('Daily')
+command! -n=1 FwkNoteStatic       :call s:FWK_Note_create_static('<args>')
+command! -n=1 FwkNoteDynamic      :call s:FWK_Note_create_dynamic('<args>')
+command! -n=0 FwkNoteDaily        :call s:FWK_Note_create_dynamic('Daily')
+command! -n=1 FwkNoteDynamic      :call s:FWK_Note_create_dynamic('<args>')
+command! -n=1 FwkNoteSetColorMark :call   FWK_Note_setColorMark('<args>')
+command! -n=0 FwkNoteApplyMaps    :call s:FWK_Note_NotesMaps()
 
 
 "INIT GLOBAL

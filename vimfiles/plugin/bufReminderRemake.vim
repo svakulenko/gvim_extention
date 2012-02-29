@@ -328,7 +328,8 @@ func! BufReminderRMX_SaveElementInList(tab_id, buff_info, tab_wins_info)
     call add(g:buf_info_lst, buf_and_tab_info)
 endfunc
 
-func! BufReminderRMX_LoadPersistency() "function to save buffers persistency information
+"Description: load saved buffers persistency information
+func! BufReminderRMX_LoadPersistency() 
 
     if filereadable(g:BuffReminder_persistency_file) "check if persistency file exist
 

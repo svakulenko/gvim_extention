@@ -246,7 +246,7 @@ if has("autocmd")
 
 
     "add maps of fwk_notes for conf(txt) extention
-    autocmd FileType        conf call s:FWK_Note_NotesMaps() "set maps for notes
+    autocmd FileType        conf :FwkNoteApplyMaps "set maps for notes
 
     autocmd FileType        scheme,hop  exe 'source ' . g:cfg_path . '/syntax/RainbowParenthsis.vim'
 
