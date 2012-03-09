@@ -2222,3 +2222,13 @@ Hop=/workspace/hop_examples CD=. filter="*" {
   tuto_02.hop
  }
 }
+
+UE_test=D:\etudes\matiers\test\cours_06\module CD=. filter="*" {
+ compile.bat
+ config.vrun
+ run.bat
+ wrapControl.cmo
+}
+
+
+

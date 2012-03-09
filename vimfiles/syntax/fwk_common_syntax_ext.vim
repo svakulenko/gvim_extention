@@ -8,6 +8,12 @@ hi BracesVague gui=bold guifg=tomato3
 hi BracesRond gui=bold guifg=goldenrod3
 hi BracesCarre gui=bold guifg=goldenrod4
 
+
+
+
+
+
+
 "highligh braces
 syn match       BracesVague         "[{}]"
 syn match       BracesRond          "[()]"

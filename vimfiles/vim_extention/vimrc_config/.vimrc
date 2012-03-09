@@ -251,7 +251,7 @@ if has("autocmd")
     autocmd FileType        scheme,hop  exe 'source ' . g:cfg_path . '/syntax/RainbowParenthsis.vim'
 
     "enable suplementary syntax for files
-    autocmd FileType        conf call FWK_EnableSyntax(['notes.vim'])
+    "autocmd FileType        conf call FWK_EnableSyntax(['notes.vim'])
     "autocmd FileType        conf call FWK_EnableSyntax(['notes.vim', 'xml.vim'])
 
 

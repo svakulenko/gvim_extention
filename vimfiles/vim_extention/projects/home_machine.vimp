@@ -2229,6 +2229,7 @@ Scheme_WebDiffuse=D:\workspace\scheme CD=. filter="*" {
   cours2_exercices.scm
   testc.scm
   test2.scm
+  test3.scm
  }
  tests=tests {
   convert_funcs.scm
@@ -2257,6 +2258,8 @@ Scheme_WebDiffuse=D:\workspace\scheme CD=. filter="*" {
  }
  tests_js=tests_js {
   test.js
+  test.js
+  jsturn.js
  }
 }
 Hop=/workspace/hop_examples CD=. filter="*" {
@@ -2308,7 +2311,47 @@ FSAFE4=D:\workspace\fsafe4 CD=. filter="*.ml *.mll *.mly" {
   }
  }
 }
-python_ptest=D:\workspace\eclipse_cpp2\ptest CD=. filter="*.py" {
+
+
+
+
+
+
+
+
+python_ptest=D:\workspace\eclipse_cpp2\ptest CD=. filter="*.py *.g" {
+ PyParsing=PyParsing {
+  Calcul1.py
+  hello_world.py
+  antlr=antlr {
+   Eval.py
+   ExprLexer.py
+   ExprParser.py
+   Test.py
+   Eval.g
+   Expr.g
+  }
+  antlr3-python-example=antlr3-python-example {
+   Eval.py
+   ExprLexer.py
+   ExprParser.py
+   Test.py
+   Eval.g
+   Expr.g
+   Expr__.g
+   antlr3=antlr3 {
+    __init__.py
+    compat.py
+    constants.py
+    dfa.py
+    exceptions.py
+    recognizers.py
+    streams.py
+    tokens.py
+    tree.py
+   }
+  }
+ }
  src=src {
  }
  stl_ue_test=stl_ue_test {

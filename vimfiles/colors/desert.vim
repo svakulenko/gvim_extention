@@ -142,5 +142,4 @@ highlight Pmenu guibg=brown gui=bold
 
 hi FWK_search_files                         guifg=LimeGreen
 
-
 "vim: sw=4 

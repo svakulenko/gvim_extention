@@ -18,7 +18,7 @@ if filereadable($VIMRUNTIME . '/syntax/scheme.vim')
     "added ; hop
     syn keyword schemeSyntax define-service service module import 
     syn keyword HopServer #!key $
-    syn keyword HopClient with-hop ~
+    syn keyword HopClient with-hop with-url ~
 
     "HOP server variables
     syn match hopServerSyntax      "\$[a-zA-Z0-9-._/>]\+"
