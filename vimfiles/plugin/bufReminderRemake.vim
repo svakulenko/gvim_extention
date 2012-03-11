@@ -1,6 +1,6 @@
 
 "Name: Buffer reminder Remix version
-"Version: 0.6
+"Version: 0.8
 "Autor: Vakulenko Sergiy
 "Description: I rewrite this plugin because prev. version of plugin not work properly with tabs/windows.
 "
