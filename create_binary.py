@@ -3,7 +3,7 @@ import sys
 import re
 
 dir_binary   = 'binaries'
-dir_vimfiles = 'vimfiles'
+dir_vimfiles = '.vim'
 descr_file   = 'binaries_description.txt'
 
 debug = False

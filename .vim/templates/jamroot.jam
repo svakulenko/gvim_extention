@@ -1,0 +1,84 @@
+
+#top path
+path-constant TOP : . ; 
+
+#boost lib path
+#path-constant BOOSTLIB : d:/workspace/libs/mingw/lib/boost ;
+#same
+#path-constant BOOSTLIB : /workspace/libs/mingw/lib/boost ;
+
+#ECHO "ECHO TEST" ;
+#ECHO $(BOOSTLIB) ;
+#ECHO $(TOP) ;
+
+project smakeProject : build-dir bin ;
+
+
+
+
+#name of binary
+exe hello_world
+
+  : #sources
+    src/hello.cpp
+
+  : # requirements
+
+    #Use gcc define option
+    #<define>NEWORK_LIB_SHARED
+
+    #Like -I gcc option
+    #<include>$(TOP)/../include/opengl
+    #<include>"D:/workspace/imap-2007e/src/c-client"
+
+    #Like -L gcc option
+    #<library-path>$(TOP)/libs
+
+    #Like -l gcc option
+    #<linkflags>-lglut32win
+    #<linkflags>-lglut32
+    #<linkflags>-lopengl32
+
+
+    #set gcc flags
+    #<cxxflags>"-fno-operator-names"
+    #<cxxflags>"-fsyntax-only"
+
+    #???
+    #<include>whatever    # quoted #includes "..."
+    #<sysinclude>whatever # angle #includes <...>
+
+
+    #<toolset>gcc:<cxxflags>"-fno-operator-names"
+    #<toolset>gcc:<cxxflags>"-fsyntax-only"
+
+
+    #Link static library
+    #<library>$(BOOSTLIB)/boost_system-mgw34-mt.lib
+    #<library>$(BOOSTLIB)/libboost_regex-mgw34-mt.lib
+    #<library>$(BOOSTLIB)/boost_filesystem-mgw34-mt.lib
+    #<library>"D:/workspace/curl/curl-7.19.0-devel-mingw32/lib/libcurl.a"
+    #<library>"D:/workspace/curl/curl-7.19.0-devel-mingw32/lib/libcurldll.a"
+
+
+    #or
+
+    #<library>"d:/workspace/libs/mingw/lib/boost/boost_filesystem-mgw34-mt.lib"
+    #<find-library>libraryname
+
+  : # default build
+    #release
+    debug
+    #: # Build directory
+    #bin
+
+  : # usage requirements
+    #<include>. 
+
+  ;
+
+#Create static lib
+#lib l : l.cpp : <link>static ;
+
+
+
