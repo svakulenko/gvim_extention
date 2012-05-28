@@ -1,8 +1,0 @@
-<shift-,> or <shift-.> two times will move line in distance 'tab' spaces
-:before
-dfs
-#action <shift-.> two times
-after:
-    dfs
-
-

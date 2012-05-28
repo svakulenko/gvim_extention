@@ -1,7 +1,0 @@
-#RUN FILE
-
-FWK_MODE=bat
-FWK_RUN=D:\workspace\F-Safe
-FWK_MAKE=D:\workspace\F-Safe
-FWK_MAKE_LOG=
-FWK_RUN_LAST_CMD=pause
