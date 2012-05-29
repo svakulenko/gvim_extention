@@ -335,6 +335,7 @@ endfunction
 
 autocmd FileType conf,notes call TextEnableCodeSnip(  'c'        , '@begin=c@'      , '@end=c@'         , 'SpecialComment')
 autocmd FileType conf,notes call TextEnableCodeSnip('cpp'        , '@begin=cpp@'    , '@end=cpp@'       , 'SpecialComment')
+autocmd FileType conf,notes call TextEnableCodeSnip('objc'        , '@begin=objc@'  , '@end=objc@'      , 'SpecialComment')
 autocmd FileType conf,notes call TextEnableCodeSnip('scheme'     , '@begin=scheme@' , '@end=scheme@'    , 'SpecialComment')
 autocmd FileType conf,notes call TextEnableCodeSnip('xml'        , '@begin=xml@'    , '@end=xml@'       , 'SpecialComment')
 autocmd FileType conf,notes call TextEnableCodeSnip('python'     , '@begin=py@'     , '@end=py@'        , 'SpecialComment')

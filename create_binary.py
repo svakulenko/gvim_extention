@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import sys
 import re
@@ -5,6 +7,7 @@ import re
 dir_binary   = 'binaries'
 dir_vimfiles = '.vim'
 descr_file   = 'binaries_description.txt'
+linux        = True
 
 debug = False
 
@@ -13,7 +16,10 @@ def deletePackages():
     os.system(s_exe)
 
 def createPackage(p_name, p_files):
-    s_exe = 'zip ' + '..\\' + dir_binary + '/' + p_name + '.zip ' + " ".join(p_files) # " " - separate each list element by space
+    s_exe = 'zip ' + '..' + "\\" + dir_binary + '/' + p_name + '.zip ' + " ".join(p_files) # " " - separate each list element by space
+    if linux:
+        s_exe = s_exe.replace('\\','/')
+    print "exe str: " + s_exe
     #print 'yahoo, you in createPackage!\n'
 
     if debug:

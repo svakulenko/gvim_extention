@@ -13,7 +13,7 @@
 "    - add winx winy position of windows
 "      Attention! vim (win32) on getwinposx|y return always -1 :( . Gvim and
 "      vi works fine.
-"    - Also, i detect that if you run vim with vim file.ext, last opened
+"    - Also, I detect that if you run vim with vim file.ext, last opened
 "      buffer will be loaded last. Need to something do with that
 "      1. for exemple run vim standalone. 
 "      2. create shell script and use it to add opened buffer to exist vim session 
@@ -21,6 +21,8 @@
 "      gvim --remote-tab-silent +tabmove999 $1
 "      ou
 "      gvim --remote-silent $1
+"0.9 - Fix reset of viewport of last window and split views.
+"      Also, I fix restore of last tab.
    
 
 "I recommend use vim tab concept with this plugin.
@@ -371,7 +373,7 @@ func! BufReminderRMX_LoadPersistency()
 
                     let tab_id  = substitute(line,regex_tab_id_values,'\1','')      "tab id
 
-                    "this case if we want to reload view ( tab, win positions ) 
+                    "this case if we want to reload same view ( last tab, last win positions ) 
                     if match( line, 'tab_id:\d\+\s(.*)' ) != -1 && g:BuffReminderRMX_OpenFirstTabByDefault == 0
                         let s:buf_default_view_pos['tabid'] = substitute(line,regex_tab_id_values ,'\3', '' ) "last tab
                         let s:buf_default_view_pos['win'] = substitute(line,regex_tab_id_values ,'\4', '' ) "last win
@@ -465,16 +467,17 @@ func BufReminderRMX_OpenBuffer(buff_info)
 
 endfunc
 
-fun! BufReminderRMX_reloadView()
-
-    "restore last tab view
+fun! BufReminderRMX_reloadLastTabView() 
+    "restore last tab
     exe 'tabnext ' . s:buf_default_view_pos['tabid'] 
 
-    "restore last wnd view
+    "restore last wnd
     exe s:buf_default_view_pos['win'] . 'wincmd w'
 
-    "Decho("win_h" . s:buf_default_view_pos['win_h'])
-    "Decho("win_w" . s:buf_default_view_pos['win_w'])
+    
+endfunc
+
+fun! BufReminderRMX_reloadVimViewPort()
 
     "restore height of prev. vim instance; skip if this values is empty
     if s:buf_default_view_pos['win_h'] != 0
@@ -486,13 +489,15 @@ fun! BufReminderRMX_reloadView()
         let &columns=s:buf_default_view_pos['win_w']
     endif
 
-    "win pos x y;
+
+    "Decho("win_h" . s:buf_default_view_pos['win_h'])
+    "Decho("win_w" . s:buf_default_view_pos['win_w'])
+
+    "win pos x y (start coordinates);
     "Attention!: vim on getwinposx|y return always -1 :( .
     if s:buf_default_view_pos['win_pos_x'] != 9999 && s:buf_default_view_pos['win_pos_y'] != 9999 
         exe 'winpos ' . s:buf_default_view_pos['win_pos_x'] . ' ' . s:buf_default_view_pos['win_pos_y']
     endif
-
-
 endfunc
 
 func! BufReminderRMX_SaveEvent()
@@ -508,13 +513,15 @@ func! BufReminderRMX_LoadEvent()
     if g:BuffReminderRMX_SkipLoadBuffersOnArgc == 0 || (argc() == 0)
         call BufReminderRMX_LoadPersistency()
 
-        call BufReminderRMX_reloadView() "Attention: you must restore view of all window before restore viewport of each buffer
+        call BufReminderRMX_reloadVimViewPort() "Attention: you must restore view of all window before restore viewport of each buffer
 
         call BufReminderRMX_OpenBuffersInList()
 
         call BufReminderRMX_CentrilizeWindow()
 
         call BufRemionderRMX_ClearList()
+
+        call BufReminderRMX_reloadLastTabView()
     endif
 endfunc
 

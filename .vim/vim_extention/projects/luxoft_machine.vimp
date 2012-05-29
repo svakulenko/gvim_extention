@@ -2805,3 +2805,17 @@ netatmo_generic_newlib_z=/home/svakulenko/depots/svn/trunk/generic/newlib_tz CD=
 
 
 
+netatmo_generic_newlib_z=/home/svakulenko/depots/svn/trunk/apps/iOS/weatherstation/weatherstation/Classes/NAAPI CD=. filter="*.*" {
+ NAAPI.m
+ NAOAuth.m
+ NAOAuthDevice.m
+ NAOAuthUser.m
+ TTURLJSONResponse+ErrorProcessing.m
+ TTURLRequest+NtmoAPI.m
+ NAAPI.h
+ NAOAuth.h
+ NAOAuthDevice.h
+ NAOAuthUser.h
+ TTURLJSONResponse+ErrorProcessing.h
+ TTURLRequest+NtmoAPI.h
+}
