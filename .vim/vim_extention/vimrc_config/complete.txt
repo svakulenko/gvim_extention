@@ -1,8 +1,0 @@
-
-ctrl-keys used to complete
-#before complete mode
-<c-x><c-o> -- use omnicomp function to complete
-
-#in complete mode
-<c-n> -- choose first item in list
-<c-l>
