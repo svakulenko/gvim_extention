@@ -1,0 +1,26 @@
+
+Error detected while processing function FWK_BufDo_Log:
+line    6:
+E486: Pattern not found: trace(
+"android/iap_config.h" 
+"android/iap_config.h" 86L, 2631C written
+3 substitutions on 3 lines
+"iap_ll.c" 
+"iap_ll.c" 336L, 8205C written
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(
+32 substitutions on 32 lines
+"android/android_entry.c" 
+"android/android_entry.c" 253L, 6525C written
+20 substitutions on 20 lines
+"android/iap_fileops_android.c" 
+"android/iap_fileops_android.c" 145L, 3772C written
+4 substitutions on 4 lines
+"android/pthread_android_addon.c" 
+"android/pthread_android_addon.c" 31L, 808C written
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(
+E486: Pattern not found: trace(

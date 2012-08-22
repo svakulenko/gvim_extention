@@ -1,0 +1,26 @@
+#c-w remove word from where we to end
+#before:
+firstPart<WeHere>secondPart
+#after cw:
+firstPart
+#after cb:
+secondPart
+
+#find char: normal fw
+#hello w, this is me w
+#repeat ;
+
+
+#SHOW existing mappings
+#map show all maps
+#map!
+#:nmap - Display normal mode maps
+#:imap - Display insert mode maps
+#:vmap - Display visual and select mode maps
+#:smap - Display select mode maps
+#:xmap - Display visual mode maps
+#:cmap - Display command-line mode maps
+#:omap - Display operator pending mode maps
+
+
+#history all - show all history

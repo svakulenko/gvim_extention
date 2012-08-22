@@ -1,0 +1,8046 @@
+tfcSuite=D:\workspace\visual_studio\tfc_traceClientConsumer\tfc_traceClientConsumer\src CD=D:\workspace\visual_studio\tfc_traceClientConsumer\tfc_traceClientConsumer\src filter="*.cs" {
+ Program.cs
+ ScenariosCollector.cs
+ dbg.cs
+ mainController.cs
+ telnetlib_wrapper.cs
+ traceClientConsumer.cs
+ types_t.cs
+ xlsCreator.cs
+ old=old {
+ }
+}
+Eclipse_notify_system=D:\workspace\Eclipse\notify_system CD=. filter="*.java" {
+ notifier=notifier {
+  bin=bin {
+   package_main=package_main {
+   }
+  }
+  src=src {
+   package_main=package_main {
+    GuiWindowsTable.java
+    Main.java
+    NDaemon.java
+    Notifier_t.java
+    NotifyPersinstancy.java
+    NotifyerTrayIcon.java
+    TcpServer.java
+    tcpServerAdapter.java
+    ThreadAlarm.java
+   }
+  }
+ }
+ notifyer_client=notifyer_client {
+  bin=bin {
+   package_tcp_client=package_tcp_client {
+   }
+  }
+  src=src {
+   package_tcp_client=package_tcp_client {
+    NotifyClient.java
+   }
+  }
+ }
+}
+ipWebApp=D:\workspace\IPViewWeb\IPViewWebApps\IPViewD\IPViewD CD=D:\workspace\IPViewWeb\IPViewWebApps\IPViewD\IPViewD filter="*.cs" {
+ Program.cs
+ csensorConcentrator.cs
+ Properties=Properties {
+  AssemblyInfo.cs
+  Settings.Designer.cs
+ }
+ bin=bin {
+  Debug=Debug {
+  }
+ }
+ csensors=csensors {
+  csensorDNS.cs
+  csensorDiskSpace.cs
+  csensorFTP.cs
+  csensorFileExist.cs
+  csensorHTTP.cs
+  csensorMSSQL.cs
+  csensorMYSQL.cs
+  csensorMain.cs
+  csensorNSLookUp.cs
+  csensorOracle.cs
+  csensorPOP3.cs
+  csensorPing.cs
+  csensorPort.cs
+  csensorSMTP.cs
+ }
+ lib=lib {
+ }
+ obj=obj {
+  Debug=Debug {
+   TempPE=TempPE {
+   }
+  }
+ }
+ workers=workers {
+  debugClass.cs
+  workersDataTypes.cs
+  workersMSSQL.cs
+  workersMailSender.cs
+  workersTcpCommandSender.cs
+  workersTcpServerHandler.cs
+ }
+}
+lightSpark=D:\workspace\sources\lightspark-0.4.2.3 CD=. {
+ CMakeLists.txt
+ COPYING
+ COPYING.LESSER
+ ChangeLog
+ Doxyfile
+ README
+ README.tests
+ TODO
+ abc.cpp
+ abc_codesynt.cpp
+ abc_interpreter.cpp
+ abc_opcodes.cpp
+ actions.cpp
+ asobjects.cpp
+ compat.cpp
+ decoder.cpp
+ fastpaths_32.asm
+ fastpaths_64.asm
+ flashdisplay.cpp
+ flashevents.cpp
+ flashexternal.cpp
+ flashgeom.cpp
+ flashmedia.cpp
+ flashnet.cpp
+ flashsystem.cpp
+ flashtext.cpp
+ flashutils.cpp
+ flashxml.cpp
+ flv.cpp
+ frame.cpp
+ geometry.cpp
+ graphics.cpp
+ input.cpp
+ lightspark.expmap
+ lightspark.frag
+ lightspark.vert
+ logger.cpp
+ main.cpp
+ netutils.cpp
+ sound.cpp
+ streams.cpp
+ swf.cpp
+ swftypes.cpp
+ tags.cpp
+ tags_stub.cpp
+ textfile.cpp
+ thread_pool.cpp
+ threading.cpp
+ tightspark.cpp
+ timer.cpp
+ vm.cpp
+ abc.h
+ actions.h
+ asobjects.h
+ class.h
+ compat.h
+ decoder.h
+ exceptions.h
+ fastpaths.h
+ flashdisplay.h
+ flashevents.h
+ flashexternal.h
+ flashgeom.h
+ flashmedia.h
+ flashnet.h
+ flashsystem.h
+ flashtext.h
+ flashutils.h
+ flashxml.h
+ flv.h
+ frame.h
+ geometry.h
+ graphics.h
+ input.h
+ logger.h
+ netutils.h
+ packed_begin.h
+ packed_end.h
+ sound.h
+ streams.h
+ swf.h
+ swftypes.h
+ tags.h
+ textfile.h
+ thread_pool.h
+ threading.h
+ timer.h
+ vm.h
+ conf=conf {
+  CMakeASM-NASMCompiler.cmake
+  CMakeASM-NASMInformation.cmake
+  CMakeDetermineASM-NASMCompiler.cmake
+  CMakeTestASM-NASMCompiler.cmake
+  FindLLVM.cmake
+ }
+ docs=docs {
+  man=man {
+   lightspark.1
+  }
+ }
+ media=media {
+  lightspark-ico.svg
+  lightspark-logo.svg
+ }
+ plugin-dir=plugin-dir {
+  CMakeLists.txt
+  np_entry.cpp
+  npn_gate.cpp
+  npp_gate.cpp
+  plugin.cpp
+  plugin.h
+  include=include {
+   npplat.h
+   npupp.h
+   nsINPRuntimePlugin.h
+   nsplugin.h
+   pluginbase.h
+  }
+ }
+ scripts=scripts {
+  urldecode.sh
+  youtube-args-dumper.sh
+ }
+ tests=tests {
+  error.mxml
+  isTypelateOnClass.mxml
+  template.mxml
+ }
+}
+DJANGO=D:\workspace\django CD=. filter="*.py *.html *.txt" {
+ django_bookmarks=django_bookmarks {
+  __init__.py
+  manage.py
+  settings.py
+  urls.py
+  pwd.txt
+  bookmarks=bookmarks {
+   __init__.py
+   models.py
+   tests.py
+   views.py
+  }
+  site_media=site_media {
+   style.css
+  }
+  templates=templates {
+   base.html
+   main_page.html
+   user_page.html
+   registration=registration {
+    login.html
+   }
+  }
+ }
+ old=old {
+  django_bookmarks=django_bookmarks {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   passwd.txt
+   bookmarks=bookmarks {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+   }
+   templates=templates {
+    bookmarks=bookmarks {
+     main_page.html
+     user_page.html
+    }
+    registration=registration {
+     login.html
+    }
+   }
+  }
+ }
+ very_old_projects=very_old_projects {
+  django_bookmarks=django_bookmarks {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   bookmarks=bookmarks {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+    templates=templates {
+     bookmarks=bookmarks {
+      main_page.html
+      user_page.html
+     }
+     registration=registration {
+      login.html
+     }
+    }
+   }
+  }
+  iFriends=iFriends {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+  }
+  mysite=mysite {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    urls.py
+    views.py
+   }
+  }
+  mysite.tutorial1=mysite.tutorial1 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    models.py
+    tests.py
+    views.py
+   }
+  }
+  mysite.tutorial2=mysite.tutorial2 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    views.py
+   }
+  }
+  mysite.tutorial3=mysite.tutorial3 {
+   __init__.py
+   manage.py
+   settings.py
+   urls.py
+   polls=polls {
+    __init__.py
+    admin.py
+    models.py
+    tests.py
+    urls.py
+    views.py
+   }
+  }
+  templates=templates {
+   admin=admin {
+    base_site.html
+   }
+   polls=polls {
+    detail.html
+    index.html
+    poll_detail.html
+    poll_list.html
+    results.html
+    del=del {
+    }
+   }
+  }
+ }
+ django_bookmarks.bak=django_bookmarks.bak {
+  __init__.py
+  manage.py
+  settings.py
+  urls.py
+  pwd.txt
+  bookmarks=bookmarks {
+   __init__.py
+   models.py
+   tests.py
+   views.py
+  }
+  templates=templates {
+   main_page.html
+   user_page.html
+   registration=registration {
+    login.html
+   }
+  }
+ }
+}
+QT_PRJ_GLANASS=D:\workspace\qt\RND\Glanass CD=. filter="*.ui *.cpp *.hpp *.txt *.c *.h *.pro *.vrun" {
+ log.txt
+ AddressBook=AddressBook {
+  AddressBook.cpp
+  Contact.cpp
+  GuiAddContact.cpp
+  GuiAddressBook.cpp
+  GuiContact.cpp
+  GuiContactsList.cpp
+  GuiEditContact.cpp
+  GuiLineEdit.cpp
+  GuiLogList.cpp
+  GuiLogRecord.cpp
+  GuiLogView.cpp
+  GuiPhone.cpp
+  LogBook.cpp
+  LogRecord.cpp
+  PhoneConnection.cpp
+  ScrollerButton.cpp
+  XmlHandler.cpp
+  AddressBook.h
+  Contact.h
+  GuiAddContact.h
+  GuiAddressBook.h
+  GuiContact.h
+  GuiContactsList.h
+  GuiEditContact.h
+  GuiLineEdit.h
+  GuiLogList.h
+  GuiLogRecord.h
+  GuiLogView.h
+  GuiPhone.h
+  LogBook.h
+  LogRecord.h
+  PhoneConnection.h
+  ScrollerButton.h
+  XmlHandler.h
+ }
+ AppConfiger=AppConfiger {
+  CxAppConfiger.cpp
+  CxAppConfiger.h
+ }
+ AppStore=AppStore {
+  AppStoreItem.cpp
+  AppStoreListView.cpp
+  AppStoreModel.cpp
+  AppStoreItem.h
+  AppStoreListView.h
+  AppStoreModel.h
+ }
+ AudioController=AudioController {
+  CxAudioController.cpp
+  CxAudioController.h
+ }
+ Common=Common {
+  CustomNetworkAccessManager.cpp
+  CustomNetworkAccessManager.h
+ }
+ DataConnection=DataConnection {
+  CxDataConnection.cpp
+  CxDataConnection.h
+ }
+ DataProvider=DataProvider {
+  CxDataCore.cpp
+  CxDataCore.h
+  DataTypes.h
+ }
+ Debug=Debug {
+  CxDebugBase.cpp
+  CxDebugProcessor.cpp
+  CxLocalDbg.cpp
+  ScopeDeclaration.cpp
+  CxDebugBase.h
+  CxDebugProcessor.h
+  CxLocalDbg.h
+  DebugConfig.h
+  DebugMacros.h
+  ScopeDeclaration.h
+ }
+ DebugConnection=DebugConnection {
+  CxDebugServer.cpp
+  CxDebugServer.hpp
+ }
+ GuiHelper=GuiHelper {
+  CxGuiHelper.cpp
+  CxItemTagParcer.cpp
+  CxGuiHelper.h
+  CxItemTagParcer.h
+ }
+ GuiItems=GuiItems {
+  CxGuiBrowser.cpp
+  CxGuiElement.cpp
+  CxGuiMainScene.cpp
+  CxGuiMainView.cpp
+  CxGuiMainViewPort.cpp
+  CxGuiModalViewPort.cpp
+  CxGuiViewPort.cpp
+  CxGui_Blinker.cpp
+  CxGui_ClickableLabel.cpp
+  CxGui_ComboBox.cpp
+  CxGui_EditBox.cpp
+  CxGui_GifPlayer.cpp
+  CxGui_Indicator.cpp
+  CxGui_InfoLine.cpp
+  CxGui_Initiator.cpp
+  CxGui_InteractiveLine.cpp
+  CxGui_Label.cpp
+  CxGui_ListView.cpp
+  CxGui_Segment.cpp
+  CxGui_Weather.cpp
+  CxGuiWebBrowser.hpp
+  CxGuiElement.h
+  CxGuiMainScene.h
+  CxGuiMainView.h
+  CxGuiMainViewPort.h
+  CxGuiModalViewPort.h
+  CxGuiViewPort.h
+  CxGuiWebBrowser.h
+  CxGui_Blinker.h
+  CxGui_ClickableLabel.h
+  CxGui_ComboBox.h
+  CxGui_EditBox.h
+  CxGui_GifPlayer.h
+  CxGui_Indicator.h
+  CxGui_InfoLine.h
+  CxGui_Initiator.h
+  CxGui_InteractiveLine.h
+  CxGui_Label.h
+  CxGui_ListView.h
+  CxGui_Segment.h
+  CxGui_Weather.h
+ }
+ KeyBoard=KeyBoard {
+  QKeyPushButton.cpp
+  VKeyBoardIface.cpp
+  inputWidget.cpp
+  textEditFocused.cpp
+  widgetKeyBoard.cpp
+  QKeyPushButton.h
+  VKeyBoardIface.h
+  inputWidget.h
+  keyboard_dbg_output.h
+  textEditFocused.h
+  widgetKeyBoard.h
+ }
+ Localizator=Localizator {
+  CxProjectLocalizator.cpp
+  CxProjectLocalizator.h
+ }
+ ProjectController=ProjectController {
+  CxProjectController.cpp
+  CxProjectController.h
+ }
+ ProjectPersistency=ProjectPersistency {
+  CxProjectPersistency.cpp
+  CxProjectPersistency.h
+ }
+ Sdb_GrphicInterface=Sdb_GrphicInterface {
+  Sdb_GrphicInterface.cpp
+  Sdb_GrphicInterface.pro
+  config.vrun
+  build_win32=build_win32 {
+   moc=moc {
+    moc_AppStoreListView.cpp
+    moc_AppStoreModel.cpp
+    moc_CommandEMailGUI.cpp
+    moc_CustomNetworkAccessManager.cpp
+    moc_CxAudioController.cpp
+    moc_CxDataConnection.cpp
+    moc_CxDebugServer.cpp
+    moc_CxGuiElement.cpp
+    moc_CxGuiMainScene.cpp
+    moc_CxGuiMainViewPort.cpp
+    moc_CxGuiModalViewPort.cpp
+    moc_CxGuiViewPort.cpp
+    moc_CxGuiWebBrowser.cpp
+    moc_CxGui_ClickableLabel.cpp
+    moc_CxGui_ComboBox.cpp
+    moc_CxGui_EditBox.cpp
+    moc_CxGui_GifPlayer.cpp
+    moc_CxGui_Indicator.cpp
+    moc_CxGui_Initiator.cpp
+    moc_CxGui_ListView.cpp
+    moc_CxGui_Weather.cpp
+    moc_CxProjectController.cpp
+    moc_CxProjectLocalizator.cpp
+    moc_CxProjectPersistency.cpp
+    moc_CxScnViewAppStore.cpp
+    moc_CxScnViewCombi.cpp
+    moc_CxScnViewCommonSettings.cpp
+    moc_CxScnViewConnectivity.cpp
+    moc_CxScnViewCrash.cpp
+    moc_CxScnViewDownloadableApp.cpp
+    moc_CxScnViewEmPhone.cpp
+    moc_CxScnViewEmailClient.cpp
+    moc_CxScnViewInfotainment.cpp
+    moc_CxScnViewInternet.cpp
+    moc_CxScnViewNavi.cpp
+    moc_CxScnViewPhone.cpp
+    moc_CxScnViewPlayer.cpp
+    moc_CxScnViewSettings.cpp
+    moc_CxScnViewSocialNetwork.cpp
+    moc_CxScnViewVehicleSettings.cpp
+    moc_CxScnViewVideo.cpp
+    moc_CxShowController.cpp
+    moc_CxVSDClient.cpp
+    moc_CxViewEmPhoneDataExchange.cpp
+    moc_EmlCfg.cpp
+    moc_EmlControlWidget.cpp
+    moc_EmlMsg.cpp
+    moc_EmlNewMsg.cpp
+    moc_GuiAddContact.cpp
+    moc_GuiAddressBook.cpp
+    moc_GuiContact.cpp
+    moc_GuiEditContact.cpp
+    moc_GuiLogRecord.cpp
+    moc_GuiLogView.cpp
+    moc_GuiPhone.cpp
+    moc_MediaServerButton.cpp
+    moc_PhoneConnection.cpp
+    moc_PlayListFilterSortProxyModel.cpp
+    moc_PlayListGui.cpp
+    moc_PlayListModel.cpp
+    moc_PlayerProgressBar.cpp
+    moc_ProcessorEMailGUI.cpp
+    moc_QKeyPushButton.cpp
+    moc_ScrollerButton.cpp
+    moc_StringListModel.cpp
+    moc_VideoFullScreenControlWidget.cpp
+    moc_inputWidget.cpp
+    moc_widgetKeyBoard.cpp
+   }
+   obj=obj {
+   }
+  }
+  debug=debug {
+   qrc_sdbGUI.cpp
+  }
+  release=release {
+  }
+  resources=resources {
+   email=email {
+   }
+   phone=phone {
+   }
+   tools=tools {
+   }
+   weather=weather {
+   }
+   z2=z2 {
+   }
+   zzz=zzz {
+   }
+  }
+  z=z {
+  }
+ }
+ ShowController=ShowController {
+  CxShowController.cpp
+  CxShowController.h
+ }
+ VSD=VSD {
+  CxVSDClient.cpp
+  CxVSDClient.h
+ }
+ ViewAppStore=ViewAppStore {
+  CxScnViewAppStore.cpp
+  CxScnViewAppStore.h
+ }
+ ViewCombi=ViewCombi {
+  cxviewcombi.ui
+  CxScnViewCombi.cpp
+  CxScnViewCombi.h
+ }
+ ViewConnectivity=ViewConnectivity {
+  CxScnViewConnectivity.cpp
+  CxScnViewConnectivity.h
+ }
+ ViewCrash=ViewCrash {
+  CxScnViewCrash.cpp
+  CxScnViewCrash.h
+ }
+ ViewEmPhone=ViewEmPhone {
+  CxScnViewEmPhone.cpp
+  CxScnViewEmPhoneDataExchange.cpp
+  CxScnViewEmPhone.h
+  CxViewEmPhoneDataExchange.h
+ }
+ ViewEmailClient=ViewEmailClient {
+  CommonGui.cpp
+  CxScnViewEmailClient.cpp
+  EmlControlWidget.cpp
+  EmlMsg.cpp
+  EmlNewMsg.cpp
+  EmlTTS.cpp
+  GuiLineEditE.cpp
+  GuiTextEdit.cpp
+  StringListModel.cpp
+  CommonGui.h
+  CxScnViewEmailClient.h
+  EmlControlWidget.h
+  EmlMsg.h
+  EmlNewMsg.h
+  EmlTTS.h
+  GuiLineEditE.h
+  GuiTextEdit.h
+  StringListModel.h
+  tmsgheadere.h
+  CommandProcessor=CommandProcessor {
+   CommandEmailGUI.cpp
+   ProcessorEmailGUI.cpp
+   CommandEmailGUI.h
+   ProcessorEmailGUI.h
+  }
+  Common=Common {
+   EmailTypes.hpp
+   EmlConf.h
+  }
+ }
+ ViewInfotainment=ViewInfotainment {
+  CxScnViewInfotainment.cpp
+  CxScnViewInfotainment.h
+ }
+ ViewInternet=ViewInternet {
+  CxScnViewInternet.cpp
+  CxScnViewInternet.h
+ }
+ ViewManager=ViewManager {
+  CxViewManager.cpp
+  CxViewManager.h
+ }
+ ViewNavi=ViewNavi {
+  CxScnViewNavi.cpp
+  CxScnViewNavi.h
+ }
+ ViewPhone=ViewPhone {
+  CxScnViewPhone.cpp
+  CxScnViewPhone.h
+ }
+ ViewPlayer=ViewPlayer {
+  CxScnViewPlayer.cpp
+  MediaServerButton.cpp
+  PlayListFilterSortProxyModel.cpp
+  PlayListGui.cpp
+  PlayListItem.cpp
+  PlayListModel.cpp
+  PlayerProgressBar.cpp
+  CxScnViewPlayer.h
+  MediaServerButton.h
+  PlayListFilterSortProxyModel.h
+  PlayListGui.h
+  PlayListItem.h
+  PlayListModel.h
+  PlayerProgressBar.h
+ }
+ ViewSettings=ViewSettings {
+  CxScnViewSettings.cpp
+  CxScnViewSettings.h
+  ViewCommonSettings=ViewCommonSettings {
+   CxScnViewCommonSettings.cpp
+   CxScnViewCommonSettings.h
+  }
+  ViewDownloadableApp=ViewDownloadableApp {
+   CxScnViewDownloadableApp.cpp
+   CxScnViewDownloadableApp.h
+  }
+  ViewEMailSettings=ViewEMailSettings {
+   EmlCfg.cpp
+   EmlCfg.h
+  }
+ }
+ ViewSocialNetwork=ViewSocialNetwork {
+  CxScnViewSocialNetwork.cpp
+  CxScnViewSocialNetwork.h
+ }
+ ViewVehicleSettings=ViewVehicleSettings {
+  CxScnViewVehicleSettings.cpp
+  CxScnViewVehicleSettings.h
+ }
+ ViewVideo=ViewVideo {
+  CxScnViewVideo.cpp
+  VideoFullScreenControlWidget.cpp
+  CxScnViewVideo.h
+  VideoFullScreenControlWidget.h
+ }
+ nvwa=nvwa {
+  bool_array.cpp
+  debug_new.cpp
+  mem_pool_base.cpp
+  static_mem_pool.cpp
+  bool_array.h
+  class_level_lock.h
+  cont_ptr_utils.h
+  debug_new.h
+  fast_mutex.h
+  fixed_mem_pool.h
+  mem_pool_base.h
+  object_level_lock.h
+  pctimer.h
+  set_assign.h
+  static_assert.h
+  static_mem_pool.h
+  doc=doc {
+   html=html {
+   }
+  }
+ }
+}
+qt_tests=D:\workspace\qt\RND\test CD=. filter="*.cpp *.h *.pro *.vrun" {
+ config.vrun
+ 01_HW=01_HW {
+  01_HW.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 02_using_layouts=02_using_layouts {
+  01_HW.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 03_parallax_scroll=03_parallax_scroll {
+ }
+ 04_fsm=04_fsm {
+  04_fsm.pro
+  debug=debug {
+   moc_carreWidget.cpp
+  }
+  release=release {
+  }
+  src=src {
+   VECMainViewFSM.cpp
+   main.cpp
+   VECMainViewFSM.h
+   carreWidget.h
+  }
+ }
+ 05_fsm_example=05_fsm_example {
+  05_fsm_example.pro
+  debug=debug {
+   moc_lightWidget.cpp
+  }
+  release=release {
+  }
+  src=src {
+   TrafficLight.cpp
+   TrafficLightWidget.cpp
+   main.cpp
+   TrafficLight.h
+   TrafficLightWidget.h
+   lightWidget.h
+  }
+ }
+ 08_vk_my=08_vk_my {
+  08_vk_my.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   ECVVirtualKeyboard.cpp
+   main.cpp
+   ECVVirtualKeyboard.h
+  }
+ }
+ 09_adress_book=09_adress_book {
+  09_adress_book.pro
+  config.vrun
+  debug=debug {
+   moc_addressbook.cpp
+  }
+  release=release {
+  }
+  src=src {
+   addressbook.cpp
+   main.cpp
+   addressbook.h
+   tutorials-addressbook-part2_files=tutorials-addressbook-part2_files {
+   }
+  }
+ }
+ 10=10 {
+  10.pro
+  debug=debug {
+   moc_widgetSub.cpp
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+   widgetSub.h
+  }
+ }
+ 11_traslate_hw=11_traslate_hw {
+  src=src {
+   main.cpp
+  }
+ }
+ 12=12 {
+  12.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 13_translate=13_translate {
+  13_translate.pro
+  debug=debug {
+   moc_dynamictranslatorwidget.cpp
+   moc_translatorproxymodel.cpp
+   moc_widget.cpp
+   qrc_flags.cpp
+   z=z {
+   }
+  }
+  release=release {
+  }
+  src=src {
+   dynamictranslatorwidget.cpp
+   main.cpp
+   translatorproxymodel.cpp
+   widget.cpp
+   dynamictranslatorwidget.h
+   translatorproxymodel.h
+   widget.h
+   dynamic-translation.pro
+  }
+ }
+ 14_tr_my=14_tr_my {
+  14_tr_my.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+ 15_focus_order=15_focus_order {
+  config.vrun
+
+  15_focus_order.pro
+  debug=debug {
+  }
+  release=release {
+  }
+  src=src {
+   main.cpp
+  }
+ }
+}
+Ocaml=d:\workspace\ocaml CD=. filter="*.ml *.mli *.ml_gtk *.mll *.mly *.bat *.txt " {
+ Apress_Practical_OCaml=Apress_Practical_OCaml {
+  test.ml
+  binary_files_work.ml
+  calc.ml
+  calc_only_lex.ml
+  Classes.ml
+  Classes2_tutorial.ml
+  Currying.ml
+  DataBase.ml
+  DataBase2.ml
+  Exceptions.ml
+  Files_IO_Channels.ml
+  Hashtables.ml
+  Labels.ml
+  List.ml
+  Map.ml
+  Pattern_Matching.ml
+  Queue.ml
+  Records_And_Types.ml
+  ReferenceBindings.ml
+  Set.ml
+  Stack.ml
+  array.ml
+  compare.ml
+  convert_funcs.ml
+  enum.ml
+  experement.ml
+  first_module.ml
+  first_module_check.ml
+  first_uri.ml
+  first_uri_check.ml
+  first_uri_check_compile.ml
+  Function_4_Recurcive.ml
+  functional_vs_imperative.ml
+  Functions.ml
+  Functions_2.ml
+  Functions_3.ml
+  Functions_signatures.ml
+  functors.ml
+  functors_complete_example.ml
+  functors_curring.ml
+  gui.ml
+  hello_world.ml
+  lexer.ml
+  module.ml
+  module_who_use.ml
+  parser.ml
+  printf_type_def.ml
+  scanf.ml
+  signature.ml
+  sockets.ml
+  string.ml
+  test.ml
+  tree.ml
+  tuple.ml
+  tutorial0.ml
+  types.ml
+  wc.ml
+  convert_funcs.mli
+  first_uri.mli
+  module.mli
+  module_bak.mli
+  parser.mli
+  some.mli
+  Regex.ml_gtk
+  Threads.ml_gtk
+  ThreadsPop3.ml_gtk
+  match_with_vs_if.ml_gtk
+  calc_only_lex.mll
+  lexer.mll
+  wc.mll
+  parser.mly
+  file_name.txt
+  lexer_first_how_to_compl.txt
+  module_how_to_compile.txt
+  webcrawler=webcrawler {
+   crawler.mli
+   crawler.ml_gtk
+  }
+  Spam_filter=Spam_filter {
+   command_line.ml
+   spam.mli
+   spam.mll
+  }
+  config_parser=config_parser {
+   config_lexer.ml
+   config_parser.ml
+   config_parser.mli
+   config_lexer.mll
+   pycfg.mll
+   config_parser.mly
+   pars.mly
+   pycfg.mly
+   comple.bat
+   pycfg.bat
+   config.txt
+   build=build {
+    pycfg_lexer.ml
+    pycfg_parser.ml
+    pycfg_parser.mli
+   }
+  }
+  ocamlyacc_tutorial=ocamlyacc_tutorial {
+   01_rpcalc=01_rpcalc {
+    main.ml
+    rpcalc.mll
+    rpcalc.mly
+    compile.bat
+    rpcalc_build=rpcalc_build {
+     rpcalc_lexer.ml
+     rpcalc_parser.ml
+     rpcalc_parser.mli
+    }
+   }
+   02_calc=02_calc {
+    main.ml
+    calc.mll
+    calc.mly
+    compile.bat
+    calc_build=calc_build {
+     calc_lexer.ml
+     calc_parser.ml
+     calc_parser.mli
+    }
+    itcalc_build=itcalc_build {
+    }
+   }
+   03_itcalc=03_itcalc {
+    main.ml
+    itcalc.mll
+    itcalc.mly
+    compile.bat
+    itcalc_build=itcalc_build {
+     itcalc_lexer.ml
+     itcalc_parser.ml
+     itcalc_parser.mli
+    }
+   }
+   04_mfcalc=04_mfcalc {
+    main.ml
+    mfcalc.mll
+    mfcalc.mly
+    compile.bat
+    output.txt
+    mfcalc_build=mfcalc_build {
+     mfcalc_lexer.ml
+     mfcalc_parser.ml
+     mfcalc_parser.mli
+    }
+   }
+  }
+  syslogComplx=syslogComplx {
+   mll_types.ml
+   syslogComplx.mll
+   syslogComplx.mly
+   compile.bat
+   execution_output.txt
+   mll.txt
+  }
+  syslog_parser=syslog_parser {
+   syslog.mll
+   syslog.mly
+   compile.bat
+   syslog_build=syslog_build {
+    syslog_lexer.ml
+    syslog_parser.ml
+    syslog_parser.mli
+   }
+  }
+ }
+ build=build {
+ }
+ func_impl=func_impl {
+  euclid.ml
+  fact.ml
+  fib.ml
+  func_impl.ml
+  infix_op.ml
+  list_size.ml
+  match.ml
+  multitab.ml
+  power.ml
+  test.ml
+ }
+ hello_world=hello_world {
+  my_code.ml
+  run.bat
+ }
+ itcalc_build=itcalc_build {
+ }
+ lablgtk2=lablgtk2 {
+  lablgtk_examples-2.14.0-win32=lablgtk_examples-2.14.0-win32 {
+   about.ml
+   accel_tree.ml
+   action.ml
+   assistant.ml
+   assistant_tutorial.ml
+   buttons.ml
+   calc.ml
+   calendar.ml
+   cgets.ml
+   clist.ml
+   combo.ml
+   combobox.ml
+   counter.ml
+   cputs.ml
+   csview.ml
+   custom_list_generic.ml
+   custom_tree.ml
+   custom_tree_generic.ml
+   dcalendar.ml
+   drawing.ml
+   druid.ml
+   editor.ml
+   editor2.ml
+   entry.ml
+   entrycompletion.ml
+   eventbox.ml
+   events.ml
+   events2.ml
+   expander.ml
+   fifteen.ml
+   filechooser.ml
+   fixed_editor.ml
+   fixpoint.ml
+   gioredirect.ml
+   giotest.ml
+   hello.ml
+   iconview.ml
+   image.ml
+   kaimono.ml
+   label.ml
+   link_button.ml
+   lissajous.ml
+   nihongo.ml
+   notebook.ml
+   pixview.ml
+   pousse.ml
+   progressbar.ml
+   radiobuttons.ml
+   rpn.ml
+   scrolledwin.ml
+   signal_override.ml
+   slide_show.ml
+   socket.ml
+   spell.ml
+   spin.ml
+   testdnd.ml
+   testgtk.ml
+   timer.ml
+   toolbar.ml
+   tooltip.ml
+   tree.ml
+   tree_model.ml
+   tree_store.ml
+   tron.ml
+   hello.ml_gtk
+   testgtk.ml_gtk
+   canvas=canvas {
+    canvas-arrowhead.ml
+    canvas-curve.ml
+    canvas-features.ml
+    canvas-fifteen.ml
+    canvas-primitives.ml
+    canvas-richtext.ml
+   }
+   glade=glade {
+    glade_demo.ml
+    gladecalc.ml
+    project1.ml
+    project2.ml
+   }
+   rsvg=rsvg {
+    test_rsvg.ml
+   }
+   text=text {
+    test_text.ml
+    text-demo.ml
+    unicode_table.ml
+    unicode_viewer.ml
+   }
+  }
+  my_code=my_code {
+   file.ml_gtk
+   tcmd_tray.ml_gtk
+   testgtk.ml_gtk
+  }
+ }
+ mfcalc_build=mfcalc_build {
+ }
+ rpcalc_build=rpcalc_build {
+ }
+}
+Ocaml_LablGTK2_LIBS="C:\Program Files\Objective Caml\lib\lablgtk2" CD=. filter="*.mli *.ml"{
+ gAction.mli
+ gAssistant.mli
+ gBin.mli
+ gBroken.mli
+ gButton.mli
+ gContainer.mli
+ gData.mli
+ gDraw.mli
+ gEdit.mli
+ gFile.mli
+ gList.mli
+ gMain.mli
+ gMenu.mli
+ gMisc.mli
+ gObj.mli
+ gPack.mli
+ gRange.mli
+ gText.mli
+ gToolbox.mli
+ gTree.mli
+ gUtil.mli
+ gWindow.mli
+ gdk.mli
+ gdkPixbuf.mli
+ glade.mli
+ glib.mli
+ gnoCanvas.mli
+ gobject.mli
+ gpointer.mli
+ gtkSignal.mli
+ gtkThread.mli
+ rsvg.mli
+ build.ml
+ gAction.ml
+ gAssistant.ml
+ gBin.ml
+ gBroken.ml
+ gButton.ml
+ gContainer.ml
+ gData.ml
+ gDraw.ml
+ gEdit.ml
+ gFile.ml
+ gList.ml
+ gMain.ml
+ gMenu.ml
+ gMisc.ml
+ gObj.ml
+ gPack.ml
+ gPango.ml
+ gRange.ml
+ gText.ml
+ gUtil.ml
+ gWindow.ml
+ gaux.ml
+ gdk.ml
+ gdkEnums.ml
+ gdkEvent.ml
+ gdkKeysyms.ml
+ gdkPixbuf.ml
+ glade.ml
+ glib.ml
+ gnoCanvas.ml
+ gnomeCanvas.ml
+ gobject.ml
+ gpointer.ml
+ gtk.ml
+ gtkActionProps.ml
+ gtkAssistant.ml
+ gtkAssistantProps.ml
+ gtkBase.ml
+ gtkBaseProps.ml
+ gtkBin.ml
+ gtkBinProps.ml
+ gtkBrokenProps.ml
+ gtkBroken.ml
+ gtkButton.ml
+ gtkButtonProps.ml
+ gtkData.ml
+ gtkEdit.ml
+ gtkEditProps.ml
+ gtkEnums.ml
+ gtkFile.ml
+ gtkFileProps.ml
+ gtkInit.ml
+ gtkList.ml
+ gtkListProps.ml
+ gtkMain.ml
+ gtkMenu.ml
+ gtkMenuProps.ml
+ gtkMisc.ml
+ gtkMiscProps.ml
+ gtkObject.ml
+ gtkPack.ml
+ gtkPackProps.ml
+ gtkRange.ml
+ gtkRangeProps.ml
+ gtkSignal.ml
+ gtkStock.ml
+ gtkText.ml
+ gtkTextProps.ml
+ gtkThInit.ml
+ gtkThread.ml
+ gtkTree.ml
+ gtkTreeProps.ml
+ gtkWindow.ml
+ gToolbox.ml
+ gTree.ml
+ ogtkActionProps.ml
+ ogtkAssistantProps.ml
+ ogtkBaseProps.ml
+ ogtkBinProps.ml
+ ogtkBrokenProps.ml
+ ogtkButtonProps.ml
+ ogtkEditProps.ml
+ ogtkFileProps.ml
+ ogtkListProps.ml
+ ogtkMenuProps.ml
+ ogtkMiscProps.ml
+ ogtkPackProps.ml
+ ogtkRangeProps.ml
+ ogtkTextProps.ml
+ ogtkTreeProps.ml
+ pango.ml
+ pangoEnums.ml
+ rsvg.ml
+}
+dbus_cpp_bindings=D:\share_knowledge\dbus_files\c++_binding\mainline\examples CD=. {
+ Makefile.am
+ echo=echo {
+  Makefile.am
+  README
+  echo-client.cpp
+  echo-introspect.xml
+  echo-server.cpp
+  echo-client.h
+  echo-server.h
+ }
+ ecore=ecore {
+  Makefile.am
+  dbus_ecore.cpp
+  dbus_ecore.h
+ }
+ glib=glib {
+  Makefile.am
+  dbus-browser.cpp
+  dbus-browser.h
+ }
+ hal=hal {
+  Makefile.am
+  hal-listen.cpp
+  hal-listen.h
+ }
+ properties=properties {
+  Makefile.am
+  propsgs-client.cpp
+  propsgs-introspect.xml
+  propsgs-server.cpp
+  propsgs-client.h
+  propsgs-server.h
+ }
+}
+dbus_client=S:\workspace\CPP\dbus_client CD=. filter="*.*" {
+ dbus_client.cpp
+  compile.bat
+}
+svcIpcExamplesWin32=D:\P4\SARAS\Framework\Development\svcipc\trunk\src\ServiceIpcLibrary\examples CD=. filter="*.cpp *.h" {
+ JsonMediaPlayer=JsonMediaPlayer {
+  JsonMediaPlayer.cpp
+  MediaRequest.cpp
+  MediaRequestHandler.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+ SvcIpcClient=SvcIpcClient {
+  SvcIpcClient.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+ SvcIpcServer=SvcIpcServer {
+  SvcIpcServer.cpp
+  arm=arm {
+   o-le=o-le {
+   }
+   o-le-g=o-le-g {
+   }
+  }
+  x86=x86 {
+   o=o {
+   }
+   o-g=o-g {
+   }
+  }
+ }
+}
+saras_simple_gl_application=D:\workspace\saras_simple_gl_application CD=. {
+ CGraphicsManager.cpp
+ CGraphicsManager.hpp
+ app
+ compile.bat
+ main.cpp
+}
+Eclipse_MyProj=D:\workspace\eclipse_myProjects CD=. filter="*.java" {
+ metaClassTest=metaClassTest {
+  bin=bin {
+   com=com {
+    metaclass=metaclass {
+     example=example {
+     }
+    }
+   }
+  }
+  src=src {
+   com=com {
+    metaclass=metaclass {
+     example=example {
+      MetaClassExample.java
+      TestClass.java
+      TestClass2.java
+      TestClass3InheritTestClass.java
+     }
+    }
+   }
+  }
+ }
+ notifier=notifier {
+  bin=bin {
+   package_main=package_main {
+   }
+  }
+  src=src {
+   package_main=package_main {
+    Main.java
+    NDaemon.java
+    Notifier_t.java
+    NotifyPersinstancy.java
+    NotifyerTrayIcon.java
+    TcpServer.java
+    ThreadAlarm.java
+   }
+  }
+ }
+ notifyer_client=notifyer_client {
+  bin=bin {
+   package_tcp_client=package_tcp_client {
+   }
+  }
+  src=src {
+   package_tcp_client=package_tcp_client {
+    NotifyClient.java
+   }
+  }
+ }
+}
+my_osgi=D:\workspace\eclipse_osgi\my_osgi CD=. filter="*.java" {
+ Bundles_Repo=Bundles_Repo {
+  Bundles=Bundles {
+   Bundle1=Bundle1 {
+   }
+  }
+  IBundles=IBundles {
+   Bundle1=Bundle1 {
+   }
+  }
+ }
+ del=del {
+  ManifestTest=ManifestTest {
+   bin=bin {
+    com=com {
+     example=example {
+      manif=manif {
+       test=test {
+       }
+      }
+     }
+    }
+   }
+   export_jar=export_jar {
+   }
+   src=src {
+    com=com {
+     example=example {
+      manif=manif {
+       test=test {
+        Main.java
+        ManifSecondClass.java
+       }
+      }
+     }
+    }
+   }
+  }
+  TestInterface=TestInterface {
+   bin=bin {
+    test=test {
+     interf=interf {
+      checkout=checkout {
+      }
+     }
+    }
+   }
+   src=src {
+    test=test {
+     interf=interf {
+      checkout=checkout {
+       ImplemClass.java
+       InterfClass.java
+       THirdClass.java
+       TestMain.java
+      }
+     }
+    }
+   }
+  }
+  TestReferencesPointers=TestReferencesPointers {
+   bin=bin {
+    test=test {
+     example=example {
+      ref=ref {
+      }
+     }
+    }
+   }
+   src=src {
+    test=test {
+     example=example {
+      ref=ref {
+       Class1.java
+       Main.java
+      }
+     }
+    }
+   }
+  }
+  osgi_client=osgi_client {
+   bin=bin {
+    emulation=emulation {
+     osgi=osgi {
+      framework=framework {
+       bundle1=bundle1 {
+       }
+      }
+      runner=runner {
+      }
+     }
+    }
+   }
+   src=src {
+    emulation=emulation {
+     osgi=osgi {
+      runner=runner {
+       OsgiClient1.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_bundle1=osgi_bundle1 {
+  bin=bin {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       interf=interf {
+       }
+      }
+     }
+    }
+   }
+  }
+  interface=interface {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       interf=interf {
+        IBundle1.java
+       }
+      }
+     }
+    }
+   }
+  }
+  manifest=manifest {
+  }
+  src=src {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      bundle1=bundle1 {
+       Activator.java
+       Bundle1.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_client2=osgi_client2 {
+  bin=bin {
+   osgi=osgi {
+    test=test {
+     pack=pack {
+      example=example {
+      }
+     }
+    }
+   }
+  }
+  src=src {
+   osgi=osgi {
+    test=test {
+     pack=pack {
+      example=example {
+       OsgiClient2.java
+       mainClass.java
+      }
+     }
+    }
+   }
+  }
+ }
+ osgi_ipc=osgi_ipc {
+  bin=bin {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      ipc=ipc {
+      }
+     }
+    }
+   }
+  }
+  src=src {
+   emulation=emulation {
+    osgi=osgi {
+     framework=framework {
+      ipc=ipc {
+       BundleActivator.java
+       BundleListener.java
+       BundleNotifier.java
+       DBG.java
+       Types.java
+       osgiCoeurThread.java
+      }
+     }
+    }
+   }
+  }
+ }
+}
+MPI=D:\workspace\mpi CD=. filter="*.c *.h" {
+ tp2=tp2 {
+  archive=archive {
+   mandelbrot=mandelbrot {
+    mandel.c
+    rasterfile.h
+   }
+   mandelbrot_paralel=mandelbrot_paralel {
+    mandel.c
+    mpi_test.c
+    rasterfile.h
+   }
+  }
+  hoa_solution=hoa_solution {
+   tp3.c
+  }
+ }
+ tutorial=tutorial {
+  01_simple=01_simple {
+   main.c
+  }
+  02_blocking_messages=02_blocking_messages {
+   main.c
+  }
+ }
+}
+car_prj=D:\workspace\eclipse_emf\carprojet_webformer CD=. filter="*" {
+ build.properties
+ plugin.properties
+ plugin.xml
+ META-INF=META-INF {
+  MANIFEST.MF
+ }
+ generator=generator {
+  website=website {
+   SimpleToHTML.java
+  }
+ }
+ modeles=modeles {
+  MainClassWebFormer.xmi
+  webformer.ecore
+  webformer.ecorediag
+  webFormer.genmodel
+ }
+ src=src {
+  generator=generator {
+   website=website {
+    C_handler_action.java
+    C_handler_validator.java
+    C_page_jsp.java
+    C_page_jsp_Index.java
+    C_property.java
+    C_struts_config_xml.java
+    C_web_xml.java
+    Custom_exemple_template_struts_config_xml.java
+    Custom_template_exemple_page_jsp.java
+    Template_classpath.java
+    Template_meta_inf_Manifest_mf.java
+    Template_project.java
+    Template_settings_jsdtscope.java
+    Template_settings_org_eclipse_jdt_core_prefs.java
+    Template_settings_org_eclipse_wst_common_component.java
+    Template_settings_org_eclipse_wst_common_project_facet_core_xml.java
+    Template_settings_org_eclipse_wst_jsdt_ui_superType_container.java
+    Template_settings_org_eclipse_wst_jsdt_ui_superType_name.java
+   }
+  }
+  manual=manual {
+   FileGenerator.java
+   FileMgr.java
+   Generator.java
+   Main.java
+   MyUtils.java
+   WebFormerCtrl.java
+   enumValues.java
+  }
+  webformer=webformer {
+   AServlet.java
+   AValidation.java
+   HtmlTWLabel.java
+   Label.java
+   MainClassWebFormer.java
+   PageController.java
+   PageView.java
+   WebformerFactory.java
+   WebformerPackage.java
+   actionHandler.java
+   eEncoding_t.java
+   eHtmlWLabel_t.java
+   eHtml_Tag_t.java
+   eInputField_t.java
+   htmlT.java
+   inputfield.java
+   inputForm.java
+   link.java
+   metaElement.java
+   pageElement.java
+   impl=impl {
+    AServletImpl.java
+    AValidationImpl.java
+    HtmlTWLabelImpl.java
+    LabelImpl.java
+    MainClassWebFormerImpl.java
+    PageControllerImpl.java
+    PageViewImpl.java
+    WebformerFactoryImpl.java
+    WebformerPackageImpl.java
+    actionHandlerImpl.java
+    htmlTImpl.java
+    inputfieldImpl.java
+    inputFormImpl.java
+    linkImpl.java
+    metaElementImpl.java
+    pageElementImpl.java
+   }
+   util=util {
+    WebformerAdapterFactory.java
+    WebformerSwitch.java
+   }
+  }
+ }
+ templates=templates {
+  custom=custom {
+   C_handler_action.txtjet
+   C_handler_validator.txtjet
+   C_page_jsp.txtjet
+   C_page_jsp_Index.txtjet
+   C_property.txtjet
+   C_struts_config_xml.txtjet
+   C_web_xml.txtjet
+   i_jsp_header.txt
+  }
+  exemples=exemples {
+   exemple.txt
+   template_example_struts_config_xml.txtjet
+   template_exemple_page_jsp.txtjet
+  }
+  generique=generique {
+   template_classpath.txtjet
+   template_meta_inf_Manifest_mf.txtjet
+   template_project.txtjet
+   template_settings_jsdtscope.txtjet
+   template_settings_org_eclipse_jdt_core_prefs.txtjet
+   template_settings_org_eclipse_wst_common_component.txtjet
+   template_settings_org_eclipse_wst_common_project_facet_core_xml.txtjet
+   template_settings_org_eclipse_wst_jsdt_ui_superType_container.txtjet
+   template_settings_org_eclipse_wst_jsdt_ui_superType_name.txtjet
+  }
+ }
+}
+tutStruts=D:\workspace\eclipse_struts\TutorialStruts CD=. filter="*" {
+ WebContent=WebContent {
+  META-INF=META-INF {
+   MANIFEST.MF
+  }
+  WEB-INF=WEB-INF {
+   struts-config.xml
+   web.xml
+   lib=lib {
+    Nouveau document texte.txt
+    antlr-2.7.2.jar
+    bsf-2.3.0.jar
+    commons-beanutils-1.8.0.jar
+    commons-chain-1.2.jar
+    commons-collections-3.2.1-javadoc.jar
+    commons-collections-3.2.1-sources.jar
+    commons-collections-3.2.1.jar
+    commons-collections-testframework-3.2.1.jar
+    commons-digester-1.8.jar
+    commons-fileupload-1.1.1.jar
+    commons-io-1.1.jar
+    commons-logging-1.0.4.jar
+    commons-validator-1.3.1.jar
+    jstl-1.0.2.jar
+    mysql-connector-java-5.1.14-bin.jar
+    oro-2.0.8.jar
+    standard-1.0.6.jar
+    struts-core-1.3.10.jar
+    struts-el-1.3.10.jar
+    struts-extras-1.3.10.jar
+    struts-faces-1.3.10.jar
+    struts-mailreader-dao-1.3.10.jar
+    struts-scripting-1.3.10.jar
+    struts-taglib-1.3.10.jar
+    struts-tiles-1.3.10.jar
+   }
+  }
+  pages=pages {
+   contactCreation.jsp
+   error.jsp
+   main.jsp
+   success.jsp
+   etape1=etape1 {
+    main.jsp
+   }
+  }
+ }
+ build=build {
+  classes=classes {
+   Resources.properties
+   Resources_fr.properties
+   Resources_fr_FR.properties
+   org=org {
+    lip6=lip6 {
+     struts=struts {
+      actionForm=actionForm {
+       AddContactValidationForm.class
+      }
+      domain=domain {
+       Contact.class
+       DAOContact.class
+       DTOListContact.class
+      }
+      servletAction=servletAction {
+       AddContactAction.class
+      }
+     }
+    }
+   }
+  }
+ }
+ eclipse_tep2=eclipse_tep2 {
+  example_gen_without_modification_of_attributes=example_gen_without_modification_of_attributes {
+   src=src {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.java
+      Et.java
+      Example.java
+      Formule.java
+      FormuleImpl.java
+      Non.java
+      OpBin.java
+      Ou.java
+      Question1.java
+      Var.java
+      Visiteur.java
+      VisiteurTS.java
+     }
+    }
+   }
+  }
+  tep_example_gen=tep_example_gen {
+   bin=bin {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.class
+      Et.class
+      Exemple.class
+      Formule.class
+      Non.class
+      OpBin.class
+      Ou.class
+      Question1.class
+      Var.class
+      Visiteur.class
+      executor.class
+      willBeVisited.class
+     }
+    }
+   }
+   src=src {
+    pobj=pobj {
+     partiel2010nov=partiel2010nov {
+      Constante.java
+      Et.java
+      Example.java
+      Formule.java
+      Non.java
+      OpBin.java
+      Ou.java
+      Question1.java
+      Var.java
+      Visiteur.java
+      executor.java
+      willBeVisited.java
+     }
+    }
+   }
+  }
+  test=test {
+   bin=bin {
+    Test.class
+   }
+   src=src {
+    Test.java
+   }
+  }
+ }
+ src=src {
+  Resources.properties
+  Resources_fr.properties
+  Resources_fr_FR.properties
+  org=org {
+   lip6=lip6 {
+    struts=struts {
+     actionForm=actionForm {
+      AddContactValidationForm.java
+     }
+     domain=domain {
+      Contact.java
+      DAOContact.java
+      DTOListContact.java
+     }
+     servletAction=servletAction {
+      AddContactAction.java
+     }
+    }
+   }
+  }
+ }
+}
+mdoc_prj=D:\workspace\eclipse_mdoc_ee2\tp2_hibernete CD=. filter="*.jsp *.java *.xml" {
+ WebContent=WebContent {
+  accueil.jsp
+  addContact.jsp
+  loginError.jsp
+  loginSuccess.jsp
+  removeContact.jsp
+  searchContact.jsp
+  showAllContacts.jsp
+  updateContact.jsp
+  META-INF=META-INF {
+  }
+  WEB-INF=WEB-INF {
+   web.xml
+   lib=lib {
+   }
+  }
+  commonPages=commonPages {
+   checkInput.jsp
+   dbdataOutput.jsp
+   errorLine.jsp
+   header.jsp
+  }
+  entreprise_pages=entreprise_pages {
+  }
+ }
+ build=build {
+  classes=classes {
+   hibernate.cfg.xml
+   dbHandlers=dbHandlers {
+   }
+   mycommonFonctional=mycommonFonctional {
+   }
+   mydomain=mydomain {
+    address.hbm.xml
+    contact.hbm.xml
+    contactgroup.hbm.xml
+    phonenumber.hbm.xml
+   }
+   servlet=servlet {
+   }
+  }
+ }
+ src=src {
+  hibernate.cfg.xml
+  dbHandlers=dbHandlers {
+   DAOContact.java
+   dbController.java
+  }
+  mycommonFonctional=mycommonFonctional {
+   Types.java
+   errorMessGenerator.java
+   serverUtils.java
+  }
+  mydomain=mydomain {
+   Address.java
+   Contact.java
+   ContactGroup.java
+   Entreprise.java
+   PhoneNumber.java
+   address.hbm.xml
+   contact.hbm.xml
+   contactgroup.hbm.xml
+   phonenumber.hbm.xml
+  }
+  servlet=servlet {
+   Login.java
+   SContactAddContact.java
+   SContactClearTable.java
+   SContactRemoveContact.java
+   SContactSearchContact.java
+   SContactShowAll.java
+  }
+ }
+}
+FSAFE=D:\workspace\F-Safe CD=. filter="*" {
+ Makefile
+ README
+ fsafe
+ fsafe.ml
+ fswin.exe
+ handler.ml
+ interpret.ml
+ lexer.mll
+ main.ml
+ misc.ml
+ parser.mly
+ termination.ml
+ typechecker.ml
+ _buildWin32=_buildWin32 {
+  _digests
+  _log
+  fsafe.cmi
+  fsafe.cmo
+  fsafe.cmx
+  fsafe.ml
+  fsafe.ml.depends
+  handler.cmi
+  handler.cmo
+  handler.cmx
+  handler.ml
+  handler.ml.depends
+  interpret.cmi
+  interpret.cmo
+  interpret.cmx
+  interpret.ml
+  interpret.ml.depends
+  lexer.cmi
+  lexer.cmo
+  lexer.cmx
+  lexer.ml
+  lexer.ml.depends
+  lexer.mll
+  main.cmi
+  main.cmo
+  main.cmx
+  main.ml
+  main.ml.depends
+  main.native
+  misc.cmi
+  misc.cmo
+  misc.cmx
+  misc.ml
+  misc.ml.depends
+  ocamlc.where
+  parser.cmi
+  parser.cmx
+  parser.ml
+  parser.ml.depends
+  parser.mli
+  parser.mli.depends
+  parser.mly
+  termination.cmi
+  termination.cmo
+  termination.cmx
+  termination.ml
+  termination.ml.depends
+  typechecker.cmi
+  typechecker.cmo
+  typechecker.cmx
+  typechecker.ml
+  typechecker.ml.depends
+  fsafe.obj
+  handler.obj
+  interpret.obj
+  lexer.obj
+  main.obj
+  misc.obj
+  parser.obj
+  termination.obj
+  typechecker.obj
+ }
+ lib=lib {
+ }
+ test=test {
+  typetest.sh
+  good=good {
+   generate.sh
+   test_type_decl.fsf
+   typetest01.fsf
+   typetest02.fsf
+   typetest03.fsf
+   typetest04.fsf
+   typetest05.fsf
+   typetest06.fsf
+   typetest07.fsf
+   typetest08.fsf
+   typetest09.fsf
+   typetest10.fsf
+   typetest11.fsf
+   typetest12.fsf
+   typetest13.fsf
+   typetest14.fsf
+   typetest15.fsf
+   typetest16.fsf
+  }
+ }
+}
+Hop=/workspace/hop_examples CD=. filter="*" {
+ 1.hop
+ 2.hop
+ 2_on_server.hop
+ 3.hop
+ 4.hop
+ 5.hop
+ 6.hop
+ hello.png
+ tuto1=tuto1 {
+  tuto_01.hop
+  tuto_02.hop
+  tuto_03.hop
+  tuto_04.hop
+  with_hop_example.hop
+ }
+ tuto2_ajax=tuto2_ajax {
+  tuto_02.hop
+ }
+}
+UE_test=D:\etudes\matiers\test\cours_06\module CD=. filter="*" {
+ compile.bat
+ config.vrun
+ run.bat
+ wrapControl.cmo
+}
+py=D:\workspace\eclipse_cpp2\ptest CD=. filter="*.py" {
+ PyParsing=PyParsing {
+  Calcul1.py
+  hello_world.py
+  antlr=antlr {
+   Eval.py
+   ExprLexer.py
+   ExprParser.py
+   Test.py
+  }
+  antlr3-python-example=antlr3-python-example {
+   Eval.py
+   ExprLexer.py
+   ExprParser.py
+   Test.py
+   antlr3=antlr3 {
+    __init__.py
+    compat.py
+    constants.py
+    dfa.py
+    exceptions.py
+    recognizers.py
+    streams.py
+    tokens.py
+    tree.py
+   }
+  }
+ }
+ src=src {
+ }
+ stl_ue_test=stl_ue_test {
+  __init__.py
+  01=01 {
+   ext_tester.py
+   test_bin_dec.py
+   ue_test.py
+   ue_test_unitTest.py
+   specs=specs {
+   }
+  }
+  STL_APR_SVakulenko_test=STL_APR_SVakulenko_test {
+   ext_tester.py
+   ue_test.py
+   specs=specs {
+   }
+  }
+ }
+ test=test {
+  MysqlTest.py
+  __init__.py
+  amazon_abdr.py
+  amazon_simpledb_test.py
+  bad_code.py
+  classes.py
+  excelw.py
+  func_test.py
+  functionnelle.py
+  getTotalTime.py
+  ifelseOperations.py
+  input_test.py
+  multiply_matrix.py
+  pabdr.py
+  pabdr2.py
+  pabdrN.py
+  pplut.py
+  sendmail.py
+  ssh_kill_process_remote.py
+  test.py
+  typage.py
+ }
+}
+scheme=D:\workspace\scheme CD=. filter="*.scm" {
+ serrano_exercices=serrano_exercices {
+  cours1_exercices.scm
+  cours2_exercices.scm
+  presentation.scm
+  test.scm
+  test2.scm
+  test3.scm
+  testc.scm
+ }
+ tests=tests {
+  2cours.scm
+  call_cc.scm
+  cons_car_cdr_list.scm
+  convert_funcs.scm
+  define_let_set.scm
+  define_macro.scm
+  exception.scm
+  foreach.scm
+  hex.scm
+  if_else_cond_case.scm
+  lambda.scm
+  length.scm
+  let_letEtoile.scm
+  loop.scm
+  modules.scm
+  pair.scm
+  predicats.scm
+  recursive.scm
+  redifinition.scm
+  strings.scm
+  test3.scm
+  testc.scm
+  tests.scm
+ }
+ tests_js=tests_js {
+ }
+}
+
+
+weath_station_jni_mk=/home/svakulenko/depots/svn/trunk/apps/Android/jni_mk CD=. filter="*.xml *.java *.cpp *.h *.c *.hpp *.mk" {
+ jdblib=jdblib {
+  Android.mk
+ }
+ jiap=jiap {
+  iap_config.h
+  iap_fileops_android.c
+  Android.mk
+ }
+ jnetcom=jnetcom {
+  dblib_port.c
+  netcom_fileops.c
+  Android.mk
+ }
+ jnewlib_tz=jnewlib_tz {
+  Android.mk
+ }
+ tcalljava=tcalljava {
+  test_call_java.h
+  test_call_java.c
+  Android.mk
+ }
+ tmodule=tmodule {
+  math_android.h
+  math_android.c
+  Android.mk
+ }
+}
+
+weath_station=/home/svakulenko/depots/svn/trunk/apps/Android/eclipse/workspace/WeatherStationClient CD=. filter="*.py *.xml *.java *.cpp *.h *.c *.hpp *.mk" {
+ c2dm_test.py
+ compile_jni.py
+ rmeta.py
+ test.py
+ AndroidManifest.xml
+ build.xml
+ lint.xml
+ assets=assets {
+  fonts=fonts {
+  }
+ }
+ back=back {
+ }
+ bin=bin {
+  AndroidManifest.xml
+  classes=classes {
+   com=com {
+    actionbarsherlock=actionbarsherlock {
+    }
+    netatmo=netatmo {
+     controllers=controllers {
+     }
+     dialogs=dialogs {
+     }
+     error_codes=error_codes {
+      ec=ec {
+      }
+     }
+     filemgr=filemgr {
+     }
+     generic=generic {
+      framework=framework {
+      }
+      utils=utils {
+      }
+      views=views {
+      }
+     }
+     global=global {
+     }
+     interfaces=interfaces {
+     }
+     manual=manual {
+      gen=gen {
+      }
+     }
+     models=models {
+     }
+     naapi=naapi {
+      oauth=oauth {
+      }
+     }
+     netcom=netcom {
+     }
+     receivers=receivers {
+     }
+     services=services {
+     }
+     tasks=tasks {
+     }
+     types=types {
+     }
+     utils=utils {
+     }
+     ws=ws {
+      main=main {
+       WSInstaller=WSInstaller {
+        views=views {
+        }
+       }
+       WeatherStationClient=WeatherStationClient {
+        views=views {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  res=res {
+  }
+ }
+ doc=doc {
+ }
+ gen=gen {
+  com=com {
+   actionbarsherlock=actionbarsherlock {
+    Manifest.java
+    R.java
+   }
+   netatmo=netatmo {
+    ws=ws {
+     main=main {
+      BuildConfig.java
+      Manifest.java
+      R.java
+     }
+    }
+   }
+  }
+ }
+ jni=jni {
+  bridge_storage.h
+  com_netatmo_netcom_NetcomBridge.h
+  jni_config.h
+  netcom_sequences_states.h
+  bridge_storage.c
+  com_netatmo_netcom_NetcomBridge.c
+  netcom_sequences_states.c
+  Android.mk
+  sequences=sequences {
+   sequences.h
+   seq_netw_check.c
+   seq_netw_release.c
+   seq_opensession.c
+   seq_ping.c
+   seq_set_dhcp.c
+   seq_set_state_info.c
+   seq_set_static.c
+   seq_updatefirmw.c
+   seq_wifi_get.c
+   seq_wifi_join.c
+   seq_wifi_prob.c
+  }
+  utils=utils {
+   android_utils_dbg.h
+   c_parameters.h
+   collections.h
+   error_codes_t.h
+   jni_parameters.h
+   android_utils_dbg.c
+   c_parameters.c
+   collections.c
+   error_codes_t.c
+   jni_parameters.c
+  }
+ }
+ libs=libs {
+  armeabi=armeabi {
+  }
+ }
+ obj=obj {
+  local=local {
+   armeabi=armeabi {
+    objs=objs {
+     jdblib=jdblib {
+      __=__ {
+      }
+     }
+     jiap2=jiap2 {
+      __=__ {
+       __=__ {
+        __=__ {
+         __=__ {
+          generic=generic {
+           iap=iap {
+            android=android {
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+     jnetcom=jnetcom {
+      __=__ {
+      }
+     }
+     jnewlib_tz=jnewlib_tz {
+      __=__ {
+      }
+     }
+     jnibridge=jnibridge {
+      sequences=sequences {
+      }
+      utils=utils {
+      }
+     }
+    }
+   }
+  }
+ }
+ res=res {
+  anim=anim {
+   fadein.xml
+   fadeout.xml
+   push_left_in.xml
+   push_left_out.xml
+   push_right_in.xml
+   push_right_out.xml
+  }
+  animator=animator {
+   property_animator.xml
+  }
+  drawable=drawable {
+  }
+  drawable-hdpi=drawable-hdpi {
+  }
+  drawable-ldpi=drawable-ldpi {
+  }
+  drawable-mdpi=drawable-mdpi {
+  }
+  drawable-xhdpi=drawable-xhdpi {
+   xml_draw_ws_apply_indoor_background.xml
+   xml_installator_main_proc_succ.xml
+   xml_installator_main_view_connected.xml
+   xml_installator_main_view_conntected_flesh_anim.xml
+   xml_installator_main_view_please_plug.xml
+   xml_menu_table_row_style.xml
+   xml_status_textview_background.xml
+   xml_ws_apply_dashboard_view_indoor_layout_progbar_confort_accoustic.xml
+   xml_ws_apply_dashboard_view_progbar_qualite_air.xml
+   xml_ws_apply_layer_b_sub_titre.xml
+   xml_ws_apply_layer_b_titre_left_normal.xml
+   xml_ws_apply_layer_b_titre_right_normal.xml
+   xml_ws_apply_layer_dashboard_forecast_item_background_grey.xml
+   xml_ws_apply_layer_dashboard_forecast_item_background_light.xml
+   xml_ws_apply_layer_outdoor_background.xml
+   xml_ws_apply_layer_spinner_titre_center_normal.xml
+   xml_ws_apply_rectancle_shape_allonge.xml
+   xml_ws_apply_rectancle_shape_allonge_sombre.xml
+   xml_ws_apply_rectancle_shape_dashboard_table.xml
+   xml_ws_apply_rectancle_shape_default.xml
+   xml_ws_apply_rectancle_shape_default_sombre.xml
+   xml_ws_apply_selector_b_allonge.xml
+   xml_ws_apply_selector_b_default.xml
+   xml_ws_apply_selector_events_b_share.xml
+   xml_ws_global_shape_title_bar_drawstyle.xml
+  }
+  layout=layout {
+   entry_view_create_account.xml
+   entry_view_discovertit.xml
+   entry_view_loading.xml
+   entry_view_login.xml
+   entry_view_main.xml
+   entry_view_password.xml
+   inst_view_main.xml
+   inst_view_main_root.xml
+   inst_view_processing.xml
+   inst_view_processing2_succ.xml
+   inst_view_static_ip.xml
+   inst_view_station_cfg.xml
+   inst_view_wifi_list.xml
+   inst_view_wifi_list_item.xml
+   inst_view_wifi_list_pwd.xml
+   ws_apply_dashboard_forecast_item.xml
+   ws_apply_dashboard_title_spinner_item.xml
+   ws_apply_root_layout.xml
+   ws_apply_view_change_user.xml
+   ws_apply_view_dashboard.xml
+   ws_apply_view_dashboard_indoor.xml
+   ws_apply_view_dashboard_indoor_layout.xml
+   ws_apply_view_events.xml
+   ws_apply_view_events_item.xml
+   ws_apply_view_graph.xml
+   ws_apply_view_settings_web.xml
+  }
+  layout-normal-1280x720=layout-normal-1280x720 {
+  }
+  menu=menu {
+   context_menu.xml
+   entry_point_ctxmenu.xml
+   ws_apply_view_actionbar_menu.xml
+   ws_client_ctxmenu.xml
+  }
+  raw=raw {
+  }
+  values=values {
+   arrays.xml
+   color.xml
+   ctx_menus.xml
+   message_lang.xml
+   message_lang_from_ios.xml
+   strings.xml
+   styles.xml
+  }
+  values-de=values-de {
+   message_lang.xml
+  }
+  values-es=values-es {
+   message_lang.xml
+  }
+  values-fr=values-fr {
+   message_lang.xml
+  }
+  xml=xml {
+   accessory_filter.xml
+  }
+ }
+ src=src {
+  com=com {
+   netatmo=netatmo {
+    controllers=controllers {
+     DialogCtrl.java
+     FontCtrl.java
+     IntentDelegate.java
+     LogicCtrl.java
+     usbWorker.java
+    }
+    dialogs=dialogs {
+     DialogBase.java
+     DialogConfirmation.java
+     DialogYesNo.java
+    }
+    error_codes=error_codes {
+     ec=ec {
+      eFileMgr_t.java
+      eNBridge.java
+      eNetcom_t.java
+      eOAuth.java
+      errorCode_usbDevice_t.java
+     }
+    }
+    filemgr=filemgr {
+     FileMgr.java
+    }
+    generic=generic {
+     framework=framework {
+      HorizontalScrollViewItemCentring.java
+      ProgressBarWithText.java
+      SeekBarQualityAir.java
+      TextView_HelveticaNeueLTStdBlk.java
+      TextView_HelveticaNeueLTStdLt.java
+      TextView_HelveticaNeueLTStdRoman.java
+      TextView_HelveticaNeueLTStdTh.java
+      TextView_HelveticaNeueLTStdUltLt.java
+     }
+     utils=utils {
+      MesureUnit.java
+      Utils.java
+      UtilsAnimation.java
+      UtilsDraw.java
+      UtilsJSON.java
+      UtilsLocale.java
+      UtilsRegexPatterns.java
+     }
+     views=views {
+      GenericSingleView.java
+      GenericViewCtrl.java
+     }
+    }
+    global=global {
+     GlobalVars.java
+     Storage.java
+    }
+    interfaces=interfaces {
+     AlertListener.java
+     DownloadServiceCallback.java
+     GenericListener.java
+     IAPListener.java
+     INetAtmoReceiver.java
+     MainActivityListener.java
+     NAOQueueListener.java
+     UsbAccessoryListener.java
+     WebServiceListener.java
+     WebServiceMsgListener.java
+    }
+    manual=manual {
+     gen=gen {
+      AppliCommonPrivate.java
+      AppliCommonPublic.java
+      GenSQ.java
+     }
+    }
+    models=models {
+     FutureMesure.java
+     NotificationEventsModel.java
+    }
+    naapi=naapi {
+     oauth=oauth {
+      NAOAuth.java
+      NAOAuthDevice.java
+      NAOAuthUser.java
+      NAOMsg.java
+      NAOQueue.java
+      WebServiceCtrl.java
+     }
+    }
+    netcom=netcom {
+     NetComReceiveDelegate.java
+     NetcomBridge.java
+    }
+    receivers=receivers {
+     NetAtmoReceiver.java
+    }
+    services=services {
+     DownloadService.java
+     LocationCtrl.java
+     MyService.java
+    }
+    tasks=tasks {
+     AsynkTaskWithTimer.java
+     DevConnBar.java
+     GenericProgressBar.java
+     ProgressBarBase.java
+    }
+    types=types {
+     Pair.java
+    }
+    utils=utils {
+     CO2View.java
+     ForecastImagePathDecoder.java
+     UtilsNAAPIJSON.java
+    }
+    ws=ws {
+     main=main {
+      EntryPointActivity.java
+      GCMIntentService.java
+      RouterActivity.java
+      WSApplication.java
+      WSInstallatorActivity.java
+      WeatherStationClientActivity.java
+      WSInstaller=WSInstaller {
+       InstViewCtrl.java
+       InstallerSingleView.java
+       views=views {
+        ViewEnter.java
+        ViewProc.java
+        ViewProcSucc.java
+        ViewStationCfg.java
+        ViewWifiList.java
+        ViewWifiPwd.java
+       }
+      }
+      WeatherStationClient=WeatherStationClient {
+       WSClientSingleView.java
+       WSClientViewCtrl.java
+       views=views {
+        ViewChangeUser.java
+        ViewDashBoard.java
+        ViewEvents.java
+        ViewGraph.java
+        ViewSettingsWeb.java
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ trash=trash {
+  android.hardware.usb.accessory.xml
+ }
+}
+netatmo_generic_iap=/home/svakulenko/depots/svn/trunk/generic/iap CD=. filter="*.c *.h *.cpp *.hpp *.mk Makefile *.bak" {
+ ac20.c
+ hid_config.c
+ iap_fr.c
+ iap_iphone.c
+ iap_ll.c
+ ac20.h
+ hid_config.h
+ iap.h
+ iap_cst.h
+ iap_port.h
+ Makefile
+ ac20server=ac20server {
+  ac20server.c
+  iap_config.h
+  Makefile
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     ac20server=ac20server {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ android=android {
+  android_entry.c
+  pthread_android_addon.c
+  android_entry.h
+  pthread_android_addon.h
+ }
+ bluetooth=bluetooth {
+  iap_port.c
+  ipod_ac_test_rfcomm.c
+  sdp_publish_mfi_device.c
+  iap_config.h
+  Makefile
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     bluetooth=bluetooth {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ fake_client_hid=fake_client_hid {
+  iap_port.c
+  ipod_sim_test.c
+  iap_config.h
+  Makefile
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     fake_client_hid=fake_client_hid {
+     }
+     linux=linux {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ fake_client_rs232=fake_client_rs232 {
+  iap_port.c
+  ipod_sim_test.c
+  iap_config.h
+  Makefile
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     fake_client_rs232=fake_client_rs232 {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ hid=hid {
+  iap_port.c
+  ipod_ac_test_hid.c
+  iap_config.h
+  Makefile
+  linux=linux {
+   hid.h
+   hidraw.h
+  }
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     hid=hid {
+     }
+     linux=linux {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ hidparser=hidparser {
+  hidparser.c
+  hidparser.h
+  hidtypes.h
+  test=test {
+   test.c
+   usb_config.h
+   Makefile
+  }
+ }
+ linux=linux {
+  hid_linux.c
+  hid_linux.h
+  i2c-dev.h
+ }
+ mac=mac {
+  hid_mac.c
+  hid_mac.h
+ }
+ rs232=rs232 {
+  iap_port.c
+  ipod_ac_test.c
+  iap_config.h
+  Makefile
+  objs=objs {
+   generic=generic {
+    iap=iap {
+     rs232=rs232 {
+     }
+     unix=unix {
+     }
+    }
+   }
+  }
+ }
+ unix=unix {
+  iap_fileops_unix.c
+  iap_iphone_unix.c
+  iap_iphone_unix.h
+ }
+ win=win {
+  hid_win.c
+  iap_fileops_win.c
+  iap_iphone_win.c
+  winio.c
+  hid_win.h
+  iap_iphone_win.h
+  winio.h
+ }
+}
+netatmo_generic_netcom=/home/svakulenko/depots/svn/trunk/generic/netcom CD=. filter="*.c *.h *.cpp *.hpp *.mk Makefile *.bak" {
+ netcom_defs.c
+ netcom_lib.c
+ alarm_netcom.h
+ measure_netcom.h
+ netcom.h
+ netcom_lib.h
+ status_netcom.h
+ streaming_netcom.h
+ wifi_netcom.h
+ android=android {
+  netcom_fileops.c
+  Android.mk
+ }
+}
+netatmo_generic_dblib=/home/svakulenko/depots/svn/trunk/generic/dblib CD=. filter="*.c *.h *.cpp *.hpp *.mk Makefile *.bak" {
+ dblib.c
+ dblib_ie.c
+ dblib.h
+ dblib_alarm.h
+ dblib_common_defines.h
+ dblib_ie.h
+ dblib_port.h
+ Makefile
+ android=android {
+  dblib_port.c
+  Android.mk
+ }
+}
+netatmo_generic_netcom=/home/svakulenko/depots/svn/trunk/generic/netcom CD=. filter="*.c *.h *.cpp *.hpp *.mk Makefile *.bak" {
+ netcom_defs.c
+ netcom_lib.c
+ alarm_netcom.h
+ measure_netcom.h
+ netcom.h
+ netcom_lib.h
+ status_netcom.h
+ streaming_netcom.h
+ wifi_netcom.h
+ android=android {
+  netcom_fileops.c
+  Android.mk
+ }
+}
+netatmo_generic_newlib_z=/home/svakulenko/depots/svn/trunk/generic/newlib_tz CD=. filter="*.c *.h *.cpp *.hpp *.mk Makefile *.bak" {
+ newlib_tz.c
+ test_tzset.c
+ tzset_r.c
+ newlib_tz.h
+ tzset_r.h
+ Makefile
+ android=android {
+  Android.mk
+ }
+}
+
+statefwk=/home/svakulenko/Dropbox/private/eclipse/StateMachineFWK CD=. filter="*.*" {
+ fsm_gen.py
+ bin=bin {
+  fsm=fsm {
+   core=core {
+    FSMVars.class
+    FsmDgtBase.class
+    SwitchFSM.class
+   }
+   handlers=handlers {
+    FsmDgt.class
+   }
+  }
+  main=main {
+   TestFSM.class
+  }
+ }
+ exm=exm {
+  fsm=fsm {
+   core=core {
+    FSMVars.java
+    FsmDgtBase.java
+    SwitchFSM.java
+   }
+   handlers=handlers {
+    FsmDgt.java
+   }
+  }
+  main=main {
+   TestFSM.java
+  }
+ }
+ ressources=ressources {
+  exemple.txt
+  testFSM.xml
+ }
+ src=src {
+  gen=gen {
+   onoff=onoff {
+    fsm=fsm {
+     action=action {
+      OnOffActionDelegate.java
+     }
+     core=core {
+      IOnOffActionDelegate.java
+      OnOffFSM.java
+     }
+    }
+   }
+  }
+ }
+}
+WSiOS=/home/svakulenko/depots/svn/trunk/apps/iOS/weatherstation/weatherstation/Classes/Global CD=. filter="*.*" {
+ AppliCommonPrivate.m
+ AppliCommonPublic.m
+ Atlas.m
+ IOSDeviceInfo.m
+ KeychainItemWrapper.m
+ NADeviceList.m
+ NALocale.m
+ NAMeasure.m
+ NAPushHandler.m
+ NAUnits.m
+ NAUser.m
+ NAUserDataStorer.m
+ NAValueUtils.m
+ Reachability.m
+ SyncAssistant.m
+ AppliCommonPrivate.h
+ AppliCommonPublic.h
+ Atlas.h
+ IOSDeviceInfo.h
+ KeychainItemWrapper.h
+ NADebugFlags.h
+ NADeviceList.h
+ NALocale.h
+ NAMeasure.h
+ NAPushHandler.h
+ NAUnits.h
+ NAUser.h
+ NAUserDataStorer.h
+ NAValueUtils.h
+ NetatmoColors.h
+ NetatmoDefines.h
+ Reachability.h
+ SyncAssistant.h
+}
+
+WS_global_varsWSiOS=/home/svakulenko/depots/svn/trunk/generic/php CD=. filter="*.*" {
+ AlarmCommon.php
+ AppliCommon.php
+ AppliCommonPrivate.php
+ AppliCommonPublic.php
+ CommonConfig.php
+ GenericUtils.php
+ LangUtils.php
+ NAApiClient.php
+ NAApiClientExample.php
+ ParsePhpCommon.pm
+ appli_common_2_c.pl
+ appli_common_2_js.pl
+ appli_common_2_obj_c.pl
+ error_code_2_c.sh
+ testLangUtils.php
+ ExtLib=ExtLib {
+  facebook-php-sdk=facebook-php-sdk {
+   changelog.md
+   readme.md
+   sign.php
+   examples=examples {
+    example.php
+    with_js_sdk.php
+   }
+   src=src {
+    base_facebook.php
+    facebook.php
+    fb_ca_chain_bundle.crt
+   }
+   tests=tests {
+    bootstrap.php
+    tests.php
+   }
+  }
+  twitter-php-sdk=twitter-php-sdk {
+   EpiCurl.php
+   EpiOAuth.php
+   EpiSequence.php
+   EpiTwitter.php
+   README.markdown
+   ca-bundle.crt
+   index.php
+   simpleTest.php
+   tests=tests {
+    AllTests.php
+    EpiOAuthTest.php
+    EpiTwitterTest.php
+    avatar_test_image.jpg
+    avatar_test_image.png
+    sequencerTest.php
+    coverage=coverage {
+     EpiCurl.php.html
+     EpiOAuth.php.html
+     EpiTwitter.php.html
+     butter.png
+     chameleon.png
+     close12_1.gif
+     container-min.js
+     container.css
+     glass.png
+     index.html
+     scarlet_red.png
+     snow.png
+     style.css
+     tests.html
+     tests_AllTests.php.html
+     yahoo-dom-event.js
+    }
+   }
+  }
+ }
+}
+
+android_service_exemple=/home/svakulenko/Downloads/androidserviceexample CD=. filter="*.*" {
+ AndroidManifest.xml
+ build.xml
+ local.properties
+ proguard-project.txt
+ project.properties
+ run.sh
+ bin=bin {
+  MainActivity-debug-unaligned.apk
+  MainActivity-debug-unaligned.apk.d
+  MainActivity-debug.apk
+  MainActivity.ap_
+  MainActivity.ap_.d
+  build.prop
+  classes.dex
+  classes.dex.d
+  jarlist.cache
+  classes=classes {
+   com=com {
+    service=service {
+     example=example {
+      BuildConfig.class
+      MainActivity$1.class
+      MainActivity$IncomingMessageHandler.class
+      MainActivity.class
+      MyService$1.class
+      MyService$IncomingMessageHandler.class
+      MyService$MyTask.class
+      MyService.class
+      R$attr.class
+      R$drawable.class
+      R$id.class
+      R$layout.class
+      R$string.class
+      R.class
+     }
+    }
+   }
+  }
+  res=res {
+   drawable-hdpi=drawable-hdpi {
+    ic_launcher.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    ic_launcher.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    ic_launcher.png
+   }
+   drawable-xhdpi=drawable-xhdpi {
+    ic_launcher.png
+   }
+  }
+ }
+ gen=gen {
+  R.java.d
+  com=com {
+   service=service {
+    example=example {
+     BuildConfig.java
+     R.java
+    }
+   }
+  }
+ }
+ libs=libs {
+ }
+ res=res {
+  drawable-hdpi=drawable-hdpi {
+   ic_launcher.png
+  }
+  drawable-ldpi=drawable-ldpi {
+   ic_launcher.png
+  }
+  drawable-mdpi=drawable-mdpi {
+   ic_launcher.png
+  }
+  drawable-xhdpi=drawable-xhdpi {
+   ic_launcher.png
+  }
+  layout=layout {
+   main.xml
+  }
+  values=values {
+   strings.xml
+  }
+ }
+ src=src {
+  com=com {
+   service=service {
+    example=example {
+     MainActivity.java
+     MyService.java
+    }
+   }
+  }
+ }
+}
+
+android_mergelayout_exemple=/home/svakulenko/Downloads/MergeLayout CD=. filter="*.*" {
+ AndroidManifest.xml
+ assets=assets {
+ }
+ res=res {
+  drawable=drawable {
+   golden_gate.jpg
+   icon.png
+  }
+  layout=layout {
+   main.xml
+  }
+  values=values {
+   strings.xml
+  }
+ }
+ src=src {
+  com=com {
+   example=example {
+    android=android {
+     merge=merge {
+      MegeActivity.java
+      OkCancelBar.java
+      R.java
+     }
+    }
+   }
+  }
+ }
+}
+w_acess_serv=/home/svakulenko/depots/git/android-background-service-usb-accessory CD=. filter="*.*" {
+ README.txt
+ TODO.txt
+ app=app {
+  AndroidManifest.xml
+  default.properties
+  proguard.cfg
+  res=res {
+   drawable-hdpi=drawable-hdpi {
+    icon.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    icon.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    icon.png
+   }
+   layout=layout {
+    main.xml
+   }
+   values=values {
+    strings.xml
+   }
+   xml=xml {
+    accessory_filter.xml
+   }
+  }
+  src=src {
+   com=com {
+    rancidbacon=rancidbacon {
+     BackgroundUsbAccessory=BackgroundUsbAccessory {
+      BackgroundUsbService.java
+      StartServiceActivity.java
+     }
+    }
+   }
+  }
+ }
+ sketch=sketch {
+  BackgroundUsbDemo=BackgroundUsbDemo {
+   BackgroundUsbDemo.pde
+  }
+ }
+}
+
+generic_lang=/home/svakulenko/depots/svn/trunk/generic/lang CD=. filter="*.*" {
+ ParseLang.pm
+ README.txt
+ parse_lang_c.pl
+ parse_lang_ios.pl
+ parse_lang_js.pl
+ parse_lang_php.pl
+ parse_lang_phpalarm.pl
+}
+
+
+ws_backend=/home/svakulenko/depots/svn/trunk/backend/Api CD=. filter="*.*" {
+ api.php
+ apidevice.php
+ apiuser.php
+ index.php
+ Common=Common {
+  Config.php
+  ErrorHandler.php
+  Login.php
+  MongoDBManager.php
+  NAObject.php
+  README.txt
+  Utils.php
+  defines.php
+ }
+ Conf=Conf {
+  AppliRefConf.php
+  UnitConf.php
+  api.netatmo.net
+  netcom_server.conf
+ }
+ restler=restler {
+  compat.php
+  restler.php
+  xmlformat.php
+  amfformat=amfformat {
+   amfformat.php
+   Zend=Zend {
+    Amf=Amf {
+     Constants.php
+     Parse=Parse {
+      Deserializer.php
+      InputStream.php
+      OutputStream.php
+      Serializer.php
+      TypeLoader.php
+      Amf3=Amf3 {
+       Deserializer.php
+       Serializer.php
+      }
+     }
+     Util=Util {
+      BinaryStream.php
+     }
+     Value=Value {
+      Messaging=Messaging {
+       AbstractMessage.php
+       AcknowledgeMessage.php
+       AsyncMessage.php
+       CommandMessage.php
+       ErrorMessage.php
+       RemotingMessage.php
+      }
+     }
+    }
+   }
+  }
+  plistformat=plistformat {
+   CFBinaryPropertyList.php
+   CFPropertyList.php
+   CFType.php
+   CFTypeDetector.php
+   IOException.php
+   PListException.php
+   plistformat.php
+  }
+  yamlformat=yamlformat {
+   README.markdown
+   sfyaml.php
+   sfyamlInline.php
+   sfyamldumper.php
+   sfyamlparser.php
+   yamlformat.php
+  }
+ }
+}
+
+
+
+apps_ios=/home/svakulenko/depots/svn/trunk/apps/iOS CD=. filter="*.h *.m *.c *.php *.txt" {
+ Archives=Archives {
+  weatherstation_0.9.6.xcarchive=weatherstation_0.9.6.xcarchive {
+   Products=Products {
+    Applications=Applications {
+     netatmo.app=netatmo.app {
+      Three20.bundle=Three20.bundle {
+       cs.lproj=cs.lproj {
+       }
+       de.lproj=de.lproj {
+       }
+       en.lproj=en.lproj {
+       }
+       es.lproj=es.lproj {
+       }
+       fr.lproj=fr.lproj {
+       }
+       he.lproj=he.lproj {
+       }
+       images=images {
+       }
+       it.lproj=it.lproj {
+       }
+       ja.lproj=ja.lproj {
+       }
+       ko.lproj=ko.lproj {
+       }
+       nl.lproj=nl.lproj {
+       }
+       pt.lproj=pt.lproj {
+       }
+       ru.lproj=ru.lproj {
+       }
+       tr.lproj=tr.lproj {
+       }
+       zh_cn.lproj=zh_cn.lproj {
+       }
+       zh_tw.lproj=zh_tw.lproj {
+       }
+      }
+      _CodeSignature=_CodeSignature {
+      }
+      de.lproj=de.lproj {
+      }
+      en.lproj=en.lproj {
+      }
+      es.lproj=es.lproj {
+      }
+      fr.lproj=fr.lproj {
+      }
+     }
+    }
+   }
+   dSYMs=dSYMs {
+    netatmo.app.dSYM=netatmo.app.dSYM {
+     Contents=Contents {
+      Resources=Resources {
+       DWARF=DWARF {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Installer=Installer {
+  Installer=Installer {
+   InstallerAppDelegate.h
+   InstallerAppDelegate.m
+   main.m
+   de.lproj=de.lproj {
+   }
+   en.lproj=en.lproj {
+   }
+   fr.lproj=fr.lproj {
+   }
+   iPad=iPad {
+    en.lproj=en.lproj {
+    }
+   }
+   iPhone=iPhone {
+    en.lproj=en.lproj {
+    }
+   }
+  }
+  Installer.xcodeproj=Installer.xcodeproj {
+  }
+ }
+ extern=extern {
+  patches=patches {
+  }
+  three20=three20 {
+   extensions=extensions {
+   }
+   src=src {
+    Three20=Three20 {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      Three20+Additions.h
+      Three20.h
+     }
+     Source=Source {
+      Three20.m
+     }
+     Three20.xcodeproj=Three20.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      BasicTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    Three20.bundle=Three20.bundle {
+     cs.lproj=cs.lproj {
+     }
+     de.lproj=de.lproj {
+     }
+     en.lproj=en.lproj {
+     }
+     es.lproj=es.lproj {
+     }
+     fr.lproj=fr.lproj {
+     }
+     he.lproj=he.lproj {
+     }
+     images=images {
+     }
+     it.lproj=it.lproj {
+     }
+     ja.lproj=ja.lproj {
+     }
+     ko.lproj=ko.lproj {
+     }
+     nl.lproj=nl.lproj {
+     }
+     pt.lproj=pt.lproj {
+     }
+     ru.lproj=ru.lproj {
+     }
+     tr.lproj=tr.lproj {
+     }
+     zh_cn.lproj=zh_cn.lproj {
+     }
+     zh_tw.lproj=zh_tw.lproj {
+     }
+    }
+    Three20Core=Three20Core {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      NSArrayAdditions.h
+      NSDataAdditions.h
+      NSDateAdditions.h
+      NSMutableArrayAdditions.h
+      NSMutableDictionaryAdditions.h
+      NSObjectAdditions.h
+      NSStringAdditions.h
+      TTAvailability.h
+      TTCorePreprocessorMacros.h
+      TTDebug.h
+      TTDebugFlags.h
+      TTEntityTables.h
+      TTExtensionAuthor.h
+      TTExtensionInfo.h
+      TTExtensionInfoPrivate.h
+      TTExtensionLoader.h
+      TTGlobalCore.h
+      TTGlobalCoreLocale.h
+      TTGlobalCorePaths.h
+      TTGlobalCoreRects.h
+      TTMarkupStripper.h
+      Three20.h
+      Three20Core+Additions.h
+      Three20Core.h
+      Three20Version.h
+     }
+     Sources=Sources {
+      NSArrayAdditions.m
+      NSDataAdditions.m
+      NSDateAdditions.m
+      NSMutableArrayAdditions.m
+      NSMutableDictionaryAdditions.m
+      NSObjectAdditions.m
+      NSStringAdditions.m
+      TTAvailability.m
+      TTDebug.m
+      TTEntityTables.m
+      TTExtensionAuthor.m
+      TTExtensionInfo.m
+      TTExtensionLoader.m
+      TTGlobalCore.m
+      TTGlobalCoreLocale.m
+      TTGlobalCorePaths.m
+      TTGlobalCoreRects.m
+      TTMarkupStripper.m
+      Three20.m
+      Three20Version.m
+     }
+     Three20Core.xcodeproj=Three20Core.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      CoreAdditionTests.m
+      CoreGlobalTests.m
+      CoreMarkupStripperTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    Three20Network=Three20Network {
+     NetworkRequestTimeoutTests.m
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTErrorCodes.h
+      TTGlobalNetwork.h
+      TTModel.h
+      TTModelDelegate.h
+      TTRequestLoader.h
+      TTURLCache.h
+      TTURLDataResponse.h
+      TTURLImageResponse.h
+      TTURLRequest.h
+      TTURLRequestCachePolicy.h
+      TTURLRequestDelegate.h
+      TTURLRequestModel.h
+      TTURLRequestQueue.h
+      TTURLRequestQueueInternal.h
+      TTURLResponse.h
+      TTUserInfo.h
+      Three20Network.h
+     }
+     Sources=Sources {
+      TTErrorCodes.m
+      TTGlobalNetwork.m
+      TTModel.m
+      TTRequestLoader.m
+      TTURLCache.m
+      TTURLDataResponse.m
+      TTURLImageResponse.m
+      TTURLRequest.m
+      TTURLRequestModel.m
+      TTURLRequestQueue.m
+      TTUserInfo.m
+     }
+     Three20Network.xcodeproj=Three20Network.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      NetworkModelTests.m
+      NetworkURLCacheTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+      mocks=mocks {
+       MockModelDelegate.h
+       MockModelDelegate.m
+      }
+     }
+    }
+    Three20Style=Three20Style {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTBevelBorderStyle.h
+      TTBlendStyle.h
+      TTBoxStyle.h
+      TTContentStyle.h
+      TTDefaultStyleSheet+DragRefreshHeader.h
+      TTDefaultStyleSheet.h
+      TTFlowLayout.h
+      TTFourBorderStyle.h
+      TTGlobalStyle.h
+      TTGridLayout.h
+      TTHighlightBorderStyle.h
+      TTImageStyle.h
+      TTInnerShadowStyle.h
+      TTInsetStyle.h
+      TTLayout.h
+      TTLinearGradientBorderStyle.h
+      TTLinearGradientFillStyle.h
+      TTMaskStyle.h
+      TTPartStyle.h
+      TTPosition.h
+      TTRectangleShape.h
+      TTReflectiveFillStyle.h
+      TTRoundedLeftArrowShape.h
+      TTRoundedRectangleShape.h
+      TTRoundedRightArrowShape.h
+      TTShadowStyle.h
+      TTShape.h
+      TTShapeInternal.h
+      TTShapeStyle.h
+      TTSolidBorderStyle.h
+      TTSolidFillStyle.h
+      TTSpeechBubbleShape.h
+      TTStyle.h
+      TTStyleContext.h
+      TTStyleDelegate.h
+      TTStyleInternal.h
+      TTStyleSheet.h
+      TTStyledBlock.h
+      TTStyledBoldNode.h
+      TTStyledBoxFrame.h
+      TTStyledButtonNode.h
+      TTStyledElement.h
+      TTStyledFrame.h
+      TTStyledImageFrame.h
+      TTStyledImageNode.h
+      TTStyledInline.h
+      TTStyledInlineBlock.h
+      TTStyledInlineFrame.h
+      TTStyledItalicNode.h
+      TTStyledLayout.h
+      TTStyledLineBreakNode.h
+      TTStyledLinkNode.h
+      TTStyledNode.h
+      TTStyledNodeInternal.h
+      TTStyledText.h
+      TTStyledTextDelegate.h
+      TTStyledTextFrame.h
+      TTStyledTextNode.h
+      TTStyledTextParser.h
+      TTTextStyle.h
+      Three20Style+Additions.h
+      Three20Style.h
+      UIColorAdditions.h
+      UIFontAdditions.h
+      UIImageAdditions.h
+     }
+     Sources=Sources {
+      TTBevelBorderStyle.m
+      TTBlendStyle.m
+      TTBoxStyle.m
+      TTContentStyle.m
+      TTDefaultStyleSheet.m
+      TTFlowLayout.m
+      TTFourBorderStyle.m
+      TTGlobalStyle.m
+      TTGridLayout.m
+      TTHighlightBorderStyle.m
+      TTImageStyle.m
+      TTInnerShadowStyle.m
+      TTInsetStyle.m
+      TTLayout.m
+      TTLinearGradientBorderStyle.m
+      TTLinearGradientFillStyle.m
+      TTMaskStyle.m
+      TTPartStyle.m
+      TTRectangleShape.m
+      TTReflectiveFillStyle.m
+      TTRoundedLeftArrowShape.m
+      TTRoundedRectangleShape.m
+      TTRoundedRightArrowShape.m
+      TTShadowStyle.m
+      TTShape.m
+      TTShapeInternal.m
+      TTShapeStyle.m
+      TTSolidBorderStyle.m
+      TTSolidFillStyle.m
+      TTSpeechBubbleShape.m
+      TTStyle.m
+      TTStyleContext.m
+      TTStyleInternal.m
+      TTStyleSheet.m
+      TTStyledBlock.m
+      TTStyledBoldNode.m
+      TTStyledBoxFrame.m
+      TTStyledButtonNode.m
+      TTStyledElement.m
+      TTStyledFrame.m
+      TTStyledImageFrame.m
+      TTStyledImageNode.m
+      TTStyledInline.m
+      TTStyledInlineBlock.m
+      TTStyledInlineFrame.m
+      TTStyledItalicNode.m
+      TTStyledLayout.m
+      TTStyledLineBreakNode.m
+      TTStyledLinkNode.m
+      TTStyledNode.m
+      TTStyledNodeInternal.m
+      TTStyledText.m
+      TTStyledTextFrame.m
+      TTStyledTextNode.m
+      TTStyledTextParser.m
+      TTTextStyle.m
+      UIColorAdditions.m
+      UIFontAdditions.m
+      UIImageAdditions.m
+     }
+     Three20Style.xcodeproj=Three20Style.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      StyleAdditionTests.m
+      StyleGlobalTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    Three20UI=Three20UI {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTActionSheet.h
+      TTActionSheetController.h
+      TTActionSheetControllerDelegate.h
+      TTActivityLabel.h
+      TTAlertView.h
+      TTAlertViewController.h
+      TTAlertViewControllerDelegate.h
+      TTButton.h
+      TTButtonBar.h
+      TTButtonContent.h
+      TTErrorView.h
+      TTExtensionInfoController.h
+      TTExtensionsController.h
+      TTImageLayer.h
+      TTImageView.h
+      TTImageViewDelegate.h
+      TTImageViewInternal.h
+      TTLabel.h
+      TTLauncherButton.h
+      TTLauncherHighlightView.h
+      TTLauncherItem.h
+      TTLauncherPersistenceMode.h
+      TTLauncherScrollView.h
+      TTLauncherView.h
+      TTLauncherViewDelegate.h
+      TTLink.h
+      TTListDataSource.h
+      TTMessageController.h
+      TTMessageControllerDelegate.h
+      TTMessageField.h
+      TTMessageRecipientField.h
+      TTMessageSubjectField.h
+      TTMessageTextField.h
+      TTModelViewController.h
+      TTNavigationController.h
+      TTNavigator.h
+      TTNavigatorWindow.h
+      TTPageControl.h
+      TTPhoto.h
+      TTPhotoSource.h
+      TTPhotoVersion.h
+      TTPhotoView.h
+      TTPhotoViewController.h
+      TTPickerTextField.h
+      TTPickerTextFieldDelegate.h
+      TTPickerViewCell.h
+      TTPopupViewController.h
+      TTPostController.h
+      TTPostControllerDelegate.h
+      TTRecursiveProgress.h
+      TTScrollView.h
+      TTScrollViewDataSource.h
+      TTScrollViewDelegate.h
+      TTSearchBar.h
+      TTSearchDisplayController.h
+      TTSearchTextField.h
+      TTSearchTextFieldDelegate.h
+      TTSearchTextFieldInternal.h
+      TTSearchlightLabel.h
+      TTSectionedDataSource.h
+      TTSplitViewController.h
+      TTStyledTextLabel.h
+      TTStyledTextTableCell.h
+      TTStyledTextTableItemCell.h
+      TTTab.h
+      TTTabBar.h
+      TTTabBarInternal.h
+      TTTabDelegate.h
+      TTTabGrid.h
+      TTTabItem.h
+      TTTabStrip.h
+      TTTableActivityItem.h
+      TTTableActivityItemCell.h
+      TTTableButton.h
+      TTTableCaptionItem.h
+      TTTableCaptionItemCell.h
+      TTTableControlCell.h
+      TTTableControlItem.h
+      TTTableFlushViewCell.h
+      TTTableFooterInfiniteScrollView.h
+      TTTableGrayTextItem.h
+      TTTableHeaderDragRefreshView.h
+      TTTableHeaderView.h
+      TTTableImageItem.h
+      TTTableImageItemCell.h
+      TTTableItem.h
+      TTTableLink.h
+      TTTableLinkedItem.h
+      TTTableLinkedItemCell.h
+      TTTableLongTextItem.h
+      TTTableMessageItem.h
+      TTTableMessageItemCell.h
+      TTTableMoreButton.h
+      TTTableMoreButtonCell.h
+      TTTableRightCaptionItem.h
+      TTTableRightCaptionItemCell.h
+      TTTableRightImageItem.h
+      TTTableStyledTextItem.h
+      TTTableSubtextItem.h
+      TTTableSubtextItemCell.h
+      TTTableSubtitleItem.h
+      TTTableSubtitleItemCell.h
+      TTTableSummaryItem.h
+      TTTableTextItem.h
+      TTTableTextItemCell.h
+      TTTableView.h
+      TTTableViewCell.h
+      TTTableViewController.h
+      TTTableViewDataSource.h
+      TTTableViewDelegate.h
+      TTTableViewDragRefreshDelegate.h
+      TTTableViewGroupedVarHeightDelegate.h
+      TTTableViewItem.h
+      TTTableViewNetworkEnabledDelegate.h
+      TTTableViewPlainDelegate.h
+      TTTableViewPlainVarHeightDelegate.h
+      TTTableViewVarHeightDelegate.h
+      TTTextBarController.h
+      TTTextBarDelegate.h
+      TTTextEditor.h
+      TTTextEditorDelegate.h
+      TTTextEditorInternal.h
+      TTTextView.h
+      TTThumbView.h
+      TTThumbsDataSource.h
+      TTThumbsTableViewCell.h
+      TTThumbsTableViewCellDelegate.h
+      TTThumbsViewController.h
+      TTThumbsViewControllerDelegate.h
+      TTUnclippedView.h
+      TTView.h
+      TTViewController.h
+      TTWebController.h
+      TTYouTubeView.h
+      Three20UI+Additions.h
+      Three20UI.h
+      UINSObjectAdditions.h
+      UINSStringAdditions.h
+      UINavigationControllerAdditions.h
+      UITabBarControllerAdditions.h
+      UITableViewAdditions.h
+      UIToolbarAdditions.h
+      UIViewAdditions.h
+      UIWebViewAdditions.h
+     }
+     Sources=Sources {
+      TTActionSheet.m
+      TTActionSheetController.m
+      TTActivityLabel.m
+      TTAlertView.m
+      TTAlertViewController.m
+      TTButton.m
+      TTButtonBar.m
+      TTButtonContent.m
+      TTErrorView.m
+      TTExtensionInfoController.m
+      TTExtensionsController.m
+      TTImageLayer.m
+      TTImageView.m
+      TTImageViewInternal.m
+      TTLabel.m
+      TTLauncherButton.m
+      TTLauncherHighlightView.m
+      TTLauncherItem.m
+      TTLauncherScrollView.m
+      TTLauncherView.m
+      TTLink.m
+      TTListDataSource.m
+      TTMessageController.m
+      TTMessageField.m
+      TTMessageRecipientField.m
+      TTMessageSubjectField.m
+      TTMessageTextField.m
+      TTModelViewController.m
+      TTNavigationController.m
+      TTNavigator.m
+      TTNavigatorWindow.m
+      TTPageControl.m
+      TTPhotoView.m
+      TTPhotoViewController.m
+      TTPickerTextField.m
+      TTPickerViewCell.m
+      TTPopupViewController.m
+      TTPostController.m
+      TTRecursiveProgress.m
+      TTScrollView.m
+      TTSearchBar.m
+      TTSearchDisplayController.m
+      TTSearchTextField.m
+      TTSearchTextFieldInternal.m
+      TTSearchlightLabel.m
+      TTSectionedDataSource.m
+      TTSplitViewController.m
+      TTStyledTextLabel.m
+      TTStyledTextTableCell.m
+      TTStyledTextTableItemCell.m
+      TTTab.m
+      TTTabBar.m
+      TTTabBarInternal.m
+      TTTabGrid.m
+      TTTabItem.m
+      TTTabStrip.m
+      TTTableActivityItem.m
+      TTTableActivityItemCell.m
+      TTTableButton.m
+      TTTableCaptionItem.m
+      TTTableCaptionItemCell.m
+      TTTableControlCell.m
+      TTTableControlItem.m
+      TTTableFlushViewCell.m
+      TTTableFooterInfiniteScrollView.m
+      TTTableGrayTextItem.m
+      TTTableHeaderDragRefreshView.m
+      TTTableHeaderView.m
+      TTTableImageItem.m
+      TTTableImageItemCell.m
+      TTTableItem.m
+      TTTableLink.m
+      TTTableLinkedItem.m
+      TTTableLinkedItemCell.m
+      TTTableLongTextItem.m
+      TTTableMessageItem.m
+      TTTableMessageItemCell.m
+      TTTableMoreButton.m
+      TTTableMoreButtonCell.m
+      TTTableRightCaptionItem.m
+      TTTableRightCaptionItemCell.m
+      TTTableRightImageItem.m
+      TTTableStyledTextItem.m
+      TTTableSubtextItem.m
+      TTTableSubtextItemCell.m
+      TTTableSubtitleItem.m
+      TTTableSubtitleItemCell.m
+      TTTableSummaryItem.m
+      TTTableTextItem.m
+      TTTableTextItemCell.m
+      TTTableView.m
+      TTTableViewCell.m
+      TTTableViewController.m
+      TTTableViewDataSource.m
+      TTTableViewDelegate.m
+      TTTableViewDragRefreshDelegate.m
+      TTTableViewGroupedVarHeightDelegate.m
+      TTTableViewItem.m
+      TTTableViewNetworkEnabledDelegate.m
+      TTTableViewPlainDelegate.m
+      TTTableViewPlainVarHeightDelegate.m
+      TTTableViewVarHeightDelegate.m
+      TTTextBarController.m
+      TTTextEditor.m
+      TTTextEditorInternal.m
+      TTTextView.m
+      TTThumbView.m
+      TTThumbsDataSource.m
+      TTThumbsTableViewCell.m
+      TTThumbsViewController.m
+      TTUnclippedView.m
+      TTView.m
+      TTViewController.m
+      TTWebController.m
+      TTYouTubeView.m
+      UINSObjectAdditions.m
+      UINSStringAdditions.m
+      UINavigationControllerAdditions.m
+      UITabBarControllerAdditions.m
+      UITableViewAdditions.m
+      UIToolbarAdditions.m
+      UIViewAdditions.m
+      UIWebViewAdditions.m
+     }
+     Three20UI.xcodeproj=Three20UI.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      UIGlobalTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    Three20UICommon=Three20UICommon {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTBaseViewController.h
+      TTGlobalUICommon.h
+      Three20UICommon+Additions.h
+      Three20UICommon.h
+      UISplitViewController+TTNavigator.h
+      UIView+TTUICommon.h
+      UIViewControllerAdditions.h
+      UIViewControllerGarbageCollection.h
+      UIWindowAdditions.h
+     }
+     Sources=Sources {
+      TTBaseViewController.m
+      TTGlobalUICommon.m
+      UISplitViewController+TTNavigator.m
+      UIView+TTUICommon.m
+      UIViewControllerAdditions.m
+      UIWindowAdditions.m
+     }
+     Three20UICommon.xcodeproj=Three20UICommon.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      UICommonTests.m
+      UIViewControllerAdditionTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    Three20UINavigator=Three20UINavigator {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTBaseNavigationController.h
+      TTBaseNavigator.h
+      TTBaseNavigatorInternal.h
+      TTGlobalNavigatorMetrics.h
+      TTNavigationMode.h
+      TTNavigatorDelegate.h
+      TTNavigatorPersistenceMode.h
+      TTNavigatorRootContainer.h
+      TTNavigatorViewController.h
+      TTURLAction.h
+      TTURLArgumentType.h
+      TTURLArguments.h
+      TTURLGeneratorPattern.h
+      TTURLLiteral.h
+      TTURLMap.h
+      TTURLNavigatorPattern.h
+      TTURLObject.h
+      TTURLPattern.h
+      TTURLPatternInternal.h
+      TTURLPatternText.h
+      TTURLSelector.h
+      TTURLWildcard.h
+      Three20UINavigator+Additions.h
+      Three20UINavigator.h
+      UIViewController+TTNavigator.h
+      UIViewController+TTNavigatorGarbageCollection.h
+     }
+     Sources=Sources {
+      TTBaseNavigationController.m
+      TTBaseNavigator.m
+      TTGlobalNavigatorMetrics.m
+      TTNavigatorViewController.m
+      TTURLAction.m
+      TTURLArguments.m
+      TTURLGeneratorPattern.m
+      TTURLLiteral.m
+      TTURLMap.m
+      TTURLNavigatorPattern.m
+      TTURLPattern.m
+      TTURLPatternInternal.m
+      TTURLSelector.m
+      TTURLWildcard.m
+      UIViewController+TTNavigator.m
+     }
+     Three20UINavigator.xcodeproj=Three20UINavigator.xcodeproj {
+     }
+     UnitTests=UnitTests {
+      TTURLActionTests.m
+      UIViewControllerAdditionTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+    }
+    UnitTests=UnitTests {
+     Xcode324iOS41TestSuiteWorkaround.m
+    }
+    common=common {
+     Configurations=Configurations {
+     }
+    }
+    extThree20CSSStyle=extThree20CSSStyle {
+     Configurations=Configurations {
+     }
+     Grammars=Grammars {
+      CssTokens.h
+     }
+     Headers=Headers {
+      CssTokens.h
+      TTCSSApplyProtocol.h
+      TTCSSFunctions.h
+      TTCSSGlobalStyle.h
+      TTCSSParser.h
+      TTCSSRuleSet.h
+      TTCSSStyleSheet.h
+      TTCSSTextShadowModel.h
+      TTDataConverter.h
+      TTDataPopulator.h
+      TTDataPopulatorDelegate.h
+      TTDefaultCSSStyleSheet.h
+      TTExtensionLoader.h
+      TTShadowStyleAdditions.h
+      TTTextStyleAdditions.h
+      UILabel+CSSAdditions.h
+      UILabelAdditions.h
+      UIView+CSSAdditions.h
+      extThree20CSSStyle+Additions.h
+      extThree20CSSStyle.h
+     }
+     Resources=Resources {
+      extThree20CSSStyle.bundle=extThree20CSSStyle.bundle {
+       stylesheets=stylesheets {
+       }
+      }
+     }
+     Sources=Sources {
+      CssTokenizer.m
+      CssTokens.m
+      TTCSSFunctions.m
+      TTCSSParser.m
+      TTCSSRuleSet.m
+      TTCSSStyleSheet.m
+      TTCSSTextShadowModel.m
+      TTDefaultCSSStyleSheet.m
+      TTExtensionLoader.m
+      TTShadowStyleAdditions.m
+      TTTextStyleAdditions.m
+      UILabel+CSSAdditions.m
+      UIView+CSSAdditions.m
+     }
+     ThirdPart=ThirdPart {
+      TTDataConverter.m
+      TTDataPopulator.m
+     }
+     UnitTests=UnitTests {
+      CssParserTests.m
+      CssRuleSetTests.m
+      CssStyleSheetTests.m
+      Resources=Resources {
+       CSS=CSS {
+       }
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+     extThree20CSSStyle.xcodeproj=extThree20CSSStyle.xcodeproj {
+     }
+    }
+    extThree20JSON=extThree20JSON {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTErrorCodes.h
+      TTExtensionLoader.h
+      TTURLJSONResponse.h
+      extThree20JSON.h
+     }
+     Source=Source {
+      TTErrorCodes.m
+      TTExtensionLoader.m
+      TTURLJSONResponse.m
+     }
+     UnitTests=UnitTests {
+      extJSONTests+SBJSON.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+      }
+     }
+     Vendors=Vendors {
+      JSON=JSON {
+       NSObject+SBJSON.h
+       NSString+SBJSON.h
+       SBJson.h
+       SBJsonParser.h
+       SBJsonStreamParser.h
+       SBJsonStreamParserAccumulator.h
+       SBJsonStreamParserAdapter.h
+       SBJsonStreamParserState.h
+       SBJsonStreamWriter.h
+       SBJsonStreamWriterAccumulator.h
+       SBJsonStreamWriterState.h
+       SBJsonTokeniser.h
+       SBJsonUTF8Stream.h
+       SBJsonWriter.h
+       NSObject+SBJSON.m
+       NSString+SBJSON.m
+       SBJsonParser.m
+       SBJsonStreamParser.m
+       SBJsonStreamParserAccumulator.m
+       SBJsonStreamParserAdapter.m
+       SBJsonStreamParserState.m
+       SBJsonStreamWriter.m
+       SBJsonStreamWriterAccumulator.m
+       SBJsonStreamWriterState.m
+       SBJsonTokeniser.m
+       SBJsonUTF8Stream.m
+       SBJsonWriter.m
+      }
+      YAJL=YAJL {
+       NSBundle+YAJL.h
+       NSObject+YAJL.h
+       YAJL.h
+       YAJLDocument.h
+       YAJLGen.h
+       YAJLParser.h
+       NSBundle+YAJL.m
+       NSObject+YAJL.m
+       YAJLDocument.m
+       YAJLGen.m
+       YAJLParser.m
+       GHKit=GHKit {
+        GHNSBundle+Utils.h
+        GHNSBundle+Utils.m
+       }
+       GTM=GTM {
+        GTMBase64.h
+        GTMBase64.m
+       }
+       yajl=yajl {
+        CMakeLists.txt
+        reformatter=reformatter {
+         json_reformat.c
+         CMakeLists.txt
+        }
+        src=src {
+         yajl_alloc.h
+         yajl_buf.h
+         yajl_bytestack.h
+         yajl_encode.h
+         yajl_lex.h
+         yajl_parser.h
+         yajl.c
+         yajl_alloc.c
+         yajl_buf.c
+         yajl_encode.c
+         yajl_gen.c
+         yajl_lex.c
+         yajl_parser.c
+         yajl_version.c
+         CMakeLists.txt
+         api=api {
+          yajl_common.h
+          yajl_gen.h
+          yajl_parse.h
+          yajl_version.h
+         }
+        }
+        test=test {
+         yajl_test.c
+         CMakeLists.txt
+         cases=cases {
+         }
+        }
+        verify=verify {
+         json_verify.c
+         CMakeLists.txt
+        }
+       }
+      }
+     }
+     extThree20JSON.xcodeproj=extThree20JSON.xcodeproj {
+     }
+    }
+    extThree20XML=extThree20XML {
+     Configurations=Configurations {
+     }
+     Headers=Headers {
+      TTExtensionLoader.h
+      TTURLXMLResponse.h
+      TTXMLParser.h
+      extThree20XML.h
+     }
+     Source=Source {
+      TTExtensionLoader.m
+      TTURLXMLResponse.m
+      TTXMLParser.m
+     }
+     UnitTests=UnitTests {
+      extXMLTests.m
+      Resources=Resources {
+       PropertyLists=PropertyLists {
+       }
+       XML=XML {
+       }
+      }
+     }
+     extThree20XML.xcodeproj=extThree20XML.xcodeproj {
+     }
+    }
+    scripts=scripts {
+    }
+   }
+   templates=templates {
+    projects3.2.2=projects3.2.2 {
+     Simple Application="Simple Application" {
+      Simple Application="Simple Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+      Simple Core Data Application="Simple Core Data Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAMEASIDENTIFIER___.xcdatamodel=___PROJECTNAMEASIDENTIFIER___.xcdatamodel {
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+     Simple iPad Application="Simple iPad Application" {
+      Simple iPad Application="Simple iPad Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+    }
+    projects3.2.4=projects3.2.4 {
+     Simple Application="Simple Application" {
+      Simple Application="Simple Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+      Simple Core Data Application="Simple Core Data Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAMEASIDENTIFIER___.xcdatamodel=___PROJECTNAMEASIDENTIFIER___.xcdatamodel {
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+     Simple iPad Application="Simple iPad Application" {
+      Simple iPad Application="Simple iPad Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+    }
+    projects3.2.5=projects3.2.5 {
+     Simple Application="Simple Application" {
+      Simple Application="Simple Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+      Simple Core Data Application="Simple Core Data Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAMEASIDENTIFIER___.xcdatamodel=___PROJECTNAMEASIDENTIFIER___.xcdatamodel {
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+     Simple iPad Application="Simple iPad Application" {
+      Simple iPad Application="Simple iPad Application" {
+       main.m
+       Classes=Classes {
+        AppDelegate.h
+        AppDelegate.m
+       }
+       ___PROJECTNAME___.xcodeproj=___PROJECTNAME___.xcodeproj {
+       }
+      }
+     }
+    }
+    source=source {
+     Three20 Class="Three20 Class" {
+      Three20 class="Three20 class" {
+       TTDefaultStyleSheet subclass.pbfiletemplate="TTDefaultStyleSheet subclass.pbfiletemplate" {
+        class.h
+        class.m
+       }
+       TTTableViewController subclass.pbfiletemplate="TTTableViewController subclass.pbfiletemplate" {
+        class.h
+        class.m
+       }
+       TTViewController subclass.pbfiletemplate="TTViewController subclass.pbfiletemplate" {
+        class.h
+        class.m
+       }
+      }
+     }
+     Three20 Library Class="Three20 Library Class" {
+      Three20 class="Three20 class" {
+       TTObject.pbfiletemplate=TTObject.pbfiletemplate {
+        class.h
+        class.m
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ keys=keys {
+  push=push {
+  }
+ }
+ led_bench=led_bench {
+  led_bench=led_bench {
+   AppDelegate.h
+   RootViewController.h
+   StreamingHandler.h
+   AppDelegate.m
+   RootViewController.m
+   StreamingHandler.m
+   main.m
+   en.lproj=en.lproj {
+   }
+  }
+  led_bench.xcodeproj=led_bench.xcodeproj {
+   project.xcworkspace=project.xcworkspace {
+   }
+  }
+  led_benchTests=led_benchTests {
+   led_benchTests.h
+   led_benchTests.m
+   en.lproj=en.lproj {
+   }
+  }
+ }
+ netcom_bench=netcom_bench {
+  netcom_bench=netcom_bench {
+   InstallerAppDelegate.h
+   Reachability.h
+   InstallerAppDelegate.m
+   Reachability.m
+   main.m
+   en.lproj=en.lproj {
+   }
+   iPad=iPad {
+    InstallerAppDelegate_iPad.h
+    InstallerAppDelegate_iPad.m
+    en.lproj=en.lproj {
+    }
+   }
+   iPhone=iPhone {
+    InstallerAppDelegate_iPhone.h
+    InstallerAppDelegate_iPhone.m
+    en.lproj=en.lproj {
+    }
+   }
+  }
+  netcom_bench.xcodeproj=netcom_bench.xcodeproj {
+  }
+ }
+ weatherstation=weatherstation {
+  weatherstation=weatherstation {
+   AppDelegate.h
+   AppDelegate.m
+   main.m
+   Classes=Classes {
+    Dashboard=Dashboard {
+     DashboardTopViewContainer.h
+     DashboardUtils.h
+     DashboardViewController.h
+     DataHandler.h
+     DataHandlerDelegate.h
+     DataRetriever.h
+     DateForecastContainer.h
+     DayForecastContainer.h
+     ForecastPanelViewContainer.h
+     ForecastPlotHud.h
+     ForecastPlotRain.h
+     ForecastPlotTemperature.h
+     ForecastRetriever.h
+     IndoorPanelViewContainer.h
+     InfoPanelViewContainers.h
+     InformationPanelBlock.h
+     MeasurePanelViewContainer.h
+     NAAirQData.h
+     NACO2View.h
+     NAInvertedWeatherSymbolsList.h
+     OptionPanelViewContainer.h
+     OutdoorPanelViewContainer.h
+     PanelViewContainer.h
+     ParticlesController.h
+     DashboardTopViewContainer.m
+     DashboardUtils.m
+     DashboardViewController.m
+     DataHandler.m
+     DataRetriever.m
+     DateForecastContainer.m
+     DayForecastContainer.m
+     ForecastPanelViewContainer.m
+     ForecastPlotHud.m
+     ForecastPlotRain.m
+     ForecastPlotTemperature.m
+     ForecastRetriever.m
+     IndoorPanelViewContainer.m
+     InfoPanelViewContainers.m
+     InformationPanelBlock.m
+     MeasurePanelViewContainer.m
+     NAAirQData.m
+     NACO2View.m
+     NAInvertedWeatherSymbolsList.m
+     OptionPanelViewContainer.m
+     OutdoorPanelViewContainer.m
+     PanelViewContainer.m
+     ParticlesController.m
+     CustomBadges=CustomBadges {
+      CustomBadge.h
+      CustomBadge.m
+     }
+     Distant=Distant {
+      DistantDataHandler.h
+      DistantDataHandler.m
+     }
+     Local=Local {
+     }
+     Streaming=Streaming {
+      StreamingDataHandler.h
+      StreamingDataHandler.m
+      AsyncUdpSocket=AsyncUdpSocket {
+       GCDAsyncUdpSocket.h
+       GCDAsyncUdpSocket.m
+      }
+     }
+    }
+    Global=Global {
+     AppliCommonPrivate.h
+     AppliCommonPublic.h
+     Atlas.h
+     IOSDeviceInfo.h
+     KeychainItemWrapper.h
+     NAArchivedData.h
+     NACacheVersionManager.h
+     NADebugFlags.h
+     NADeviceList.h
+     NAFirstUseHelper.h
+     NAFonts.h
+     NALocale.h
+     NAMeasure.h
+     NAMultiKeyArchivedData.h
+     NAPopoverTableViewController.h
+     NAPushHandler.h
+     NAReachability.h
+     NARootNavigationController.h
+     NAStyleSheet.h
+     NAUnits.h
+     NAUser.h
+     NAUserDataStorer.h
+     NAValueUtils.h
+     NAWebController.h
+     NSDate+NetatmoDate.h
+     NetatmoColors.h
+     NetatmoDefines.h
+     PlotUtils.h
+     PopoverContentViewController.h
+     Reachability.h
+     ScrollPopoverContentViewController.h
+     SyncAssistant.h
+     UIBarButtonItem+Netatmo.h
+     UIImage+NAImage.h
+     AppliCommonPrivate.m
+     AppliCommonPublic.m
+     Atlas.m
+     IOSDeviceInfo.m
+     KeychainItemWrapper.m
+     NAArchivedData.m
+     NACacheVersionManager.m
+     NADeviceList.m
+     NAFirstUseHelper.m
+     NAFonts.m
+     NALocale.m
+     NAMeasure.m
+     NAMultiKeyArchivedData.m
+     NAPopoverTableViewController.m
+     NAPushHandler.m
+     NAReachability.m
+     NARootNavigationController.m
+     NAStyleSheet.m
+     NAUnits.m
+     NAUser.m
+     NAUserDataStorer.m
+     NAValueUtils.m
+     NAWebController.m
+     NSDate+NetatmoDate.m
+     PlotUtils.m
+     PopoverContentViewController.m
+     Reachability.m
+     ScrollPopoverContentViewController.m
+     SyncAssistant.m
+     UIBarButtonItem+Netatmo.m
+     UIImage+NAImage.m
+     Popover=Popover {
+      UIBarButtonItem+WEPopover.h
+      WEPopoverContainerView.h
+      WEPopoverController.h
+      WEPopoverParentView.h
+      WETouchableView.h
+      UIBarButtonItem+WEPopover.m
+      WEPopoverContainerView.m
+      WEPopoverController.m
+      WETouchableView.m
+     }
+    }
+    Graph=Graph {
+     CacheManager.h
+     ChartManager.h
+     ChartScale.h
+     GLView.h
+     GLViewController.h
+     MeasuresDownloader.h
+     NAGraphURLRequest.h
+     NAPooledURLCache.h
+     PlotDefines.h
+     Texture2D+NATexture.h
+     Texture2D.h
+     TransformManager.h
+     CacheManager.m
+     ChartManager.m
+     ChartScale.m
+     GLView.m
+     GLViewController.m
+     MeasuresDownloader.m
+     NAGraphURLRequest.m
+     NAPooledURLCache.m
+     Texture2D+NATexture.m
+     Texture2D.m
+     TransformManager.m
+     Animations=Animations {
+      Animation.h
+      AnimationDelegate.h
+      FadeAnimation.h
+      InertiaAnimation.h
+      ScaleAnimation.h
+      TranslationAnimation.h
+      Animation.m
+      FadeAnimation.m
+      InertiaAnimation.m
+      ScaleAnimation.m
+      TranslationAnimation.m
+     }
+    }
+    Installer=Installer {
+     ConnectionSuccessViewController.h
+     DeviceAssociator.h
+     HttpInstallationDownloaderDelegate.h
+     HttpInstallationHelper.h
+     InstallationHandler.h
+     NAInstallerBaseViewController.h
+     NAPlaceManager.h
+     Plug2StationViewController.h
+     ProgressDownloadModel.h
+     RegisterViewController.h
+     ThirdPWebAssociator.h
+     WifiJoinController.h
+     WifiListController.h
+     ConnectionSuccessViewController.m
+     DeviceAssociator.m
+     HttpInstallationHelper.m
+     InstallationHandler.m
+     NAInstallerBaseViewController.m
+     NAPlaceManager.m
+     Plug2StationViewController.m
+     ProgressDownloadModel.m
+     RegisterViewController.m
+     ThirdPWebAssociator.m
+     WifiJoinController.m
+     WifiListController.m
+    }
+    Login=Login {
+     ChangeUserViewController.h
+     CreateAccountViewController.h
+     LaunchWaitViewController.h
+     LoginEntryViewController.h
+     LoginViewController.h
+     ChangeUserViewController.m
+     CreateAccountViewController.m
+     LaunchWaitViewController.m
+     LoginEntryViewController.m
+     LoginViewController.m
+    }
+    NAAPI=NAAPI {
+     NAAPI.h
+     NAOAuth.h
+     NAOAuthDevice.h
+     NAOAuthUser.h
+     TTURLJSONResponse+ErrorProcessing.h
+     TTURLRequest+NtmoAPI.h
+     NAAPI.m
+     NAOAuth.m
+     NAOAuthDevice.m
+     NAOAuthUser.m
+     TTURLJSONResponse+ErrorProcessing.m
+     TTURLRequest+NtmoAPI.m
+    }
+    Netcom=Netcom {
+     InstallerDelegate.h
+     NetcomCmdHandler.h
+     NetcomCommandDelegate.h
+     NetcomContext.h
+     NetcomDevice.h
+     NetcomFrame.h
+     NetcomUtils.h
+     NetcomCmdHandler.m
+     NetcomContext.m
+     NetcomDevice.m
+     NetcomFrame.m
+     NetcomUtils.m
+     netcom_config.c
+    }
+    Options=Options {
+     SettingsViewController.h
+     SettingsViewController.m
+    }
+    Timeline=Timeline {
+     ButtonPopoverContentViewController.h
+     MBProgressHUD.h
+     PostViewControllers.h
+     TempAPITimeline.h
+     TimelineDataSource.h
+     TimelineDragRefreshDelegate.h
+     TimelineItem.h
+     TimelineItemCell.h
+     TimelineModel.h
+     TimelineViewController.h
+     ButtonPopoverContentViewController.m
+     MBProgressHUD.m
+     PostViewControllers.m
+     TempAPITimeline.m
+     TimelineDataSource.m
+     TimelineDragRefreshDelegate.m
+     TimelineItem.m
+     TimelineItemCell.m
+     TimelineModel.m
+     TimelineViewController.m
+    }
+    ViewItems=ViewItems {
+     BarButtonSpinner.h
+     EditTextWithCaptionTableItem.h
+     NAActivityLabel.h
+     NACheckTableItem.h
+     NACheckTableItemCell.h
+     NATableImageItem.h
+     NATableImageItemCell.h
+     TTTableViewDataSource+NA.h
+     BarButtonSpinner.m
+     EditTextWithCaptionTableItem.m
+     NAActivityLabel.m
+     NACheckTableItem.m
+     NACheckTableItemCell.m
+     NATableImageItem.m
+     NATableImageItemCell.m
+     TTTableViewDataSource+NA.m
+    }
+   }
+   Fonts=Fonts {
+   }
+   Resources=Resources {
+    Dashboard=Dashboard {
+     Forecast=Forecast {
+     }
+     Icons=Icons {
+      Forecast=Forecast {
+      }
+      OptionPanel=OptionPanel {
+      }
+      WeatherIcons=WeatherIcons {
+       Current=Current {
+       }
+       Forecast=Forecast {
+       }
+      }
+      WindIcons=WindIcons {
+      }
+     }
+    }
+    Installer=Installer {
+     Wifi=Wifi {
+     }
+    }
+    Shared=Shared {
+     Buttons=Buttons {
+     }
+     Popover=Popover {
+     }
+    }
+   }
+   de.lproj=de.lproj {
+   }
+   en.lproj=en.lproj {
+   }
+   es.lproj=es.lproj {
+   }
+   fr.lproj=fr.lproj {
+   }
+   images=images {
+   }
+  }
+  weatherstation.xcodeproj=weatherstation.xcodeproj {
+  }
+ }
+}
+
+
+php_generic=/home/svakulenko/depots/svn/trunk/generic/php CD=. filter="*.*" {
+ AlarmCommon.php
+ AppliCommon.php
+ AppliCommonPrivate.php
+ AppliCommonPublic.php
+ CommonConfig.php
+ GenericUtils.php
+ LangUtils.php
+ NAApiClient.php
+ NAApiClientExample.php
+ ParsePhpCommon.pm
+ appli_common_2_c.pl
+ appli_common_2_java.pl
+ appli_common_2_js.pl
+ appli_common_2_obj_c.pl
+ error_code_2_c.sh
+ testLangUtils.php
+ ExtLib=ExtLib {
+  facebook-php-sdk=facebook-php-sdk {
+   changelog.md
+   readme.md
+   sign.php
+   examples=examples {
+    example.php
+    with_js_sdk.php
+   }
+   src=src {
+    base_facebook.php
+    facebook.php
+    fb_ca_chain_bundle.crt
+   }
+   tests=tests {
+    bootstrap.php
+    tests.php
+   }
+  }
+  twitter-php-sdk=twitter-php-sdk {
+   EpiCurl.php
+   EpiOAuth.php
+   EpiSequence.php
+   EpiTwitter.php
+   README.markdown
+   ca-bundle.crt
+   index.php
+   simpleTest.php
+   tests=tests {
+    AllTests.php
+    EpiOAuthTest.php
+    EpiTwitterTest.php
+    avatar_test_image.jpg
+    avatar_test_image.png
+    sequencerTest.php
+    coverage=coverage {
+     EpiCurl.php.html
+     EpiOAuth.php.html
+     EpiTwitter.php.html
+     butter.png
+     chameleon.png
+     close12_1.gif
+     container-min.js
+     container.css
+     glass.png
+     index.html
+     scarlet_red.png
+     snow.png
+     style.css
+     tests.html
+     tests_AllTests.php.html
+     yahoo-dom-event.js
+    }
+   }
+  }
+ }
+}
+
+
+
+
+
+quickAction_exemple=/home/svakulenko/depots/git/NewQuickAction3D CD=. filter="*.*" {
+ AndroidManifest.xml
+ CHANGELOG.md
+ LICENSE.txt
+ build.xml
+ local.properties
+ proguard-project.txt
+ proguard.cfg
+ project.properties
+ readme.md
+ bin=bin {
+  AndroidManifest.xml
+  AndroidManifest.xml.d
+  ExampleActivity-debug-unaligned.apk
+  ExampleActivity-debug-unaligned.apk.d
+  ExampleActivity-debug.apk
+  ExampleActivity.ap_
+  ExampleActivity.ap_.d
+  NewQuickAction3D.apk
+  build.prop
+  classes.dex
+  classes.dex.d
+  jarlist.cache
+  proguard.txt
+  resources.ap_
+  classes=classes {
+   net=net {
+    londatiga=londatiga {
+     android=android {
+      ActionItem.class
+      BuildConfig.class
+      ExampleActivity$1.class
+      ExampleActivity$2.class
+      ExampleActivity$3.class
+      ExampleActivity$4.class
+      ExampleActivity$5.class
+      ExampleActivity.class
+      PopupWindows$1.class
+      PopupWindows.class
+      QuickAction$1.class
+      QuickAction$OnActionItemClickListener.class
+      QuickAction$OnDismissListener.class
+      QuickAction.class
+      R$anim.class
+      R$attr.class
+      R$drawable.class
+      R$id.class
+      R$layout.class
+      R$string.class
+      R$style.class
+      R.class
+     }
+    }
+   }
+  }
+  net=net {
+   londatiga=londatiga {
+    android=android {
+     ActionItem.class
+     PopupWindows$1.class
+     PopupWindows.class
+     QuickAction$1.class
+     QuickAction$OnActionItemClickListener.class
+     QuickAction.class
+     R$anim.class
+     R$attr.class
+     R$drawable.class
+     R$id.class
+     R$layout.class
+     R$string.class
+     R$style.class
+     R.class
+    }
+   }
+  }
+  res=res {
+   drawable=drawable {
+    action_item_selected.9.png
+    arrow_down.png
+    arrow_up.png
+    icon.png
+    menu_cancel.png
+    menu_down_arrow.png
+    menu_eraser.png
+    menu_info.png
+    menu_ok.png
+    menu_search.png
+    menu_up_arrow.png
+    popup.9.png
+   }
+   drawable-hdpi=drawable-hdpi {
+    icon.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    icon.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    icon.png
+   }
+  }
+ }
+ gen=gen {
+  R.java.d
+  net=net {
+   londatiga=londatiga {
+    android=android {
+     BuildConfig.java
+     R.java
+    }
+   }
+  }
+ }
+ libs=libs {
+ }
+ res=res {
+  anim=anim {
+   disappear.xml
+   grow_from_bottom.xml
+   grow_from_bottomleft_to_topright.xml
+   grow_from_bottomright_to_topleft.xml
+   grow_from_top.xml
+   grow_from_topleft_to_bottomright.xml
+   grow_from_topright_to_bottomleft.xml
+   pump_bottom.xml
+   pump_top.xml
+   rail.xml
+   shrink_from_bottom.xml
+   shrink_from_bottomleft_to_topright.xml
+   shrink_from_bottomright_to_topleft.xml
+   shrink_from_top.xml
+   shrink_from_topleft_to_bottomright.xml
+   shrink_from_topright_to_bottomleft.xml
+  }
+  drawable=drawable {
+   action_item_btn.xml
+   action_item_selected.9.png
+   arrow_down.png
+   arrow_up.png
+   icon.png
+   menu_cancel.png
+   menu_down_arrow.png
+   menu_eraser.png
+   menu_info.png
+   menu_ok.png
+   menu_search.png
+   menu_up_arrow.png
+   popup.9.png
+  }
+  drawable-hdpi=drawable-hdpi {
+   icon.png
+  }
+  drawable-ldpi=drawable-ldpi {
+   icon.png
+  }
+  drawable-mdpi=drawable-mdpi {
+   icon.png
+  }
+  layout=layout {
+   action_item_horizontal.xml
+   action_item_vertical.xml
+   horiz_separator.xml
+   main.xml
+   popup_horizontal.xml
+   popup_vertical.xml
+  }
+  values=values {
+   strings.xml
+   styles.xml
+  }
+ }
+ src=src {
+  net=net {
+   londatiga=londatiga {
+    android=android {
+     ActionItem.java
+     ExampleActivity.java
+     PopupWindows.java
+     QuickAction.java
+    }
+   }
+  }
+ }
+}
+
+CheckProgBar=/home/svakulenko/depots/svn/trunk/apps/Android/eclipse/workspace/CheckProgBar2 CD=. filter="*.*" {
+ AndroidManifest.xml
+ ic_launcher-web.png
+ proguard-project.txt
+ project.properties
+ assets=assets {
+ }
+ bin=bin {
+  AndroidManifest.xml
+  CheckProgBar2.apk
+  classes.dex
+  jarlist.cache
+  resources.ap_
+  classes=classes {
+   com=com {
+    example=example {
+     checkprogbar2=checkprogbar2 {
+      BuildConfig.class
+      MainActivity.class
+      R$attr.class
+      R$dimen.class
+      R$drawable.class
+      R$id.class
+      R$layout.class
+      R$menu.class
+      R$string.class
+      R$style.class
+      R.class
+     }
+    }
+    netatmo=netatmo {
+     generic=generic {
+      framework=framework {
+       ProgressBarWithText.class
+      }
+     }
+    }
+   }
+  }
+  res=res {
+   drawable-hdpi=drawable-hdpi {
+    ic_action_search.png
+    ic_launcher.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    ic_launcher.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    ic_action_search.png
+    ic_launcher.png
+   }
+   drawable-xhdpi=drawable-xhdpi {
+    ic_action_search.png
+    ic_launcher.png
+    jauge_air_now_new.png
+    jauge_vide2_bleu2x.png
+    sonometre_curseur2x.png
+    sonometre_fond2x.png
+    sonometre_ombre2x.png
+   }
+  }
+ }
+ gen=gen {
+  com=com {
+   example=example {
+    checkprogbar2=checkprogbar2 {
+     BuildConfig.java
+     R.java
+    }
+   }
+  }
+ }
+ libs=libs {
+  android-support-v4.jar
+ }
+ res=res {
+  drawable-hdpi=drawable-hdpi {
+   ic_action_search.png
+   ic_launcher.png
+  }
+  drawable-ldpi=drawable-ldpi {
+   ic_launcher.png
+  }
+  drawable-mdpi=drawable-mdpi {
+   ic_action_search.png
+   ic_launcher.png
+  }
+  drawable-xhdpi=drawable-xhdpi {
+   ic_action_search.png
+   ic_launcher.png
+   jauge_air_now_new.png
+   jauge_vide2_bleu2x.png
+   progbar_layer1.xml
+   progbar_layer2.xml
+   sonometre_curseur2x.png
+   sonometre_fond2x.png
+   sonometre_ombre2x.png
+   ws_apply_dashboard_view_indoor_layout_progbar_confort_accoustic.xml
+   ws_apply_dashboard_view_progbar_qualite_air.xml
+  }
+  layout=layout {
+   activity_main.xml
+  }
+  menu=menu {
+   activity_main.xml
+  }
+  values=values {
+   dimens.xml
+   strings.xml
+   styles.xml
+  }
+  values-large=values-large {
+   dimens.xml
+  }
+ }
+ src=src {
+  com=com {
+   example=example {
+    checkprogbar2=checkprogbar2 {
+     MainActivity.java
+    }
+   }
+   netatmo=netatmo {
+    generic=generic {
+     framework=framework {
+      ProgressBarWithText.java
+     }
+    }
+   }
+  }
+ }
+}
+
+py_workspace=/home/svakulenko/workspace/py CD=. filter="*.*" {
+bin.py
+}
+
+
+CheckActionModes2=/home/svakulenko/depots/svn/trunk/apps/Android/eclipse/workspace/CheckActionModes2 CD=. filter="*.*" {
+ AndroidManifest.xml
+ ic_launcher-web.png
+ lint.xml
+ proguard-project.txt
+ project.properties
+ assets=assets {
+ }
+ bin=bin {
+  AndroidManifest.xml
+  CheckActionModes2.apk
+  classes.dex
+  resources.ap_
+  classes=classes {
+   com=com {
+    actionbarsherlock=actionbarsherlock {
+     R$array.class
+     R$attr.class
+     R$bool.class
+     R$color.class
+     R$dimen.class
+     R$drawable.class
+     R$id.class
+     R$integer.class
+     R$layout.class
+     R$menu.class
+     R$string.class
+     R$style.class
+     R$styleable.class
+     R.class
+    }
+    example=example {
+     checkactionmodes2=checkactionmodes2 {
+      BuildConfig.class
+      R$array.class
+      R$attr.class
+      R$bool.class
+      R$color.class
+      R$dimen.class
+      R$drawable.class
+      R$id.class
+      R$integer.class
+      R$layout.class
+      R$menu.class
+      R$string.class
+      R$style.class
+      R$styleable.class
+      R.class
+      WS.class
+     }
+    }
+   }
+  }
+  res=res {
+   drawable-hdpi=drawable-hdpi {
+    bg_striped_img.png
+    bg_striped_split_img.png
+    ic_action_search.png
+    ic_compose.png
+    ic_compose_inverse.png
+    ic_launcher.png
+    ic_launcher_settings.png
+    ic_magnifying_glass.png
+    ic_refresh.png
+    ic_refresh_inverse.png
+    ic_search.png
+    ic_search_inverse.png
+    ic_title_share_default.png
+    icon.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    ic_launcher.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    ic_action_search.png
+    ic_launcher.png
+   }
+   drawable-xhdpi=drawable-xhdpi {
+    ic_action_search.png
+    ic_launcher.png
+   }
+  }
+ }
+ gen=gen {
+  com=com {
+   actionbarsherlock=actionbarsherlock {
+    R.java
+   }
+   example=example {
+    checkactionmodes2=checkactionmodes2 {
+     BuildConfig.java
+     R.java
+    }
+   }
+  }
+ }
+ libs=libs {
+  android-support-v4.jar
+ }
+ res=res {
+  drawable-hdpi=drawable-hdpi {
+   bg_striped_img.png
+   bg_striped_split_img.png
+   ic_action_search.png
+   ic_compose.png
+   ic_compose_inverse.png
+   ic_launcher.png
+   ic_launcher_settings.png
+   ic_magnifying_glass.png
+   ic_refresh.png
+   ic_refresh_inverse.png
+   ic_search.png
+   ic_search_inverse.png
+   ic_title_share_default.png
+   icon.png
+  }
+  drawable-ldpi=drawable-ldpi {
+   ic_launcher.png
+  }
+  drawable-mdpi=drawable-mdpi {
+   ic_action_search.png
+   ic_launcher.png
+  }
+  drawable-xhdpi=drawable-xhdpi {
+   ic_action_search.png
+   ic_launcher.png
+  }
+  layout=layout {
+   action_bar_layout.xml
+   action_sort.xml
+   activity_main.xml
+  }
+  menu=menu {
+   activity_main.xml
+   main_screen_menu.xml
+  }
+  values=values {
+   dimens.xml
+   strings.xml
+   styles.xml
+  }
+  values-large=values-large {
+   dimens.xml
+  }
+  values-v11=values-v11 {
+   styles.xml
+  }
+  values-v14=values-v14 {
+   styles.xml
+  }
+ }
+ src=src {
+  com=com {
+   example=example {
+    checkactionmodes2=checkactionmodes2 {
+     WS.java
+    }
+   }
+  }
+ }
+}
+
+actionBarScherlok=/home/svakulenko/sources/JakeWharton-ActionBarSherlock-88fc341 CD=. filter="*.*" {
+ CHANGELOG.md
+ LICENSE.txt
+ README.md
+ checkstyle.xml
+ debug.keystore
+ pom.xml
+ library=library {
+  AndroidManifest.xml
+  README.md
+  pom.xml
+  project.properties
+  libs=libs {
+   android-support-v4.jar
+  }
+  res=res {
+   color=color {
+    abs__primary_text_disable_only_holo_dark.xml
+    abs__primary_text_disable_only_holo_light.xml
+    abs__primary_text_holo_dark.xml
+    abs__primary_text_holo_light.xml
+   }
+   drawable=drawable {
+    abs__activated_background_holo_dark.xml
+    abs__activated_background_holo_light.xml
+    abs__btn_cab_done_holo_dark.xml
+    abs__btn_cab_done_holo_light.xml
+    abs__ic_menu_moreoverflow_holo_dark.xml
+    abs__ic_menu_moreoverflow_holo_light.xml
+    abs__item_background_holo_dark.xml
+    abs__item_background_holo_light.xml
+    abs__list_selector_background_transition_holo_dark.xml
+    abs__list_selector_background_transition_holo_light.xml
+    abs__list_selector_holo_dark.xml
+    abs__list_selector_holo_light.xml
+    abs__progress_horizontal_holo_dark.xml
+    abs__progress_horizontal_holo_light.xml
+    abs__progress_medium_holo.xml
+    abs__spinner_ab_holo_dark.xml
+    abs__spinner_ab_holo_light.xml
+    abs__tab_indicator_ab_holo.xml
+   }
+   drawable-hdpi=drawable-hdpi {
+    abs__ab_bottom_solid_dark_holo.9.png
+    abs__ab_bottom_solid_inverse_holo.9.png
+    abs__ab_bottom_solid_light_holo.9.png
+    abs__ab_bottom_transparent_dark_holo.9.png
+    abs__ab_bottom_transparent_light_holo.9.png
+    abs__ab_share_pack_holo_dark.9.png
+    abs__ab_share_pack_holo_light.9.png
+    abs__ab_solid_dark_holo.9.png
+    abs__ab_solid_light_holo.9.png
+    abs__ab_solid_shadow_holo.9.png
+    abs__ab_stacked_solid_dark_holo.9.png
+    abs__ab_stacked_solid_light_holo.9.png
+    abs__ab_stacked_transparent_dark_holo.9.png
+    abs__ab_stacked_transparent_light_holo.9.png
+    abs__ab_transparent_dark_holo.9.png
+    abs__ab_transparent_light_holo.9.png
+    abs__btn_cab_done_default_holo_dark.9.png
+    abs__btn_cab_done_default_holo_light.9.png
+    abs__btn_cab_done_focused_holo_dark.9.png
+    abs__btn_cab_done_focused_holo_light.9.png
+    abs__btn_cab_done_pressed_holo_dark.9.png
+    abs__btn_cab_done_pressed_holo_light.9.png
+    abs__cab_background_bottom_holo_dark.9.png
+    abs__cab_background_bottom_holo_light.9.png
+    abs__cab_background_top_holo_dark.9.png
+    abs__cab_background_top_holo_light.9.png
+    abs__dialog_full_holo_dark.9.png
+    abs__dialog_full_holo_light.9.png
+    abs__ic_ab_back_holo_dark.png
+    abs__ic_ab_back_holo_light.png
+    abs__ic_cab_done_holo_dark.png
+    abs__ic_cab_done_holo_light.png
+    abs__ic_menu_moreoverflow_normal_holo_dark.png
+    abs__ic_menu_moreoverflow_normal_holo_light.png
+    abs__ic_menu_share_holo_dark.png
+    abs__ic_menu_share_holo_light.png
+    abs__list_activated_holo.9.png
+    abs__list_divider_holo_dark.9.png
+    abs__list_divider_holo_light.9.png
+    abs__list_focused_holo.9.png
+    abs__list_longpressed_holo.9.png
+    abs__list_pressed_holo_dark.9.png
+    abs__list_pressed_holo_light.9.png
+    abs__list_selector_disabled_holo_dark.9.png
+    abs__list_selector_disabled_holo_light.9.png
+    abs__menu_dropdown_panel_holo_dark.9.png
+    abs__menu_dropdown_panel_holo_light.9.png
+    abs__progress_bg_holo_dark.9.png
+    abs__progress_bg_holo_light.9.png
+    abs__progress_primary_holo_dark.9.png
+    abs__progress_primary_holo_light.9.png
+    abs__progress_secondary_holo_dark.9.png
+    abs__progress_secondary_holo_light.9.png
+    abs__spinner_48_inner_holo.png
+    abs__spinner_48_outer_holo.png
+    abs__spinner_ab_default_holo_dark.9.png
+    abs__spinner_ab_default_holo_light.9.png
+    abs__spinner_ab_disabled_holo_dark.9.png
+    abs__spinner_ab_disabled_holo_light.9.png
+    abs__spinner_ab_focused_holo_dark.9.png
+    abs__spinner_ab_focused_holo_light.9.png
+    abs__spinner_ab_pressed_holo_dark.9.png
+    abs__spinner_ab_pressed_holo_light.9.png
+    abs__tab_selected_focused_holo.9.png
+    abs__tab_selected_holo.9.png
+    abs__tab_selected_pressed_holo.9.png
+    abs__tab_unselected_pressed_holo.9.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    abs__ab_bottom_solid_dark_holo.9.png
+    abs__ab_bottom_solid_inverse_holo.9.png
+    abs__ab_bottom_solid_light_holo.9.png
+    abs__ab_bottom_transparent_dark_holo.9.png
+    abs__ab_bottom_transparent_light_holo.9.png
+    abs__ab_share_pack_holo_dark.9.png
+    abs__ab_share_pack_holo_light.9.png
+    abs__ab_solid_dark_holo.9.png
+    abs__ab_solid_light_holo.9.png
+    abs__ab_solid_shadow_holo.9.png
+    abs__ab_stacked_solid_dark_holo.9.png
+    abs__ab_stacked_solid_light_holo.9.png
+    abs__ab_stacked_transparent_dark_holo.9.png
+    abs__ab_stacked_transparent_light_holo.9.png
+    abs__ab_transparent_dark_holo.9.png
+    abs__ab_transparent_light_holo.9.png
+    abs__btn_cab_done_default_holo_dark.9.png
+    abs__btn_cab_done_default_holo_light.9.png
+    abs__btn_cab_done_focused_holo_dark.9.png
+    abs__btn_cab_done_focused_holo_light.9.png
+    abs__btn_cab_done_pressed_holo_dark.9.png
+    abs__btn_cab_done_pressed_holo_light.9.png
+    abs__cab_background_bottom_holo_dark.9.png
+    abs__cab_background_bottom_holo_light.9.png
+    abs__cab_background_top_holo_dark.9.png
+    abs__cab_background_top_holo_light.9.png
+    abs__dialog_full_holo_dark.9.png
+    abs__dialog_full_holo_light.9.png
+    abs__ic_ab_back_holo_dark.png
+    abs__ic_ab_back_holo_light.png
+    abs__ic_cab_done_holo_dark.png
+    abs__ic_cab_done_holo_light.png
+    abs__ic_menu_moreoverflow_normal_holo_dark.png
+    abs__ic_menu_moreoverflow_normal_holo_light.png
+    abs__ic_menu_share_holo_dark.png
+    abs__ic_menu_share_holo_light.png
+    abs__list_activated_holo.9.png
+    abs__list_divider_holo_dark.9.png
+    abs__list_divider_holo_light.9.png
+    abs__list_focused_holo.9.png
+    abs__list_longpressed_holo.9.png
+    abs__list_pressed_holo_dark.9.png
+    abs__list_pressed_holo_light.9.png
+    abs__list_selector_disabled_holo_dark.9.png
+    abs__list_selector_disabled_holo_light.9.png
+    abs__menu_dropdown_panel_holo_dark.9.png
+    abs__menu_dropdown_panel_holo_light.9.png
+    abs__progress_bg_holo_dark.9.png
+    abs__progress_bg_holo_light.9.png
+    abs__progress_primary_holo_dark.9.png
+    abs__progress_primary_holo_light.9.png
+    abs__progress_secondary_holo_dark.9.png
+    abs__progress_secondary_holo_light.9.png
+    abs__spinner_48_inner_holo.png
+    abs__spinner_48_outer_holo.png
+    abs__spinner_ab_default_holo_dark.9.png
+    abs__spinner_ab_default_holo_light.9.png
+    abs__spinner_ab_disabled_holo_dark.9.png
+    abs__spinner_ab_disabled_holo_light.9.png
+    abs__spinner_ab_focused_holo_dark.9.png
+    abs__spinner_ab_focused_holo_light.9.png
+    abs__spinner_ab_pressed_holo_dark.9.png
+    abs__spinner_ab_pressed_holo_light.9.png
+    abs__tab_selected_focused_holo.9.png
+    abs__tab_selected_holo.9.png
+    abs__tab_selected_pressed_holo.9.png
+    abs__tab_unselected_pressed_holo.9.png
+   }
+   drawable-v11=drawable-v11 {
+    abs__progress_medium_holo.xml
+   }
+   drawable-xhdpi=drawable-xhdpi {
+    abs__ab_bottom_solid_dark_holo.9.png
+    abs__ab_bottom_solid_inverse_holo.9.png
+    abs__ab_bottom_solid_light_holo.9.png
+    abs__ab_bottom_transparent_dark_holo.9.png
+    abs__ab_bottom_transparent_light_holo.9.png
+    abs__ab_share_pack_holo_dark.9.png
+    abs__ab_share_pack_holo_light.9.png
+    abs__ab_solid_dark_holo.9.png
+    abs__ab_solid_light_holo.9.png
+    abs__ab_solid_shadow_holo.9.png
+    abs__ab_stacked_solid_dark_holo.9.png
+    abs__ab_stacked_solid_light_holo.9.png
+    abs__ab_stacked_transparent_dark_holo.9.png
+    abs__ab_stacked_transparent_light_holo.9.png
+    abs__ab_transparent_dark_holo.9.png
+    abs__ab_transparent_light_holo.9.png
+    abs__btn_cab_done_default_holo_dark.9.png
+    abs__btn_cab_done_default_holo_light.9.png
+    abs__btn_cab_done_focused_holo_dark.9.png
+    abs__btn_cab_done_focused_holo_light.9.png
+    abs__btn_cab_done_pressed_holo_dark.9.png
+    abs__btn_cab_done_pressed_holo_light.9.png
+    abs__cab_background_bottom_holo_dark.9.png
+    abs__cab_background_bottom_holo_light.9.png
+    abs__cab_background_top_holo_dark.9.png
+    abs__cab_background_top_holo_light.9.png
+    abs__dialog_full_holo_dark.9.png
+    abs__dialog_full_holo_light.9.png
+    abs__ic_ab_back_holo_dark.png
+    abs__ic_ab_back_holo_light.png
+    abs__ic_cab_done_holo_dark.png
+    abs__ic_cab_done_holo_light.png
+    abs__ic_menu_moreoverflow_normal_holo_dark.png
+    abs__ic_menu_moreoverflow_normal_holo_light.png
+    abs__ic_menu_share_holo_dark.png
+    abs__ic_menu_share_holo_light.png
+    abs__list_activated_holo.9.png
+    abs__list_divider_holo_dark.9.png
+    abs__list_divider_holo_light.9.png
+    abs__list_focused_holo.9.png
+    abs__list_longpressed_holo.9.png
+    abs__list_pressed_holo_dark.9.png
+    abs__list_pressed_holo_light.9.png
+    abs__list_selector_disabled_holo_dark.9.png
+    abs__list_selector_disabled_holo_light.9.png
+    abs__menu_dropdown_panel_holo_dark.9.png
+    abs__menu_dropdown_panel_holo_light.9.png
+    abs__progress_bg_holo_dark.9.png
+    abs__progress_bg_holo_light.9.png
+    abs__progress_primary_holo_dark.9.png
+    abs__progress_primary_holo_light.9.png
+    abs__progress_secondary_holo_dark.9.png
+    abs__progress_secondary_holo_light.9.png
+    abs__spinner_48_inner_holo.png
+    abs__spinner_48_outer_holo.png
+    abs__spinner_ab_default_holo_dark.9.png
+    abs__spinner_ab_default_holo_light.9.png
+    abs__spinner_ab_disabled_holo_dark.9.png
+    abs__spinner_ab_disabled_holo_light.9.png
+    abs__spinner_ab_focused_holo_dark.9.png
+    abs__spinner_ab_focused_holo_light.9.png
+    abs__spinner_ab_pressed_holo_dark.9.png
+    abs__spinner_ab_pressed_holo_light.9.png
+    abs__tab_selected_focused_holo.9.png
+    abs__tab_selected_holo.9.png
+    abs__tab_selected_pressed_holo.9.png
+    abs__tab_unselected_pressed_holo.9.png
+   }
+   layout=layout {
+    abs__action_bar_home.xml
+    abs__action_bar_tab.xml
+    abs__action_bar_tab_bar_view.xml
+    abs__action_bar_title_item.xml
+    abs__action_menu_item_layout.xml
+    abs__action_menu_layout.xml
+    abs__action_mode_bar.xml
+    abs__action_mode_close_item.xml
+    abs__activity_chooser_view.xml
+    abs__activity_chooser_view_list_item.xml
+    abs__dialog_title_holo.xml
+    abs__list_menu_item_checkbox.xml
+    abs__list_menu_item_icon.xml
+    abs__list_menu_item_layout.xml
+    abs__list_menu_item_radio.xml
+    abs__popup_menu_item_layout.xml
+    abs__screen_action_bar.xml
+    abs__screen_action_bar_overlay.xml
+    abs__screen_simple.xml
+    abs__screen_simple_overlay_action_mode.xml
+    sherlock_spinner_dropdown_item.xml
+    sherlock_spinner_item.xml
+   }
+   layout-large=layout-large {
+    abs__action_mode_close_item.xml
+   }
+   layout-v14=layout-v14 {
+    sherlock_spinner_dropdown_item.xml
+    sherlock_spinner_item.xml
+   }
+   layout-xlarge=layout-xlarge {
+    abs__screen_action_bar.xml
+    abs__screen_action_bar_overlay.xml
+   }
+   values=values {
+    abs__attrs.xml
+    abs__bools.xml
+    abs__colors.xml
+    abs__config.xml
+    abs__dimens.xml
+    abs__ids.xml
+    abs__strings.xml
+    abs__styles.xml
+    abs__themes.xml
+   }
+   values-land=values-land {
+    abs__dimens.xml
+   }
+   values-large=values-large {
+    abs__dimens.xml
+   }
+   values-large-hdpi-1024x600=values-large-hdpi-1024x600 {
+    abs__dimens.xml
+   }
+   values-large-land-hdpi-1024x600=values-large-land-hdpi-1024x600 {
+    abs__dimens.xml
+   }
+   values-large-land-mdpi-1024x600=values-large-land-mdpi-1024x600 {
+    abs__dimens.xml
+   }
+   values-large-mdpi-1024x600=values-large-mdpi-1024x600 {
+    abs__dimens.xml
+   }
+   values-sw600dp=values-sw600dp {
+    abs__bools.xml
+    abs__dimens.xml
+   }
+   values-v11=values-v11 {
+    abs__themes.xml
+   }
+   values-v14=values-v14 {
+    abs__styles.xml
+    abs__themes.xml
+   }
+   values-w360dp=values-w360dp {
+    abs__dimens.xml
+   }
+   values-w480dp=values-w480dp {
+    abs__bools.xml
+    abs__config.xml
+   }
+   values-w500dp=values-w500dp {
+    abs__dimens.xml
+   }
+   values-w600dp=values-w600dp {
+    abs__dimens.xml
+   }
+   values-xlarge=values-xlarge {
+    abs__dimens.xml
+   }
+  }
+  src=src {
+   android=android {
+    support=support {
+     v4=v4 {
+      app=app {
+       _ActionBarSherlockTrojanHorse.java
+      }
+     }
+    }
+   }
+   com=com {
+    actionbarsherlock=actionbarsherlock {
+     ActionBarSherlock.java
+     app=app {
+      ActionBar.java
+      SherlockActivity.java
+      SherlockDialogFragment.java
+      SherlockExpandableListActivity.java
+      SherlockFragment.java
+      SherlockFragmentActivity.java
+      SherlockListActivity.java
+      SherlockListFragment.java
+      SherlockPreferenceActivity.java
+     }
+     internal=internal {
+      ActionBarSherlockCompat.java
+      ActionBarSherlockNative.java
+      ResourcesCompat.java
+      app=app {
+       ActionBarImpl.java
+       ActionBarWrapper.java
+      }
+      nineoldandroids=nineoldandroids {
+       animation=animation {
+        Animator.java
+        AnimatorListenerAdapter.java
+        AnimatorSet.java
+        FloatEvaluator.java
+        FloatKeyframeSet.java
+        IntEvaluator.java
+        IntKeyframeSet.java
+        Keyframe.java
+        KeyframeSet.java
+        ObjectAnimator.java
+        PropertyValuesHolder.java
+        TypeEvaluator.java
+        ValueAnimator.java
+       }
+       view=view {
+        NineViewGroup.java
+        animation=animation {
+         AnimatorProxy.java
+        }
+       }
+       widget=widget {
+        NineFrameLayout.java
+        NineHorizontalScrollView.java
+        NineLinearLayout.java
+       }
+      }
+      view=view {
+       ActionProviderWrapper.java
+       StandaloneActionMode.java
+       View_HasStateListenerSupport.java
+       View_OnAttachStateChangeListener.java
+       menu=menu {
+        ActionMenu.java
+        ActionMenuItem.java
+        ActionMenuItemView.java
+        ActionMenuPresenter.java
+        ActionMenuView.java
+        BaseMenuPresenter.java
+        ListMenuItemView.java
+        MenuBuilder.java
+        MenuItemImpl.java
+        MenuItemWrapper.java
+        MenuPopupHelper.java
+        MenuPresenter.java
+        MenuView.java
+        MenuWrapper.java
+        SubMenuBuilder.java
+        SubMenuWrapper.java
+       }
+      }
+      widget=widget {
+       AbsActionBarView.java
+       ActionBarContainer.java
+       ActionBarContextView.java
+       ActionBarView.java
+       CapitalizingButton.java
+       CapitalizingTextView.java
+       FakeDialogPhoneWindow.java
+       IcsAbsSpinner.java
+       IcsAdapterView.java
+       IcsLinearLayout.java
+       IcsListPopupWindow.java
+       IcsProgressBar.java
+       IcsSpinner.java
+       IcsView.java
+       ScrollingTabContainerView.java
+      }
+     }
+     view=view {
+      ActionMode.java
+      ActionProvider.java
+      CollapsibleActionView.java
+      Menu.java
+      MenuInflater.java
+      MenuItem.java
+      SubMenu.java
+      Window.java
+     }
+     widget=widget {
+      ActivityChooserModel.java
+      ActivityChooserView.java
+      ShareActionProvider.java
+     }
+    }
+   }
+  }
+  test=test {
+   com=com {
+    actionbarsherlock=actionbarsherlock {
+     internal=internal {
+      ManifestParsingTest.java
+     }
+    }
+   }
+  }
+ }
+ samples=samples {
+  README.md
+  pom.xml
+  demos=demos {
+   AndroidManifest.xml
+   README.md
+   pom.xml
+   project.properties
+   libs=libs {
+    android-support-v4.jar
+   }
+   res=res {
+    drawable=drawable {
+     bg_striped.xml
+     bg_striped_split.xml
+    }
+    drawable-hdpi=drawable-hdpi {
+     bg_striped_img.png
+     bg_striped_split_img.png
+     ic_compose.png
+     ic_compose_inverse.png
+     ic_launcher_settings.png
+     ic_magnifying_glass.png
+     ic_refresh.png
+     ic_refresh_inverse.png
+     ic_search.png
+     ic_search_inverse.png
+     ic_title_share_default.png
+     icon.png
+    }
+    drawable-ldpi=drawable-ldpi {
+     icon.png
+    }
+    drawable-mdpi=drawable-mdpi {
+     bg_striped_img.png
+     bg_striped_split_img.png
+     ic_compose.png
+     ic_compose_inverse.png
+     ic_launcher_settings.png
+     ic_magnifying_glass.png
+     ic_refresh.png
+     ic_refresh_inverse.png
+     ic_search.png
+     ic_search_inverse.png
+     icon.png
+    }
+    drawable-xhdpi=drawable-xhdpi {
+     bg_striped_img.png
+     bg_striped_split_img.png
+     ic_launcher_settings.png
+     icon.png
+    }
+    layout=layout {
+     action_modes.xml
+     collapsible_edittext.xml
+     context_menus.xml
+     custom_view.xml
+     feature_toggles.xml
+     iprogress.xml
+     list_navigation.xml
+     overlay.xml
+     preferences.xml
+     progress.xml
+     settings_action_provider.xml
+     tab_custom_view.xml
+     tab_navigation.xml
+     text.xml
+    }
+    layout-large-land=layout-large-land {
+     feature_toggles.xml
+    }
+    menu=menu {
+     settings_action_provider.xml
+     share_action_provider.xml
+    }
+    raw=raw {
+     robot.png
+    }
+    values=values {
+     arrays.xml
+     colors.xml
+     strings.xml
+     themes.xml
+    }
+    xml=xml {
+     preferences.xml
+    }
+   }
+   src=src {
+    com=com {
+     actionbarsherlock=actionbarsherlock {
+      sample=sample {
+       demos=demos {
+        ActionItems.java
+        ActionModes.java
+        ActionModesNoActionBar.java
+        ActionProviders.java
+        CollapsibleActionItem.java
+        ContextMenus.java
+        CustomNavigation.java
+        Dialog.java
+        FeatureToggles.java
+        ForcedOverflowItem.java
+        IndeterminateProgress.java
+        ListNavigation.java
+        Overlay.java
+        Preference.java
+        Progress.java
+        SampleList.java
+        ShareActionProviders.java
+        Simple.java
+        SplitActionItems.java
+        SplitActionModes.java
+        StaticAttachment.java
+        Styled.java
+        SubMenus.java
+        TabNavigation.java
+        TabNavigationCollapsed.java
+       }
+      }
+     }
+    }
+   }
+  }
+  fragments=fragments {
+   AndroidManifest.xml
+   README.md
+   pom.xml
+   project.properties
+   libs=libs {
+    android-support-v4.jar
+   }
+   res=res {
+    anim=anim {
+     decelerate_quint.xml
+     fragment_slide_left_enter.xml
+     fragment_slide_left_exit.xml
+     fragment_slide_right_enter.xml
+     fragment_slide_right_exit.xml
+    }
+    drawable-hdpi=drawable-hdpi {
+     alert_dialog_icon.png
+     ic_compose.png
+     ic_compose_inverse.png
+     ic_refresh.png
+     ic_refresh_inverse.png
+     ic_search.png
+     ic_search_inverse.png
+     icon.png
+    }
+    drawable-ldpi=drawable-ldpi {
+     icon.png
+    }
+    drawable-mdpi=drawable-mdpi {
+     alert_dialog_icon.png
+     ic_compose.png
+     ic_compose_inverse.png
+     ic_refresh.png
+     ic_refresh_inverse.png
+     ic_search.png
+     ic_search_inverse.png
+     icon.png
+    }
+    drawable-xhdpi=drawable-xhdpi {
+     icon.png
+    }
+    layout=layout {
+     fragment_arguments_support.xml
+     fragment_context_menu.xml
+     fragment_dialog.xml
+     fragment_dialog_or_activity.xml
+     fragment_hide_show_support.xml
+     fragment_layout_support.xml
+     fragment_menu.xml
+     fragment_pager.xml
+     fragment_pager_list.xml
+     fragment_retain_instance.xml
+     fragment_stack.xml
+     fragment_tabs.xml
+     fragment_tabs_pager.xml
+     hello_world.xml
+     labeled_text_edit.xml
+     list_item_icon_text.xml
+     receive_result.xml
+     send_result.xml
+     simple_list_item_checkable_1.xml
+    }
+    layout-land=layout-land {
+     fragment_arguments_support.xml
+     fragment_layout_support.xml
+    }
+    menu=menu {
+     shortcuts.xml
+    }
+    values=values {
+     attrs.xml
+     colors.xml
+     strings.xml
+    }
+   }
+   src=src {
+    com=com {
+     actionbarsherlock=actionbarsherlock {
+      sample=sample {
+       fragments=fragments {
+        CheckableFrameLayout.java
+        Cheeses.java
+        FragmentAlertDialogSupport.java
+        FragmentArgumentsSupport.java
+        FragmentContextMenuSupport.java
+        FragmentCustomAnimationSupport.java
+        FragmentDialogOrActivitySupport.java
+        FragmentDialogSupport.java
+        FragmentHideShowSupport.java
+        FragmentLayoutSupport.java
+        FragmentListArraySupport.java
+        FragmentMenuSupport.java
+        FragmentPagerSupport.java
+        FragmentReceiveResultSupport.java
+        FragmentRetainInstanceSupport.java
+        FragmentStackSupport.java
+        FragmentStatePagerSupport.java
+        FragmentTabs.java
+        FragmentTabsPager.java
+        LoaderCursorSupport.java
+        LoaderCustomSupport.java
+        LoaderThrottleSupport.java
+        SampleList.java
+        SendResult.java
+        Shakespeare.java
+       }
+      }
+     }
+    }
+   }
+  }
+  known-bugs=known-bugs {
+   AndroidManifest.xml
+   README.md
+   pom.xml
+   project.properties
+   libs=libs {
+    android-support-v4.jar
+   }
+   res=res {
+    anim=anim {
+     issue331_refresh.xml
+    }
+    drawable-hdpi=drawable-hdpi {
+     ic_refresh.png
+     icon.png
+    }
+    drawable-ldpi=drawable-ldpi {
+     icon.png
+    }
+    drawable-mdpi=drawable-mdpi {
+     ic_refresh.png
+     icon.png
+    }
+    drawable-xhdpi=drawable-xhdpi {
+     icon.png
+    }
+    layout=layout {
+     issue331_action_view.xml
+    }
+    values=values {
+     strings.xml
+    }
+   }
+   src=src {
+    com=com {
+     actionbarsherlock=actionbarsherlock {
+      sample=sample {
+       knownbugs=knownbugs {
+        Issue331.java
+        Issue435.java
+        SampleList.java
+       }
+      }
+     }
+    }
+   }
+  }
+  roboguice=roboguice {
+   AndroidManifest.xml
+   README.md
+   pom.xml
+   project.properties
+   libs=libs {
+    android-support-v4.jar
+    guice-3.0-no_aop.jar
+    javax.inject-1.jar
+    roboguice-2.0b4.jar
+    roboguice-sherlock-1.0.jar
+   }
+   res=res {
+    anim=anim {
+     expletive_animation.xml
+    }
+    drawable-hdpi=drawable-hdpi {
+     icon.png
+    }
+    drawable-ldpi=drawable-ldpi {
+     icon.png
+    }
+    drawable-mdpi=drawable-mdpi {
+     icon.png
+    }
+    drawable-xhdpi=drawable-xhdpi {
+     icon.png
+    }
+    layout=layout {
+     fight_evil.xml
+     main.xml
+    }
+    values=values {
+     strings.xml
+    }
+   }
+   src=src {
+    com=com {
+     actionbarsherlock=actionbarsherlock {
+      sample=sample {
+       roboguice=roboguice {
+        activity=activity {
+         AstroboyMasterConsole.java
+         FightForcesOfEvilActivity.java
+        }
+        controller=controller {
+         Astroboy.java
+         AstroboyRemoteControl.java
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  styled=styled {
+   AndroidManifest.xml
+   README.md
+   pom.xml
+   project.properties
+   libs=libs {
+    android-support-v4.jar
+    nineoldandroids-2.2.0.jar
+   }
+   res=res {
+    drawable=drawable {
+     actionbar_tab_bg.xml
+     ad_action_bar_gradient_bak.xml
+     ad_btn_check_holo_light.xml
+     ad_btn_radio_holo_light.xml
+     ad_selectable_background.xml
+     ad_spinner_background_holo_light.xml
+     rounded_rect.xml
+     selected_background.xml
+    }
+    drawable-hdpi=drawable-hdpi {
+     ic_stat_android.png
+     icon.png
+    }
+    drawable-ldpi=drawable-ldpi {
+     ic_stat_android.png
+     icon.png
+    }
+    drawable-mdpi=drawable-mdpi {
+     ad_btn_check_off_pressed_holo_light.png
+     ad_btn_check_on_pressed_holo_light.png
+     ad_btn_radio_off_pressed_holo_light.png
+     ad_btn_radio_on_pressed_holo_light.png
+     ad_logo.png
+     ad_menu_dropdown_panel_holo_light.9.png
+     ad_spinner_focused_holo_light.9.png
+     ad_spinner_pressed_holo_light.9.png
+     ad_tab_selected_holo.9.png
+     ad_tab_selected_pressed_holo.9.png
+     ad_tab_unselected_holo.9.png
+     btn_check_off_holo_light.png
+     btn_check_on_holo_light.png
+     btn_radio_off_holo_light.png
+     btn_radio_on_holo_light.png
+     ic_menu_refresh_holo_light.png
+     ic_menu_star_holo_light.png
+     ic_stat_android.png
+     icon.png
+     spinner_default_holo_light.9.png
+     spinner_disabled_holo_light.9.png
+    }
+    drawable-xhdpi=drawable-xhdpi {
+     icon.png
+    }
+    layout=layout {
+     indeterminate_progress_action.xml
+     main.xml
+    }
+    menu=menu {
+     main_menu.xml
+    }
+    values=values {
+     arrays.xml
+     colors.xml
+     dimens.xml
+     strings.xml
+     styles.xml
+    }
+   }
+   src=src {
+    com=com {
+     actionbarsherlock=actionbarsherlock {
+      sample=sample {
+       styled=styled {
+        MainActivity.java
+        RoundedColourFragment.java
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ website=website {
+  _config.yml
+  development.html
+  download.html
+  faq.html
+  favicon.ico
+  humans.txt
+  index.html
+  merch-and-donations.html
+  migration.html
+  robots.txt
+  samples.html
+  sitemap.xml
+  support.html
+  theming.html
+  usage.html
+  _layouts=_layouts {
+   default.html
+  }
+  static=static {
+   1120.css
+   black_linen_v2.png
+   border.png
+   controls.png
+   css3-mediaqueries.js
+   down_grey.png
+   feature.png
+   feature_01.png
+   feature_02.png
+   feature_03.png
+   icon_web.png
+   ie.css
+   jquery.colorbox-min.js
+   jquery.cross-slide.min.js
+   loading.gif
+   loading_background.png
+   logo.png
+   logo.psd
+   logo_small.png
+   mascot.png
+   merch.png
+   octocat.png
+   overlay.png
+   ribbon.png
+   showdown.js
+   styles.css
+   apps=apps {
+    com.androiduipatterns.mentionobserver.png
+    com.battlelancer.seriesguide.png
+    com.battlelancer.seriesguide_01_2.3.4.png
+    com.battlelancer.seriesguide_01_2.3.4.thumb.png
+    com.battlelancer.seriesguide_01_3.0.png
+    com.battlelancer.seriesguide_01_3.0.thumb.png
+    com.battlelancer.seriesguide_02_2.3.4.png
+    com.battlelancer.seriesguide_02_2.3.4.thumb.png
+    com.battlelancer.seriesguide_02_3.0.png
+    com.battlelancer.seriesguide_02_3.0.thumb.png
+    com.github.android.gauges.png
+    com.squareup.cardcase.png
+   }
+   samples=samples {
+    featuredemo_01_1.6.png
+    featuredemo_01_1.6.thumb.png
+    featuredemo_01_2.3.3.png
+    featuredemo_01_2.3.3.thumb.png
+    featuredemo_01_3.1.png
+    featuredemo_01_3.1.thumb.png
+    featuredemo_02_1.6.png
+    featuredemo_02_1.6.thumb.png
+    featuredemo_02_2.3.3.png
+    featuredemo_02_2.3.3.thumb.png
+    featuredemo_02_3.1.png
+    featuredemo_02_3.1.thumb.png
+    shakespeare_01_1.6.png
+    shakespeare_01_1.6.thumb.png
+    shakespeare_01_2.3.3.png
+    shakespeare_01_2.3.3.thumb.png
+    shakespeare_01_3.1.png
+    shakespeare_01_3.1.thumb.png
+    shakespeare_02_2.3.3.png
+    shakespeare_02_2.3.3.thumb.png
+    shakespeare_03_2.3.3.png
+    shakespeare_03_2.3.3.thumb.png
+    styled_01_1.6.png
+    styled_01_1.6.thumb.png
+    styled_01_2.3.3.png
+    styled_01_2.3.3.thumb.png
+    styled_01_3.1.png
+    styled_01_3.1.thumb.png
+    styled_02_1.6.png
+    styled_02_1.6.thumb.png
+    styled_02_2.3.3.png
+    styled_02_2.3.3.thumb.png
+    styled_02_3.1.png
+    styled_02_3.1.thumb.png
+   }
+  }
+ }
+}
+
+
+ApiDemosAndroid=/home/svakulenko/android-sdks/samples/android-10/ApiDemos CD=. filter="*.*" {
+ AndroidManifest.xml
+ build.xml
+ local.properties
+ proguard-project.txt
+ project.properties
+ assets=assets {
+  read_asset.txt
+  fonts=fonts {
+   samplefont.ttf
+  }
+ }
+ bin=bin {
+  ApiDemos-debug-unaligned.apk
+  ApiDemos-debug-unaligned.apk.d
+  ApiDemos-debug.apk
+  ApiDemos.ap_
+  ApiDemos.ap_.d
+  build.prop
+  classes.dex
+  classes.dex.d
+  jarlist.cache
+  classes=classes {
+   com=com {
+    example=example {
+     android=android {
+      apis=apis {
+       ApiDemos$1.class
+       ApiDemos.class
+       ApiDemosApplication.class
+       BuildConfig.class
+       R$anim.class
+       R$array.class
+       R$attr.class
+       R$color.class
+       R$drawable.class
+       R$id.class
+       R$layout.class
+       R$menu.class
+       R$raw.class
+       R$string.class
+       R$style.class
+       R$styleable.class
+       R$xml.class
+       R.class
+       animation=animation {
+        Rotate3dAnimation.class
+        Transition3d$1.class
+        Transition3d$DisplayNextView.class
+        Transition3d$SwapViews.class
+        Transition3d.class
+       }
+       app=app {
+        AdvancedPreferences$1.class
+        AdvancedPreferences.class
+        AlarmController$1.class
+        AlarmController$2.class
+        AlarmController$3.class
+        AlarmController.class
+        AlarmService$1.class
+        AlarmService$2.class
+        AlarmService.class
+        AlarmService_Service$1.class
+        AlarmService_Service$2.class
+        AlarmService_Service.class
+        AlertDialogSamples$1.class
+        AlertDialogSamples$10.class
+        AlertDialogSamples$11.class
+        AlertDialogSamples$12.class
+        AlertDialogSamples$13.class
+        AlertDialogSamples$14.class
+        AlertDialogSamples$15.class
+        AlertDialogSamples$16.class
+        AlertDialogSamples$17.class
+        AlertDialogSamples$18.class
+        AlertDialogSamples$19.class
+        AlertDialogSamples$2.class
+        AlertDialogSamples$20.class
+        AlertDialogSamples$21.class
+        AlertDialogSamples$22.class
+        AlertDialogSamples$23.class
+        AlertDialogSamples$24.class
+        AlertDialogSamples$25.class
+        AlertDialogSamples$26.class
+        AlertDialogSamples$3.class
+        AlertDialogSamples$4.class
+        AlertDialogSamples$5.class
+        AlertDialogSamples$6.class
+        AlertDialogSamples$7.class
+        AlertDialogSamples$8.class
+        AlertDialogSamples$9.class
+        AlertDialogSamples.class
+        Animation$1.class
+        Animation$2.class
+        Animation.class
+        ContactsFilter$1.class
+        ContactsFilter.class
+        ContactsFilterInstrumentation.class
+        ContactsSelectInstrumentation.class
+        CustomDialogActivity.class
+        CustomTitle$1.class
+        CustomTitle$2.class
+        CustomTitle.class
+        DefaultValues.class
+        DeviceAdminSample$Controller$1.class
+        DeviceAdminSample$Controller$10.class
+        DeviceAdminSample$Controller$2.class
+        DeviceAdminSample$Controller$3.class
+        DeviceAdminSample$Controller$4.class
+        DeviceAdminSample$Controller$5.class
+        DeviceAdminSample$Controller$6.class
+        DeviceAdminSample$Controller$7.class
+        DeviceAdminSample$Controller$8.class
+        DeviceAdminSample$Controller$9$1$1.class
+        DeviceAdminSample$Controller$9$1.class
+        DeviceAdminSample$Controller$9.class
+        DeviceAdminSample$Controller.class
+        DeviceAdminSample.class
+        DialogActivity.class
+        ForegroundService$Controller$1.class
+        ForegroundService$Controller$2.class
+        ForegroundService$Controller$3.class
+        ForegroundService$Controller.class
+        ForegroundService.class
+        ForwardTarget.class
+        Forwarding$1.class
+        Forwarding.class
+        HelloWorld.class
+        IRemoteService$Stub$Proxy.class
+        IRemoteService$Stub.class
+        IRemoteService.class
+        IRemoteServiceCallback$Stub$Proxy.class
+        IRemoteServiceCallback$Stub.class
+        IRemoteServiceCallback.class
+        ISecondary$Stub$Proxy.class
+        ISecondary$Stub.class
+        ISecondary.class
+        IncomingMessage$1.class
+        IncomingMessage.class
+        IncomingMessageView.class
+        Intents$1.class
+        Intents.class
+        LauncherShortcuts.class
+        LaunchingPreferences.class
+        LocalSample$1.class
+        LocalSample.class
+        LocalSampleInstrumentation$1.class
+        LocalSampleInstrumentation$ActivityRunnable.class
+        LocalSampleInstrumentation.class
+        LocalService$LocalBinder.class
+        LocalService.class
+        LocalServiceActivities$Binding$1.class
+        LocalServiceActivities$Binding$2.class
+        LocalServiceActivities$Binding$3.class
+        LocalServiceActivities$Binding.class
+        LocalServiceActivities$Controller$1.class
+        LocalServiceActivities$Controller$2.class
+        LocalServiceActivities$Controller.class
+        LocalServiceActivities.class
+        MenuInflateFromXml.class
+        MessengerService$IncomingHandler.class
+        MessengerService.class
+        MessengerServiceActivities$Binding$1.class
+        MessengerServiceActivities$Binding$2.class
+        MessengerServiceActivities$Binding$3.class
+        MessengerServiceActivities$Binding$IncomingHandler.class
+        MessengerServiceActivities$Binding.class
+        MessengerServiceActivities.class
+        MyPreference$SavedState$1.class
+        MyPreference$SavedState.class
+        MyPreference.class
+        NotificationDisplay.class
+        NotifyWithText$1.class
+        NotifyWithText$2.class
+        NotifyWithText.class
+        NotifyingController$1.class
+        NotifyingController$2.class
+        NotifyingController.class
+        NotifyingService$1.class
+        NotifyingService$2.class
+        NotifyingService.class
+        OneShotAlarm.class
+        PersistentState.class
+        PreferenceDependencies.class
+        PreferencesFromCode.class
+        PreferencesFromXml.class
+        QuickContactsDemo$ContactListItemAdapter.class
+        QuickContactsDemo$ContactListItemCache.class
+        QuickContactsDemo.class
+        ReceiveResult$1.class
+        ReceiveResult.class
+        RedirectEnter$1.class
+        RedirectEnter.class
+        RedirectGetter$1.class
+        RedirectGetter.class
+        RedirectMain$1.class
+        RedirectMain$2.class
+        RedirectMain.class
+        RemoteService$1.class
+        RemoteService$2.class
+        RemoteService$3.class
+        RemoteService$Binding$1.class
+        RemoteService$Binding$2.class
+        RemoteService$Binding$3.class
+        RemoteService$Binding$4.class
+        RemoteService$Binding$5.class
+        RemoteService$Binding$6.class
+        RemoteService$Binding$7.class
+        RemoteService$Binding.class
+        RemoteService$Controller$1.class
+        RemoteService$Controller$2.class
+        RemoteService$Controller.class
+        RemoteService.class
+        ReorderFour$1.class
+        ReorderFour.class
+        ReorderOnLaunch$1.class
+        ReorderOnLaunch.class
+        ReorderThree$1.class
+        ReorderThree.class
+        ReorderTwo$1.class
+        ReorderTwo.class
+        RepeatingAlarm.class
+        SaveRestoreState.class
+        ScreenOrientation$1.class
+        ScreenOrientation.class
+        SearchInvoke$1.class
+        SearchInvoke$2.class
+        SearchInvoke.class
+        SearchQueryResults.class
+        SearchSuggestionSampleProvider.class
+        SendResult$1.class
+        SendResult$2.class
+        SendResult.class
+        ServiceStartArguments$Controller$1.class
+        ServiceStartArguments$Controller$2.class
+        ServiceStartArguments$Controller$3.class
+        ServiceStartArguments$Controller$4.class
+        ServiceStartArguments$Controller$5.class
+        ServiceStartArguments$Controller.class
+        ServiceStartArguments$ServiceHandler.class
+        ServiceStartArguments.class
+        SetWallpaperActivity$1.class
+        SetWallpaperActivity$2.class
+        SetWallpaperActivity.class
+        StatusBarNotifications$1.class
+        StatusBarNotifications$10.class
+        StatusBarNotifications$11.class
+        StatusBarNotifications$12.class
+        StatusBarNotifications$13.class
+        StatusBarNotifications$2.class
+        StatusBarNotifications$3.class
+        StatusBarNotifications$4.class
+        StatusBarNotifications$5.class
+        StatusBarNotifications$6.class
+        StatusBarNotifications$7.class
+        StatusBarNotifications$8.class
+        StatusBarNotifications$9.class
+        StatusBarNotifications.class
+        TextToSpeechActivity$1.class
+        TextToSpeechActivity.class
+        TranslucentActivity.class
+        TranslucentBlurActivity.class
+        VoiceRecognition.class
+        WallpaperActivity.class
+       }
+       appwidget=appwidget {
+        ExampleAppWidgetConfigure$1.class
+        ExampleAppWidgetConfigure.class
+        ExampleAppWidgetProvider.class
+        ExampleBroadcastReceiver.class
+       }
+       content=content {
+        ExternalStorage$1.class
+        ExternalStorage$2.class
+        ExternalStorage$3.class
+        ExternalStorage$4.class
+        ExternalStorage$5.class
+        ExternalStorage$6.class
+        ExternalStorage$7.class
+        ExternalStorage$8.class
+        ExternalStorage$9.class
+        ExternalStorage$Item.class
+        ExternalStorage.class
+        PickContact$ResultDisplayer.class
+        PickContact.class
+        ReadAsset.class
+        ResourcesSample.class
+        StyledText.class
+       }
+       graphics=graphics {
+        AlphaBitmap$SampleView.class
+        AlphaBitmap.class
+        AnimateDrawable.class
+        AnimateDrawables$SampleView.class
+        AnimateDrawables.class
+        Arcs$SampleView.class
+        Arcs.class
+        BitmapDecode$SampleView.class
+        BitmapDecode.class
+        BitmapMesh$SampleView.class
+        BitmapMesh.class
+        BitmapPixels$SampleView.class
+        BitmapPixels.class
+        CameraPreview.class
+        Clipping$SampleView.class
+        Clipping.class
+        ColorFilters$SampleView.class
+        ColorFilters.class
+        ColorMatrixSample$SampleView.class
+        ColorMatrixSample.class
+        ColorPickerDialog$1.class
+        ColorPickerDialog$ColorPickerView.class
+        ColorPickerDialog$OnColorChangedListener.class
+        ColorPickerDialog.class
+        Compass$1.class
+        Compass$SampleView.class
+        Compass.class
+        CompressedTextureActivity$1.class
+        CompressedTextureActivity$CompressedTextureLoader.class
+        CompressedTextureActivity$SyntheticCompressedTextureLoader.class
+        CompressedTextureActivity.class
+        CreateBitmap$SampleView.class
+        CreateBitmap.class
+        Cube.class
+        CubeMapActivity$1.class
+        CubeMapActivity$Grid.class
+        CubeMapActivity$Renderer.class
+        CubeMapActivity.class
+        CubeRenderer.class
+        DensityActivity$ScaledBitmapView.class
+        DensityActivity.class
+        DrawPoints$SampleView.class
+        DrawPoints.class
+        FingerPaint$MyView.class
+        FingerPaint.class
+        FrameBufferObjectActivity$1.class
+        FrameBufferObjectActivity$Renderer.class
+        FrameBufferObjectActivity.class
+        GLES20Activity.class
+        GLES20TriangleRenderer.class
+        GLSurfaceViewActivity.class
+        GradientDrawable1.class
+        GraphicsActivity.class
+        Layers$SampleView.class
+        Layers.class
+        MatrixPaletteActivity.class
+        MatrixPaletteRenderer$Grid.class
+        MatrixPaletteRenderer.class
+        MeasureText$SampleView.class
+        MeasureText.class
+        PathEffects$SampleView.class
+        PathEffects.class
+        PathFillTypes$SampleView.class
+        PathFillTypes.class
+        Patterns$SampleView.class
+        Patterns.class
+        PictureLayout.class
+        Pictures$SampleView.class
+        Pictures.class
+        PolyToPoly$SampleView.class
+        PolyToPoly.class
+        Preview.class
+        ProxyDrawable.class
+        PurgeableBitmap$1.class
+        PurgeableBitmap$RefreshHandler.class
+        PurgeableBitmap.class
+        PurgeableBitmapView.class
+        Regions$SampleView.class
+        Regions.class
+        RoundRects$SampleView.class
+        RoundRects.class
+        ScaleToFit$SampleView.class
+        ScaleToFit.class
+        SensorTest$1.class
+        SensorTest$RunAve.class
+        SensorTest$SampleView.class
+        SensorTest.class
+        ShapeDrawable1$SampleView$MyShapeDrawable.class
+        ShapeDrawable1$SampleView.class
+        ShapeDrawable1.class
+        StaticTriangleRenderer$1.class
+        StaticTriangleRenderer$RobotTextureLoader.class
+        StaticTriangleRenderer$TextureLoader.class
+        StaticTriangleRenderer$Triangle.class
+        StaticTriangleRenderer.class
+        SurfaceViewOverlay$1.class
+        SurfaceViewOverlay$2.class
+        SurfaceViewOverlay$3.class
+        SurfaceViewOverlay$HideMeListener.class
+        SurfaceViewOverlay.class
+        Sweep$SampleView.class
+        Sweep.class
+        TextAlign$SampleView.class
+        TextAlign.class
+        TouchPaint$1.class
+        TouchPaint$MyView.class
+        TouchPaint.class
+        TouchRotateActivity.class
+        TouchSurfaceView$CubeRenderer.class
+        TouchSurfaceView.class
+        TranslucentGLSurfaceViewActivity.class
+        Triangle.class
+        TriangleActivity.class
+        TriangleRenderer.class
+        Typefaces$SampleView.class
+        Typefaces.class
+        UnicodeChart$SampleView.class
+        UnicodeChart.class
+        Vertices$SampleView.class
+        Vertices.class
+        WindowSurface$DrawingThread.class
+        WindowSurface$MovingPoint.class
+        WindowSurface.class
+        Xfermodes$SampleView.class
+        Xfermodes.class
+        kube=kube {
+         Cube.class
+         GLColor.class
+         GLFace.class
+         GLShape.class
+         GLVertex.class
+         GLWorld.class
+         Kube.class
+         KubeRenderer$AnimationCallback.class
+         KubeRenderer.class
+         Layer.class
+         M4.class
+        }
+        spritetext=spritetext {
+         Grid.class
+         LabelMaker$Label.class
+         LabelMaker.class
+         MatrixGrabber.class
+         MatrixStack.class
+         MatrixTrackingGL.class
+         NumericSprite.class
+         Projector.class
+         SpriteTextActivity$1.class
+         SpriteTextActivity.class
+         SpriteTextRenderer.class
+         Triangle.class
+        }
+       }
+       media=media {
+        AudioFxDemo$1.class
+        AudioFxDemo$2.class
+        AudioFxDemo$3.class
+        AudioFxDemo.class
+        MediaPlayerDemo$1.class
+        MediaPlayerDemo$2.class
+        MediaPlayerDemo$3.class
+        MediaPlayerDemo$4.class
+        MediaPlayerDemo.class
+        MediaPlayerDemo_Audio.class
+        MediaPlayerDemo_Video.class
+        VideoViewDemo.class
+        VisualizerView.class
+       }
+       nfc=nfc {
+        ForegroundDispatch.class
+        ForegroundNdefPush.class
+        TechFilter.class
+       }
+       os=os {
+        MorseCode$1.class
+        MorseCode.class
+        MorseCodeConverter.class
+        RotationVectorDemo$MyRenderer$Cube.class
+        RotationVectorDemo$MyRenderer.class
+        RotationVectorDemo.class
+        Sensors$GraphView.class
+        Sensors.class
+        SmsMessageReceiver.class
+        SmsMessagingDemo$1.class
+        SmsMessagingDemo$2.class
+        SmsMessagingDemo$3.class
+        SmsMessagingDemo.class
+        SmsReceivedDialog$1.class
+        SmsReceivedDialog$2.class
+        SmsReceivedDialog$3.class
+        SmsReceivedDialog.class
+       }
+       text=text {
+        Link.class
+        LogTextBox.class
+        LogTextBox1$1.class
+        LogTextBox1.class
+        Marquee.class
+       }
+       view=view {
+        Animation1.class
+        Animation2.class
+        Animation3.class
+        AutoComplete1.class
+        AutoComplete2.class
+        AutoComplete3.class
+        AutoComplete4$ContactListAdapter.class
+        AutoComplete4.class
+        AutoComplete5.class
+        AutoComplete6.class
+        Baseline1.class
+        Baseline2.class
+        Baseline3.class
+        Baseline4.class
+        Baseline6.class
+        Baseline7.class
+        BaselineNested1.class
+        BaselineNested2.class
+        BaselineNested3.class
+        Buttons1.class
+        ChronometerDemo$1.class
+        ChronometerDemo$2.class
+        ChronometerDemo$3.class
+        ChronometerDemo$4.class
+        ChronometerDemo$5.class
+        ChronometerDemo.class
+        Controls1.class
+        Controls2.class
+        CustomView1.class
+        DateWidgets1$1.class
+        DateWidgets1$2.class
+        DateWidgets1$3.class
+        DateWidgets1$4.class
+        DateWidgets1.class
+        DateWidgets2$1.class
+        DateWidgets2.class
+        ExpandableList1$MyExpandableListAdapter.class
+        ExpandableList1.class
+        ExpandableList2$MyExpandableListAdapter.class
+        ExpandableList2.class
+        ExpandableList3.class
+        Focus1.class
+        Focus2.class
+        Focus3.class
+        Gallery1$1.class
+        Gallery1$ImageAdapter.class
+        Gallery1.class
+        Gallery2.class
+        Grid1$AppsAdapter.class
+        Grid1.class
+        Grid2$ImageAdapter.class
+        Grid2.class
+        ImageButton1.class
+        ImageSwitcher1$ImageAdapter.class
+        ImageSwitcher1.class
+        ImageView1.class
+        InternalSelectionFocus.class
+        InternalSelectionScroll.class
+        InternalSelectionView.class
+        LabelView.class
+        LayoutAnimation1$AppsAdapter.class
+        LayoutAnimation1.class
+        LayoutAnimation2.class
+        LayoutAnimation3.class
+        LayoutAnimation4$AppsAdapter.class
+        LayoutAnimation4.class
+        LayoutAnimation5$AppsAdapter.class
+        LayoutAnimation5.class
+        LayoutAnimation6$AppsAdapter.class
+        LayoutAnimation6.class
+        LayoutAnimation7.class
+        LinearLayout1.class
+        LinearLayout10.class
+        LinearLayout2.class
+        LinearLayout3.class
+        LinearLayout4.class
+        LinearLayout5.class
+        LinearLayout6.class
+        LinearLayout7.class
+        LinearLayout8.class
+        LinearLayout9.class
+        List1.class
+        List10.class
+        List11.class
+        List12.class
+        List13$SlowAdapter.class
+        List13.class
+        List14$EfficientAdapter$ViewHolder.class
+        List14$EfficientAdapter.class
+        List14.class
+        List2.class
+        List3.class
+        List4$SpeechListAdapter.class
+        List4$SpeechView.class
+        List4.class
+        List5$MyListAdapter.class
+        List5.class
+        List6$SpeechListAdapter.class
+        List6$SpeechView.class
+        List6.class
+        List7.class
+        List8$1.class
+        List8$2.class
+        List8$PhotoAdapter.class
+        List8.class
+        List9$1.class
+        List9$RemoveWindow.class
+        List9.class
+        ProgressBar1$1.class
+        ProgressBar1$2.class
+        ProgressBar1$3.class
+        ProgressBar1$4.class
+        ProgressBar1.class
+        ProgressBar2.class
+        ProgressBar3$1.class
+        ProgressBar3$2.class
+        ProgressBar3.class
+        ProgressBar4$1.class
+        ProgressBar4.class
+        RadioGroup1.class
+        RatingBar1.class
+        RelativeLayout1.class
+        RelativeLayout2.class
+        ScrollBar1.class
+        ScrollBar2.class
+        ScrollBar3.class
+        ScrollView1.class
+        ScrollView2.class
+        SecureView$1.class
+        SecureView$2.class
+        SecureView$3.class
+        SecureView.class
+        SecureViewOverlay.class
+        SeekBar1.class
+        Spinner1$1.class
+        Spinner1$2.class
+        Spinner1.class
+        TableLayout1.class
+        TableLayout10.class
+        TableLayout11.class
+        TableLayout12.class
+        TableLayout2.class
+        TableLayout3.class
+        TableLayout4.class
+        TableLayout5.class
+        TableLayout6.class
+        TableLayout7$1.class
+        TableLayout7$2.class
+        TableLayout7.class
+        TableLayout8$1.class
+        TableLayout8.class
+        TableLayout9$1.class
+        TableLayout9.class
+        Tabs1.class
+        Tabs2.class
+        Tabs3.class
+        TextSwitcher1.class
+        Visibility1$1.class
+        Visibility1$2.class
+        Visibility1$3.class
+        Visibility1.class
+        WebView1.class
+       }
+      }
+     }
+    }
+   }
+  }
+  res=res {
+   drawable=drawable {
+    icon48x48_1.png
+    logo160dpi.png
+    npatch160dpi.9.png
+    picture_frame.png
+    reslogo160dpi.png
+    smlnpatch160dpi.9.png
+    stylogo160dpi.png
+   }
+   drawable-hdpi=drawable-hdpi {
+    alert_dialog_icon.png
+    app_sample_code.png
+    arrow_down_float.png
+    arrow_up_float.png
+    btn_check_off.png
+    btn_check_on.png
+    btn_circle_normal.png
+    btn_default_normal.9.png
+    button.9.png
+    ic_contact_picture.png
+    ic_popup_reminder.png
+    icon48x48_2.png
+    logo240dpi.png
+    npatch240dpi.9.png
+    progress_circular_background.png
+    progress_particle.png
+    reslogo240dpi.png
+    scrollbar_state2.png
+    smlnpatch240dpi.9.png
+    star_big_on.png
+    stat_happy.png
+    stat_neutral.png
+    stat_sad.png
+    stat_sample.png
+    stylogo240dpi.png
+   }
+   drawable-ldpi=drawable-ldpi {
+    logo120dpi.png
+    npatch120dpi.9.png
+    reslogo120dpi.png
+    smlnpatch120dpi.9.png
+    stylogo120dpi.png
+   }
+   drawable-mdpi=drawable-mdpi {
+    alert_dialog_icon.png
+    app_sample_code.png
+    arrow_down_float.png
+    arrow_up_float.png
+    btn_check_off.png
+    btn_check_on.png
+    btn_circle_normal.png
+    btn_default_normal.9.png
+    button.9.png
+    ic_contact_picture.png
+    ic_popup_reminder.png
+    icon48x48_2.png
+    progress_circular_background.png
+    progress_particle.png
+    scrollbar_state2.png
+    star_big_on.png
+    stat_happy.png
+    stat_neutral.png
+    stat_sad.png
+    stat_sample.png
+   }
+   drawable-nodpi=drawable-nodpi {
+    logonodpi120.png
+    logonodpi160.png
+    logonodpi240.png
+   }
+   raw=raw {
+    robot.png
+   }
+  }
+ }
+ gen=gen {
+  R.java.d
+  com=com {
+   example=example {
+    android=android {
+     apis=apis {
+      BuildConfig.java
+      R.java
+      app=app {
+       IRemoteService.java
+       IRemoteService.java.d
+       IRemoteServiceCallback.java
+       IRemoteServiceCallback.java.d
+       ISecondary.java
+       ISecondary.java.d
+      }
+     }
+    }
+   }
+  }
+ }
+ libs=libs {
+ }
+ res=res {
+  anim=anim {
+   cycle_7.xml
+   fade.xml
+   hold.xml
+   hyperspace_in.xml
+   hyperspace_out.xml
+   layout_animation_row_left_slide.xml
+   layout_animation_row_right_slide.xml
+   layout_animation_table.xml
+   layout_bottom_to_top_slide.xml
+   layout_grid_fade.xml
+   layout_grid_inverse_fade.xml
+   layout_random_fade.xml
+   layout_wave_scale.xml
+   push_left_in.xml
+   push_left_out.xml
+   push_up_in.xml
+   push_up_out.xml
+   shake.xml
+   slide_left.xml
+   slide_right.xml
+   slide_top_to_bottom.xml
+   wave_scale.xml
+   zoom_enter.xml
+   zoom_exit.xml
+  }
+  drawable=drawable {
+   animated_gif.gif
+   balloons.jpg
+   beach.jpg
+   black_box.xml
+   black_opaque_box.xml
+   box.xml
+   circular_progress.xml
+   filled_box.xml
+   frog.gif
+   gallery_background_1.xml
+   gallery_photo_1.jpg
+   gallery_photo_2.jpg
+   gallery_photo_3.jpg
+   gallery_photo_4.jpg
+   gallery_photo_5.jpg
+   gallery_photo_6.jpg
+   gallery_photo_7.jpg
+   gallery_photo_8.jpg
+   icon48x48_1.png
+   line.xml
+   logo160dpi.png
+   npatch160dpi.9.png
+   photo1.jpg
+   photo2.jpg
+   photo3.jpg
+   photo4.jpg
+   photo5.jpg
+   photo6.jpg
+   picture_frame.png
+   reslogo160dpi.png
+   sample_0.jpg
+   sample_1.jpg
+   sample_2.jpg
+   sample_3.jpg
+   sample_4.jpg
+   sample_5.jpg
+   sample_6.jpg
+   sample_7.jpg
+   sample_thumb_0.jpg
+   sample_thumb_1.jpg
+   sample_thumb_2.jpg
+   sample_thumb_3.jpg
+   sample_thumb_4.jpg
+   sample_thumb_5.jpg
+   sample_thumb_6.jpg
+   sample_thumb_7.jpg
+   scrollbar_vertical_thumb.xml
+   scrollbar_vertical_track.xml
+   shape_1.xml
+   shape_2.xml
+   shape_3.xml
+   shape_4.xml
+   shape_5.xml
+   smlnpatch160dpi.9.png
+   stylogo160dpi.png
+  }
+  drawable-hdpi=drawable-hdpi {
+   alert_dialog_icon.png
+   app_sample_code.png
+   arrow_down_float.png
+   arrow_up_float.png
+   btn_check_off.png
+   btn_check_on.png
+   btn_circle_normal.png
+   btn_default_normal.9.png
+   button.9.png
+   ic_contact_picture.png
+   ic_popup_reminder.png
+   icon48x48_2.png
+   logo240dpi.png
+   npatch240dpi.9.png
+   progress_circular_background.png
+   progress_particle.png
+   reslogo240dpi.png
+   scrollbar_state2.png
+   smlnpatch240dpi.9.png
+   star_big_on.png
+   stat_happy.png
+   stat_neutral.png
+   stat_sad.png
+   stat_sample.png
+   stylogo240dpi.png
+  }
+  drawable-ldpi=drawable-ldpi {
+   logo120dpi.png
+   npatch120dpi.9.png
+   reslogo120dpi.png
+   smlnpatch120dpi.9.png
+   stylogo120dpi.png
+  }
+  drawable-mdpi=drawable-mdpi {
+   alert_dialog_icon.png
+   app_sample_code.png
+   arrow_down_float.png
+   arrow_up_float.png
+   btn_check_off.png
+   btn_check_on.png
+   btn_circle_normal.png
+   btn_default_normal.9.png
+   button.9.png
+   ic_contact_picture.png
+   ic_popup_reminder.png
+   icon48x48_2.png
+   progress_circular_background.png
+   progress_particle.png
+   scrollbar_state2.png
+   star_big_on.png
+   stat_happy.png
+   stat_neutral.png
+   stat_sad.png
+   stat_sample.png
+  }
+  drawable-nodpi=drawable-nodpi {
+   logonodpi120.png
+   logonodpi160.png
+   logonodpi240.png
+  }
+  layout=layout {
+   activity_animation.xml
+   alarm_controller.xml
+   alarm_service.xml
+   alert_dialog.xml
+   alert_dialog_text_entry.xml
+   animation_1.xml
+   animation_2.xml
+   animation_3.xml
+   animations_main_screen.xml
+   appwidget_configure.xml
+   appwidget_provider.xml
+   autocomplete_1.xml
+   autocomplete_2.xml
+   autocomplete_3.xml
+   autocomplete_4.xml
+   autocomplete_5.xml
+   autocomplete_6.xml
+   baseline_1.xml
+   baseline_2.xml
+   baseline_3.xml
+   baseline_4.xml
+   baseline_6.xml
+   baseline_7.xml
+   baseline_nested_1.xml
+   baseline_nested_2.xml
+   baseline_nested_3.xml
+   buttons_1.xml
+   chronometer.xml
+   contacts_filter.xml
+   controls_1.xml
+   custom_dialog_activity.xml
+   custom_title.xml
+   custom_title_1.xml
+   custom_view_1.xml
+   date_widgets_example_1.xml
+   date_widgets_example_2.xml
+   density_image_views.xml
+   density_styled_image_views.xml
+   device_admin_sample.xml
+   dialog_activity.xml
+   external_storage.xml
+   external_storage_item.xml
+   focus_1.xml
+   focus_2.xml
+   focus_3.xml
+   foreground_dispatch.xml
+   foreground_service_controller.xml
+   forward_target.xml
+   forwarding.xml
+   gallery_1.xml
+   gallery_2.xml
+   google_login.xml
+   grid_1.xml
+   grid_2.xml
+   hello_world.xml
+   image_button_1.xml
+   image_switcher_1.xml
+   image_view_1.xml
+   incoming_message.xml
+   incoming_message_info.xml
+   incoming_message_panel.xml
+   incoming_message_view.xml
+   intents.xml
+   launcher_shortcuts.xml
+   layout_animation_1.xml
+   layout_animation_3.xml
+   layout_animation_4.xml
+   layout_animation_5.xml
+   layout_animation_6.xml
+   layout_animation_7.xml
+   linear_layout_1.xml
+   linear_layout_10.xml
+   linear_layout_2.xml
+   linear_layout_3.xml
+   linear_layout_4.xml
+   linear_layout_5.xml
+   linear_layout_6.xml
+   linear_layout_7.xml
+   linear_layout_8.xml
+   linear_layout_9.xml
+   link.xml
+   list_12.xml
+   list_13.xml
+   list_7.xml
+   list_8.xml
+   list_item_checkbox.xml
+   list_item_icon_text.xml
+   list_position.xml
+   local_sample.xml
+   local_service_binding.xml
+   local_service_controller.xml
+   log_text_box_1.xml
+   mapview.xml
+   marquee.xml
+   mediaplayer_1.xml
+   mediaplayer_2.xml
+   messenger_service_binding.xml
+   morse_code.xml
+   notify_with_text.xml
+   notifying_controller.xml
+   pick_contact.xml
+   preference_widget_mypreference.xml
+   progressbar_1.xml
+   progressbar_2.xml
+   progressbar_3.xml
+   progressbar_4.xml
+   quick_contacts.xml
+   radio_group_1.xml
+   ratingbar_1.xml
+   read_asset.xml
+   receive_result.xml
+   redirect_enter.xml
+   redirect_getter.xml
+   redirect_main.xml
+   relative_layout_1.xml
+   relative_layout_2.xml
+   remote_service_binding.xml
+   remote_service_controller.xml
+   reorder_four.xml
+   reorder_on_launch.xml
+   reorder_three.xml
+   reorder_two.xml
+   resources.xml
+   save_restore_state.xml
+   screen_orientation.xml
+   scroll_view_1.xml
+   scroll_view_2.xml
+   scrollbar1.xml
+   scrollbar2.xml
+   scrollbar3.xml
+   search_invoke.xml
+   search_query_results.xml
+   secure_view.xml
+   secure_view_overlay.xml
+   seekbar_1.xml
+   select_dialog.xml
+   send_result.xml
+   service_start_arguments_controller.xml
+   shape_drawable_1.xml
+   sms_demo.xml
+   spinner_1.xml
+   status_bar_balloon.xml
+   status_bar_notifications.xml
+   styled_text.xml
+   surface_view_overlay.xml
+   table_layout_1.xml
+   table_layout_10.xml
+   table_layout_11.xml
+   table_layout_12.xml
+   table_layout_2.xml
+   table_layout_3.xml
+   table_layout_4.xml
+   table_layout_5.xml
+   table_layout_6.xml
+   table_layout_7.xml
+   table_layout_8.xml
+   table_layout_9.xml
+   tabs1.xml
+   text_switcher_1.xml
+   text_to_speech.xml
+   translucent_background.xml
+   videoview.xml
+   visibility_1.xml
+   voice_recognition.xml
+   wallpaper_2.xml
+   webview_1.xml
+  }
+  menu=menu {
+   camera_menu.xml
+   category_order.xml
+   checkable.xml
+   disabled.xml
+   groups.xml
+   order.xml
+   shortcuts.xml
+   submenu.xml
+   title_icon.xml
+   title_only.xml
+   visible.xml
+  }
+  raw=raw {
+   androids.pkm
+   robot.png
+   skycubemap0.jpg
+   skycubemap1.jpg
+   skycubemap2.jpg
+   skycubemap3.jpg
+   skycubemap4.jpg
+   skycubemap5.jpg
+   test_cbr.mp3
+  }
+  values=values {
+   arrays.xml
+   attrs.xml
+   colors.xml
+   ids.xml
+   strings.xml
+   styles.xml
+  }
+  values-large=values-large {
+   strings.xml
+  }
+  values-large-long=values-large-long {
+   strings.xml
+  }
+  values-large-notlong=values-large-notlong {
+   strings.xml
+  }
+  values-long=values-long {
+   strings.xml
+  }
+  values-normal=values-normal {
+   strings.xml
+  }
+  values-normal-long=values-normal-long {
+   strings.xml
+  }
+  values-normal-notlong=values-normal-notlong {
+   strings.xml
+  }
+  values-notlong=values-notlong {
+   strings.xml
+  }
+  values-small=values-small {
+   strings.xml
+  }
+  values-small-long=values-small-long {
+   strings.xml
+  }
+  values-small-notlong=values-small-notlong {
+   strings.xml
+  }
+  xml=xml {
+   advanced_preferences.xml
+   appwidget_provider.xml
+   default_values.xml
+   device_admin_sample.xml
+   filter_nfc.xml
+   preference_dependencies.xml
+   preferences.xml
+   searchable.xml
+  }
+ }
+ src=src {
+  com=com {
+   example=example {
+    android=android {
+     apis=apis {
+      ApiDemos.java
+      ApiDemosApplication.java
+      animation=animation {
+       Rotate3dAnimation.java
+       Transition3d.java
+      }
+      app=app {
+       AdvancedPreferences.java
+       AlarmController.java
+       AlarmService.java
+       AlarmService_Service.java
+       AlertDialogSamples.java
+       Animation.java
+       ContactsFilter.java
+       ContactsFilterInstrumentation.java
+       ContactsSelectInstrumentation.java
+       CustomDialogActivity.java
+       CustomTitle.java
+       DefaultValues.java
+       DeviceAdminSample.java
+       DialogActivity.java
+       ForegroundService.java
+       ForwardTarget.java
+       Forwarding.java
+       HelloWorld.java
+       IRemoteService.aidl
+       IRemoteServiceCallback.aidl
+       ISecondary.aidl
+       IncomingMessage.java
+       IncomingMessageView.java
+       Intents.java
+       LauncherShortcuts.java
+       LaunchingPreferences.java
+       LocalSample.java
+       LocalSampleInstrumentation.java
+       LocalService.java
+       LocalServiceActivities.java
+       MenuInflateFromXml.java
+       MessengerService.java
+       MessengerServiceActivities.java
+       MyPreference.java
+       NotificationDisplay.java
+       NotifyWithText.java
+       NotifyingController.java
+       NotifyingService.java
+       OneShotAlarm.java
+       PersistentState.java
+       PreferenceDependencies.java
+       PreferencesFromCode.java
+       PreferencesFromXml.java
+       QuickContactsDemo.java
+       ReceiveResult.java
+       RedirectEnter.java
+       RedirectGetter.java
+       RedirectMain.java
+       RemoteService.java
+       ReorderFour.java
+       ReorderOnLaunch.java
+       ReorderThree.java
+       ReorderTwo.java
+       RepeatingAlarm.java
+       SaveRestoreState.java
+       ScreenOrientation.java
+       SearchInvoke.java
+       SearchQueryResults.java
+       SearchSuggestionSampleProvider.java
+       SendResult.java
+       ServiceStartArguments.java
+       SetWallpaperActivity.java
+       StatusBarNotifications.java
+       TextToSpeechActivity.java
+       TranslucentActivity.java
+       TranslucentBlurActivity.java
+       VoiceRecognition.java
+       WallpaperActivity.java
+      }
+      appwidget=appwidget {
+       ExampleAppWidgetConfigure.java
+       ExampleAppWidgetProvider.java
+       ExampleBroadcastReceiver.java
+      }
+      content=content {
+       ExternalStorage.java
+       PickContact.java
+       ReadAsset.java
+       ResourcesSample.java
+       StyledText.java
+      }
+      graphics=graphics {
+       AlphaBitmap.java
+       AnimateDrawable.java
+       AnimateDrawables.java
+       Arcs.java
+       BitmapDecode.java
+       BitmapMesh.java
+       BitmapPixels.java
+       CameraPreview.java
+       Clipping.java
+       ColorFilters.java
+       ColorMatrixSample.java
+       ColorPickerDialog.java
+       Compass.java
+       CompressedTextureActivity.java
+       CreateBitmap.java
+       Cube.java
+       CubeMapActivity.java
+       CubeRenderer.java
+       DensityActivity.java
+       DrawPoints.java
+       FingerPaint.java
+       FrameBufferObjectActivity.java
+       GLES20Activity.java
+       GLES20TriangleRenderer.java
+       GLSurfaceViewActivity.java
+       GradientDrawable1.java
+       GraphicsActivity.java
+       Layers.java
+       MatrixPaletteActivity.java
+       MatrixPaletteRenderer.java
+       MeasureText.java
+       PathEffects.java
+       PathFillTypes.java
+       Patterns.java
+       PictureLayout.java
+       Pictures.java
+       PolyToPoly.java
+       ProxyDrawable.java
+       PurgeableBitmap.java
+       PurgeableBitmapView.java
+       Regions.java
+       RoundRects.java
+       ScaleToFit.java
+       SensorTest.java
+       ShapeDrawable1.java
+       StaticTriangleRenderer.java
+       SurfaceViewOverlay.java
+       Sweep.java
+       TextAlign.java
+       TouchPaint.java
+       TouchRotateActivity.java
+       TranslucentGLSurfaceViewActivity.java
+       TriangleActivity.java
+       TriangleRenderer.java
+       Typefaces.java
+       UnicodeChart.java
+       Vertices.java
+       WindowSurface.java
+       Xfermodes.java
+       kube=kube {
+        Cube.java
+        GLColor.java
+        GLFace.java
+        GLShape.java
+        GLVertex.java
+        GLWorld.java
+        Kube.java
+        KubeRenderer.java
+        Layer.java
+        M4.java
+       }
+       spritetext=spritetext {
+        Grid.java
+        LabelMaker.java
+        MatrixGrabber.java
+        MatrixStack.java
+        MatrixTrackingGL.java
+        NumericSprite.java
+        Projector.java
+        SpriteTextActivity.java
+        SpriteTextRenderer.java
+       }
+      }
+      media=media {
+       AudioFxDemo.java
+       MediaPlayerDemo.java
+       MediaPlayerDemo_Audio.java
+       MediaPlayerDemo_Video.java
+       VideoViewDemo.java
+      }
+      nfc=nfc {
+       ForegroundDispatch.java
+       ForegroundNdefPush.java
+       TechFilter.java
+      }
+      os=os {
+       MorseCode.java
+       MorseCodeConverter.java
+       RotationVectorDemo.java
+       Sensors.java
+       SmsMessageReceiver.java
+       SmsMessagingDemo.java
+       SmsReceivedDialog.java
+      }
+      text=text {
+       Link.java
+       LogTextBox.java
+       LogTextBox1.java
+       Marquee.java
+      }
+      view=view {
+       Animation1.java
+       Animation2.java
+       Animation3.java
+       AutoComplete1.java
+       AutoComplete2.java
+       AutoComplete3.java
+       AutoComplete4.java
+       AutoComplete5.java
+       AutoComplete6.java
+       Baseline1.java
+       Baseline2.java
+       Baseline3.java
+       Baseline4.java
+       Baseline6.java
+       Baseline7.java
+       BaselineNested1.java
+       BaselineNested2.java
+       BaselineNested3.java
+       Buttons1.java
+       ChronometerDemo.java
+       Controls1.java
+       Controls2.java
+       CustomView1.java
+       DateWidgets1.java
+       DateWidgets2.java
+       ExpandableList1.java
+       ExpandableList2.java
+       ExpandableList3.java
+       Focus1.java
+       Focus2.java
+       Focus3.java
+       Gallery1.java
+       Gallery2.java
+       Grid1.java
+       Grid2.java
+       ImageButton1.java
+       ImageSwitcher1.java
+       ImageView1.java
+       InternalSelectionFocus.java
+       InternalSelectionScroll.java
+       InternalSelectionView.java
+       LabelView.java
+       LayoutAnimation1.java
+       LayoutAnimation2.java
+       LayoutAnimation3.java
+       LayoutAnimation4.java
+       LayoutAnimation5.java
+       LayoutAnimation6.java
+       LayoutAnimation7.java
+       LinearLayout1.java
+       LinearLayout10.java
+       LinearLayout2.java
+       LinearLayout3.java
+       LinearLayout4.java
+       LinearLayout5.java
+       LinearLayout6.java
+       LinearLayout7.java
+       LinearLayout8.java
+       LinearLayout9.java
+       List1.java
+       List10.java
+       List11.java
+       List12.java
+       List13.java
+       List14.java
+       List2.java
+       List3.java
+       List4.java
+       List5.java
+       List6.java
+       List7.java
+       List8.java
+       List9.java
+       ProgressBar1.java
+       ProgressBar2.java
+       ProgressBar3.java
+       ProgressBar4.java
+       RadioGroup1.java
+       RatingBar1.java
+       RelativeLayout1.java
+       RelativeLayout2.java
+       ScrollBar1.java
+       ScrollBar2.java
+       ScrollBar3.java
+       ScrollView1.java
+       ScrollView2.java
+       SecureView.java
+       SecureViewOverlay.java
+       SeekBar1.java
+       Spinner1.java
+       TableLayout1.java
+       TableLayout10.java
+       TableLayout11.java
+       TableLayout12.java
+       TableLayout2.java
+       TableLayout3.java
+       TableLayout4.java
+       TableLayout5.java
+       TableLayout6.java
+       TableLayout7.java
+       TableLayout8.java
+       TableLayout9.java
+       Tabs1.java
+       Tabs2.java
+       Tabs3.java
+       TextSwitcher1.java
+       Visibility1.java
+       WebView1.java
+      }
+     }
+    }
+   }
+  }
+ }
+ tests=tests {
+  AndroidManifest.xml
+  build.properties
+  src=src {
+   com=com {
+    example=example {
+     android=android {
+      apis=apis {
+       AllTests.java
+       ApiDemosApplicationTests.java
+       ApiDemosTest.java
+       app=app {
+        ForwardingTest.java
+        LocalServiceTest.java
+       }
+       os=os {
+        MorseCodeConverterTest.java
+       }
+       view=view {
+        Focus2ActivityTest.java
+        Focus2AndroidTest.java
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

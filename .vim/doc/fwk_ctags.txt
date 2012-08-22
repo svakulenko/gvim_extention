@@ -1,0 +1,244 @@
+*fwk_ctags.txt*   Manage your ctags configurations simple and efficent.
+                Copyright (c) 2010-2012 Sergey Vakulenko
+                License:      GPL
+
+                                                                     *fwk_ctags*
+
+INTRODUCTION                    |fwk_ctags_introduction|
+INSTALLATION                    |fwk_ctags_installation|
+USAGE                           |fwk_ctags_usage|
+GLOBAL VARIABLES                |fwk_ctags_variables|
+EXEMPLES                        |fwk_ctags_exemples|
+CHANGES                         |fwk_ctags_changes|
+
+
+==============================================================================
+INTRODUCTION                                            *fwk_ctags_introduction*
+
+This plugin was conceived to unify and generalize your vim / ctags interaction.
+By the simplest way, now you can organize your tags very simple.
+look the video tutorial like introduction.
+
+==============================================================================
+INSTALLATION                                            *fwk_ctags_installation*
+
+Pre-requirements~
+ctags must be installed in your machine.
+
+Just drop files in zip archive to your vimfiles(win32) or .vim (linux/ubuntu),
+or your custom path.
+
+Then set this variable, to parse your configuration file:
+let g:fwk_ctags_config_to_load = 'path/to/configuration_file.cfg'
+
+
+Plugin files~
+doc/fwk_ctags.txt
+plugin/fwk_ctags.vim
+plugin/ctags_config_work.cfg
+
+Important~
+
+ctags_config_work.cfg is exemple of possible configuration. Its that on
+feature installation, you can skip it, because you will have your proper. 
+
+==============================================================================
+USAGE                                                          *fwk_ctags_usage*
+
+With this plugin, you can unify your ctags configurations. 
+
+video tutorial/demonstration
+http://www.youtube.com/watch?v=sX93En-eQ6Y
+
+Namely, you can create your configuration file with all ctags projects. And then,
+switch between them very quickly and handly.
+
+benefits of plugin:
+ - you generalize you ctags configurations 
+ - you can switch between them with maps or through popup menu (now, you can
+ forget combination!)
+ - when you switch, plugin remove previous tags path. With that behavior, no
+   confusion and with tags from differents projects. 
+   (you work faster with tags from your current project)
+ - also, its up to you to create few configuration files (for laptop, home pc
+   or work computer). defind your configuration files dependly from |hostname()| 
+   or platform name (|win32|, |linux|)!
+ - you can refresh/update your config with ctags in real time 
+   (no need to restart vim)!
+
+
+Configuration file format~
+Its possible with configuration file. Here is format of a configuration:
+
+{Description} {
+    map:{MapCombination}
+    
+    gen:{directoryToGeneratePath1}
+    gen:{directoryToGeneratePath2}
+    gen:{directoryToGeneratePath...N}
+    ...
+    set:{directoryToSetPath1}
+    set:{directoryToSetPath2}
+    set:{directoryToSetPath...N}
+    ...
+    pref:{SpecialCtagsOptions1}
+    pref:{SpecialCtagsOptions2}
+    pref:{SpecialCtagsOptions...N}
+}
+
+{Description}    - this is name of your project. Can contain spaces. It will be
+uses as description in popup menu.
+
+{MapCombination} - this is main hotkey prefix. It will be used to map project,
+when you want just set ctags paths (reuse exesitent one tags files), or when
+you want to generate new tags files.
+We maps it like this 'prefix' + '1' - for generate tags files.
+We maps it like this 'prefix' + '2' - to set paths for tags files.
+
+Exemple: prefix is \tg
+we will have: \tg1 for generate. \tg2 for set.
+
+{directoryToGeneratePath} - path for generatation tags
+{directoryToSetPath}      - path for set generated tags.
+
+Tip: all generation tags will be added automaticly to set tags containers.
+
+Please look *exemples* section, for more information.
+
+{SpecialCtagsOptions}     - special options for ctags: this is help
+instructions to help ctags parse better or parse unparsable sources.
+For exemple, you can add regex rules to parse objective c code, described in
+this page http://www.gregsexton.org/2011/04/objective-c-exuberant-ctags-regex.
+In *exemples* , to demonstrate how can be usable the ctags preferences, we
+use same exemple.
+
+
+==============================================================================
+GLOBAL VARIABLES                                           *fwk_ctags_variables*
+
+
+facultatif:
+|g:fwk_ctags_config_to_load|        Path to fwk_ctags cfg to load. 
+
+possible values: 
+not set                 - plugin will be not load.
+set, but empty ('')     - plugin will be loaded 
+set, with cfg path      - plugin will loaded and and cfg file will be apply on
+vim start.
+
+
+
+
+|g:fwk_ctags_default_flags|         This is default option for ctags. 
+                                  It will be apply for each project that you generate.
+                                  You can rewrite it.
+Default value is:~
+-R --c++-kinds=+p --ocaml-kinds --fields=+iaS --extra=+q
+
+
+
+
+|g:fwk_ctags_popup_menu_root_path| prefix in popup menu. you can rewrite it.
+
+Default value is:~
+PopUp.&Tags
+
+
+==============================================================================
+EXEMPLES                                                    *fwk_ctags_exemples*
+
+One of possible settings in your .vimrc, to start plugin, and uses differents
+config files:
+>
+ if has('win32')
+    let g:fwk_ctags_config_to_load = 'd:\programs\vim\plugin\ctags_config_home_win32.cfg'
+ else "linux
+    if hostname() == 'home'
+        let g:fwk_ctags_config_to_load = '/home/sergey/.vim/plugin/ctags_config_home_linux.cfg'
+    else "work 
+        let g:fwk_ctags_config_to_load = '/home/svakulenko/.vim/plugin/ctags_config_work.cfg'
+    endif
+ endif
+<
+
+
+Exemples of project configurations:~
+
+ctags_config_home_win32.cfg ~
+--------------------------------------------------------------------
+
+Ableton Resources {
+        map:\tga
+        gen:H:\Ableton\Live 8.2\Resources
+}    
+--------------------------------------------------------------------
+
+
+ctags_config_home_linux.cfg~
+--------------------------------------------------------------------
+Home Vim {
+    map:\tg
+    gen:/home/sergey/.vim/vim_extention/vimrc_config
+    gen:/home/sergey/.vim
+}
+
+
+Python Django AppEngine ppdlive {
+    map:\tp
+    set:/usr/lib/python2.7/dist-packages/django
+    gen:/home/sergey/workspace/appEngine/vppdlive/ppdlive
+}
+--------------------------------------------------------------------
+
+
+ctags_config_work.cfg~
+--------------------------------------------------------------------
+Default ctags for vim distro {
+    map:\tgh
+    gen:/home/svakulenko/.vim/vim_extention/vimrc_config
+    gen:/home/svakulenko/.vim
+}
+
+Netatmo WS Client Java {
+    map:\tgj
+    gen:/home/svakulenko/depots/svn/trunk/apps/Android/eclipse/workspace/WeatherStationClient/src
+}
+
+
+
+Netatmo WS JNI {
+    map:\tgn
+    gen:/home/svakulenko/depots/svn/trunk/generic/iap
+    gen:/home/svakulenko/depots/svn/trunk/apps/Android/eclipse/workspace/WeatherStationClient/jni
+    gen:/home/svakulenko/depots/svn/trunk/generic/netcom
+    gen:/home/svakulenko/depots/svn/trunk/generic/dblib
+    gen:/home/svakulenko/depots/svn/trunk/generic/newlib_tz
+    gen:/home/svakulenko/depots/svn/trunk/apps/iOS/weatherstation/weatherstation/Classes/NAAPI
+}
+
+
+Netatmo Ios {
+    map:\tgm
+    gen:/home/svakulenko/depots/svn/trunk/apps/iOS
+    pref:--langdef=objc
+    pref:--langmap=objc:.m.h
+    pref:--regex-objc=/^[[:space:]]*[-+][[:space:]]*\([[:alpha:]]+[[:space:]]*\*?\)[[:space:]]*([[:alnum:]]+):[[:space:]]*\(/\1/m,method/
+    pref:--regex-objc=/^[[:space:]]*[-+][[:space:]]*\([[:alpha:]]+[[:space:]]*\*?\)[[:space:]]*([[:alnum:]]+)[[:space:]]*\{/\1/m,method/
+    pref:--regex-objc=/^[[:space:]]*[-+][[:space:]]*\([[:alpha:]]+[[:space:]]*\*?\)[[:space:]]*([[:alnum:]]+)[[:space:]]*\;/\1/m,method/
+    pref:--regex-objc=/^[[:space:]]*\@property[[:space:]]+.*[[:space:]]+\*?(.*);$/\1/p,property/
+    pref:--regex-objc=/^[[:space:]]*\@implementation[[:space:]]+(.*)$/\1/c,class/
+    pref:--regex-objc=/^[[:space:]]*\@interface[[:space:]]+(.*)[[:space:]]+:.*{/\1/i,interface/
+}        
+--------------------------------------------------------------------
+
+
+
+==============================================================================
+CHANGES                                                      *fwk_ctags_changes*
+
+0.6 - share plugin. init upload
+
+
+==============================================================================
+ vim:tw=78:ts=8:ft=help:norl:
+
